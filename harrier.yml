@@ -1,0 +1,20 @@
+site_root: 'https://api.tutorcruncher.com'
+site_root_dev: 'http://localhost:8000'
+
+description: |
+  TutorCruncher provides tutoring management software with online payments,
+  CRM, invoicing, payroll, scheduling, timesheets and more. Buy and get support.
+
+no_hash:
+  - /favicon.ico
+  - /browserconfig.xml
+  - /manifest.json
+  - /favicons/*
+
+#defaults:
+
+
+webpack:
+  entry: js/main.js
+  config: ./webpack.config.js
+  output_path: js/
