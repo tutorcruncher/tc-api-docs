@@ -1,0 +1,245 @@
+@import 'variables';
+
+$menu-tab-width: 230px;
+$menu-tabs-heading-size: 14px;
+$menu-tab-heading-active-color: darken($brand-colour, 10%);
+$menu-tab-subheading-active-color: darken($brand-colour, 15%);
+
+$code-example-bg-color: #3f5f86;
+$response-example-bg-color: #9C9990;
+
+.api-main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  .api-menu-bar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: $menu-tab-width;
+    height: 100%;
+
+    background: $brand-colour;
+    color: $white-text-color;
+
+    hr {
+      border-color: $white-text-color;
+    }
+
+    .menu-bar-image-container {
+      text-align: center;
+
+      span {
+        font-size: 20px;
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .menu-bar-tabs, .tab-subheadings {
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu-bar-tabs {
+      li {
+        line-height: 32px;
+      }
+
+      .tab-heading, .tab-subheading {
+        text-decoration: none;
+        font-size: $menu-tabs-heading-size;
+        display: block;
+        padding: 0 10px;
+        transition: all .2s ease;
+        color: $white-text-color;
+      }
+
+      .tab-heading {
+        font-weight: bold;
+
+        &:hover, &:active {
+          background: $menu-tab-heading-active-color;
+        }
+      }
+
+      .tab-subheading {
+        padding-left: 20px;
+
+        &:hover, &:active {
+          background: $menu-tab-subheading-active-color;
+        }
+      }
+
+      .tab-container {
+        ul {
+          display: none;
+        }
+      }
+
+      .active {
+        background: $menu-tab-heading-active-color;
+
+        ul {
+          display: block;
+        }
+      }
+    }
+  }
+  .api-content-container {
+    margin-left: $menu-tab-width;
+    width: 100%;
+
+    .api-content {
+      .api-section-heading, .api-subsection {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .api-heading, .api-description-container, .api-heading-blank, .api-example-container {
+        width: 50%;
+      }
+
+      .api-description-container, .api-heading-blank, .api-example-container {
+        background: $grey-background-colour;
+      }
+
+      .api-heading {
+        border-top: $text-color solid 1px;
+        border-bottom: $text-color solid 1px;
+
+        h2 {
+          padding: 0 1rem;
+        }
+      }
+
+      .api-description, .api-example-content {
+        margin: 1rem;
+      }
+
+      .api-example-content {
+        .api-code-container {
+          padding: 0 1rem;
+          margin: 0 0 1rem 0;
+
+          .api-code-header {
+            background: darken($code-example-bg-color, 10%);
+            color: $white-text-color;
+            font-size: 12px;
+            padding: 0.5rem;
+            border-radius: 10px 10px 0 0;
+
+            span {
+              padding-right: 0.5rem;
+            }
+          }
+
+          .api-code-example {
+            background: $code-example-bg-color;
+            color: $white-text-color;
+            font-size: 12px;
+            margin: 0;
+            padding: 0.5rem 0;
+            font-family: $code-font;
+            border-radius: 0 0 10px 10px;
+
+            display: flex;
+            flex-direction: row;
+
+            .code-line-numbers {
+              color: lighten($code-example-bg-color, 20%);
+              padding: 0 1rem;
+
+              p {
+                margin: 0;
+              }
+            }
+
+            .code-lines {
+              overflow: auto;
+
+              code {
+                font-family: $code-font !important;
+                padding: 0 0 5px 0;
+                background: $code-example-bg-color;
+                margin-right: 0.5rem;
+
+                &::-webkit-scrollbar-track {
+                  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                  border-radius: 10px;
+                  background-color: darken($code-example-bg-color, 5%);
+                }
+
+                &::-webkit-scrollbar {
+                  height: 8px;
+                  background-color: $code-example-bg-color;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                  border-radius: 10px;
+                  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                  background-color: darken($code-example-bg-color, 10%);
+                }
+              }
+
+              .python {
+                color: $white-text-color;
+
+                .hljs-keyword {
+                  color: #F5bd84;
+                }
+
+                .hljs-string {
+                  color: #6ac396;
+                }
+              }
+
+              .code-line {
+                display: block;
+                white-space: pre;
+              }
+            }
+          }
+        }
+
+        .api-response-container {
+          padding: 0 1rem;
+
+          .api-response-header {
+            background: $response-example-bg-color;
+            color: $white-text-color;
+            font-size: 12px;
+            padding: 0.5rem;
+            border-radius: 10px 10px 0 0;
+          }
+
+          .api-response-example {
+            .response-lines {
+              background: lighten($response-example-bg-color, 30%);
+              font-size: 12px;
+              margin: 0;
+              padding: 0.5rem 0;
+              font-family: $code-font;
+              border-radius: 0 0 10px 10px;
+              border: 1px solid lighten($response-example-bg-color, 15%);
+              border-top: none;
+
+              code {
+                background: lighten($response-example-bg-color, 30%);
+
+                .response-line {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
