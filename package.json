@@ -2,8 +2,8 @@
   "name": "tutorcruncher.com",
   "version": "1.0.0",
   "main": "main.js",
-  "repository": "git@github.com:tutorcruncher/tc-api-docs.git",
-  "author": "Alex Ford <alex@tutorcruncher.com>",
+  "repository": "git@github.com:tutorcruncher/tutorcruncher.com.git",
+  "author": "tomhamiltonstubber <tomhamiltonstubber@gmail.com>",
   "license": "MIT",
   "scripts": {
     "webpack": "webpack --colors --optimize-minimize",
@@ -15,7 +15,10 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "jquery": "^3.3.1",
+    "bloodhound-js": "^1.2.2",
     "eslint": "^4.4.0",
+    "marker-clusterer": "^1.0.2",
+    "nunjucks": "^3.2.0",
     "webpack": "^4.29.6"
   },
   "babel": {

@@ -1,0 +1,23 @@
+@import 'variables';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: $main-font;
+  overflow-x: hidden;
+  font-size: $body-font-size;
+  color: $text-color;
+  background-color: $background-colour;
+  height: 100%;
+
+  @media (max-width: $small) {
+    font-size: $body-font-size - 2px;
+  }
+}
+
+hr {
+  border: 2px solid $brand-colour;
+  border-radius: 2px;
+  max-width: 100px;
+  margin: 2rem auto;
+}

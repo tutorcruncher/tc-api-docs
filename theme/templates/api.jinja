@@ -10,3 +10,12 @@
     </div>
   </div>
 {% endblock %}
+
+{% block pre_extra_js %}
+  <style>{{ inline_css('theme/api.css') }}</style>
+{% endblock %}
+
+{% block post_extra_js %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+{% endblock %}
