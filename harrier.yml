@@ -11,9 +11,6 @@ no_hash:
   - /manifest.json
   - /favicons/*
 
-#defaults:
-
-
 webpack:
   entry: js/main.js
   config: ./webpack.config.js

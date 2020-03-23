@@ -1,0 +1,13 @@
+sections:
+  -
+    title: Appointment Object
+    id: appointment-object
+    description: /appointments/appointment-object.md
+  -
+    title: List all Appointments
+    id: list-all-appointments
+    description: /appointments/list-all-appointments.md
+  -
+    title: Get an Appointment
+    id: get-an-appointment
+    description: /appointments/get-an-appointment.md
