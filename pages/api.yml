@@ -17,6 +17,10 @@ sections:
     id: adhoccharges
     layout: /adhoccharges/adhoccharges.yml
   -
+    title: Agents
+    id: agents
+    layout: /agents/agents.yml
+  -
     title: Appointments
     id: appointments
     layout: /appointments/appointments.yml

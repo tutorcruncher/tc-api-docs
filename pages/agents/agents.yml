@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Agent Object
+    id: agent-object
+    description: /agents/agent-object.md
+    response: /agents/agent-object.json
+    response_title: OBJECT
+  -
+    title: List all Agents
+    id: list-all-agents
+    description: /agents/list-all-agents.md
+    code: /agents/list-all-agents.py
+    code_type: GET
+    code_url: /api/agents/
+    response: /agents/list-all-agents.json
+  -
+    title: Get an Agent
+    id: get-an-agent
+    description: /agents/get-an-agent.md
+    code: /agents/get-an-agent.py
+    code_type: GET
+    code_url: /api/agents/<id>/
+    response: /agents/get-an-agent.json
