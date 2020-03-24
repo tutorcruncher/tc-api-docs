@@ -1,12 +1,11 @@
 <div class="api-content">
   {% for section in pages['/api.yml'].sections %}
     {% set layout = pages[section.layout] %}
-    <div class="api-section-heading">
+    <div class="api-section-heading" id="{{ section.id }}">
       <div class="api-heading"><h2>{{ section.title }}</h2></div>
-      <div class="api-heading-blank"></div>
     </div>
     {% for subsection in layout.sections %}
-      <div class="api-subsection">
+      <div class="api-subsection" {% if subsection.id %}id="{{ subsection.id }}"{% endif %}>
         <div class="api-description-container">
           <div class="api-description">
             {{ pages[subsection.description].content|markdown }}
@@ -14,69 +13,42 @@
         </div>
         <div class="api-example-container">
           <div class="api-example-content">
-            {% if True %}  {# IF EXAMPLE CODE #}
+            {% if subsection.code %}
+              {% set code_lines = code_line_list(subsection.code) %}
               <div class="api-code-container">
                 <div class="api-code-header">
-                  <span>GET</span> /api/appointments/
+                  <span>{{ subsection.code_type }}</span> {{ subsection.code_url }}
                 </div>
                 <div class="api-code-example">
                   <div class="code-line-numbers">
-                    <p>1</p>
-                    <p>2</p>
-                    <p>3</p>
-                    <p>4</p>
-                    <p>5</p>
+                    {% for line_num in range(1, code_lines|length + 1) %}
+                      <p>{{ line_num }}</p>
+                    {% endfor %}
                   </div>
                   <div class="code-lines">
                     <code class="python">
-                      <span class="code-line">import requests</span>
-                      <span class="code-line">&nbsp;</span>
-                      <span class="code-line">headers = {'Authorization': 'token --API KEY---'}</span>
-                      <span class="code-line">r = requests.get('https://secure.tutorcruncher.com/api/appointments/', headers=headers)</span>
-                      <span class="code-line">print(r.content.decode())</span>
+                      {% for line in code_lines %}
+                        <span class="code-line">{{ line }}</span>
+                      {% endfor %}
                     </code>
                   </div>
                 </div>
               </div>
             {% endif %}
-            {% if True %}  {# IF RESPONSE #}
+            {% if subsection.response %}
               <div class="api-response-container">
-                <div class="api-response-header">RESPONSE</div>
+                <div class="api-response-header">{{ subsection.response_title or 'RESPONSE' }}</div>
                 <div class="api-response-example">
                   <div class="response-lines">
                     <code class="json">
-                      <span class="response-line">{</span>
-                      <span class="response-line">&nbsp;&nbsp;"name": "Alex Ford",</span>
-                      <span class="response-line">&nbsp;&nbsp;"age": 19,</span>
-                      <span class="response-line">&nbsp;&nbsp;"dob": "2000-04-07T23:55:00Z",</span>
-                      <span class="response-line">&nbsp;&nbsp;"events": [</span>
-                      <span class="response-line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
-                      <span class="response-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"event": 1000,</span>
-                      <span class="response-line">&nbsp;&nbsp;&nbsp;&nbsp;},</span>
-                      <span class="response-line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
-                      <span class="response-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"event": 1000,</span>
-                      <span class="response-line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
-                      <span class="response-line">&nbsp;&nbsp;]</span>
-                      <span class="response-line">&nbsp;&nbsp;"test": 123,</span>
-                      <span class="response-line">}</span>
+                      {% for line in json_line_list(subsection.response) %}
+                        <span class="response-line">{{ line }}</span>
+                      {% endfor %}
                     </code>
                   </div>
                 </div>
               </div>
             {% endif %}
-          </div>
-        </div>
-      </div>
-    {% else %}
-      <div class="api-subsection">
-        <div class="api-description-container">
-          <div class="api-description">
-            {{ pages[layout.description].content|markdown }}
-          </div>
-        </div>
-        <div class="api-example-container">
-          <div class="api-example-content">
-            code!!!
           </div>
         </div>
       </div>

@@ -3,11 +3,21 @@ sections:
     title: Appointment Object
     id: appointment-object
     description: /appointments/appointment-object.md
+    response: /appointments/appointment-object.json
+    response_title: OBJECT
   -
     title: List all Appointments
     id: list-all-appointments
     description: /appointments/list-all-appointments.md
+    code: /appointments/list-all-appointments.py
+    code_type: GET
+    code_url: /api/appointments/
+    response: /appointments/list-all-appointments.json
   -
     title: Get an Appointment
     id: get-an-appointment
     description: /appointments/get-an-appointment.md
+    code: /appointments/get-an-appointment.py
+    code_type: GET
+    code_url: /api/appointments/<id>/
+    response: /appointments/get-an-appointment.json

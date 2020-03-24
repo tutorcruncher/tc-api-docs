@@ -1,2 +1,5 @@
-id: introduction
-description: /introduction/introduction.md
+sections:
+  -
+    description: /introduction/introduction.md
+    code: /introduction/introduction.txt
+    code_type: BASE URL

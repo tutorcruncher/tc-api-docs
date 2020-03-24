@@ -9,7 +9,7 @@
       <li class="tab-container">
         <a class="tab-heading" href="#{{ tab.id }}">{{ tab.title }}</a>
         {% set layout = pages[tab.layout] %}
-        {% if layout.sections %}
+        {% if layout.sections|length > 1 %}
           <ul class="tab-subheadings">
             {% for section in layout.sections %}
               <li><a class="tab-subheading" href="#{{ section.id }}">{{ section.title }}</a></li>

@@ -91,28 +91,32 @@ $response-example-bg-color: #9C9990;
       }
     }
   }
+
   .api-content-container {
     margin-left: $menu-tab-width;
-    width: 100%;
+    width: calc(100% - 230px);
 
     .api-content {
       .api-section-heading, .api-subsection {
         display: flex;
         flex-direction: row;
+        border-bottom: 1px solid #e3e8ee;
+        margin: 0 3rem;
       }
 
-      .api-heading, .api-description-container, .api-heading-blank, .api-example-container {
+      .api-subsection {
+        padding: 2rem 0;
+      }
+
+      .api-description-container, .api-example-container {
         width: 50%;
       }
 
-      .api-description-container, .api-heading-blank, .api-example-container {
-        background: $grey-background-colour;
+      .api-example-container {
+        align-self: center;
       }
 
       .api-heading {
-        border-top: $text-color solid 1px;
-        border-bottom: $text-color solid 1px;
-
         h2 {
           padding: 0 1rem;
         }
@@ -231,11 +235,56 @@ $response-example-bg-color: #9C9990;
 
               code {
                 background: lighten($response-example-bg-color, 30%);
+                margin: 0 0.5rem;
+                font-family: $code-font !important;
+
+                &::-webkit-scrollbar-track {
+                  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                  border-radius: 10px;
+                  background-color: lighten($response-example-bg-color, 10%);
+                }
+
+                &::-webkit-scrollbar {
+                  height: 8px;
+                  background-color: lighten($response-example-bg-color, 30%);
+                }
+
+                &::-webkit-scrollbar-thumb {
+                  border-radius: 10px;
+                  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                  background-color: darken($response-example-bg-color, 10%);
+                }
 
                 .response-line {
                   display: block;
+                  white-space: nowrap;
                 }
               }
+            }
+          }
+        }
+      }
+
+      .api-description {
+        p {
+          font-size: 16px;
+        }
+
+        a {
+          text-decoration: none;
+          color: $brand-colour;
+          font-weight: bold;
+        }
+
+        table {
+          width: 100%;
+          text-align: left;
+
+          tbody tr {
+            background: $grey-background-colour;
+
+            td {
+              padding: 0;
             }
           }
         }

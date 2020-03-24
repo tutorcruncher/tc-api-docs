@@ -1,2 +1,5 @@
-id: authentication
-description: /authentication/authentication.md
+sections:
+  -
+    description: /authentication/authentication.md
+    code: /authentication/authentication.py
+    code_type: AUTHENTICATION
