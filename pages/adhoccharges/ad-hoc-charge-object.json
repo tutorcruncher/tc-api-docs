@@ -1,0 +1,54 @@
+{
+  "id": 32,
+  "agent": null,
+  "appointment": null,
+  "category_id": 7,
+  "category_name": "Registration fee",
+  "charge_client_forex": null,
+  "client_cost": "25.00",
+  "client": {
+    "id": 37,
+    "first_name": "Nicole",
+    "last_name": "Beggs",
+    "email": "nicole_beggs@testagency.example.com",
+    "url": "https://secure.tutorcruncher.com/api/clients/37/"
+  },
+  "contractor": null,
+  "creator": null,
+  "currency": "GBP",
+  "currency_conversion": null,
+  "date_occurred": "2019-12-23T16:11:48.312507Z",
+  "invoices": [
+    {
+      "id": 49,
+      "display_id": "INV-49",
+      "date_sent": "2020-01-03T16:11:48.312507Z",
+      "gross": "1059.95",
+      "net": 883.29,
+      "tax": "176.66",
+      "client": {
+        "id": 37,
+        "first_name": "Nicole",
+        "last_name": "Beggs",
+        "email": "nicole_beggs@testagency.example.com",
+        "url": "https://secure.tutorcruncher.com/api/clients/37/"
+      },
+      "status": "paid",
+      "url": "https://secure.tutorcruncher.com/api/invoices/49/"
+    }
+  ],
+  "payment_orders": [],
+  "net_gross": "gross",
+  "pay_contractor": null,
+  "service": {
+    "id": 26,
+    "name": "UK tax law",
+    "dft_charge_type": "hourly",
+    "created": "2019-12-19T16:11:48.312507Z",
+    "dft_charge_rate": "95.00",
+    "dft_contractor_rate": "30.00",
+    "status": "in-progress",
+    "url": "https://secure.tutorcruncher.com/api/services/26/"
+  },
+  "tax_amount": 4.166666666666667
+}

@@ -1,0 +1,9 @@
+sections:
+  -
+    title: List all Action Types
+    id: list-all-action-types
+    description: /action-types/list-all-action-types.md
+    code: /action-types/list-all-action-types.py
+    code_type: GET
+    code_url: /api/action-types/
+    response: /action-types/list-all-action-types.json
