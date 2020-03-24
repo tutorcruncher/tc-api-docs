@@ -9,6 +9,14 @@ sections:
     id: authentication
     layout: /authentication/authentication.yml
   -
+    title: Action Types
+    id: action-types
+    layout: /action-types/action-types.yml
+  -
+    title: Ad Hoc Charges
+    id: adhoccharges
+    layout: /adhoccharges/adhoccharges.yml
+  -
     title: Appointments
     id: appointments
     layout: /appointments/appointments.yml

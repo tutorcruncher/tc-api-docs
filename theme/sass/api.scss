@@ -235,8 +235,10 @@ $response-example-bg-color: #9C9990;
 
               code {
                 background: lighten($response-example-bg-color, 30%);
+                padding: 0 5px 5px 0;
                 margin: 0 0.5rem;
                 font-family: $code-font !important;
+                max-height: 500px;
 
                 &::-webkit-scrollbar-track {
                   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -246,6 +248,7 @@ $response-example-bg-color: #9C9990;
 
                 &::-webkit-scrollbar {
                   height: 8px;
+                  width: 8px;
                   background-color: lighten($response-example-bg-color, 30%);
                 }
 
@@ -253,6 +256,10 @@ $response-example-bg-color: #9C9990;
                   border-radius: 10px;
                   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
                   background-color: darken($response-example-bg-color, 10%);
+                }
+
+                &::-webkit-scrollbar-corner {
+                  background: lighten($response-example-bg-color, 30%);
                 }
 
                 .response-line {

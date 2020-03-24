@@ -1,0 +1,19 @@
+{
+  "count": 32,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 32,
+      "description": "Tax law book.",
+      "date_occurred": "2020-01-01T12:00:00.000000Z",
+      "category_id": 7,
+      "category_name": "Registration fee",
+      "client_cost": "25.00",
+      "pay_contractor": "20.00",
+      "agent_percentage": null,
+      "url": "https://secure.tutorcruncher.com/api/adhoccharges/32/"
+    },
+    ...
+  ]
+}
