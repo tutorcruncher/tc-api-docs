@@ -8,24 +8,58 @@ $menu-tab-subheading-active-color: darken($brand-colour, 15%);
 $code-example-bg-color: #3f5f86;
 $response-example-bg-color: #9C9990;
 
+$tablet-width: 1024px;
+$mobile-width: 767px;
+
 .api-main-container {
-  display: flex;
-  flex-direction: row;
   height: 100%;
 
   .api-menu-bar-container {
+    display: flex;
+    flex-direction: row;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: $menu-tab-width;
     height: 100%;
+    transition: all 0.5s ease;
 
-    background: $brand-colour;
     color: $white-text-color;
 
     hr {
       border-color: $white-text-color;
+    }
+
+    .api-menu-bar {
+      background: $brand-colour;
+      width: $menu-tab-width;
+    }
+
+    .api-menu-toggle {
+      display: none; // Only display when on mobile
+      position: relative;
+      background: $menu-tab-heading-active-color;
+      transform: rotate(90deg);
+      height: 30px;
+      width: 90px;
+      top: 75px;
+      left: -30px;
+      padding: 0.25rem;
+      border-radius: 5px 5px 0 0;
+      font-size: 14px;
+      text-align: center;
+
+      #show-menu, #hide-menu {
+        margin-top: 5px;
+      }
+
+      #show-menu {
+        display: block;
+      }
+
+      #hide-menu {
+        display: none;
+      }
     }
 
     .menu-bar-image-container {
@@ -282,20 +316,36 @@ $response-example-bg-color: #9C9990;
           color: $brand-colour;
           font-weight: bold;
         }
+      }
+    }
+  }
+}
 
-        table {
+@media (max-width: $tablet-width) {
+  .api-content-container {
+    .api-content {
+      .api-subsection {
+        flex-direction: column !important;
+
+        .api-description-container, .api-example-container {
           width: 100%;
-          text-align: left;
-
-          tbody tr {
-            background: $grey-background-colour;
-
-            td {
-              padding: 0;
-            }
-          }
         }
       }
     }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .api-menu-bar-container {
+    transform: translateX(-$menu-tab-width);
+  }
+
+  .api-menu-toggle {
+    display: block !important;
+  }
+
+  .api-content-container {
+    margin-left: 0 !important;
+    width: 100% !important;
   }
 }

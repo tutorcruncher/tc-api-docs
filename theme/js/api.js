@@ -21,7 +21,37 @@ function set_code_syntax() {
   });
 }
 
+function _toggle(translate_amount, item_to_show, item_to_hide) {
+  const $menu_bar_con = $('.api-menu-bar-container');
+
+  $menu_bar_con.css('transform', `translateX(${translate_amount}px)`);
+  item_to_show.show();
+  item_to_hide.hide();
+}
+
+function menu_toggle() {
+  const $show = $('#show-menu');
+  const $hide = $('#hide-menu');
+
+  $show.click(() => {
+    _toggle(0, $hide, $show)
+  });
+
+  $hide.click(() => {
+    _toggle(-230, $show, $hide)
+  });
+
+  $(window).resize(() => {
+    if ($(window).width() > 767) {
+      _toggle(0, $show, $hide)
+    } else {
+      _toggle(-230, $show, $hide)
+    }
+  });
+}
+
 if (window.jQuery) {
+  menu_toggle();
   change_menu_tab();
 
   $(window).bind('hashchange', () => {
