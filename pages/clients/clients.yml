@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Client Object
+    id: client-object
+    description: /clients/client-object.md
+    response: /clients/client-object.json
+    response_title: OBJECT
+  -
+    title: List all Clients
+    id: list-all-clients
+    description: /clients/list-all-clients.md
+    code: /clients/list-all-clients.py
+    code_type: GET
+    code_url: /api/clients/
+    response: /clients/list-all-clients.json
+  -
+    title: Get n Client
+    id: get-an-client
+    description: /clients/get-a-client.md
+    code: /clients/get-a-client.py
+    code_type: GET
+    code_url: /api/clients/<id>/
+    response: /clients/get-a-client.json
