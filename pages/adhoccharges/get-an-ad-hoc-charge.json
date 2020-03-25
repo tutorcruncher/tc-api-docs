@@ -10,7 +10,7 @@
     "id": 37,
     "first_name": "Nicole",
     "last_name": "Beggs",
-    "email": "nicole_beggs@testagency.example.com",
+    "email": "nicole_beggs@example.com",
     "url": "https://secure.tutorcruncher.com/api/clients/37/"
   },
   "contractor": null,
@@ -30,7 +30,7 @@
         "id": 37,
         "first_name": "Nicole",
         "last_name": "Beggs",
-        "email": "nicole_beggs@testagency.example.com",
+        "email": "nicole_beggs@example.com",
         "url": "https://secure.tutorcruncher.com/api/clients/37/"
       },
       "status": "paid",

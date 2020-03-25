@@ -24,3 +24,7 @@ sections:
     title: Appointments
     id: appointments
     layout: /appointments/appointments.yml
+  -
+    title: Clients
+    id: clients
+    layout: /clients/clients.yml
