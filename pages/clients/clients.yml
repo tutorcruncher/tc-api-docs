@@ -14,10 +14,10 @@ sections:
     code_url: /api/clients/
     response: /clients/list-all-clients.json
   -
-    title: Get n Client
-    id: get-an-client
+    title: Get a Client
+    id: get-a-client
     description: /clients/get-a-client.md
     code: /clients/get-a-client.py
     code_type: GET
-    code_url: /api/clients/<id>/
+    code_url: /api/clients/---id---/
     response: /clients/get-a-client.json

@@ -28,3 +28,7 @@ sections:
     title: Clients
     id: clients
     layout: /clients/clients.yml
+  -
+    title: Contractors
+    id: contractors
+    layout: /contractors/contractors.yml
