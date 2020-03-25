@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Contractor Object
+    id: contractor-object
+    description: /contractors/contractor-object.md
+    response: /contractors/contractor-object.json
+    response_title: OBJECT
+  -
+    title: List all Contractors
+    id: list-all-contractors
+    description: /contractors/list-all-contractors.md
+    code: /contractors/list-all-contractors.py
+    code_type: GET
+    code_url: /api/contractors/
+    response: /contractors/list-all-contractors.json
+  -
+    title: Get a Contractor
+    id: get-a-contractor
+    description: /contractors/get-a-contractor.md
+    code: /contractors/get-a-contractor.py
+    code_type: GET
+    code_url: /api/contractors/---id---/
+    response: /contractors/get-a-contractor.json

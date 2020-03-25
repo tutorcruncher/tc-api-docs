@@ -4,11 +4,11 @@
   "previous": null,
   "results": [
     {
-        "id": 3,
-        "first_name": "Jamie",
-        "last_name": "Hoskins",
-        "email": "jamie_hoskins@example.com",
-        "url": "https://secure.tutorcruncher.com/api/clients/3/"
+      "id": 3,
+      "first_name": "Jamie",
+      "last_name": "Hoskins",
+      "email": "jamie_hoskins@example.com",
+      "url": "https://secure.tutorcruncher.com/api/clients/3/"
     },
     ...
   ]

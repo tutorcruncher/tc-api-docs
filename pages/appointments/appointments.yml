@@ -19,5 +19,5 @@ sections:
     description: /appointments/get-an-appointment.md
     code: /appointments/get-an-appointment.py
     code_type: GET
-    code_url: /api/appointments/<id>/
+    code_url: /api/appointments/---id---/
     response: /appointments/get-an-appointment.json

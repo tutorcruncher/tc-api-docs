@@ -1,0 +1,15 @@
+{
+  "count": 20,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 47,
+      "first_name": "James",
+      "last_name": "Higgins",
+      "email": "james_higgins@example.com",
+      "url": "https://secure.tutorcruncher.com/api/contractors/47/"
+    },
+    ...
+  ]
+}

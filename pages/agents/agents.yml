@@ -19,5 +19,5 @@ sections:
     description: /agents/get-an-agent.md
     code: /agents/get-an-agent.py
     code_type: GET
-    code_url: /api/agents/<id>/
+    code_url: /api/agents/---id---/
     response: /agents/get-an-agent.json
