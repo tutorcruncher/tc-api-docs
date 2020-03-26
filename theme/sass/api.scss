@@ -228,12 +228,16 @@ $mobile-width: 767px;
               .python {
                 color: $white-text-color;
 
-                .hljs-keyword {
+                .hljs-keyword, .hljs-literal {
                   color: #F5bd84;
                 }
 
                 .hljs-string {
                   color: #6ac396;
+                }
+
+                .hljs-number {
+                  color: #a4cdfe;
                 }
               }
 
