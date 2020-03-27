@@ -54,3 +54,7 @@ endpoint_sections:
     title: Qualifications Levels
     id: qual-level
     layout: /qual-levels/qual-levels.yml
+  -
+    title: Appointment Recipients
+    id: recipient-appointments
+    layout: /recipient-appointments/recipient-appointments.yml
