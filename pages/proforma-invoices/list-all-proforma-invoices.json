@@ -1,17 +1,23 @@
 {
-  "count": 34,
-  "next": "https://secure.tutorcruncher.com/api/proforma-invoices/?page=2",
+  "count": 2,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "id": 10,
-      "start": "2020-01-01T12:00:00Z",
-      "finish": "2020-01-01T13:00:00Z",
-      "topic": "Lesson 1",
-      "status": 10,
-      "service_id": 2,
-      "service_name": "Maths GCSE",
-      "url": "https://secure.tutorcruncher.com/api/proforma-invoices/10/"
+      "amount": "60.00",
+      "client": {
+        "id": 7,
+        "first_name": "Anthony",
+        "last_name": "Clay",
+        "email": "anthony_clay@testagency.example.com",
+        "url": "https://secure.tutorcruncher.com/api/clients/7/"
+      },
+      "display_id": "PFI-2",
+      "date_sent": "2020-01-17T16:11:48.312507Z",
+      "date_paid": null,
+      "status": "unpaid",
+      "still_to_pay": 60.0,
+      "url": "https://secure.tutorcruncher.com/api/proforma-invoices/2/"
     },
     ...
   ]
