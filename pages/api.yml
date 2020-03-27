@@ -1,5 +1,5 @@
 title: TutorCruncher API
-sections:
+info_sections:
   -
     title: Introduction
     id: introduction
@@ -8,6 +8,8 @@ sections:
     title: Authentication
     id: authentication
     layout: /authentication/authentication.yml
+
+endpoint_sections:
   -
     title: Action Types
     id: action-types

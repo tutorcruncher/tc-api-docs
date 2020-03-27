@@ -1,3 +1,18 @@
+{% macro render_tabs(sections, show_tab_sections=True) %}
+  {% for tab in sections %}
+    <li class="tab-container">
+      <a class="tab-heading" href="#{{ tab.id }}">{{ tab.title }}</a>
+      {% set layout = pages[tab.layout] %}
+      {% if show_tab_sections %}
+        <ul class="tab-subheadings">
+          {% for section in layout.sections %}
+            <li><a class="tab-subheading" href="#{{ section.id }}">{{ section.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+{% endmacro %}
 <div class="api-menu-bar">
   <div class="menu-bar-image-container">
     <img src="{{ url('assets/tc-logo.png') }}" alt="TutorCruncher Logo"/>
@@ -5,19 +20,9 @@
   </div>
   <hr/>
   <ul class="menu-bar-tabs">
-    {% for tab in pages['/api.yml'].sections %}
-      <li class="tab-container">
-        <a class="tab-heading" href="#{{ tab.id }}">{{ tab.title }}</a>
-        {% set layout = pages[tab.layout] %}
-        {% if layout.sections|length > 1 %}
-          <ul class="tab-subheadings">
-            {% for section in layout.sections %}
-              <li><a class="tab-subheading" href="#{{ section.id }}">{{ section.title }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </li>
-    {% endfor %}
+    {{ render_tabs(sections=pages['/api.yml'].info_sections, show_tab_sections=True) }}
+    <hr/>
+    {{ render_tabs(sections=pages['/api.yml'].endpoint_sections) }}
   </ul>
 </div>
 <div class="api-menu-toggle">
