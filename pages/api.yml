@@ -43,10 +43,14 @@ endpoint_sections:
     id: invoices
     layout: /invoices/invoices.yml
   -
+    title: Proforma Invoices
+    id: proforma-invoices
+    layout: /proforma-invoices/proforma-invoices.yml
+  -
     title: Public Contractors
     id: public-contractors
     layout: /public-contractors/public-contractors.yml
   -
-    title: Proforma Invoices
-    id: proforma-invoices
-    layout: /proforma-invoices/proforma-invoices.yml
+    title: Qualifications Levels
+    id: qual-level
+    layout: /qual-levels/qual-levels.yml

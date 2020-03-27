@@ -1,0 +1,15 @@
+sections:
+  -
+    title: Qualification Level Object
+    id: qual-level-object
+    description: /qual-levels/qual-level-object.md
+    response: /qual-levels/qual-level-object.json
+    response_title: OBJECT
+  -
+    title: List all Qualification Levels
+    id: list-all-qual-levels
+    description: /qual-levels/list-all-qual-levels.md
+    code: /qual-levels/list-all-qual-levels.py
+    code_type: GET
+    code_url: /api/qual_levels/
+    response: /qual-levels/list-all-qual-levels.json
