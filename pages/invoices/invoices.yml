@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Invoice Object
+    id: invoice-object
+    description: /invoices/invoice-object.md
+    response: /invoices/invoice-object.json
+    response_title: OBJECT
+  -
+    title: List all Invoices
+    id: list-all-invoices
+    description: /invoices/list-all-invoices.md
+    code: /invoices/list-all-invoices.py
+    code_type: GET
+    code_url: /api/invoices/
+    response: /invoices/list-all-invoices.json
+  -
+    title: Get an Invoice
+    id: get-an-invoice
+    description: /invoices/get-an-invoice.md
+    code: /invoices/get-an-invoice.py
+    code_type: GET
+    code_url: /api/invoices/---id---/
+    response: /invoices/get-an-invoice.json
