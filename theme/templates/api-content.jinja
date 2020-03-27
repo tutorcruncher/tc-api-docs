@@ -1,5 +1,6 @@
 <div class="api-content">
-  {% for section in pages['/api.yml'].sections %}
+  {% set api_sections = pages['/api.yml'] %}
+  {% for section in api_sections.info_sections + api_sections.endpoint_sections %}
     {% set layout = pages[section.layout] %}
     <div class="api-section-heading" id="{{ section.id }}">
       <div class="api-heading"><h2>{{ section.title }}</h2></div>
