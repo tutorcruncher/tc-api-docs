@@ -42,3 +42,7 @@ endpoint_sections:
     title: Invoices
     id: invoices
     layout: /invoices/invoices.yml
+  -
+    title: Public Contractors
+    id: public-contractors
+    layout: /public-contractors/public-contractors.yml

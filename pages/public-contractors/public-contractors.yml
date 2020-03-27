@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Public Contractor Object
+    id: public-contractor-object
+    description: /public-contractors/public-contractor-object.md
+    response: /public-contractors/public-contractor-object.json
+    response_title: OBJECT
+  -
+    title: List all Public Contractors
+    id: list-all-public-contractors
+    description: /public-contractors/list-all-public-contractors.md
+    code: /public-contractors/list-all-public-contractors.py
+    code_type: GET
+    code_url: /api/public-contractors/
+    response: /public-contractors/list-all-public-contractors.json
+  -
+    title: Get a Public Contractor
+    id: get-a-public-contractor
+    description: /public-contractors/get-a-public-contractor.md
+    code: /public-contractors/get-a-public-contractor.py
+    code_type: GET
+    code_url: /api/public-contractors/---id---/
+    response: /public-contractors/get-a-public-contractor.json
