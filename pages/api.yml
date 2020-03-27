@@ -46,3 +46,7 @@ endpoint_sections:
     title: Public Contractors
     id: public-contractors
     layout: /public-contractors/public-contractors.yml
+  -
+    title: Proforma Invoices
+    id: proforma-invoices
+    layout: /proforma-invoices/proforma-invoices.yml
