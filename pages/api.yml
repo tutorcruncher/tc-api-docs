@@ -38,3 +38,7 @@ endpoint_sections:
     title: Enquiry
     id: enquiry
     layout: /enquiry/enquiry.yml
+  -
+    title: Invoices
+    id: invoices
+    layout: /invoices/invoices.yml
