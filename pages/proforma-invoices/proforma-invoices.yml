@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Proforma Invoices Object
+    id: proforma-invoice-object
+    description: /proforma-invoices/proforma-invoice-object.md
+    response: /proforma-invoices/proforma-invoice-object.json
+    response_title: OBJECT
+  -
+    title: List all Proforma Invoicess
+    id: list-all-proforma-invoices
+    description: /proforma-invoices/list-all-proforma-invoices.md
+    code: /proforma-invoices/list-all-proforma-invoices.py
+    code_type: GET
+    code_url: /api/proforma-invoices/
+    response: /proforma-invoices/list-all-proforma-invoices.json
+  -
+    title: Get an Proforma Invoices
+    id: get-an-proforma-invoice
+    description: /proforma-invoices/get-an-proforma-invoice.md
+    code: /proforma-invoices/get-an-proforma-invoice.py
+    code_type: GET
+    code_url: /api/proforma-invoices/---id---/
+    response: /proforma-invoices/get-an-proforma-invoice.json
