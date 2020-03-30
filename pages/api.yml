@@ -55,6 +55,6 @@ endpoint_sections:
     id: qual-level
     layout: /qual-levels/qual-levels.yml
   -
-    title: Appointment Recipients
-    id: recipient-appointments
-    layout: /recipient-appointments/recipient-appointments.yml
+    title: Recipients
+    id: recipient
+    layout: /recipients/recipients.yml

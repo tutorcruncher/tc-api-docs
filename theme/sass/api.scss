@@ -1,6 +1,8 @@
 @import 'variables';
 
-$menu-tab-width: 230px;
+$menu-tab-width: 227px;
+$menu-tab-right-padding: 3px;
+$menu-tab-width-total: $menu-tab-width + $menu-tab-right-padding;
 $menu-tabs-heading-size: 14px;
 $menu-tab-heading-active-color: darken($brand-colour, 10%);
 $menu-tab-subheading-active-color: darken($brand-colour, 15%);
@@ -33,7 +35,7 @@ $mobile-width: 767px;
     .api-menu-bar {
       background: $brand-colour;
       width: $menu-tab-width;
-      padding-right: 3px;
+      padding-right: $menu-tab-right-padding;
     }
 
     .api-menu-toggle {
@@ -165,7 +167,7 @@ $mobile-width: 767px;
   }
 
   .api-content-container {
-    margin-left: $menu-tab-width;
+    margin-left: $menu-tab-width-total;
     width: calc(100% - 230px);
 
     .api-content {
@@ -379,7 +381,7 @@ $mobile-width: 767px;
 
 @media (max-width: $mobile-width) {
   .api-menu-bar-container {
-    transform: translateX(-$menu-tab-width);
+    transform: translateX(-$menu-tab-width-total);
   }
 
   .api-menu-toggle {

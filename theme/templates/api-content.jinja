@@ -18,7 +18,7 @@
               {% set code_lines = code_line_list(subsection.code) %}
               <div class="api-code-container">
                 <div class="api-code-header">
-                  <span>{{ subsection.code_type }}</span> {{ subsection.code_url }}
+                  <span>{{ subsection.code_type }}</span> {{ subsection.code_url|escape }}
                 </div>
                 <div class="api-code-example">
                   <div class="code-line-numbers">
