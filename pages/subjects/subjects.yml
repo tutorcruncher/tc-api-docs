@@ -1,0 +1,15 @@
+sections:
+  -
+    title: Subject Object
+    id: subject-object
+    description: /subjects/subject-object.md
+    response: /subjects/subject-object.json
+    response_title: OBJECT
+  -
+    title: List all Subjects
+    id: list-all-subjects
+    description: /subjects/list-all-subjects.md
+    code: /subjects/list-all-subjects.py
+    code_type: GET
+    code_url: /api/subjects/
+    response: /subjects/list-all-subjects.json
