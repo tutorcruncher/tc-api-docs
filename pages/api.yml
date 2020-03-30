@@ -62,3 +62,7 @@ endpoint_sections:
     title: Reviews
     id: reviews
     layout: /reviews/reviews.yml
+  -
+    title: Services
+    id: services
+    layout: /services/services.yml

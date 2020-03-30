@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Service Object
+    id: service-object
+    description: /services/service-object.md
+    response: /services/service-object.json
+    response_title: OBJECT
+  -
+    title: List all Services
+    id: list-all-services
+    description: /services/list-all-services.md
+    code: /services/list-all-services.py
+    code_type: GET
+    code_url: /api/services/
+    response: /services/list-all-services.json
+  -
+    title: Get a Service
+    id: get-a-service
+    description: /services/get-a-service.md
+    code: /services/get-a-service.py
+    code_type: GET
+    code_url: /api/services/<id>/
+    response: /services/get-a-service.json

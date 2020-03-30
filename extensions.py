@@ -6,7 +6,8 @@ from harrier.extensions import template
 @template.contextfunction
 def code_line_list(ctx, file_name):
     with open('./pages/' + file_name, 'r+') as f:
-        return f.readlines()
+        # Return as list as need length of list in jinja template
+        return list(map(escape, f.readlines()))
 
 
 def replace_spaces(line):

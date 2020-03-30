@@ -1,0 +1,18 @@
+{
+  "count": 28,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 11,
+      "name": "A Level Physics",
+      "dft_charge_type": "hourly",
+      "created": "2019-10-31T16:11:48.312507Z",
+      "dft_charge_rate": "75.00",
+      "dft_contractor_rate": "35.00",
+      "status": "finished",
+      "url": "https://secure.tutorcruncher.com/api/services/11/"
+    },
+    ...
+  ]
+}
