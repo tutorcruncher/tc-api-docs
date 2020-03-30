@@ -19,5 +19,5 @@ sections:
     description: /invoices/get-an-invoice.md
     code: /invoices/get-an-invoice.py
     code_type: GET
-    code_url: /api/invoices/---id---/
+    code_url: /api/invoices/<id>/
     response: /invoices/get-an-invoice.json

@@ -19,5 +19,5 @@ sections:
     description: /clients/get-a-client.md
     code: /clients/get-a-client.py
     code_type: GET
-    code_url: /api/clients/---id---/
+    code_url: /api/clients/<id>/
     response: /clients/get-a-client.json

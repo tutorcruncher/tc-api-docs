@@ -19,5 +19,5 @@ sections:
     description: /contractors/get-a-contractor.md
     code: /contractors/get-a-contractor.py
     code_type: GET
-    code_url: /api/contractors/---id---/
+    code_url: /api/contractors/<id>/
     response: /contractors/get-a-contractor.json
