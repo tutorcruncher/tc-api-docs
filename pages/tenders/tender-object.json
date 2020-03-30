@@ -1,0 +1,23 @@
+{
+  "description": "I'd like to take up this student. I currently teach Economics A level (OCR) at Headington College and so know the syllabus very well, as well as being extremely good with the exam technique at a high level. I am able to start as soon as possible. I'm familiar with both these modules and the OCR board, so would be very happy to take on this student. I've time to take on 1-2 2hr sessions a week, plus marking, or more if required. Thanks.",
+  "contractor": {
+    "id": 47,
+    "first_name": "James",
+    "last_name": "Higgins",
+    "email": "james_higgins@example.com",
+    "url": "https://secure.tutorcruncher.com/api/contractors/47/"
+  },
+  "created": "2020-03-30T14:30:58.848581+01:00",
+  "proposed_rate": null,
+  "service": {
+    "id": 5,
+    "name": "Economics IB tuition",
+    "dft_charge_type": "hourly",
+    "created": "2020-03-22T13:30:38.837373Z",
+    "dft_charge_rate": "110.00",
+    "dft_contractor_rate": "70.00",
+    "status": "available",
+    "url": "https://secure.tutorcruncher.com/api/services/5/"
+  },
+  "status": "pending"
+}

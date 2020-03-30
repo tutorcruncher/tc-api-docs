@@ -1,0 +1,15 @@
+sections:
+  -
+    title: Tender Object
+    id: tender-object
+    description: /tenders/tender-object.md
+    response: /tenders/tender-object.json
+    response_title: OBJECT
+  -
+    title: List all Tenders
+    id: list-all-tenders
+    description: /tenders/list-all-tenders.md
+    code: /tenders/list-all-tenders.py
+    code_type: GET
+    code_url: /api/tenders/
+    response: /tenders/list-all-tenders.json
