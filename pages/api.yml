@@ -70,3 +70,7 @@ endpoint_sections:
     title: Subjects
     id: subjects
     layout: /subjects/subjects.yml
+  -
+    title: Tenders
+    id: tenders
+    layout: /tenders/tenders.yml
