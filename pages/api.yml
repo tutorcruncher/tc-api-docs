@@ -66,3 +66,7 @@ endpoint_sections:
     title: Services
     id: services
     layout: /services/services.yml
+  -
+    title: Subjects
+    id: subjects
+    layout: /subjects/subjects.yml

@@ -1,0 +1,14 @@
+{
+  "count": 22,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 22,
+      "name": "Computer Science",
+      "category_id": 4,
+      "category_name": "Engineering"
+    },
+    ...
+  ]
+}
