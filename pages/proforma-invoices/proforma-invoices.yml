@@ -19,5 +19,5 @@ sections:
     description: /proforma-invoices/get-an-proforma-invoice.md
     code: /proforma-invoices/get-an-proforma-invoice.py
     code_type: GET
-    code_url: /api/proforma-invoices/---id---/
+    code_url: /api/proforma-invoices/<id>/
     response: /proforma-invoices/get-an-proforma-invoice.json

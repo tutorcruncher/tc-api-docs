@@ -1,3 +1,5 @@
+from html import escape
+
 from harrier.extensions import template
 
 
@@ -12,7 +14,7 @@ def replace_spaces(line):
     for i, char in enumerate(line, start=1):
         if char != ' ':
             space_count = i - 1
-    return line.replace(' ', '&nbsp;', space_count)
+    return escape(line).replace(' ', '&nbsp;', space_count)
 
 
 @template.contextfunction
