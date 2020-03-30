@@ -1,0 +1,15 @@
+sections:
+  -
+    title: Reviews Object
+    id: review-object
+    description: /reviews/review-object.md
+    response: /reviews/review-object.json
+    response_title: OBJECT
+  -
+    title: List all Reviewss
+    id: list-all-reviews
+    description: /reviews/list-all-reviews.md
+    code: /reviews/list-all-reviews.py
+    code_type: GET
+    code_url: /api/reviews/
+    response: /reviews/list-all-reviews.json
