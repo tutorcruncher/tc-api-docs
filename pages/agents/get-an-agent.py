@@ -1,5 +1,5 @@
 import requests
 
-headers = {'Authorization': 'token ---API KEY---'}
+headers = {'Authorization': 'token <API KEY>'}
 r = requests.get('https://secure.tutorcruncher.com/api/agents/<id>/', headers=headers)
 print(r.content.decode())

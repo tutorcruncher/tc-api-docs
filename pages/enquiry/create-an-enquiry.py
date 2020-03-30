@@ -1,6 +1,6 @@
 import requests
 
-headers = {'Authorization': 'token ---API KEY---'}
+headers = {'Authorization': 'token <API KEY>'}
 data = {
     'client_name': 'Joe Blog',
     'client_email': 'joe_blog@example.com',

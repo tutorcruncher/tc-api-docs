@@ -374,6 +374,10 @@ $mobile-width: 767px;
         .api-description-container, .api-example-container {
           width: 100%;
         }
+
+        .api-code-container, .api-response-container {
+          padding: 0 !important;
+        }
       }
     }
   }
@@ -391,5 +395,15 @@ $mobile-width: 767px;
   .api-content-container {
     margin-left: 0 !important;
     width: 100% !important;
+  }
+
+  .api-description, .api-example-content {
+    margin: 0 !important
+  }
+
+  .api-heading {
+    h2 {
+      padding-left: 0 !important;
+    }
   }
 }

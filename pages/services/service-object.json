@@ -1,0 +1,63 @@
+{
+  "allow_proposed_rates": false,
+  "branch": 3,
+  "branch_tax_setup": "Default Company Tax (20%)",
+  "cap": null,
+  "colour": "SlateGray",
+  "conjobs": [
+    {
+      "contractor": 54,
+      "contractor_permissions": "add-edit-complete",
+      "name": "Walter Moore",
+      "pay_rate": null
+    }
+  ],
+  "contractor_tax_setup": "Default Tutor Tax (no tax)",
+  "created": "2019-10-31T16:11:48.312507Z",
+  "description": "Experienced tutor required for a bright student preparing for her A Level Physics exams. General secondary school syllabus needs refreshing as well as specifics preparing for the exams. Mock exams also needed.",
+  "dft_charge_type": "hourly",
+  "dft_charge_rate": 75.0,
+  "dft_contractor_permissions": "add-edit-complete",
+  "dft_contractor_rate": 35.0,
+  "dft_location": null,
+  "dft_max_srs": null,
+  "extra_attrs": [],
+  "extra_fee_per_apt": null,
+  "id": 11,
+  "inactivity_time": 14,
+  "is_bookable": false,
+  "is_deleted": false,
+  "labels": [],
+  "latest_apt_ahc": "2020-02-18T16:12:09.888465Z",
+  "name": "A Level Physics",
+  "net_gross": "gross",
+  "rcrs": [
+    {
+      "recipient": 20,
+      "recipient_name": "Caroline Bain",
+      "paying_client": 19,
+      "paying_client_name": "Christian Bain",
+      "charge_rate": null,
+      "agent": null,
+      "agent_name": null,
+      "agent_percentage": null
+    },
+    {
+      "recipient": 21,
+      "recipient_name": "Mary Bain",
+      "paying_client": 19,
+      "paying_client_name": "Christian Bain",
+      "charge_rate": null,
+      "agent": null,
+      "agent_name": null,
+      "agent_percentage": null
+    }
+  ],
+  "require_con_job": true,
+  "require_rcr": true,
+  "review_units": null,
+  "sales_codes": null,
+  "sr_premium": null,
+  "status": "finished",
+  "total_apt_units": 15.0
+}
