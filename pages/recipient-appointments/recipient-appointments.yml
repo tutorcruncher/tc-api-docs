@@ -1,9 +1,0 @@
-sections:
-  -
-    title: Add Service Recipient to Appointment
-    id: add-sr-to-appointment
-    description: /recipient-appointments/add-sr-to-appointment.md
-    code: /recipient-appointments/add-sr-to-appointment.py
-    code_type: POST
-    code_url: /api/recipient_appointments/
-    response: /recipient-appointments/add-sr-to-appointment.json

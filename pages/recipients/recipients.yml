@@ -1,0 +1,23 @@
+sections:
+  -
+    title: Recipient Object
+    id: recipient-object
+    description: /recipients/recipient-object.md
+    response: /recipients/recipient-object.json
+    response_title: OBJECT
+  -
+    title: List all Recipients
+    id: list-all-recipients
+    description: /recipients/list-all-recipients.md
+    code: /recipients/list-all-recipients.py
+    code_type: GET
+    code_url: /api/recipients/
+    response: /recipients/list-all-recipients.json
+  -
+    title: Get a Recipient
+    id: get-a-recipient
+    description: /recipients/get-a-recipient.md
+    code: /recipients/get-a-recipient.py
+    code_type: GET
+    code_url: /api/recipients/<id>/
+    response: /recipients/get-a-recipient.json
