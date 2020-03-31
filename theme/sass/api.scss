@@ -85,7 +85,9 @@ $mobile-width: 767px;
 
     .menu-bar-tabs {
       overflow: auto;
-      height: calc(100% - 208px); // 208px is the height of hr + .menu-bar-image-container above it
+      // 208px is the height of hr + .menu-bar-image-container above it
+      // 25px is the space at the bottom of the tabs, this is to solve the grey link appearing at the bottom left
+      height: calc(100% - 208px - 25px);
       padding-right: 0.5rem;
 
       &::-webkit-scrollbar-track {
