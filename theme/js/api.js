@@ -1,8 +1,11 @@
 import $ from 'jquery'
 
 function set_api_menu_active(href) {
+  $('.active-subheading').removeClass('active-subheading');
   $('li.active').removeClass('active');
-  $(`a[href="${href}"]`).parents('.tab-container').addClass('active');
+  const $subheading = $(`a[href="${href}"]`);
+  $subheading.addClass('active-subheading');
+  $subheading.parents('.tab-container').addClass('active');
 }
 
 function change_menu_tab() {

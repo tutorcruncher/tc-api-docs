@@ -21,3 +21,12 @@ sections:
     code_type: GET
     code_url: /api/contractors/<id>/
     response: /contractors/get-a-contractor.json
+  -
+    title: Get a Contractor's Availability
+    id: get-a-contractors-availability
+    description: /contractors/get-a-contractors-availability.md
+    code: /contractors/get-a-contractors-availability.py
+    code_type: GET
+    code_url: /api/contractor_availability/<id>/
+    response: /contractors/get-a-contractors-availability.json
+

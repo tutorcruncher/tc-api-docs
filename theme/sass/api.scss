@@ -145,6 +145,10 @@ $mobile-width: 767px;
             background: $menu-tab-subheading-active-color;
           }
         }
+
+        .active-subheading {
+          background: $menu-tab-subheading-active-color;
+        }
       }
 
       .tab-container {
