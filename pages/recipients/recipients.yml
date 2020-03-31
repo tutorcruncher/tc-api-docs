@@ -21,3 +21,11 @@ sections:
     code_type: GET
     code_url: /api/recipients/<id>/
     response: /recipients/get-a-recipient.json
+  -
+    title: Create a Recipient
+    id: create-a-recipient
+    description: /recipients/create-a-recipient.md
+    code: /recipients/create-a-recipient.py
+    code_type: POST
+    code_url: /api/recipients/
+    response: /recipients/create-a-recipient.json
