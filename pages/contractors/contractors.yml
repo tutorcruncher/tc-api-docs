@@ -29,4 +29,12 @@ sections:
     code_type: GET
     code_url: /api/contractor_availability/<id>/
     response: /contractors/get-a-contractors-availability.json
+  -
+    title: Create a Contractor
+    id: create-a-contractor
+    description: /contractors/create-a-contractor.md
+    code: /contractors/create-a-contractor.py
+    code_type: POST
+    code_url: /api/contractors/
+    response: /contractors/create-a-contractor.json
 
