@@ -364,6 +364,16 @@ $mobile-width: 767px;
           color: $brand-colour;
           font-weight: bold;
         }
+
+        code {
+          display: inline;
+          background: #f7fafc;
+          border: 1px solid rgba(#000, 0.05);
+          border-radius: 4px;
+          margin: 0 1px;
+          padding: 0 3px;
+          font-size: 14px;
+        }
       }
     }
   }

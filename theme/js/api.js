@@ -18,7 +18,7 @@ function change_menu_tab() {
 
 function set_code_syntax() {
   $(document).ready(() => {
-    document.querySelectorAll('div code').forEach((block) => {
+    document.querySelectorAll('.api-example-container code').forEach((block) => {
       hljs.highlightBlock(block);
     });
   });
