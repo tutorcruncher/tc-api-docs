@@ -22,4 +22,3 @@ def replace_spaces(line):
 def json_line_list(ctx, file_name):
     with open('./pages/' + file_name, 'r+') as f:
         return map(replace_spaces, f.readlines())
-

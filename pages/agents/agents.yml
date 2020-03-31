@@ -21,3 +21,11 @@ sections:
     code_type: GET
     code_url: /api/agents/<id>/
     response: /agents/get-an-agent.json
+  -
+    title: Create an Agent
+    id: create-an-agent
+    description: /agents/create-an-agent.md
+    code: /agents/create-an-agent.py
+    code_type: POST
+    code_url: /api/agents/
+    response: /agents/create-an-agent.json
