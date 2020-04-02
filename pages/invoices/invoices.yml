@@ -21,3 +21,11 @@ sections:
     code_type: GET
     code_url: /api/invoices/<id>/
     response: /invoices/get-an-invoice.json
+  -
+    title: Take Invoice Payment
+    id: take-invoice-payment
+    description: /invoices/take-invoice-payment.md
+    code: /invoices/take-invoice-payment.py
+    code_type: POST
+    code_url: /api/invoices/<id>/take_payment/
+    response: /invoices/take-invoice-payment.json
