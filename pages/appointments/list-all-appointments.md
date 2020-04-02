@@ -1,4 +1,4 @@
 ### List all Appointments
 
-Returns a list of your appointments. The appointments are sorted by `id`, with 
+Returns a list of your Appointments. The Appointments are sorted by `id`, with 
 the largest id first.

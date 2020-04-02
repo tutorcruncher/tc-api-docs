@@ -1,4 +1,4 @@
 ### List all Proforma Invoicess
 
-Returns a list of your proforma invoices. The proforma invoices are sorted by `date_sent`, 
+Returns a list of your Proforma Invoices. The Proforma Invoices are sorted by `date_sent`, 
 with the most recently sent first.
