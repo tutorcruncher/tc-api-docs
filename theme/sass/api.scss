@@ -89,6 +89,8 @@ $mobile-width: 767px;
       // 25px is the space at the bottom of the tabs, this is to solve the grey link appearing at the bottom left
       height: calc(100% - 208px - 25px);
       padding-right: 0.5rem;
+      margin: 0;
+      position: relative;
 
       &::-webkit-scrollbar-track {
         border-radius: 10px;

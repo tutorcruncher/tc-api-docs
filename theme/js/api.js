@@ -1,27 +1,36 @@
 import $ from 'jquery'
 
-function set_api_menu_active(href) {
+function set_menu_heading_active(href) {
   $('.active-subheading').removeClass('active-subheading');
   $('li.active').removeClass('active');
+
   const $subheading = $(`a[href="${href}"]`);
   $subheading.addClass('active-subheading');
   $subheading.parents('.tab-container').addClass('active');
 }
 
-function change_menu_tab() {
+function scroll_to_menu_active_heading() {
+  const $menu_tabs = $('.menu-bar-tabs');
+  $menu_tabs.scrollTop($menu_tabs.scrollTop() + $('.tab-container.active').position().top - 50);
+}
+
+function change_menu_tab(update_menu_scroll=true) {
   if (window.location.hash) {
-    set_api_menu_active(window.location.hash);
+    set_menu_heading_active(window.location.hash);
   } else {
     window.location.hash = '#introduction';
-    set_api_menu_active('#introduction');
+    set_menu_heading_active('#introduction');
+    update_menu_scroll = false
+  }
+  if (update_menu_scroll) {
+    scroll_to_menu_active_heading();
   }
 }
 
-function set_code_syntax() {
-  $(document).ready(() => {
-    document.querySelectorAll('.api-example-container code').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
+function init_change_menu_tab() {
+  change_menu_tab();
+  $(window).bind('hashchange', () => {
+    change_menu_tab();
   });
 }
 
@@ -33,7 +42,7 @@ function _toggle(translate_amount, item_to_show, item_to_hide) {
   item_to_hide.hide();
 }
 
-function menu_toggle() {
+function init_menu_toggle() {
   const $show = $('#show-menu');
   const $hide = $('#hide-menu');
 
@@ -54,7 +63,15 @@ function menu_toggle() {
   });
 }
 
-function scroll_heading_change() {
+function init_set_code_syntax() {
+  $(document).ready(() => {
+    document.querySelectorAll('.api-example-container code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+}
+
+function init_scroll_heading_change() {
   let current_hash = window.location.hash;
   $('body').scroll(() => {
     $('.api-section-heading, .api-subsection').each((i, el) => {
@@ -73,13 +90,8 @@ function scroll_heading_change() {
 }
 
 if (window.jQuery) {
-  menu_toggle();
-  change_menu_tab();
-  scroll_heading_change();
-
-  $(window).bind('hashchange', () => {
-    change_menu_tab();
-  });
-
-  set_code_syntax();
+  init_menu_toggle();
+  init_change_menu_tab();
+  init_scroll_heading_change();
+  init_set_code_syntax();
 }
