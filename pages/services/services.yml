@@ -21,3 +21,11 @@ sections:
     code_type: GET
     code_url: /api/services/<id>/
     response: /services/get-a-service.json
+  -
+    title: Create a Service
+    id: create-a-service
+    description: /services/create-a-service.md
+    code: /services/create-a-service.py
+    code_type: POST
+    code_url: /api/services/
+    response: /services/create-a-service.json
