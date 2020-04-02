@@ -37,4 +37,12 @@ sections:
     code_type: POST
     code_url: /api/contractors/
     response: /contractors/create-a-contractor.json
+  -
+    title: Update a Contractor
+    id: update-a-contractor
+    description: /contractors/update-a-contractor.md
+    code: /contractors/update-a-contractor.py
+    code_type: POST
+    code_url: /api/contractors/
+    response: /contractors/update-a-contractor.json
 
