@@ -29,3 +29,11 @@ sections:
     code_type: POST
     code_url: /api/agents/
     response: /agents/create-an-agent.json
+  -
+    title: Update an Agent
+    id: update-an-agent
+    description: /agents/update-an-agent.md
+    code: /agents/update-an-agent.py
+    code_type: POST
+    code_url: /api/agents/
+    response: /agents/update-an-agent.json

@@ -29,3 +29,11 @@ sections:
     code_type: POST
     code_url: /api/recipients/
     response: /recipients/create-a-recipient.json
+  -
+    title: Update a Recipient
+    id: update-a-recipient
+    description: /recipients/update-a-recipient.md
+    code: /recipients/update-a-recipient.py
+    code_type: POST
+    code_url: /api/recipients/
+    response: /recipients/update-a-recipient.json

@@ -29,3 +29,11 @@ sections:
     code_type: POST
     code_url: /api/clients/
     response: /clients/create-a-client.json
+  -
+    title: Update a Client
+    id: update-a-client
+    description: /clients/update-a-client.md
+    code: /clients/update-a-client.py
+    code_type: POST
+    code_url: /api/clients/
+    response: /clients/update-a-client.json
