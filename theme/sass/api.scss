@@ -8,7 +8,7 @@ $menu-tab-heading-active-color: darken($brand-colour, 10%);
 $menu-tab-subheading-active-color: darken($brand-colour, 15%);
 
 $code-example-bg-color: #3f5f86;
-$response-example-bg-color: #9C9990;
+$response-example-bg-color: #E0E0E0;
 
 $tablet-width: 1024px;
 $mobile-width: 767px;
@@ -33,7 +33,7 @@ $mobile-width: 767px;
     }
 
     .api-menu-bar {
-      background: $brand-colour;
+      background: linear-gradient(135deg, $brand-colour, darken($brand-colour, 2%));
       width: $menu-tab-width;
       padding-right: $menu-tab-right-padding;
     }
@@ -302,7 +302,8 @@ $mobile-width: 767px;
 
           .api-response-header {
             background: $response-example-bg-color;
-            color: $white-text-color;
+            color: dimgray;
+            font-weight: bold;
             font-size: 12px;
             padding: 0.5rem;
             border-radius: 10px 10px 0 0;
@@ -310,17 +311,17 @@ $mobile-width: 767px;
 
           .api-response-example {
             .response-lines {
-              background: lighten($response-example-bg-color, 30%);
+              background: lighten($response-example-bg-color, 10%);
               font-size: 12px;
               margin: 0;
               padding: 0.5rem 0;
               font-family: $code-font;
               border-radius: 0 0 10px 10px;
-              border: 1px solid lighten($response-example-bg-color, 15%);
+              border: 1px solid lighten($response-example-bg-color, 5%);
               border-top: none;
 
               code {
-                background: lighten($response-example-bg-color, 30%);
+                background: inherit;
                 padding: 0 5px 5px 0;
                 margin: 0 0.5rem;
                 font-family: $code-font !important;
@@ -335,7 +336,7 @@ $mobile-width: 767px;
                 &::-webkit-scrollbar {
                   height: 8px;
                   width: 8px;
-                  background-color: lighten($response-example-bg-color, 30%);
+                  background-color: lighten($response-example-bg-color, 10%);
                 }
 
                 &::-webkit-scrollbar-thumb {
@@ -345,12 +346,24 @@ $mobile-width: 767px;
                 }
 
                 &::-webkit-scrollbar-corner {
-                  background: lighten($response-example-bg-color, 30%);
+                  background: lighten($response-example-bg-color, 10%);
                 }
 
                 .response-line {
                   display: block;
                   white-space: nowrap;
+
+                  .hljs-string {
+                    color: darkgreen;
+                  }
+
+                  .hljs-literal {
+                    color: orangered;
+                  }
+
+                  .hljs-number {
+                    color: dodgerblue;
+                  }
                 }
               }
             }
