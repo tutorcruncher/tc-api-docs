@@ -1,0 +1,9 @@
+[
+  {
+    "key": "LOGIN",
+    "value": "LOGIN",
+    "msg": "Logged in",
+    "help_text": "When a User logs in."
+  },
+  ...
+]
