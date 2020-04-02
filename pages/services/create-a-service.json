@@ -1,0 +1,47 @@
+{
+  "id": 254747,
+  "allow_proposed_rates": true,
+  "branch_tax_setup": null,
+  "cap": null,
+  "conjobs": [
+    {
+      "contractor": 568503,
+      "contractor_permissions": "add-edit-complete",
+      "name": "John Smith",
+      "pay_rate": "45.00"
+    }
+  ],
+  "created": "2020-04-01T17:51:05.746889+01:00",
+  "rcrs": [
+    {
+      "recipient": 562725,
+      "recipient_name": "Billy Bob",
+      "paying_client": 568504,
+      "paying_client_name": "Gary Bob",
+      "charge_rate": "35.00",
+      "agent": 885425,
+      "agent_name": "Billy Bob",
+      "agent_percentage": "30.000"
+    }
+  ],
+  "colour": "Khaki",
+  "contractor_tax_setup": 8361,
+  "description": "Example description for the Service which will appear on TutorCruncher",
+  "dft_charge_type": "hourly",
+  "dft_charge_rate": "45.00",
+  "dft_contractor_permissions": "add-edit-complete",
+  "dft_contractor_rate": "35.00",
+  "dft_location": null,
+  "dft_max_srs": 10,
+  "extra_attrs": {},
+  "extra_fee_per_apt": null,
+  "inactivity_time": null,
+  "name": "Example Name",
+  "net_gross": "gross",
+  "require_rcr": true,
+  "require_con_job": true,
+  "review_units": 0,
+  "sales_codes": null,
+  "sr_premium": "0.00",
+  "status": "pending"
+}
