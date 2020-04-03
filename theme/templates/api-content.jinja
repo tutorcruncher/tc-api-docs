@@ -1,4 +1,11 @@
 <div class="api-content">
+  <nav>
+    <ul>
+      <li><a href="{{ config.contact_url }}">Contact Us</a></li>
+      <li><a href="{{ config.help_url }}">Help</a></li>
+      <li><a href="{{ config.sign_in_url }}">Sign In</a></li>
+    </ul>
+  </nav>
   {% set api_sections = pages['/api.yml'] %}
   {% for section in api_sections.info_sections + api_sections.endpoint_sections %}
     {% set layout = pages[section.layout] %}
