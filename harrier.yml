@@ -5,6 +5,10 @@ description: |
   TutorCruncher provides tutoring management software with online payments,
   CRM, invoicing, payroll, scheduling, timesheets and more. Buy and get support.
 
+contact_url: 'https://tutorcruncher.com/contact/'
+help_url: 'https://tutorcruncher.com/help/'
+sign_in_url: 'https://secure.tutorcruncher.com/'
+
 no_hash:
   - /favicon.ico
   - /browserconfig.xml
