@@ -18,7 +18,6 @@ function change_menu_tab(update_menu_scroll=true) {
   if (window.location.hash) {
     set_menu_heading_active(window.location.hash)
   } else {
-    window.location.hash = '#introduction'
     set_menu_heading_active('#introduction')
     update_menu_scroll = false
   }
