@@ -67,58 +67,13 @@ attributes:
         type: string
         description: The user's timezone, accepted values are timezone database values.
   -
-    name: status
+    name: commission_rate
     type: string
-    description: The Client's status, choices are `prospect`, `live` and `dormant`.
+    description: Percentage of the Agent's commission rate.
   -
-    name: is_taxable
-    type: boolean
-    description: Whether or not tax should be paid on payments from this Client.
-  -
-    name: notify_via_email
-    type: boolean
-    description: If `false` the Client will receive no emails.
-  -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
-  -
-    name: invoices_count
-    type: integer
-    description: The number of invoice related to the Client.
-  -
-    name: payment_pending
-    type: string
-    description: Total amount of pending payments related to the Client.
-  -
-    name: auto_charge
-    type: boolean
-    description: Whether the Client will be auto charged or not.
-  -
-    name: associated_admin
-    type: object
-    description: Object of the Client Manager.
-    children:
-      -
-        name: id
-        type: integer
-        description: Unique identifier of the object.
-      -
-        name: first_name
-        type: string
-        description: User's first name.
-      -
-        name: last_name
-        type: string
-        description: User's last name.
-      -
-        name: email
-        type: string
-        description: User's email address.
-  -
-    name: associated_agent
-    type: object
-    description: Object of the set agent.
+    name: clients
+    type: array
+    description: An array of Clients which the Agent is related to.
     children:
       -
         name: id
@@ -141,34 +96,9 @@ attributes:
         type: string
         description: URL to the Agent's object
   -
-    name: paid_recipients
-    type: array
-    description: An array of recipients related to the Client.
-    children:
-      -
-        name: id
-        type: integer
-        description: Unique identifier of the object.
-      -
-        name: first_name
-        type: string
-        description: User's first name.
-      -
-        name: last_name
-        type: string
-        description: User's last name.
-      -
-        name: email
-        type: string
-        description: User's email address.
-      -
-        name: url
-        type: string
-        description: URL to the Recipient's object
-  -
     name: last_updated
     type: string
-    description: The date and time the Client was last updated.
+    description: The date and time the Agent was last updated.
   -
     name: calendar_colour
     type: string
@@ -176,7 +106,7 @@ attributes:
   -
     name: labels
     type: array
-    description: An array of the Client's labels
+    description: An array of the Agent's labels
     children:
       -
         name: id
@@ -194,11 +124,3 @@ attributes:
     name: extra_attrs
     type: array
     description: Custom fields for this object.
-  -
-    name: invoice_balance
-    type: string
-    description: The Client's invoice balance.
-  -
-    name: available_balance
-    type: string
-    description: The Client's available balance.

@@ -67,96 +67,67 @@ attributes:
         type: string
         description: The user's timezone, accepted values are timezone database values.
   -
-    name: status
-    type: string
-    description: The Contractor's status, choices are `pending`, `approved`, `rejected` and `dormant`.
-  -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
-  -
     name: default_rate
     type: decimal
-    description: The Contractor's rate which will be used to override service default rates.
+    description: The Recipient's default rate.
   -
-    name: qualifications
-    type: array
-    description: An array of the Contractor's qualifications.
+    name: paying_client
+    type: object
+    description: An object of the Client who pays invoice on behalf of the Recipient.
     children:
       -
         name: id
         type: integer
-        description: Unique identifier for the object.
+        description: Unique identifier of the object.
       -
-        name: institution
+        name: first_name
         type: string
-        description: Name of the institution.
+        description: User's first name.
       -
-        name: subject
+        name: last_name
         type: string
-        description: Name of the subject.
+        description: User's last name.
       -
-        name: qual_level
+        name: email
         type: string
-        description: Name of the qualification.
+        description: User's email address.
       -
-        name: grade
+        name: url
         type: string
-        description: The grade for the qualification.
-      -
-        name: year
-        type: integer
-        description: The year for the qualification.
-      -
-        name: governing_body
-        type: string
-        description: Name of the governing body for the qualification.
+        description: URL to the Agent's object
   -
-    name: skills
+    name: associated_clients
     type: array
-    description: An array of the Contractor's skills.
+    description: An array other Clients associated to this Recipient.
     children:
       -
         name: id
         type: integer
-        description: Unique identifier for the object.
+        description: Unique identifier of the object.
       -
-        name: subject
+        name: first_name
         type: string
-        description: Name of the subject.
+        description: User's first name.
       -
-        name: qual_level
+        name: last_name
         type: string
-        description: Name of the qualification.
-  -
-    name: institutions
-    type: array
-    description: An array of the Contractor's institutions.
-    children:
+        description: User's last name.
       -
-        name: id
-        type: integer
-        description: Unique identifier for the object.
-      -
-        name: name
+        name: email
         type: string
-        description: Name of the institution.
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Agent's object
   -
-    name: receive_service_notifications
-    type: boolean
-    description: When checked the Tutor will receive email notifications of Jobs available for application.
-  -
-    name: review_rating
-    type: decimal
-    description: Contractor's review rating.
-  -
-    name: review_duration
+    name: academic_year
     type: string
-    description: Total amount of time that has been reviewed.
+    description: Name of the academic year the Recipient is in.
   -
     name: last_updated
     type: string
-    description: The date and time the Contractor was last updated.
+    description: The date and time the Agent was last updated.
   -
     name: calendar_colour
     type: string
@@ -164,7 +135,7 @@ attributes:
   -
     name: labels
     type: array
-    description: An array of the Contractor's labels
+    description: An array of the Agent's labels
     children:
       -
         name: id
@@ -182,20 +153,3 @@ attributes:
     name: extra_attrs
     type: array
     description: Custom fields for this object.
-  -
-    name: work_done_details
-    type: object
-    description: Details about the work the Contractor has done.
-    children:
-      -
-        name: amount_owed
-        type: decimal
-        description: The amount of money the Contractor is owed.
-      -
-        name: amount_paid
-        type: decimal
-        description: The amount of money the Contractor has been paid.
-      -
-        name: total_paid_hours
-        type: string
-        description: Total amount of time the Contractor has been paid for.
