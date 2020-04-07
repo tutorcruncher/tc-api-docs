@@ -88,6 +88,18 @@ function init_scroll_heading_change() {
   })
 }
 
+function init_scroll_heading_change() {
+  $('.attribute-children-heading').click((e) => {
+    const $container = $(e.target).parent()
+    const active_class = 'attribute-active'
+    if ($container.hasClass(active_class)) {
+      $container.removeClass(active_class)
+    } else {
+      $container.addClass(active_class)
+    }
+  })
+}
+
 if (window.jQuery) {
   init_menu_toggle()
   init_change_menu_tab()
