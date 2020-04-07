@@ -21,3 +21,11 @@ sections:
     code_type: GET
     code_url: /api/proforma-invoices/<id>/
     response: /proforma-invoices/get-an-proforma-invoice.json
+  -
+    title: Take Proforma Invoice Payment
+    id: take-proforma-invoice-payment
+    description: /proforma-invoices/take-proforma-invoice-payment.md
+    code: /proforma-invoices/take-proforma-invoice-payment.py
+    code_type: POST
+    code_url: /api/proforma-invoices/<id>/take_payment/
+    response: /proforma-invoices/take-proforma-invoice-payment.json
