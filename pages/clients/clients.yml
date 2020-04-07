@@ -3,6 +3,7 @@ sections:
     title: Client Object
     id: client-object
     description: /clients/client-object.md
+    attributes: /clients/client-object.yml
     response: /clients/client-object.json
     response_title: OBJECT
   -

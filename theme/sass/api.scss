@@ -429,6 +429,86 @@ $mobile-width: 767px;
           font-size: 14px;
         }
       }
+
+      .api-attributes {
+        margin: 1rem;
+
+        h4 {
+          margin-bottom: 0.5rem;
+        }
+
+        .api-attributes-container {
+          padding: 1rem 0;
+          border-top: 1px solid #e3e8ee;
+          font-size: 14px;
+
+          .attribute-info {
+            font-family: $code-font;
+            font-weight: bold;
+            font-size: 12px;
+
+            .attribute-type {
+              color: #8792a2;
+            }
+          }
+          .attribute-description {
+            p {
+              margin: 0.5rem 0 0 0;
+            }
+
+            code {
+              display: inline;
+              background: #f7fafc;
+              border: 1px solid rgba(#000, 0.05);
+              border-radius: 4px;
+              margin: 0 1px;
+              padding: 0 3px;
+              font-size: 12px;
+            }
+          }
+
+          .attribute-children-container {
+            margin: 1rem 1rem 0 1rem;
+            border: 1px solid #e3e8ee;
+            border-radius: 5px;
+
+            .attribute-children {
+              display: none;
+            }
+
+            .attribute-children-heading, .attribute-child {
+              padding: .75rem;
+            }
+
+            .attribute-children-heading {
+              .fa {
+                float: right;
+                line-height: 100%;
+              }
+
+              .fa-minus {
+                display: none;
+              }
+            }
+          }
+
+          .attribute-active {
+            .attribute-children {
+              display: block;
+            }
+
+            .attribute-children-heading {
+              .fa-minus {
+                display: block;
+              }
+
+              .fa-plus {
+                display: none;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
