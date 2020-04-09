@@ -3,6 +3,7 @@ sections:
     title: Ad Hoc Charge Object
     id: ad-hoc-charge-object
     description: /adhoccharges/ad-hoc-charge-object.md
+    attributes: /adhoccharges/ad-hoc-charge-object.yml
     response: /adhoccharges/ad-hoc-charge-object.json
     response_title: OBJECT
   -
