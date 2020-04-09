@@ -1,0 +1,301 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: agent
+    type: object
+    description: Object of the Agent.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Agent's object
+  -
+    name: appointment
+    type: object
+    description: Object of the Appointment.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object.
+      -
+        name: start
+        type: string
+        description: Start date and time for the Appointment.
+      -
+        name: finish
+        type: string
+        description: Finish date and time for the Appointment.
+      -
+        name: topic
+        type: string
+        description: Topic for the Appointment.
+      -
+        name: status
+        type: integer
+        description: |
+          The status for the Appointment, the choices are:
+
+          - `10` for Planned
+          - `15` for Awaiting Report
+          - `20` for Complete
+          - `30` for Cancelled
+          - `40` for Cancelled but Chargeable
+      -
+        name: service_id
+        type: integer
+        description: Unique identifier of the related Service.
+      -
+        name: service_name
+        type: string
+        description: Name of the related Service.
+      -
+        name: url
+        type: string
+        description: URL to the Appointment object.
+  -
+    name: category_id
+    type: integer
+    description: Unique identifier for the Ad Hoc Charge Category.
+  -
+    name: category_name
+    type: string
+    description: Name for the Ad Hoc Charge Category.
+  -
+    name: charge_client_forex
+    type: string
+    description: Amount of money in other currency.
+  -
+    name: client_cost
+    type: string
+    description: Amount of money in the Branch's currency.
+  -
+    name: client
+    type: object
+    description: Object of the Client.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Client's object
+  -
+    name: contractor
+    type: object
+    description: Object to the Contractor.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Contractor's object
+  -
+    name: creator
+    type: object
+    description: User who created the Ad Hoc Charge.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+  -
+    name: currency
+    type: string
+    description: The currency used.
+  -
+    name: currency_conversion
+    type: string
+    description: Currency conversion at the time the Ad Hoc Charge was created.
+  -
+    name: date_occurred
+    type: string
+    description: Date and time the Ad Hoc Charge was created.
+  -
+    name: invoices
+    type: array
+    description: An array of Invoices the Ad Hoc Charge appears on.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: display_id
+        type: string
+        description: The Invoice's display ID.
+      -
+        name: date_sent
+        type: string
+        description: Date and time the Invoice was sent.
+      -
+        name: gross
+        type: string
+        description: Gross amount for the Invoice.
+      -
+        name: net
+        type: decimal
+        description: Net amount for the Invoice.
+      -
+        name: tax
+        type: string
+        description: Tax amount for the Invoice.
+      -
+        name: client
+        type: object
+        description: |
+          Object of the Client on the Invoice. Contains their `id`, `first_name`, `last_name`, `email`, and `url`.
+      -
+        name: status
+        type: string
+        description: The status of the Invoice. Check out [Invoice Object](#invoice-object) for the types of statuses.
+      -
+        name: url
+        type: string
+        description: The URL to the Invoice object.
+  -
+    name: payment_orders
+    type: array
+    description: An array of Payment Orders the Ad Hoc Charge appears on.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object.
+      -
+        name: display_id
+        type: string
+        description: The Payment Order's display ID.
+      -
+        name: gross
+        type: string
+        description: Gross amount for the Payment Order.
+      -
+        name: net
+        type: decimal
+        description: Net amount for the Payment Order.
+      -
+        name: tax
+        type: string
+        description: Tax amount for the Invoice.
+      -
+        name: payee
+        type: object
+        description: |
+          Object of the Payee on the Payment Order. Contains their `id`, `first_name`, `last_name`, `email`, and `url`.
+      -
+        name: status
+        type: string
+        description: |
+          The status of the Payment Order. Check out [Payment Order Object](#payment-order-object)
+          for the types of statuses.
+  -
+    name: net_gross
+    type: string
+    description: Whether the Ad Hoc Charge is `net` or `gross`.
+  -
+    name: pay_contractor
+    type: string
+    description: Amount the Contractor will be paid.
+  -
+    name: service
+    type: object
+    description: Object of the Service related to the Ad Hoc Charge.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object
+      -
+        name: name
+        type: string
+        description: Service's name.
+      -
+        name: dft_charge_type
+        type: string
+        description: |
+          Service's default charge type. Check out [Service Object](#service-object) for the types of choices.
+      -
+        name: created
+        type: string
+        description: Date and time the Service was created.
+      -
+        name: dft_charge_rate
+        type: string
+        description: Service's default amount Clients will be charged.
+      -
+        name: dft_contractor_rate
+        type: string
+        description: Service's default amount Contractors will be paided.
+      -
+        name: status
+        type: string
+        description: Status of the Service. Check out [Service Object](#service-object) for the types of statuses.
+      -
+        name: url
+        type: string
+        description: URL to the Service object.
+  -
+    name: tax_amount
+    type: decimal
+    description: Amount of tax on the Ad Hoc Charge.
