@@ -13,17 +13,21 @@
     </li>
   {% endfor %}
 {% endmacro %}
+
 <div class="api-menu-bar">
-  <div class="menu-bar-image-container">
+  <div class="brand">
     <img src="{{ resolve_url('assets/tc-api-logo.png') }}" alt="TutorCruncher Logo"/>
     <span>TutorCruncher API</span>
   </div>
-  <hr/>
   <ul class="menu-bar-tabs">
     {{ render_tabs(sections=pages['/api.yml'].info_sections, show_tab_sections=True) }}
     <hr/>
     {{ render_tabs(sections=pages['/api.yml'].endpoint_sections) }}
   </ul>
+  <div id="last-release">
+    <p id="release-label">TutorCruncher was last deployed</p>
+    <p id="release-info"></p>
+  </div>
 </div>
 <div class="api-menu-toggle">
   <div id="show-menu">SHOW MENU</div>
