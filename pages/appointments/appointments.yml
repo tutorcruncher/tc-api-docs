@@ -3,6 +3,7 @@ sections:
     title: Appointment Object
     id: appointment-object
     description: /appointments/appointment-object.md
+    attributes: /appointments/appointment-object.yml
     response: /appointments/appointment-object.json
     response_title: OBJECT
   -
