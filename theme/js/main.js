@@ -88,7 +88,7 @@ function init_scroll_heading_change() {
   })
 }
 
-function init_attribute_children_dropdown() {
+function init_attribute_children_dropdown () {
   $('.attribute-children-heading').click((e) => {
     const $container = $(e.target).parent()
     const active_class = 'attribute-active'
@@ -100,10 +100,19 @@ function init_attribute_children_dropdown() {
   })
 }
 
+function get_release_info () {
+  $.get('http://localhost:3000/system.txt').done((r) => {
+    const version = /VERSION\: (.*)\n/.exec(r)[1]
+    const dt = /DATE\: (.*)T/.exec(r)[1]
+    $('#release-info').text(`${version} (${dt})`)
+  })
+}
+
 if (window.jQuery) {
   init_menu_toggle()
   init_change_menu_tab()
   init_scroll_heading_change()
   init_set_code_syntax()
   init_attribute_children_dropdown()
+  get_release_info()
 }

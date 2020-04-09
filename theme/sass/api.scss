@@ -1,6 +1,6 @@
 @import 'variables';
 
-$menu-tab-width: 227px;
+$menu-tab-width: 300px;
 $menu-tab-right-padding: 3px;
 $menu-tab-width-total: $menu-tab-width + $menu-tab-right-padding;
 $menu-tabs-heading-size: 14px;
@@ -12,6 +12,10 @@ $response-example-bg-color: #E0E0E0;
 
 $tablet-width: 1024px;
 $mobile-width: 767px;
+
+h2, h3 {
+  font-family: $title-font;
+}
 
 .api-main-container {
   height: 100%;
@@ -65,16 +69,18 @@ $mobile-width: 767px;
       }
     }
 
-    .menu-bar-image-container {
-      text-align: center;
-
+    .brand {
+      display: flex;
+      padding: 10px;
+      font-size: 22px;
       span {
-        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 9px;
       }
 
       img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
       }
     }
 
@@ -85,9 +91,7 @@ $mobile-width: 767px;
 
     .menu-bar-tabs {
       overflow: auto;
-      // 208px is the height of hr + .menu-bar-image-container above it
-      // 25px is the space at the bottom of the tabs, this is to solve the grey link appearing at the bottom left
-      height: calc(100% - 208px - 25px);
+      height: calc(100% - 70px - 60px);
       padding-right: 0.5rem;
       margin: 0;
       position: relative;
@@ -121,7 +125,7 @@ $mobile-width: 767px;
         text-decoration: none;
         font-size: $menu-tabs-heading-size;
         display: block;
-        padding: 0 10px;
+        padding: 0 15px;
         transition: all .2s ease;
         color: $white-text-color;
       }
@@ -184,7 +188,7 @@ $mobile-width: 767px;
 
   .api-content-container {
     margin-left: $menu-tab-width-total;
-    width: calc(100% - 230px);
+    width: calc(100% - (#{$menu-tab-width-total}));
 
     nav {
       margin: 1rem 5rem 1rem 0;
@@ -224,6 +228,12 @@ $mobile-width: 767px;
     }
 
     .api-content {
+      .api-section-heading {
+        a {
+          color: black;
+          text-decoration: none !important;
+        }
+      }
       .api-section-heading, .api-subsection {
         display: flex;
         flex-direction: row;
@@ -572,5 +582,21 @@ $mobile-width: 767px;
     h2 {
       padding-left: 0 !important;
     }
+  }
+}
+
+#last-release {
+  height: 60px;
+  border-top: 1px solid darken($brand-colour, 10%);
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 14px;
+  p {
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 0;
+  }
+  #release-info {
+    font-size: 16px;
   }
 }
