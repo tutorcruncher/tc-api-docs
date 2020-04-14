@@ -3,6 +3,7 @@ sections:
     title: Recipient Object
     id: recipient-object
     description: /recipients/recipient-object.md
+    attributes: /recipients/recipient-object.yml
     response: /recipients/recipient-object.json
     response_title: OBJECT
   -
