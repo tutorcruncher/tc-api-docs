@@ -2,7 +2,7 @@ attributes:
   -
     name: id
     type: integer
-    description: Unique identifier
+    description: Unique identifier for the object.
   -
     name: charges
     type: array
@@ -79,7 +79,7 @@ attributes:
       -
         name: url
         type: string
-        description: URL to the Agent's object
+        description: URL to the Client's object.
   -
     name: date_sent
     type: string

@@ -1,0 +1,114 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: deleted
+    type: boolean
+    description: If the Contractor is deleted or not.
+  -
+    name: first_name
+    type: string
+    description: Contractor's first name.
+  -
+    name: last_name
+    type: string
+    description: Contractor's last name.
+  -
+    name: town
+    type: string
+    description: Contractor's town.
+  -
+    name: country
+    type: string
+    description: Contractor's country
+  -
+    name: review_rating
+    type: decimal
+    description: Contractor's rating.
+  -
+    name: review_duration
+    type: integer
+    description: Amount of hours that the Contractor has been reviewed for.
+  -
+    name: location
+    type: object
+    description: Object contain the Contractor's location.
+    children:
+      -
+        name: latitude
+        type: decimal
+        description: Location's latitude.
+      -
+        name: longitude
+        type: decimal
+        description: Location's longitude.
+  -
+    name: photo
+    type: string
+    description: URL to access the Contractor's profile photo.
+  -
+    name: extra_attributes
+    type: array
+    description: An array containing custom field values for the Contractor.
+  -
+    name: skills
+    type: array
+    description: An array containing the Contractor's skills.
+    children:
+      -
+        name: subject
+        type: string
+        description: Name of the Subject.
+      -
+        name: category
+        type: string
+        description: Name of the Subject Category.
+      -
+        name: qual_level
+        type: string
+        description: Name of the Qualification Level.
+      -
+        name: subject_id
+        type: integer
+        description: Unique identifier for the Subject.
+      -
+        name: qual_level_id
+        type: integer
+        description: Unique identifier for the Qualification Level.
+      -
+        name: qual_level_ranking
+        type: decimal
+        description: Rank for the Qualification Level.
+  -
+    name: labels
+    type: array
+    description: An array of Labels for the Contractor.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique indentifier for the object
+      -
+        name: name
+        type: string
+        description: Name of the label.
+      -
+        name: machine_name
+        type: string
+        description: Unique slugified name of the label.
+  -
+    name: last_updated
+    type: string
+    description: Date and time of when the Contractor was last updated.
+  -
+    name: created
+    type: string
+    description: Date and time of when the Contractor was created.
+  -
+    name: release_timestamp
+    type: string
+    description: Date and time of when the Contractor's Profile was released.
+
+
