@@ -1,0 +1,119 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier
+  -
+    name: charges
+    type: array
+    description: An array of different charges related to the invoice.
+    children:
+      -
+        name: adhoc_charge
+        type: object
+        description: |
+          Object that contains information about the Ad Hoc Charge. Attributes in the object are `id`, `description`,
+          `date_occurred`, `category_id`, `category_name`, `client_cost`, `pay_contractor`, `agent_percentage`, and
+          `url`.
+      -
+        name: amount
+        type: string
+        description: Amount of the charge.
+      -
+        name: appointment
+        type: object
+        description: |
+          Object that contains information about the Appointment. Attributes in the object are `id`, `start`, `finish`,
+          `topic`, `status`, `service_id`, `service_name`, and `url`
+      -
+        name: date
+        type: string
+        description: Date and time the charge occured.
+      -
+        name: payee
+        type: string
+        description: Name of who will recieve the charge amount.
+      -
+        name: payer
+        type: object
+        description: |
+          Object of the Client who will pay invoice. Attributes in the object are `id`, `first_name`, `last_name`,
+          `email`, and `url`
+      -
+        name: rate
+        type: string
+        description: The rate used to calculate the charge amount.
+      -
+        name: sales_code
+        type: string
+        description: The sales code used for this charge.
+      -
+        name: tax_amount
+        type: string
+        description: The amount of tax for this charge.
+      -
+        name: units
+        type: string
+        description: Amount of units used to calculate the charge amount.
+  -
+    name: client
+    type: object
+    description: Object of the Client on the Invoice.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier of the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Agent's object
+  -
+    name: date_sent
+    type: string
+    description: Date and time the Invoice was sent to the Client.
+  -
+    name: date_void
+    type: string
+    description: Date and time the Invoice was marked as void.
+  -
+    name: date_paid
+    type: string
+    description: Date and time the Invoice was marked as paid.
+  -
+    name: display_id
+    type: string
+    description: Invoice's unique display name.
+  -
+    name: gross
+    type: string
+    description: Invoice's gross amount.
+  -
+    name: net
+    type: decimal
+    description: Invoice's net amount.
+  -
+    name: status
+    type: string
+    description: |
+      Invoice's status. Choice's are `draft`, `confirmed`, `unpaid`, `payment-pending`, `paid`, `failed`, and `void`.
+  -
+    name: still_to_pay
+    type: decimal
+    description: Amount of the Invoice that still needs to be payed.
+  -
+    name: tax
+    type: string
+    description: Invoice's tax amount.
