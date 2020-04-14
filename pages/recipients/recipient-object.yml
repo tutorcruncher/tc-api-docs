@@ -98,7 +98,7 @@ attributes:
   -
     name: associated_clients
     type: array
-    description: An array other Clients associated to this Recipient.
+    description: An array of other Clients associated to this Recipient.
     children:
       -
         name: id
