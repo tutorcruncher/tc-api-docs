@@ -19,11 +19,11 @@ endpoint_sections:
     id: adhoccharges
     layout: /adhoccharges/adhoccharges.yml
   -
-    title: Agents
+    title: Agents (Affiliates)
     id: agents
     layout: /agents/agents.yml
   -
-    title: Appointments
+    title: Appointments (Lessons)
     id: appointments
     layout: /appointments/appointments.yml
   -
@@ -31,7 +31,7 @@ endpoint_sections:
     id: clients
     layout: /clients/clients.yml
   -
-    title: Contractors
+    title: Contractors (Tutors)
     id: contractors
     layout: /contractors/contractors.yml
   -
@@ -43,11 +43,11 @@ endpoint_sections:
     id: invoices
     layout: /invoices/invoices.yml
   -
-    title: Proforma Invoices
+    title: Proforma Invoices (Credit Requests)
     id: proforma-invoices
     layout: /proforma-invoices/proforma-invoices.yml
   -
-    title: Public Contractors
+    title: Public Contractors (Public Profiles)
     id: public-contractors
     layout: /public-contractors/public-contractors.yml
   -
@@ -55,7 +55,7 @@ endpoint_sections:
     id: qual-level
     layout: /qual-levels/qual-levels.yml
   -
-    title: Recipients
+    title: Recipients (Students)
     id: recipient
     layout: /recipients/recipients.yml
   -
@@ -63,7 +63,7 @@ endpoint_sections:
     id: reviews
     layout: /reviews/reviews.yml
   -
-    title: Services
+    title: Services (Jobs)
     id: services
     layout: /services/services.yml
   -
@@ -71,6 +71,6 @@ endpoint_sections:
     id: subjects
     layout: /subjects/subjects.yml
   -
-    title: Tenders
+    title: Tenders (Job Applications)
     id: tenders
     layout: /tenders/tenders.yml
