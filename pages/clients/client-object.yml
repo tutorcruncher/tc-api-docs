@@ -102,7 +102,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: first_name
         type: string
@@ -123,7 +123,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: first_name
         type: string
@@ -139,7 +139,7 @@ attributes:
       -
         name: url
         type: string
-        description: URL to the Agent's object
+        description: URL to the Agent's object.
   -
     name: paid_recipients
     type: array
@@ -148,7 +148,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: first_name
         type: string
@@ -164,7 +164,7 @@ attributes:
       -
         name: url
         type: string
-        description: URL to the Recipient's object
+        description: URL to the Recipient's object.
   -
     name: last_updated
     type: string
@@ -176,12 +176,12 @@ attributes:
   -
     name: labels
     type: array
-    description: An array of the Client's labels
+    description: An array of the Client's labels.
     children:
       -
         name: id
         type: integer
-        description: Unique indentifier for the object
+        description: Unique identifier for the object.
       -
         name: name
         type: string

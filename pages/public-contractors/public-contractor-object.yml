@@ -22,7 +22,7 @@ attributes:
   -
     name: country
     type: string
-    description: Contractor's country
+    description: Contractor's country.
   -
     name: review_rating
     type: decimal
@@ -89,7 +89,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique indentifier for the object
+        description: Unique identifier for the object.
       -
         name: name
         type: string

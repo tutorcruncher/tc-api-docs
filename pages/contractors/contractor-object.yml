@@ -164,12 +164,12 @@ attributes:
   -
     name: labels
     type: array
-    description: An array of the Contractor's labels
+    description: An array of the Contractor's labels.
     children:
       -
         name: id
         type: integer
-        description: Unique indentifier for the object
+        description: Unique identifier for the object.
       -
         name: name
         type: string

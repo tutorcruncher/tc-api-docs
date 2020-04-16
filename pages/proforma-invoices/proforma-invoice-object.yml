@@ -15,7 +15,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: first_name
         type: string
@@ -31,7 +31,7 @@ attributes:
       -
         name: url
         type: string
-        description: URL to the Client's object
+        description: URL to the Client's object.
   -
     name: display_id
     type: string
@@ -75,7 +75,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: first_name
         type: string
