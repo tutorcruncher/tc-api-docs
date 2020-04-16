@@ -128,10 +128,14 @@ $mobile-width: 767px;
 
       .tab-heading {
         font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
         &:hover, &:active {
           background: $menu-tab-heading-active-color;
           border-radius: 0 5px 5px 0;
+          white-space: normal;
         }
       }
 
@@ -166,6 +170,10 @@ $mobile-width: 767px;
 
       .active {
         background: $menu-tab-heading-active-color;
+
+        .tab-heading {
+          white-space: normal;
+        }
 
         ul {
           display: block;
