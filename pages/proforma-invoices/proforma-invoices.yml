@@ -3,6 +3,7 @@ sections:
     title: Proforma Invoices Object
     id: proforma-invoice-object
     description: /proforma-invoices/proforma-invoice-object.md
+    attributes: /proforma-invoices/proforma-invoice-object.yml
     response: /proforma-invoices/proforma-invoice-object.json
     response_title: OBJECT
   -

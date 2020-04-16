@@ -3,6 +3,7 @@ sections:
     title: Service Object
     id: service-object
     description: /services/service-object.md
+    attributes: /services/service-object.yml
     response: /services/service-object.json
     response_title: OBJECT
   -

@@ -1,0 +1,147 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: start
+    type: string
+    description: Appointment's start date and time.
+  -
+    name: finish
+    type: string
+    description: Appointment's finish date and time.
+  -
+    name: units
+    type: string
+    description: If charge type `hourly`, units will be the length of the Appointment divided by an hour.
+  -
+    name: topic
+    type: string
+    description: Appointment's topic.
+  -
+    name: location
+    type: object
+    description: Object of the Appointment's Location.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Location's name.
+      -
+        name: description
+        type: string
+        description: Location's description.
+      -
+        name: can_conflict
+        type: boolean
+        description: Whether the location can conflict with other Appointment's at similar time.
+      -
+        name: role
+        type: integer
+        description: Unique identifier of the related User to the location.
+      -
+        name: latitute
+        type: string
+        description: Location's latitude.
+      -
+        name: longitude
+        type: string
+        description: Location's longitude.
+      -
+        name: address
+        type: string
+        description: Location's full address.
+  -
+    name: rcras
+    type: array
+    description: An array of Recipients that are on the Appointment.
+    children:
+      -
+        name: recipient
+        type: integer
+        description: Unique identifier of the Recipient.
+      -
+        name: recipient_name
+        type: string
+        description: Name of the recipient.
+      -
+        name: paying_client
+        type: integer
+        description: Unique identifier of the Paying Client for the Recipient.
+      -
+        name: paying_client_name
+        type: string
+        description: Name of the Paying Client.
+      -
+        name: charge_rate
+        type: string
+        description: Amount the Client will be charged.
+  -
+    name: cjas
+    type: array
+    description: An array of Contractors that are on the Appointment.
+    children:
+      -
+        name: contractor
+        type: integer
+        description: Unique identifier of the Contractor.
+      -
+        name: contractor_name
+        type: string
+        description: Name of the Contractor.
+      -
+        name: pay_rate
+        type: string
+        description: Amount the Contractor will be charged.
+  -
+    name: status
+    type: string
+    description: |
+      The status for the Appointment, the status types are `Planned`, `Awaiting Report`, `Complete`, `Cancelled`,
+      and `Cancelled but Chargeable`.
+  -
+    name: repeater
+    type: object
+    description: Object about the Appointment's repeating appointments.
+    children:
+      -
+        name: repeat
+        type: string
+        description: Type of repeater, types are `Daily` or `Weekly`.
+      -
+        name: every
+        type: integer
+        description: How often it will repeat lessons, every X days/weeks.
+      -
+        name: repeat_on
+        type: string
+        description: List of days the repeater will add Appointments on.
+      -
+        name: stops_on
+        type: string
+        description: Date the repeater will stop adding Appointments.
+      -
+        name: stops_after
+        type: integer
+        description: Max amount of Appointments that will be created.
+      -
+        name: source_apt
+        type: integer
+        description: Unique identifier of the Appointment which the repeater is repeating from.
+  -
+    name: service_id
+    type: integer
+    description: Unique identifier for the Service which the Appointment is on.
+  -
+    name: service_name
+    type: string
+    description: Name of the Service which the Appointment is on.
+  -
+    name: charge_type
+    type: string
+    description: How the Appointment will be charged. Types are `Hourly` or `One off`.

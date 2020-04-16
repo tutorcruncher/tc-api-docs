@@ -3,6 +3,7 @@ sections:
     title: Qualification Level Object
     id: qual-level-object
     description: /qual-levels/qual-level-object.md
+    attributes: /qual-levels/qual-level-object.yml
     response: /qual-levels/qual-level-object.json
     response_title: OBJECT
   -

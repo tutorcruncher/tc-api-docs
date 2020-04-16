@@ -1,0 +1,80 @@
+attributes:
+  -
+    name: description
+    type: string
+    description: Tender's description from the Contractor.
+  -
+    name: contractor
+    type: object
+    description: Object of the Contractor who is applying.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Contractor's object.
+  -
+    name: created
+    type: string
+    description: Date and time the Tender object was created.
+  -
+    name: proposed_rate
+    type: string
+    description: Proposed rate from the Contractor when they applied.
+  -
+    name: service
+    type: object
+    description: Object of the Service the Contractor applied for.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Service's name.
+      -
+        name: dft_charge_type
+        type: string
+        description: |
+          Service's default charge type. Check out [Service Object](#service-object) for the types of choices.
+      -
+        name: created
+        type: string
+        description: Date and time the Service was created.
+      -
+        name: dft_charge_rate
+        type: string
+        description: Service's default amount Clients will be charged.
+      -
+        name: dft_contractor_rate
+        type: string
+        description: Service's default amount Contractors will be paided.
+      -
+        name: status
+        type: string
+        description: Status of the Service. Check out [Service Object](#service-object) for the types of statuses.
+      -
+        name: url
+        type: string
+        description: URL to the Service object.
+  -
+    name: status
+    type: string
+    description: Tender's status, choices are `pending`, `requested`, `accepted`, `rejected`, and `withdrawn`.

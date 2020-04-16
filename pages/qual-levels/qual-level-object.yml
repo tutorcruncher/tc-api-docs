@@ -1,0 +1,13 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: name
+    type: string
+    description: Name for the Qualification Level.
+  -
+    name: ranking
+    type: decimal
+    description: Rank for the Qualification Level.

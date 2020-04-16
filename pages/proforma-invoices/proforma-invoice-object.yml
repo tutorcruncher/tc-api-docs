@@ -1,0 +1,104 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: amount
+    type: string
+    description: Amount for the Proforma Invoice.
+  -
+    name: client
+    type: object
+    description: Object of the Client on the Proforma Invoice.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Client's object.
+  -
+    name: display_id
+    type: string
+    description: Proforma Invoice's unique display name.
+  -
+    name: date_sent
+    type: string
+    description: Date and time the Proforma Invoice was sent to the Client.
+  -
+    name: date_paid
+    type: string
+    description: Date and time the Proforma Invoice was marked as paid.
+  -
+    name: items
+    type: array
+    description: An array of items linked to the Proforma Invoice.
+    children:
+      -
+        name: amount
+        type: string
+        description: Amount for the item.
+      -
+        name: custom_description
+        type: string
+        description: Description for the item.
+      -
+        name: sales_codes
+        type: string
+        description: Unique identifier for the sales code object used.
+      -
+        name: rcra
+        type: object
+        description: |
+          Object for a linked Recipient on an Appointment. Object containes attributes `recipient`, `recipient_name`,
+          `paying_client`, `paying_client_name`, and `charge_rate`.
+  -
+    name: service_recipients
+    type: array
+    description: An array of Recipient objects on the Proforma Invoice.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Recipient's object.
+  -
+    name: status
+    type: string
+    description: |
+      Proforma Invoice's status. Choice's are `draft`, `confirmed`, `unpaid`, `payment-pending`, `paid`, `failed`,
+      and `void`.
+  -
+    name: still_to_pay
+    type: decimal
+    description: Amount of the Proforma Invoice that still needs to be payed.

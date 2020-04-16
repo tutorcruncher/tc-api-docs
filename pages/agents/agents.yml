@@ -3,6 +3,7 @@ sections:
     title: Agent Object
     id: agent-object
     description: /agents/agent-object.md
+    attributes: /agents/agent-object.yml
     response: /agents/agent-object.json
     response_title: OBJECT
   -

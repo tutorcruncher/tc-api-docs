@@ -1,0 +1,80 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: client
+    type: object
+    description: Object of the Client who wrote the Review.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Client's object.
+  -
+    name: contractor
+    type: object
+    description: Object of the Contractor the Review is for.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Contractor's object.
+  -
+    name: invoice
+    type: object
+    description: Object of the related Invoice.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: accounting_id
+        type: integer
+        description: Invoice number.
+  -
+    name: extra_attrs
+    type: array
+    description: Custom fields for this object.
+  -
+    name: appointments_duration
+    type: string
+    description: Total hours added up for related Appointments.
+  -
+    name: date_created
+    type: string
+    description: Date and time the Review was created.
