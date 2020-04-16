@@ -1,71 +1,49 @@
 {
-  "id": 3,
+  "id": 568433,
   "user": {
-    "title": "Mr",
-    "first_name": "Jamie",
-    "last_name": "Hoskins",
-    "email": "jamie_hoskins@example.com",
-    "mobile": "0207 1128 953",
+    "title": null,
+    "first_name": "James",
+    "last_name": "Higgins",
+    "email": "james_higgins@example.com",
+    "mobile": "07842 485 204",
     "phone": null,
-    "street": "12 Helmet Row",
+    "street": "Royal Lane",
     "state": null,
     "town": "London",
     "country": "United Kingdom (GB)",
-    "postcode": "EC1V 3QJ",
-    "latitude": "51.5249280000000027",
-    "longitude": "-0.0944689940000000",
-    "date_created": "2020-01-01T12:00:00.000000Z",
+    "postcode": "W1T 4AY",
+    "latitude": "51.5210000000000008",
+    "longitude": "-0.1370000000000005",
+    "date_created": "2018-11-22T09:23:55.297608Z",
     "timezone": null
   },
-  "status": "live",
-  "is_taxable": true,
-  "notify_via_email": true,
+  "status": "approved",
   "charge_via_branch": false,
-  "invoices_count": 4,
-  "payment_pending": "100.50",
-  "auto_charge": true,
-  "associated_admin": {
-    "id": 2,
-    "first_name": "Diana",
-    "last_name": "Lafayette",
-    "email": "diana_lafayette@example.com"
-  },
-  "associated_agent": null,
-  "paid_recipients": [
+  "default_rate": null,
+  "qualifications": [],
+  "skills": [
     {
-      "id": 4,
-      "first_name": "Arthur",
-      "last_name": "Hoskins",
-      "email": "arthur_hoskins@example.com",
-      "url": "https://secure.tutorcruncher.com/api/recipients/4/"
+      "id": 1436,
+      "subject": "American Studies",
+      "qual_level": "Key Stage 5"
     },
     {
-      "id": 6,
-      "first_name": "Harry",
-      "last_name": "Hoskins",
-      "email": "harry_hoskins@example.com",
-      "url": "https://secure.tutorcruncher.com/api/recipients/6/"
-    },
-    {
-      "id": 5,
-      "first_name": "Archie",
-      "last_name": "Hoskins",
-      "email": "archie_hoskins@example.com",
-      "url": "https://secure.tutorcruncher.com/api/recipients/5/"
+      "id": 4082,
+      "subject": "American Studies",
+      "qual_level": "A Level"
     }
   ],
-  "last_updated": "2020-01-01T13:00:00.000000Z",
-  "calendar_colour": "ForestGreen",
+  "institutions": [],
+  "receive_service_notifications": true,
+  "review_rating": null,
+  "review_duration": "00:00:00",
+  "last_updated": "2020-04-06T15:36:16.924625+01:00",
+  "calendar_colour": "#757575",
   "labels": [],
-  "extra_attrs": [
-    {
-      "id": 1,
-      "value": "",
-      "type": "Date",
-      "machine_name": "client-dob",
-      "name": "Date of birth"
-    }
-  ],
-  "invoice_balance": "-120.00",
-  "available_balance": "-220.50"
+  "extra_attrs": [],
+  "work_done_details": {
+    "amount_owed": 264.49,
+    "amount_paid": 175.0,
+    "total_paid_hours": "05:00:00"
+  }
 }

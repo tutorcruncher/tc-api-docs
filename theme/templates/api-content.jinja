@@ -18,6 +18,41 @@
           <div class="api-description">
             {{ pages[subsection.description].content|markdown }}
           </div>
+          {% set attributes_layout = pages[subsection.attributes] %}
+          {% if attributes_layout %}
+            <div class="api-attributes">
+              <h4>Attributes</h4>
+              {% for attribute in attributes_layout.attributes %}
+                <div class="api-attributes-container">
+                  <div class="attribute-info">
+                    <span class="attribute-name">{{ attribute.name }}</span>
+                    <span class="attribute-type">{{ attribute.type }}</span>
+                  </div>
+                  <div class="attribute-description">{{ attribute.description|markdown }}</div>
+                  {% if attribute.children %}
+                    <div class="attribute-children-container">
+                      <div class="attribute-children-heading">
+                        Show child attributes
+                        <span class="fa fa-fw fa-plus"></span>
+                        <span class="fa fa-fw fa-minus"></span>
+                      </div>
+                      <div class="attribute-children">
+                        {% for child in attribute.children %}
+                          <div class="attribute-child api-attributes-container">
+                            <div class="attribute-info">
+                              <span class="attribute-name">{{ child.name }}</span>
+                              <span class="attribute-type">{{ child.type }}</span>
+                            </div>
+                            <div class="attribute-description">{{ child.description|markdown }}</div>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
         <div class="api-example-container">
           <div class="api-example-content">

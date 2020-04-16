@@ -1,0 +1,231 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: allow_proposed_rates
+    type: boolean
+    description: Whether Contractors can propose a rate when applying.
+  -
+    name: branch
+    type: integer
+    description: Your unique identifier for your Branch.
+  -
+    name: branch_tax_setup
+    type: string
+    description: Tax setup for the Branch when invoicing.
+  -
+    name: cap
+    type: integer
+    description: The maximum number of Appointments that are allowed to occur on the Service.
+  -
+    name: colour
+    type: string
+    description: The Service's calendar colour.
+  -
+    name: conjobs
+    type: array
+    description: An array of Contractors on the Service.
+    children:
+      -
+        name: contractor
+        type: integer
+        description: Contractor's unique identifier.
+      -
+        name: contractor_permissions
+        type: string
+        description: Contractor's permissions on the Service.
+      -
+        name: name
+        type: string
+        description: Contractor's full name.
+      -
+        name: pay_rate
+        type: decimal
+        description: A custom pay rate for the Contractor on this Service only.
+  -
+    name: contractor_tax_setup
+    type: string
+    description: Tax setup for the Contractors when invoicing.
+  -
+    name: created
+    type: string
+    description: Date and time when the Service was created.
+  -
+    name: description
+    type: string
+    description: Service's description.
+  -
+    name: dft_charge_type
+    type: string
+    description: How the Service's Appointments will be charged. Types are `hourly` or `one-off`.
+  -
+    name: dft_charge_rate
+    type: decimal
+    description: Defaut charge rate for all Appointments on the Service.
+  -
+    name: dft_contractor_permissions
+    type: string
+    description: |
+      Default Contractor permissions to use for all Contractor's on the Service. Choices are `add-edit-complete`,
+      `add-edit`, `edit`, and `complete`.
+  -
+    name: dft_contractor_rate
+    type: decimal
+    description: Default Contractor rate for all Appointments on the Service.
+  -
+    name: dft_location
+    type: object
+    description: Object of the Service's Default Location.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Location's name.
+      -
+        name: description
+        type: string
+        description: Location's description.
+      -
+        name: can_conflict
+        type: boolean
+        description: Whether the location can conflict with other Appointment's at similar time.
+      -
+        name: role
+        type: integer
+        description: Unique identifier of the related User to the location.
+      -
+        name: latitute
+        type: string
+        description: Location's latitude.
+      -
+        name: longitude
+        type: string
+        description: Location's longitude.
+      -
+        name: address
+        type: string
+        description: Location's full address.
+  -
+    name: dft_max_srs
+    type: integer
+    description: Maximum number of Recipients of allowed on the Service.
+  -
+    name: extra_attrs
+    type: array
+    description: Custom fields for this object.
+  -
+    name: extra_fee_per_apt
+    type: string
+    description: A fixed amount that will be added for each completed Lesson.
+  -
+    name: inactivity_time
+    type: integer
+    description: Amount of inactive days before the Service will go cold.
+  -
+    name: is_bookable
+    type: boolean
+    description: Whether Clients can book Recipients onto the Service.
+  -
+    name: is_deleted
+    type: boolean
+    description: Whether the Service has been deleted.
+  -
+    name: labels
+    type: array
+    description: Labels on the Service.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Name of the label.
+      -
+        name: machine_name
+        type: string
+        description: Unique slugified name of the label.
+  -
+    name: latest_apt_ahc
+    type: string
+    description: Date and time of the latest Appointment or Ad Hoc Charge is added to Service.
+  -
+    name: name
+    type: string
+    description: Service's name.
+  -
+    name: net_gross
+    type: string
+    description: Whether the Service Appointments are `net` or `gross`.
+  -
+    name: rcrs
+    type: array
+    description: An array of Recipients on the Service.
+    children:
+      -
+        name: recipient
+        type: integer
+        description: Unique identifier of the Recipient.
+      -
+        name: recipient_name
+        type: string
+        description: Name of the recipient.
+      -
+        name: paying_client
+        type: integer
+        description: Unique identifier of the Paying Client for the Recipient.
+      -
+        name: paying_client_name
+        type: string
+        description: Name of the Paying Client.
+      -
+        name: charge_rate
+        type: string
+        description: Amount the Client will be charged.
+      -
+        name: agent
+        type: integer
+        description: Unique identifier for the Agent.
+      -
+        name: agent_name
+        type: string
+        description: Name of the Agent.
+      -
+        name: agent_percentage
+        type: string
+        description: The Agent's percentage on the Service.
+  -
+    name: require_con_job
+    type: boolean
+    description: Whether the Service must have a Contractor to go ahead.
+  -
+    name: require_rcr
+    type: boolean
+    description: Whether the Service must have a Recipient to go ahead.
+  -
+    name: review_units
+    type: integer
+    description: The default amount of hours before an automatic review request is sent.
+  -
+    name: sales_codes
+    type: integer
+    description: Unique identifier of the sales code.
+  -
+    name: sr_premium
+    type: string
+    description: An extra amount paid to each Tutor per Student per unit (eg. hour).
+  -
+    name: status
+    type: string
+    description: Service's status, choices are `pending`, `available`, `in-progress`, `finished`, and `gone-cold'`.
+  -
+    name: total_apt_units
+    type: decimal
+    description: Total amount of Appointments on the Service, excludes deleted and only cancelled Appointments.

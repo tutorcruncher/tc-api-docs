@@ -3,6 +3,7 @@ sections:
     title: Public Contractor Object
     id: public-contractor-object
     description: /public-contractors/public-contractor-object.md
+    attributes: /public-contractors/public-contractor-object.yml
     response: /public-contractors/public-contractor-object.json
     response_title: OBJECT
   -

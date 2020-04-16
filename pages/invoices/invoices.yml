@@ -3,6 +3,7 @@ sections:
     title: Invoice Object
     id: invoice-object
     description: /invoices/invoice-object.md
+    attributes: /invoices/invoice-object.yml
     response: /invoices/invoice-object.json
     response_title: OBJECT
   -
