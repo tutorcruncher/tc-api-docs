@@ -88,7 +88,7 @@ function init_scroll_heading_change() {
   })
 }
 
-function init_scroll_heading_change() {
+function init_attribute_children_dropdown() {
   $('.attribute-children-heading').click((e) => {
     const $container = $(e.target).parent()
     const active_class = 'attribute-active'
@@ -105,4 +105,5 @@ if (window.jQuery) {
   init_change_menu_tab()
   init_scroll_heading_change()
   init_set_code_syntax()
+  init_attribute_children_dropdown()
 }
