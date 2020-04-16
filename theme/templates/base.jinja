@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ (page_description or page.description or config.description)|truncate(160)|trim }}">
+    <title>{{ config.title }}</title>
+    <meta name="description" content="{{ config.description|truncate(160)|trim }}">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     <link rel="canonical" href="https://tutorcruncher.com/api{{ page.uri }}">
