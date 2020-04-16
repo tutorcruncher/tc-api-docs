@@ -3,6 +3,7 @@ sections:
     title: Subject Object
     id: subject-object
     description: /subjects/subject-object.md
+    attributes: /subjects/subject-object.yml
     response: /subjects/subject-object.json
     response_title: OBJECT
   -
