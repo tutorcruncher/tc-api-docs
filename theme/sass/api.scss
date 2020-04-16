@@ -232,7 +232,11 @@ $mobile-width: 767px;
       }
 
       .api-example-container {
-        align-self: center;
+        position: sticky;
+        align-self: flex-start;
+        flex-grow: 1;
+        top: 0;
+        padding: 2rem 0;
       }
 
       .api-heading {
@@ -362,7 +366,7 @@ $mobile-width: 767px;
                 padding: 0 5px 5px 0;
                 margin: 0 0.5rem;
                 font-family: $code-font !important;
-                max-height: 500px;
+                max-height: calc(100vh - 9rem);
 
                 &::-webkit-scrollbar-track {
                   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
