@@ -1,0 +1,18 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: name
+    type: string
+    description: Name of the Subject.
+  -
+    name: category_id
+    type: integer
+    description: Unique identifier for the Subject's Category.
+  -
+    name: category_name
+    type: string
+    description: Name of the Subject's Category.
+

@@ -137,7 +137,7 @@ attributes:
       -
         name: url
         type: string
-        description: URL to the Contractor's object
+        description: URL to the Contractor's object.
   -
     name: creator
     type: object
