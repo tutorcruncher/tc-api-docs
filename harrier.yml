@@ -1,9 +1,11 @@
 site_root: 'https://api.tutorcruncher.com'
 site_root_dev: 'http://localhost:8000'
 
+title: TutorCruncher API Documentation
+
 description: |
-  TutorCruncher provides tutoring management software with online payments,
-  CRM, invoicing, payroll, scheduling, timesheets and more. Buy and get support.
+  TutorCruncher's API Documentation. Learn how to integrate with TutorCruncher
+  to manage your companies Users, Payments, Scheduling and lots more.
 
 contact_url: 'https://tutorcruncher.com/contact/'
 help_url: 'https://tutorcruncher.com/help/'
