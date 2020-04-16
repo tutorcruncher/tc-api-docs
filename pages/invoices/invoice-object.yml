@@ -24,7 +24,7 @@ attributes:
         type: object
         description: |
           Object that contains information about the Appointment. Attributes in the object are `id`, `start`, `finish`,
-          `topic`, `status`, `service_id`, `service_name`, and `url`
+          `topic`, `status`, `service_id`, `service_name`, and `url`.
       -
         name: date
         type: string
@@ -38,7 +38,7 @@ attributes:
         type: object
         description: |
           Object of the Client who will pay invoice. Attributes in the object are `id`, `first_name`, `last_name`,
-          `email`, and `url`
+          `email`, and `url`.
       -
         name: rate
         type: string
@@ -63,7 +63,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: first_name
         type: string

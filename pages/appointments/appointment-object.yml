@@ -27,7 +27,7 @@ attributes:
       -
         name: id
         type: integer
-        description: Unique identifier of the object.
+        description: Unique identifier for the object.
       -
         name: name
         type: string
