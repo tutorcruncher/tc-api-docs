@@ -485,9 +485,12 @@ $mobile-width: 767px;
             }
 
             .attribute-children-heading {
+              cursor: pointer;
+
               .fa {
                 float: right;
                 line-height: 100%;
+                pointer-events: none;
               }
 
               .fa-minus {
