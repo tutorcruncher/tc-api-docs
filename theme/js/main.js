@@ -101,7 +101,7 @@ function init_attribute_children_dropdown () {
 }
 
 function get_release_info () {
-  $.get('http://localhost:3000/system.txt').done((r) => {
+  $.get('https://secure.tutorcruncher.com/system.txt').done((r) => {
     const version = /VERSION\: (.*)\n/.exec(r)[1]
     const dt = /DATE\: (.*)T/.exec(r)[1]
     $('#release-info').text(`${version} (${dt})`)
