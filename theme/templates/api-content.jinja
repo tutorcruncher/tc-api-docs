@@ -1,16 +1,16 @@
 <div class="api-content">
   <nav>
     <ul>
-      <li><a href="{{ config.contact_url }}">Contact Us</a></li>
-      <li><a href="{{ config.help_url }}">Help</a></li>
-      <li><a href="{{ config.sign_in_url }}">Sign In</a></li>
+      <li><a href="{{ config.contact_url }}" target="_blank">Contact Us</a></li>
+      <li><a href="{{ config.help_url }}" target="_blank">User Guide</a></li>
+      <li><a href="{{ config.sign_in_url }}" target="_blank">Sign In</a></li>
     </ul>
   </nav>
   {% set api_sections = pages['/api.yml'] %}
   {% for section in api_sections.info_sections + api_sections.endpoint_sections %}
     {% set layout = pages[section.layout] %}
     <div class="api-section-heading" id="{{ section.id }}">
-      <div class="api-heading"><h2>{{ section.title }}</h2></div>
+      <a href="#{{ section.id | slugify }}" class="api-heading"><h2>{{ section.title }}</h2></a>
     </div>
     {% for subsection in layout.sections %}
       <div class="api-subsection" {% if subsection.id %}id="{{ subsection.id }}"{% endif %}>
