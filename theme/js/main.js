@@ -50,14 +50,14 @@ function init_menu_toggle() {
   })
 
   $hide.click(() => {
-    _toggle(-230, $show, $hide)
+    _toggle(-303, $show, $hide)
   })
 
   $(window).resize(() => {
     if ($(window).width() > 767) {
       _toggle(0, $show, $hide)
     } else {
-      _toggle(-230, $show, $hide)
+      _toggle(-303, $show, $hide)
     }
   })
 }
