@@ -16,7 +16,7 @@ def resolve_url(ctx, path):
 
 @template.contextfunction
 def js_url(ctx, path):
-    return path if ctx['config'].mode == Mode.development else harrier_resolve_url(ctx, path)
+    return path if ctx['config'].mode == Mode.development else resolve_url(ctx, path)
 
 
 @template.contextfunction
