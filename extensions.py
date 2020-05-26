@@ -10,7 +10,7 @@ def resolve_url(ctx, path):
     # Need to reference api.tc.com for tc.com/api/
     config = ctx['config']
     if config.mode == Mode.development:
-        return config.site_root_dev + harrier_resolve_url(ctx, path)
+        return harrier_resolve_url(ctx, path)
     return config.site_root + harrier_resolve_url(ctx, path)
 
 
