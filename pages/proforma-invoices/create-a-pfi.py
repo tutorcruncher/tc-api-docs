@@ -1,4 +1,4 @@
-import requests
+import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
 client_id = 123
@@ -8,4 +8,4 @@ data = {
     'send_pfi': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/clients/', json=data, headers=headers)
-print(r.content.decode())
+pprint.pprint(r.json())
