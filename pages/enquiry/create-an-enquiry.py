@@ -1,4 +1,4 @@
-import requests
+import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
 data = {
@@ -15,4 +15,4 @@ data = {
     'terms_and_conditions': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/enquiry/', json=data, headers=headers)
-print(r.content.decode())
+pprint.pprint(r.json())
