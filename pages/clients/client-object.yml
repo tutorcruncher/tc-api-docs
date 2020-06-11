@@ -92,8 +92,10 @@ attributes:
     description: Total amount of pending payments related to the Client.
   -
     name: auto_charge
-    type: boolean
-    description: Whether the Client will be auto charged or not.
+    type: integer
+    description: |
+      Whether the Client will be auto charged or not. Choices are `0` to follow the Branch setting, `10` for the Client
+      to be auto charged and `20` for the Client not to be auto charged.
   -
     name: associated_admin
     type: object
