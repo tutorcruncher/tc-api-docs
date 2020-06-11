@@ -21,7 +21,7 @@ data = {
     'is_taxable': False,
     'notify_via_email': True,
     'change_via_branch': True,
-    'auto_charge': None,
+    'auto_charge': 0,
     'associated_admin': 12,
     'associated_agent': 34,
     'calendar_colour': 'LimeGreen',
