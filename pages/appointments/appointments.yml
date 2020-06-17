@@ -22,3 +22,9 @@ sections:
     code_type: GET
     code_url: /api/appointments/<id>/
     response: /appointments/get-an-appointment.json
+  -
+    title: Create an Appointment
+    id: create-an-appointment
+    description: /appointments/create-an-appointment.md
+    code: /appointments/create-an-appointment.py
+    response: /appointments/create-an-appointment.json
