@@ -1,0 +1,28 @@
+{
+  "id": 297,
+  "topic": "Lesson 1",
+  "start": "2020-01-01T12:00:00Z",
+  "finish": "2020-01-01T14:00:00Z",
+  "cjas": [
+    {
+      "contractor": 56,
+      "name": "Scott Hafley",
+      "pay_rate": "81.00"
+    }
+  ],
+  "location": null,
+  "rcras": [
+    {
+      "recipient": 23,
+      "recipient_name": "Kelly Linder",
+      "paying_client": 22,
+      "paying_client_name": "Carrie Linder",
+      "charge_rate": "100.00"
+    }
+  ],
+  "repeater": null,
+  "service": 23,
+  "status": "planned",
+  "units": "2.00000",
+  "extra_attrs": {}
+}

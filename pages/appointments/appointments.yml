@@ -22,3 +22,19 @@ sections:
     code_type: GET
     code_url: /api/appointments/<id>/
     response: /appointments/get-an-appointment.json
+  -
+    title: Create an Appointment
+    id: create-an-appointment
+    description: /appointments/create-an-appointment.md
+    code: /appointments/create-an-appointment.py
+    code_type: POST
+    code_url: /api/appointments/
+    response: /appointments/create-an-appointment.json
+  -
+    title: Update an Appointment
+    id: update-an-appointment
+    description: /appointments/update-an-appointment.md
+    code: /appointments/update-an-appointment.py
+    code_type: PUT
+    code_url: /api/appointments/<id>/
+    response: /appointments/update-an-appointment.json
