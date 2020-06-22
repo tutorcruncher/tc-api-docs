@@ -1,4 +1,4 @@
-import requests
+import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
 data = {
@@ -7,4 +7,4 @@ data = {
     'send_receipt': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/proforma-invoices/<id>/take_payment/', json=data, headers=headers)
-print(r.content.decode())
+pprint.pprint(r.json())

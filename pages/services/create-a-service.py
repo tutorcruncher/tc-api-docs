@@ -1,4 +1,4 @@
-import requests
+import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
 data = {
@@ -42,4 +42,4 @@ data = {
     'status': 'pending',
 }
 r = requests.post('https://secure.tutorcruncher.com/api/services/', json=data, headers=headers)
-print(r.content.decode())
+pprint.pprint(r.json())
