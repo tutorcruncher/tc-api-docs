@@ -21,6 +21,7 @@ data = {
     'paying_client': 838,
     'calendar_colour': 'LimeGreen',
     'extra_attrs': {},
+    'send_emails': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/recipients/', json=data, headers=headers)
 print(r.content.decode())

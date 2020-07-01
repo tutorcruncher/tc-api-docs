@@ -26,6 +26,7 @@ data = {
     'associated_agent': 34,
     'calendar_colour': 'LimeGreen',
     'extra_attrs': {},
+    'send_emails': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/clients/', json=data, headers=headers)
 print(r.content.decode())
