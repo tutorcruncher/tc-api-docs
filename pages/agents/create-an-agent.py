@@ -20,6 +20,7 @@ data = {
     'commission_rate': 10.1,
     'calendar_colour': 'LimeGreen',
     'extra_attrs': {},
+    'send_emails': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/agents/', json=data, headers=headers)
 print(r.content.decode())

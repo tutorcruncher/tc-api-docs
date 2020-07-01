@@ -23,6 +23,7 @@ data = {
     'receive_service_notifications': True,
     'calendar_colour': 'LimeGreen',
     'extra_attrs': {},
+    'send_emails': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/contractors/', json=data, headers=headers)
 print(r.content.decode())
