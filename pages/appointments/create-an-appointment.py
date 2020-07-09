@@ -22,5 +22,5 @@ data = {
     "status": "planned",
     "service": 23,
 }
-r = requests.post('https://secure.tutorcruncher.com/api/appointment/', json=data, headers=headers)
+r = requests.post('https://secure.tutorcruncher.com/api/appointments/', json=data, headers=headers)
 pprint.pprint(r.json())
