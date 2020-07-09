@@ -38,3 +38,36 @@ sections:
     code_type: PUT
     code_url: /api/appointments/<id>/
     response: /appointments/update-an-appointment.json
+  -
+    title: Add/Edit Recipient on Appointment
+    id: create-update-rcra
+    description: /appointments/create-update-rcra.md
+    code: /appointments/create-update-rcra.py
+    code_type: POST
+    code_url: /api/appointments/<id>/recipient/
+    response: /appointments/create-update-rcra.json
+  -
+    title: Remove Recipient from Appointment
+    id: delete-rcra
+    description: /appointments/delete-rcra.md
+    code: /appointments/delete-rcra.py
+    code_type: POST
+    code_url: /api/appointments/<id>/recipient/delete/
+    response: /appointments/delete-rcra.json
+  -
+    title: Add/Edit Contractor on Appointment
+    id: create-update-cja
+    description: /appointments/create-update-cja.md
+    code: /appointments/create-update-cja.py
+    code_type: POST
+    code_url: /api/appointments/<id>/contractor/
+    response: /appointments/create-update-cja.json
+  -
+    title: Remove Contractor from Appointment
+    id: delete-cja
+    description: /appointments/delete-cja.md
+    code: /appointments/delete-cja.py
+    code_type: POST
+    code_url: /api/appointments/<id>/contractor/delete/
+    response: /appointments/delete-cja.json
+

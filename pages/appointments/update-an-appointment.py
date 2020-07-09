@@ -7,20 +7,8 @@ data = {
     "topic": "Lesson 1",
     "location": None,
     "extra_attrs": {},
-    "rcras": [
-        {
-            "recipient": 23,
-            "charge_rate": "100.00"
-        }
-    ],
-    "cjas": [
-        {
-            "contractor": 56,
-            "pay_rate": "81.00"
-        }
-    ],
     "status": "planned",
     "service": 23,
 }
-r = requests.put('https://secure.tutorcruncher.com/api/appointment/<id>/', json=data, headers=headers)
+r = requests.put('https://secure.tutorcruncher.com/api/appointments/<id>/', json=data, headers=headers)
 pprint.pprint(r.json())
