@@ -1,4 +1,4 @@
-import requests
+import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
 data = {
@@ -23,4 +23,4 @@ data = {
     "service": 23,
 }
 r = requests.put('https://secure.tutorcruncher.com/api/appointment/<id>/', json=data, headers=headers)
-print(r.content.decode())
+pprint.pprint(r.json())
