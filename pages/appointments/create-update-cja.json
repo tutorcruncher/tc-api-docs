@@ -1,0 +1,29 @@
+{
+  "id": 10,
+  "start": "2020-01-01T12:00:00Z",
+  "finish": "2020-01-01T13:00:00Z",
+  "units": "1.00000",
+  "topic": "Lesson 1",
+  "location": null,
+  "rcras": [
+    {
+      "recipient": 23,
+      "recipient_name": "Archie Hoskins",
+      "paying_client": 18,
+      "paying_client_name": "Jamie Hoskins",
+      "charge_rate": "100.00"
+    }
+  ],
+  "cjas": [
+    {
+      "contractor": 43,
+      "contractor_name": "Billy Holiday",
+      "pay_rate": "80.00"
+    }
+  ],
+  "status": "Planned",
+  "repeater": null,
+  "service_id": 2,
+  "service_name": "Maths GCSE",
+  "charge_type": "Hourly"
+}
