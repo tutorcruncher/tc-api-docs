@@ -1,0 +1,21 @@
+{
+  "id": 10,
+  "start": "2020-01-01T12:00:00Z",
+  "finish": "2020-01-01T13:00:00Z",
+  "units": "1.00000",
+  "topic": "Lesson 1",
+  "location": null,
+  "rcras": [],
+  "cjas": [
+    {
+      "contractor": 43,
+      "contractor_name": "Billy Holiday",
+      "pay_rate": "80.00"
+    }
+  ],
+  "status": "Planned",
+  "repeater": null,
+  "service_id": 2,
+  "service_name": "Maths GCSE",
+  "charge_type": "Hourly"
+}
