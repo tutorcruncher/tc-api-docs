@@ -31,6 +31,7 @@
     "email": "diana_lafayette@example.com"
   },
   "associated_agent": null,
+  "pipeline-stage": null,
   "paid_recipients": [
     {
       "id": 4,

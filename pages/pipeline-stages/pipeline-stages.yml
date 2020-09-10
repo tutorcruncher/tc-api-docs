@@ -1,0 +1,16 @@
+sections:
+  -
+    title: Pipeline Stage Object
+    id: pipeline-stage-object
+    description: /pipeline-stages/pipeline-stage-object.md
+    attributes: /pipeline-stages/pipeline-stage-object.yml
+    response: /pipeline-stages/pipeline-stage-object.json
+    response_title: OBJECT
+  -
+    title: List Pipeline Stages
+    id: list-pipeline-stages
+    description: /pipeline-stages/list-pipeline-stages.md
+    code: /pipeline-stages/list-pipeline-stages.py
+    code_type: GET
+    code_url: /api/pipeline-stages/
+    response: /pipeline-stages/list-pipeline-stages.json

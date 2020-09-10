@@ -1,4 +1,52 @@
 {
   "status": "success",
-  "id": 136853
+  "role": {
+    "id": 568433,
+    "user": {
+      "title": null,
+      "first_name": "James",
+      "last_name": "Bob2",
+      "email": "billy_bob@example.com",
+      "mobile": "07842 485 204",
+      "phone": null,
+      "street": "Royal Lane",
+      "state": null,
+      "town": "London",
+      "country": "United Kingdom (GB)",
+      "postcode": "W1T 4AY",
+      "latitude": "51.5210000000000008",
+      "longitude": "-0.1370000000000005",
+      "date_created": "2018-11-22T09:23:55.297608Z",
+      "timezone": null
+    },
+    "status": "approved",
+    "charge_via_branch": false,
+    "default_rate": null,
+    "qualifications": [],
+    "skills": [
+      {
+        "id": 1436,
+        "subject": "American Studies",
+        "qual_level": "Key Stage 5"
+      },
+      {
+        "id": 4082,
+        "subject": "American Studies",
+        "qual_level": "A Level"
+      }
+    ],
+    "institutions": [],
+    "receive_service_notifications": true,
+    "review_rating": null,
+    "review_duration": "00:00:00",
+    "last_updated": "2020-04-06T15:36:16.924625+01:00",
+    "calendar_colour": "#757575",
+    "labels": [],
+    "extra_attrs": [],
+    "work_done_details": {
+      "amount_owed": 264.49,
+      "amount_paid": 175.0,
+      "total_paid_hours": "05:00:00"
+    }
+  }
 }

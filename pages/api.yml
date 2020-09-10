@@ -43,6 +43,10 @@ endpoint_sections:
     id: invoices
     layout: /invoices/invoices.yml
   -
+    title: Pipeline Stages
+    id: pipeline-stages
+    layout: /pipeline-stages/pipeline-stages.yml
+  -
     title: Proforma Invoices (Credit Requests)
     id: proforma-invoices
     layout: /proforma-invoices/proforma-invoices.yml
