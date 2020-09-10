@@ -14,7 +14,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
-    "jquery": "^3.5.0",
+    "jquery": "^3.5.1",
     "bloodhound-js": "^1.2.2",
     "eslint": "^4.4.0",
     "marker-clusterer": "^1.0.2",
