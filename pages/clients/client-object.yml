@@ -143,6 +143,23 @@ attributes:
         type: string
         description: URL to the Agent's object.
   -
+    name: pipeline-stage
+    type: object
+    description: PipelineStage of the client if they are a Prosect client.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: The name of the PipelineStage
+      -
+        name: sort_index
+        type: integer
+        description: The sort index of the PipelineStage (describes the order of the PipelineStages).
+  -
     name: paid_recipients
     type: array
     description: An array of recipients related to the Client.

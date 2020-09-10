@@ -1,0 +1,25 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 7,
+            "colour": "#B3E5FC",
+            "name": "Initial Contact",
+            "sort_index": 1
+        },
+        {
+            "id": 8,
+            "colour": "#B9F6CA",
+            "name": "Job Agreed",
+            "sort_index": 2
+        },
+        {
+            "id": 9,
+            "colour": "#00E676",
+            "name": "Tutor Matched",
+            "sort_index": 3
+        }
+    ]
+}
