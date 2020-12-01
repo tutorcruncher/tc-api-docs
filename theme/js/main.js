@@ -10,11 +10,16 @@ function set_menu_heading_active(href) {
 }
 
 function scroll_to_menu_active_heading() {
-  const $menu_tabs = $('.menu-bar-tabs')
-  $menu_tabs.scrollTop($menu_tabs.scrollTop() + $('.tab-container.active').position().top - 50)
+  const $active_container = $('.tab-container.active')
+  
+  // None exist if hash doesn't reference an id
+  if ($active_container.length) {
+    const $menu_tabs = $('.menu-bar-tabs')
+    $menu_tabs.scrollTop($menu_tabs.scrollTop() + $active_container.position().top - 50)
+  }
 }
 
-function change_menu_tab(update_menu_scroll=true) {
+function change_menu_tab(update_menu_scroll = true) {
   if (window.location.hash) {
     set_menu_heading_active(window.location.hash)
   } else {
@@ -88,7 +93,7 @@ function init_scroll_heading_change() {
   })
 }
 
-function init_attribute_children_dropdown () {
+function init_attribute_children_dropdown() {
   $('.attribute-children-heading').click((e) => {
     const $container = $(e.target).parent()
     const active_class = 'attribute-active'
@@ -100,7 +105,7 @@ function init_attribute_children_dropdown () {
   })
 }
 
-function get_release_info () {
+function get_release_info() {
   $.get('https://secure.tutorcruncher.com/system.txt').done((r) => {
     const version = /VERSION\: (.*)\n/.exec(r)[1]
     const dt = /DATE\: (.*)T/.exec(r)[1]
