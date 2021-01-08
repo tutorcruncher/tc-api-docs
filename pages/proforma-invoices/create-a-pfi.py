@@ -1,11 +1,11 @@
 import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
-client_id = 123
 data = {
     'amount': 120,
-    'client': client_id,
+    'client': 312,
     'send_pfi': True,
+    'description': 'Credit Request for Billy Holiday'
 }
-r = requests.post('https://secure.tutorcruncher.com/api/clients/', json=data, headers=headers)
+r = requests.post('https://secure.tutorcruncher.com/api/proforma-invoices/', json=data, headers=headers)
 pprint.pprint(r.json())
