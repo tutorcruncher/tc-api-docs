@@ -1,5 +1,6 @@
 {
   "client": 312,
-  "amount": "425.00",
-  "send_pfi": false
+  "amount": "120.00",
+  "send_pfi": false,
+  "description": "Credit Request from terminal"
 }
