@@ -43,6 +43,10 @@ endpoint_sections:
     id: invoices
     layout: /invoices/invoices.yml
   -
+    title: Payment Orders
+    id: payment-orders
+    layout: /payment-orders/pos.yml
+  -
     title: Pipeline Stages
     id: pipeline-stages
     layout: /pipeline-stages/pipeline-stages.yml

@@ -1,0 +1,47 @@
+{
+  "charges": [
+    {
+      "adhoc_charge": {
+        "id": 67,
+        "description": "AHC for {self.cli_a.id}",
+        "date_occurred": "2014-01-01T12:00:00Z",
+        "category_id": 3,
+        "category_name": "AHC Cat",
+        "client_cost": "100.00",
+        "pay_contractor": "60.00",
+        "agent_percentage": "40.000",
+        "url": "https://secure.tutorcruncher.com/api/adhoccharge/67/"
+      },
+      "amount": "60.00000",
+      "appointment": null,
+      "date": "2014-01-01T12:00:00Z",
+      "payer": "main branch",
+      "payee": {
+        "id": 88,
+        "first_name": "Jane",
+        "last_name": "con_a",
+        "email": "jane_con_a@example.com",
+        "url": "https://secure.tutorcruncher.com/api/contractors/88/"
+      },
+      "rate": "60.00000",
+      "sales_code": "dwsc",
+      "tax_amount": "0.00000",
+      "units": "1.00000"
+    }
+  ],
+  "payee": {
+    "id": 88,
+    "first_name": "Jane",
+    "last_name": "con_a",
+    "email": "jane_con_a@example.com",
+    "url": "https://secure.tutorcruncher.com/api/contractors/88/"
+  },
+  "id": 46,
+  "date_sent": "2020-01-01T00:00:00Z",
+  "date_void": null,
+  "date_paid": "2020-02-01T00:00:00Z",
+  "display_id": "PO-4",
+  "amount": "60.00",
+  "status": "paid",
+  "still_to_pay": 60.0
+}
