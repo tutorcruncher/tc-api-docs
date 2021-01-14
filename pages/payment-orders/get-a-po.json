@@ -1,0 +1,101 @@
+{
+  "id": 48,
+  "charges": [
+    {
+      "adhoc_charge": {
+        "id": 30,
+        "description": "Book and practical exercises (electronics), tests and components for lab experiments.",
+        "date_occurred": "2019-12-25T16:11:48.312507Z",
+        "category_id": 7,
+        "category_name": "Registration fee",
+        "client_cost": "55.90",
+        "pay_contractor": null,
+        "agent_percentage": null,
+        "url": "https://secure.tutorcruncher.com/api/adhoccharges/30/"
+      },
+      "amount": "55.90000",
+      "appointment": null,
+      "date": "2019-12-25T16:11:48.312507Z",
+      "payer": "Demo Branch",
+      "payee": {
+        "id": 35,
+        "first_name": "Melissa",
+        "last_name": "Spencer",
+        "email": "melissa_spencer@example.com",
+        "url": "https://secure.tutorcruncher.com/api/contractors/35/"
+      },
+      "rate": "55.90000",
+      "sales_code": "350",
+      "tax_amount": "0.00000",
+      "units": "1.00000"
+    },
+    {
+      "adhoc_charge": null,
+      "amount": "142.50000",
+      "appointment": {
+        "id": 251,
+        "start": "2019-12-31T12:00:33.173982Z",
+        "finish": "2019-12-31T13:30:33.173982Z",
+        "topic": "Microelectronics and application of semiconductors 2",
+        "status": 20,
+        "service_id": 24,
+        "service_name": "Microelectronics, Semiconductors, Industrial applications",
+        "url": "https://secure.tutorcruncher.com/api/appointments/251/"
+      },
+      "date": "2019-12-31T13:30:33.173982Z",
+      "payer": "Demo Branch",
+      "payee": {
+        "id": 35,
+        "first_name": "Melissa",
+        "last_name": "Spencer",
+        "email": "melissa_spencer@example.com",
+        "url": "https://secure.tutorcruncher.com/api/contractors/35/"
+      },
+      "rate": "95.00000",
+      "sales_code": "200",
+      "tax_amount": "23.75000",
+      "units": "1.50000"
+    },
+    {
+      "adhoc_charge": null,
+      "amount": "142.50000",
+      "appointment": {
+        "id": 250,
+        "start": "2019-12-24T12:00:33.173982Z",
+        "finish": "2019-12-24T13:30:33.173982Z",
+        "topic": "Microelectronics and application of semiconductors 1",
+        "status": 20,
+        "service_id": 24,
+        "service_name": "Microelectronics, Semiconductors, Industrial applications",
+        "url": "https://secure.tutorcruncher.com/api/appointments/250/"
+      },
+      "date": "2019-12-24T13:30:33.173982Z",
+      "payer": "Demo Branch",
+      "payee": {
+        "id": 35,
+        "first_name": "Melissa",
+        "last_name": "Spencer",
+        "email": "melissa_spencer@example.com",
+        "url": "https://secure.tutorcruncher.com/api/contractors/35/"
+      },
+      "rate": "95.00000",
+      "sales_code": "200",
+      "tax_amount": "23.75000",
+      "units": "1.50000"
+    }
+  ],
+  "payee": {
+    "id": 35,
+    "first_name": "Melissa",
+    "last_name": "Spencer",
+    "email": "melissa_spencer@example.com",
+    "url": "https://secure.tutorcruncher.com/api/contractors/35/"
+  },
+  "date_sent": "2020-01-03T16:11:48.312507Z",
+  "date_void": null,
+  "date_paid": "2020-02-03T16:11:48.312507Z",
+  "display_id": "PO-48",
+  "amount": 0.0,
+  "status": "paid",
+  "still_to_pay": 0.0,
+}

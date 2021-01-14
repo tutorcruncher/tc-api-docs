@@ -1,0 +1,32 @@
+sections:
+  -
+    title: Payment Order Object
+    id: po-object
+    description: /payment-orders/po-object.md
+    attributes: /payment-orders/po-object.yml
+    response: /payment-orders/po-object.json
+    response_title: OBJECT
+  -
+    title: List all Payment Orders
+    id: list-all-pos
+    description: /payment-orders/list-all-pos.md
+    code: /payment-orders/list-all-pos.py
+    code_type: GET
+    code_url: /api/pos/
+    response: /payment-orders/list-all-pos.json
+  -
+    title: Get an Payment Order
+    id: get-an-po
+    description: /payment-orders/get-a-po.md
+    code: /payment-orders/get-a-po.py
+    code_type: GET
+    code_url: /api/pos/<id>/
+    response: /payment-orders/get-a-po.json
+  -
+    title: Take Payment Order Payment
+    id: take-po-payment
+    description: /payment-orders/take-po-payment.md
+    code: /payment-orders/take-po-payment.py
+    code_type: POST
+    code_url: /api/pos/<id>/take_payment/
+    response: /payment-orders/take-po-payment.json
