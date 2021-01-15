@@ -6,7 +6,7 @@ attributes:
   -
     name: charges
     type: array
-    description: An array of different charges related to the invoice.
+    description: An array of different charges related to the payment order.
     children:
       -
         name: adhoc_charge
