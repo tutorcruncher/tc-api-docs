@@ -12,7 +12,7 @@ sections:
     description: /payment-orders/list-all-pos.md
     code: /payment-orders/list-all-pos.py
     code_type: GET
-    code_url: /api/pos/
+    code_url: /api/payment-orders/
     response: /payment-orders/list-all-pos.json
   -
     title: Get an Payment Order
@@ -20,7 +20,7 @@ sections:
     description: /payment-orders/get-a-po.md
     code: /payment-orders/get-a-po.py
     code_type: GET
-    code_url: /api/pos/<id>/
+    code_url: /api/payment-orders/<id>/
     response: /payment-orders/get-a-po.json
   -
     title: Take Payment Order Payment
@@ -28,5 +28,5 @@ sections:
     description: /payment-orders/take-po-payment.md
     code: /payment-orders/take-po-payment.py
     code_type: POST
-    code_url: /api/pos/<id>/take_payment/
+    code_url: /api/payment-orders/<id>/take_payment/
     response: /payment-orders/take-po-payment.json
