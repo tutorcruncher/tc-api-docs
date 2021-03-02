@@ -8,6 +8,7 @@
     "email": "anthony_clay@example.com",
     "url": "https://secure.tutorcruncher.com/api/clients/321/"
   },
+  "created": true,
   "display_id": "PFI-2",
   "date_sent": "2020-01-17T16:11:48.312507Z",
   "date_paid": null,
