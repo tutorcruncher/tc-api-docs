@@ -86,7 +86,9 @@ attributes:
         type: string
         description: |
           The status of the student for that Appointment. Normally is attended, but can be different for group lessons
-          where one or more students might have cancelled/not turned up but the Appointment still went ahead.
+          where one or more students might have cancelled/not turned up but the Appointment still went ahead. This field
+          is currently `read_only`, and cannot be changed through the API. If you would like this to change, please email
+          devteam@tutorcruncher.com.
   -
     name: cjas
     type: array
