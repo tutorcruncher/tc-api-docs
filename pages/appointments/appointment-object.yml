@@ -81,6 +81,12 @@ attributes:
         name: charge_rate
         type: string
         description: Amount the Client will be charged.
+      -
+        name: status
+        type: string
+        description: |
+          The status of the student for that Appointment. Normally is attended, but can be different for group lessons
+          where one or more students might have cancelled/not turned up but the Appointment still went ahead.
   -
     name: cjas
     type: array

@@ -17,7 +17,8 @@
       "recipient_name": "Kelly Linder",
       "paying_client": 22,
       "paying_client_name": "Carrie Linder",
-      "charge_rate": "100.00"
+      "charge_rate": "100.00",
+      "status": "attended"
     }
   ],
   "repeater": null,
