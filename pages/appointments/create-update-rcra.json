@@ -11,7 +11,8 @@
       "recipient_name": "Archie Hoskins",
       "paying_client": 18,
       "paying_client_name": "Jamie Hoskins",
-      "charge_rate": "100.00"
+      "charge_rate": "100.00",
+      "status": "attended"
     }
   ],
   "cjas": [
