@@ -8,6 +8,10 @@ info_sections:
     title: Authentication
     id: authentication
     layout: /authentication/authentication.yml
+  -
+    title: Webhooks
+    id: webhooks
+    layout: /webhooks/webhooks.yml
 
 endpoint_sections:
   -

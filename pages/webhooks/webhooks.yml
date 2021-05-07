@@ -1,0 +1,16 @@
+sections:
+  -
+    title: Introduction
+    id: webhook-introduction
+    description: /webhooks/webhooks-faq.md
+  -
+    title: Webhook Object
+    id: webhook-object
+    description: /webhooks/webhook-object.md
+    response: /webhooks/webhook-object.json
+  -
+    title: Signature Verification
+    id: webhook-verification
+    description: /webhooks/webhooks-verification.md
+    code: /webhooks/webhooks-verification.py
+    code_type: VERIFICATION
