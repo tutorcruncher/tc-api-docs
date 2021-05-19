@@ -1,1 +1,1751 @@
-{}
+[
+  {
+    "key": "LOGIN",
+    "value": "LOGIN",
+    "msg": "Logged in",
+    "help_text": "When a User logs in.",
+    "subject_types": []
+  },
+  {
+    "key": "AGREE_TERMS",
+    "value": "AGREE_TERMS",
+    "msg": "Agreed to Terms and Conditions",
+    "help_text": "When a User agrees to the Terms and Conditions.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student"
+    ]
+  },
+  {
+    "key": "RECORDED_TERMS_CONSENT",
+    "value": "RECORDED_TERMS_CONSENT",
+    "msg": "Recorded consent to Terms and Conditions",
+    "help_text": "When an Administrator records consent to Terms and Conditions.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Student",
+      "Client"
+    ]
+  },
+  {
+    "key": "REQUESTED_DELETION",
+    "value": "REQUESTED_DELETION",
+    "msg": "Requested their data be deleted",
+    "help_text": "When a User has requested that they want their data to be deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "LOGGED_OUT",
+    "value": "LOGGED_OUT",
+    "msg": "Logged out",
+    "help_text": "When a User logs out.",
+    "subject_types": []
+  },
+  {
+    "key": "PW_RESET_EMAIL",
+    "value": "PW_RESET_EMAIL",
+    "msg": "Requested password reset email",
+    "help_text": "When a User gets sent a password reset email.",
+    "subject_types": []
+  },
+  {
+    "key": "PW_ENTER_NEW",
+    "value": "PW_ENTER_NEW",
+    "msg": "Entered new password",
+    "help_text": "When a User resets their password.",
+    "subject_types": []
+  },
+  {
+    "key": "CHANGED_OWN_ROLE",
+    "value": "CHANGED_OWN_ROLE",
+    "msg": "Changed Role",
+    "help_text": "When a User switches to a different Role.",
+    "subject_types": []
+  },
+  {
+    "key": "UNSUBSCRIBED_FROM_EMAILS",
+    "value": "UNSUBSCRIBED_FROM_EMAILS",
+    "msg": "Unsubscribed from emails",
+    "help_text": "When a User opts out from receiving emails.",
+    "subject_types": []
+  },
+  {
+    "key": "GENERATED_ACCOUNTING",
+    "value": "GENERATED_ACCOUNTING",
+    "msg": "Generated Invoices & Payment Orders",
+    "help_text": "When an Administrator generates Invoices and Payment Orders.",
+    "subject_types": []
+  },
+  {
+    "key": "GENERATED_PFIS",
+    "value": "GENERATED_PFIS",
+    "msg": "Generated Credit Requests",
+    "help_text": "When an Administrator generates Credit Requests.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_INVOICES",
+    "value": "SENT_INVOICES",
+    "msg": "Raised Invoices",
+    "help_text": "Occurs every time an Administrator sends Invoices.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_INVOICE",
+    "value": "SENT_INVOICE",
+    "msg": "Raised an Invoice",
+    "help_text": "Occurs once for each Invoice when an Administrator sends Invoices.",
+    "subject_types": [
+      "Invoice"
+    ]
+  },
+  {
+    "key": "SENT_INVOICE_REMINDER",
+    "value": "SENT_INVOICE_REMINDER",
+    "msg": "Sent an Invoice Reminder",
+    "help_text": "When an Administrator sends an Invoice Reminder.",
+    "subject_types": [
+      "Invoice"
+    ]
+  },
+  {
+    "key": "CREATED_DEFERRED_PAYMENT",
+    "value": "CREATED_DEFERRED_PAYMENT",
+    "msg": "Created a deferred payment",
+    "help_text": "When an Administrator sets up a Deferred Payment.",
+    "subject_types": [
+      "Credit Request",
+      "Invoice"
+    ]
+  },
+  {
+    "key": "VOIDED_INVOICE",
+    "value": "VOIDED_INVOICE",
+    "msg": "Voided an Invoice",
+    "help_text": "When an Administrator voids an Invoice.",
+    "subject_types": [
+      "Invoice"
+    ]
+  },
+  {
+    "key": "VOIDED_PO",
+    "value": "VOIDED_PO",
+    "msg": "Voided a Payment Order",
+    "help_text": "When an Administrator voids a Payment Order.",
+    "subject_types": [
+      "Payment Order"
+    ]
+  },
+  {
+    "key": "MARKED_INVOICE_AS_PAID",
+    "value": "MARKED_INVOICE_AS_PAID",
+    "msg": "Marked an Invoice as paid",
+    "help_text": "When an Invoice gets marked as paid.",
+    "subject_types": [
+      "Invoice"
+    ]
+  },
+  {
+    "key": "PAY_INVOICE_FROM_CREDIT",
+    "value": "PAY_INVOICE_FROM_CREDIT",
+    "msg": "Paid an Invoice from credit",
+    "help_text": "When an Invoice gets paid from a Client's credit.",
+    "subject_types": []
+  },
+  {
+    "key": "CLIENT_PAID_INVOICE",
+    "value": "CLIENT_PAID_INVOICE",
+    "msg": "Paid their Invoice",
+    "help_text": "When a Client pays their Invoice.",
+    "subject_types": [
+      "Credit Request",
+      "Invoice"
+    ]
+  },
+  {
+    "key": "ADMIN_PAID_INVOICE",
+    "value": "ADMIN_PAID_INVOICE",
+    "msg": "Paid an Invoice",
+    "help_text": "When an Administrator pays an Invoice.",
+    "subject_types": [
+      "Invoice"
+    ]
+  },
+  {
+    "key": "ADMIN_QUICK_PAY_INVOICE",
+    "value": "ADMIN_QUICK_PAY_INVOICE",
+    "msg": "Created a Quick Payment Invoice",
+    "help_text": "When an Administrator quick pays for an Invoice.",
+    "subject_types": [
+      "Invoice"
+    ]
+  },
+  {
+    "key": "ACCOUNTING_ITEM_AUTOCHARGED",
+    "value": "ACCOUNTING_ITEM_AUTOCHARGED",
+    "msg": "Was Autocharged successfully",
+    "help_text": "Occurs once for each Credit Request or Invoice when they are paid via Autocharge.",
+    "subject_types": [
+      "Credit Request",
+      "Invoice"
+    ]
+  },
+  {
+    "key": "SENT_POS",
+    "value": "SENT_POS",
+    "msg": "Raised Payment Orders",
+    "help_text": "Occurs when an Administrator sends Payment Orders.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_PO",
+    "value": "SENT_PO",
+    "msg": "Raised a Payment Order",
+    "help_text": "Occurs once for each Payment Order when an Administrator sends Payment Orders.",
+    "subject_types": [
+      "Payment Order"
+    ]
+  },
+  {
+    "key": "RESENT_PO",
+    "value": "RESENT_PO",
+    "msg": "Resent a Payment Order",
+    "help_text": "When an Administrator resends a Payment Order.",
+    "subject_types": [
+      "Payment Order"
+    ]
+  },
+  {
+    "key": "MARKED_PO_AS_PAID",
+    "value": "MARKED_PO_AS_PAID",
+    "msg": "Marked a Payment Order as paid",
+    "help_text": "When an Administrator marks a Payment Order as paid.",
+    "subject_types": [
+      "Payment Order"
+    ]
+  },
+  {
+    "key": "CREATED_PAYOUT",
+    "value": "CREATED_PAYOUT",
+    "msg": "Created a Payout",
+    "help_text": "Occurs when a Payment Order is sent and creates a payout in Telleroo.",
+    "subject_types": [
+      "Payment Order"
+    ]
+  },
+  {
+    "key": "ADDED_PO_TO_PAYRUN",
+    "value": "ADDED_PO_TO_PAYRUN",
+    "msg": "Added a Payment Order to a Pay Run",
+    "help_text": "Occurs when a Payment Order added to a Pay Run.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_PROFORMA_INVOICE",
+    "value": "CREATED_PROFORMA_INVOICE",
+    "msg": "Created a Credit Request",
+    "help_text": "When an Administrator creates a Credit Request.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "CREATED_PROFORMA_INVOICE_ITEM",
+    "value": "CREATED_PROFORMA_INVOICE_ITEM",
+    "msg": "Added an item to a Credit Request",
+    "help_text": "When an Administrator creates a Credit Request Item.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "EDIT_PROFORMA_INVOICE",
+    "value": "EDIT_PROFORMA_INVOICE",
+    "msg": "Edited a Credit Request",
+    "help_text": "When an Administrator edits a Credit Request.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "DELETED_PROFORMA_INVOICE",
+    "value": "DELETED_PROFORMA_INVOICE",
+    "msg": "Deleted a Credit Request",
+    "help_text": "When an Administrator deletes a Credit Request.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "MARKED_PROFORMA_INVOICE_AS_PAID",
+    "value": "MARKED_PROFORMA_INVOICE_AS_PAID",
+    "msg": "Marked Credit Request as paid",
+    "help_text": "When an Administrator marks a Credit Request as paid.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "SENT_PROFORMA_INVOICES",
+    "value": "SENT_PROFORMA_INVOICES",
+    "msg": "Sent Credit Requests",
+    "help_text": "Occurs when an Administrator sends Credit Requests.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_PROFORMA_INVOICE",
+    "value": "SENT_PROFORMA_INVOICE",
+    "msg": "Sent a Credit Request",
+    "help_text": "Occurs once for each Credit Request when an Administrator sends Credit Requests.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "SENT_PROFORMA_INVOICE_REMINDER",
+    "value": "SENT_PROFORMA_INVOICE_REMINDER",
+    "msg": "Sent a Credit Request Reminder",
+    "help_text": "When an Administrator sends a Credit Request Reminder.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "CLIENT_PAID_PROFORMA_INVOICE",
+    "value": "CLIENT_PAID_PROFORMA_INVOICE",
+    "msg": "Paid their Credit Request",
+    "help_text": "When a Client pays their Credit Request.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "ADMIN_PAID_PROFORMA_INVOICE",
+    "value": "ADMIN_PAID_PROFORMA_INVOICE",
+    "msg": "Paid a Credit Request",
+    "help_text": "When an Administrator pays a Client's Credit Request.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "ADMIN_QUICK_PAY_PFI",
+    "value": "ADMIN_QUICK_PAY_PFI",
+    "msg": "Created a Quick Payment Credit Request",
+    "help_text": "When an Administrator creates a Quick Payment Credit Request.",
+    "subject_types": [
+      "Credit Request"
+    ]
+  },
+  {
+    "key": "CREATED_ADHOC_CHARGE",
+    "value": "CREATED_ADHOC_CHARGE",
+    "msg": "Created Ad Hoc Charge",
+    "help_text": "When an Administrator creates an Ad Hoc Charge.",
+    "subject_types": [
+      "Ad Hoc Charge"
+    ]
+  },
+  {
+    "key": "EDITED_ADHOC_CHARGE",
+    "value": "EDITED_ADHOC_CHARGE",
+    "msg": "Edited Ad Hoc Charge",
+    "help_text": "When an Administrator creates an Ad Hoc Charge.",
+    "subject_types": [
+      "Ad Hoc Charge"
+    ]
+  },
+  {
+    "key": "DELETED_ADHOC_CHARGE",
+    "value": "DELETED_ADHOC_CHARGE",
+    "msg": "Deleted Ad Hoc Charge",
+    "help_text": "When an Administrator creates an Ad Hoc Charge.",
+    "subject_types": []
+  },
+  {
+    "key": "BALANCE_ADJUSTMENT",
+    "value": "BALANCE_ADJUSTMENT",
+    "msg": "Adjusted a Client's balance",
+    "help_text": "When an Administrator adjusts a Client's Balance.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "CLIENT_TOPPED_UP",
+    "value": "CLIENT_TOPPED_UP",
+    "msg": "Client topped up",
+    "help_text": "When a Client tops up their Balance.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "ACCOUNTING_EXPORT",
+    "value": "ACCOUNTING_EXPORT",
+    "msg": "Exported accounting information",
+    "help_text": "When an Administrator exports a Branch's accounting information.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_OWN_PROFILE",
+    "value": "EDITED_OWN_PROFILE",
+    "msg": "Edited their own profile",
+    "help_text": "When a User edits their own profile.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student"
+    ]
+  },
+  {
+    "key": "CREATED_AN_ADMINISTRATOR",
+    "value": "CREATED_AN_ADMINISTRATOR",
+    "msg": "Created an Administrator",
+    "help_text": "When an Administrator is created.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_AN_ADMINISTRATOR",
+    "value": "EDITED_AN_ADMINISTRATOR",
+    "msg": "Edited an Administrator",
+    "help_text": "When an Administrator is edited.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_AN_ADMINISTRATOR",
+    "value": "DELETED_AN_ADMINISTRATOR",
+    "msg": "Deleted an Administrator",
+    "help_text": "When an Administrator is deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_AN_AGENT",
+    "value": "CREATED_AN_AGENT",
+    "msg": "Created an Affiliate",
+    "help_text": "When an Affiliate is created.",
+    "subject_types": [
+      "Affiliate"
+    ]
+  },
+  {
+    "key": "EDITED_AN_AGENT",
+    "value": "EDITED_AN_AGENT",
+    "msg": "Edited an Affiliate",
+    "help_text": "When an Affiliate is edited.",
+    "subject_types": [
+      "Affiliate"
+    ]
+  },
+  {
+    "key": "DELETED_AN_AGENT",
+    "value": "DELETED_AN_AGENT",
+    "msg": "Deleted an Affiliate",
+    "help_text": "When an Affiliate is deleted.",
+    "subject_types": [
+      "Affiliate"
+    ]
+  },
+  {
+    "key": "CREATED_A_CLIENT",
+    "value": "CREATED_A_CLIENT",
+    "msg": "Created a Client",
+    "help_text": "When an Client is created.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "EDITED_A_CLIENT",
+    "value": "EDITED_A_CLIENT",
+    "msg": "Edited a Client",
+    "help_text": "When an Client is edited.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "DELETED_A_CLIENT",
+    "value": "DELETED_A_CLIENT",
+    "msg": "Deleted a Client",
+    "help_text": "When an Client is deleted.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "CHANGED_CLIENT_STATUS",
+    "value": "CHANGED_CLIENT_STATUS",
+    "msg": "Changed a Client's status",
+    "help_text": "When a Client's status gets updated.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "CREATED_A_CONTRACTOR",
+    "value": "CREATED_A_CONTRACTOR",
+    "msg": "Created a Tutor",
+    "help_text": "When an Tutor is created.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "EDITED_A_CONTRACTOR",
+    "value": "EDITED_A_CONTRACTOR",
+    "msg": "Edited a Tutor",
+    "help_text": "When an Tutor is edited.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "DELETED_A_CONTRACTOR",
+    "value": "DELETED_A_CONTRACTOR",
+    "msg": "Deleted a Tutor",
+    "help_text": "When an Tutor is deleted.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "CHANGED_CONTRACTOR_STATUS",
+    "value": "CHANGED_CONTRACTOR_STATUS",
+    "msg": "Changed a Tutor's status",
+    "help_text": "When a Tutor's status gets updated.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "INVITED_CONTRACTOR_FOR_INTERVIEW",
+    "value": "INVITED_CONTRACTOR_FOR_INTERVIEW",
+    "msg": "Invited a Tutor for an interview",
+    "help_text": "When an Administrator sends a Tutor an invitation for an interview.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "CREATED_A_SR",
+    "value": "CREATED_A_SR",
+    "msg": "Created a Student",
+    "help_text": "When a Student is created.",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "EDITED_A_SR",
+    "value": "EDITED_A_SR",
+    "msg": "Edited a Student",
+    "help_text": "When a Student is edited.",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "DELETED_A_SR",
+    "value": "DELETED_A_SR",
+    "msg": "Deleted a Student",
+    "help_text": "When a Student is deleted.",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "IMPORTED_USERS",
+    "value": "IMPORTED_USERS",
+    "msg": "Imported Users",
+    "help_text": "When an Administrator imports Users.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_SKILLS",
+    "value": "EDITED_SKILLS",
+    "msg": "Edited Skills",
+    "help_text": "When a User's skills are edited.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "EDITED_OWN_SKILLS",
+    "value": "EDITED_OWN_SKILLS",
+    "msg": "Edited their own Skills",
+    "help_text": "When a User edits their own skills.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_QUALIFICATIONS",
+    "value": "EDITED_QUALIFICATIONS",
+    "msg": "Edited Qualifications",
+    "help_text": "When a User's qualifications are edited.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "EDITED_OWN_QUALIFICATIONS",
+    "value": "EDITED_OWN_QUALIFICATIONS",
+    "msg": "Edited their own Qualifications",
+    "help_text": "When a User edits their own qualifications.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_A_SERVICE",
+    "value": "CREATED_A_SERVICE",
+    "msg": "Created a Job",
+    "help_text": "When a Job is created.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "EDITED_A_SERVICE",
+    "value": "EDITED_A_SERVICE",
+    "msg": "Edited a Job",
+    "help_text": "When a Job is edited.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "DELETED_A_SERVICE",
+    "value": "DELETED_A_SERVICE",
+    "msg": "Deleted a Job",
+    "help_text": "When a Job is deleted.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "CHANGED_SERVICE_STATUS",
+    "value": "CHANGED_SERVICE_STATUS",
+    "msg": "Changed a Job's status",
+    "help_text": "When a Job's status is updated.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "SENT_SERVICE_NOTIFICATIONS",
+    "value": "SENT_SERVICE_NOTIFICATIONS",
+    "msg": "Sent Notifications to Tutors",
+    "help_text": "When an Administrator sends Job Notifications to Tutors on the Job.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "ADDED_CONTRACTOR_TO_SERVICE",
+    "value": "ADDED_CONTRACTOR_TO_SERVICE",
+    "msg": "Added a Tutor to a Job",
+    "help_text": "When a Tutor is added to a Job.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "REMOVED_CONTRACTOR_FROM_SERVICE",
+    "value": "REMOVED_CONTRACTOR_FROM_SERVICE",
+    "msg": "Removed a Tutor from a Job",
+    "help_text": "When a Tutor is removed from a Job.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "EDITED_CONTRACTOR_ON_SERVICE",
+    "value": "EDITED_CONTRACTOR_ON_SERVICE",
+    "msg": "Edited a Tutor on a Job",
+    "help_text": "When a Tutor on a Job is updated.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "ADDED_CONTRACTOR_TO_APPOINTMENT",
+    "value": "ADDED_CONTRACTOR_TO_APPOINTMENT",
+    "msg": "Added a Tutor to a Lesson",
+    "help_text": "When a Tutor is added to a Lesson.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "REMOVED_CONTRACTOR_FROM_APPOINTMENT",
+    "value": "REMOVED_CONTRACTOR_FROM_APPOINTMENT",
+    "msg": "Removed a Tutor from a Lesson",
+    "help_text": "When a Tutor is removed from a Lesson.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "EDITED_CONTRACTOR_ON_APPOINTMENT",
+    "value": "EDITED_CONTRACTOR_ON_APPOINTMENT",
+    "msg": "Edited a Tutor on a Lesson",
+    "help_text": "When a Tutor on a Lesson is updated.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "ADDED_SR_TO_SERVICE",
+    "value": "ADDED_SR_TO_SERVICE",
+    "msg": "Added a Student to a Job",
+    "help_text": "When a Student is added to a Job.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "REMOVED_SR_FROM_SERVICE",
+    "value": "REMOVED_SR_FROM_SERVICE",
+    "msg": "Removed a Student from a Job",
+    "help_text": "When a Student is removed from a Job.",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "EDITED_SR_ON_SERVICE",
+    "value": "EDITED_SR_ON_SERVICE",
+    "msg": "Edited a Student on a Job",
+    "help_text": "When a Student on a Job is updated.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "ADDED_SR_TO_APPOINTMENT",
+    "value": "ADDED_SR_TO_APPOINTMENT",
+    "msg": "Added a Student to a Lesson",
+    "help_text": "When a Student is added to a Lesson.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "REMOVED_SR_FROM_APPOINTMENT",
+    "value": "REMOVED_SR_FROM_APPOINTMENT",
+    "msg": "Removed a Student from a Lesson",
+    "help_text": "When a Student is removed from a Lesson.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "EDITED_SR_ON_APPOINTMENT",
+    "value": "EDITED_SR_ON_APPOINTMENT",
+    "msg": "Edited a Student on a Lesson",
+    "help_text": "When a Student on a Lesson is updated.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "APPLIED_FOR_SERVICE",
+    "value": "APPLIED_FOR_SERVICE",
+    "msg": "Applied for a Job",
+    "help_text": "When a Tutor applies for a Job.",
+    "subject_types": [
+      "Job",
+      "Application"
+    ]
+  },
+  {
+    "key": "EDITED_APPLICATION_FOR_SERVICE",
+    "value": "EDITED_APPLICATION_FOR_SERVICE",
+    "msg": "Edited their application for a Job",
+    "help_text": "When a tutor edits their application for a job",
+    "subject_types": [
+      "Application"
+    ]
+  },
+  {
+    "key": "WITHDREW_APPLICATION_FOR_SERVICE",
+    "value": "WITHDREW_APPLICATION_FOR_SERVICE",
+    "msg": "Withdrew their application for a Job",
+    "help_text": "When a tutor withdraws their application for a job",
+    "subject_types": [
+      "Application"
+    ]
+  },
+  {
+    "key": "TENDER_WAS_DECLINED",
+    "value": "TENDER_WAS_DECLINED",
+    "msg": "Application for a Job was declined",
+    "help_text": "When a tutor's application for a job has been declined",
+    "subject_types": [
+      "Application"
+    ]
+  },
+  {
+    "key": "TENDER_WAS_ACCEPTED",
+    "value": "TENDER_WAS_ACCEPTED",
+    "msg": "Application for a Job was accepted",
+    "help_text": "When a tutor's application for a job has been accepted",
+    "subject_types": [
+      "Application"
+    ]
+  },
+  {
+    "key": "CONTRACTOR_WAS_REQUESTED_FOR_SERVICE",
+    "value": "CONTRACTOR_WAS_REQUESTED_FOR_SERVICE",
+    "msg": "Tutor was requested for a Job",
+    "help_text": "When a tutor is requested for a Job by a Client Enquiry",
+    "subject_types": [
+      "Application"
+    ]
+  },
+  {
+    "key": "CREATED_AN_APPOINTMENT",
+    "value": "CREATED_AN_APPOINTMENT",
+    "msg": "Created a Lesson",
+    "help_text": "When a Lesson is created.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "CREATED_A_REPEATING_APPOINTMENT",
+    "value": "CREATED_A_REPEATING_APPOINTMENT",
+    "msg": "Created a Repeating Lesson",
+    "help_text": "Occurs for each Lesson which is created via repeated Lessons.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "EDITED_AN_APPOINTMENT",
+    "value": "EDITED_AN_APPOINTMENT",
+    "msg": "Edited a Lesson",
+    "help_text": "When a Lesson is updated.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "EDITED_REPEATED_APPOINTMENTS",
+    "value": "EDITED_REPEATED_APPOINTMENTS",
+    "msg": "Edited a Lesson and all future linked Lessons",
+    "help_text": "When repeated Lessons are updated.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "DELETED_AN_APPOINTMENT",
+    "value": "DELETED_AN_APPOINTMENT",
+    "msg": "Deleted a Lesson",
+    "help_text": "When a Lesson is deleted.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "MARKED_AN_APPOINTMENT_AS_COMPLETE",
+    "value": "MARKED_AN_APPOINTMENT_AS_COMPLETE",
+    "msg": "Marked a Lesson as complete",
+    "help_text": "When a Lesson is marked as complete.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "MARKED_AN_APPOINTMENT_AS_CANCELLED",
+    "value": "MARKED_AN_APPOINTMENT_AS_CANCELLED",
+    "msg": "Cancelled a Lesson",
+    "help_text": "When a Lesson is cancelled.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "APPOINTMENT_EXPORT",
+    "value": "APPOINTMENT_EXPORT",
+    "msg": "Exported Lessons",
+    "help_text": "When an Administrator exports data about Lessons.",
+    "subject_types": []
+  },
+  {
+    "key": "SERVICE_EXPORT",
+    "value": "SERVICE_EXPORT",
+    "msg": "Exported Jobs",
+    "help_text": "When an Administrator exports data about Jobs.",
+    "subject_types": []
+  },
+  {
+    "key": "REPORTS_EXPORT",
+    "value": "REPORTS_EXPORT",
+    "msg": "Exported Reports",
+    "help_text": "When an Administrator exports data about Reports.",
+    "subject_types": []
+  },
+  {
+    "key": "EXPORTED_USERS",
+    "value": "EXPORTED_USERS",
+    "msg": "Exported Users",
+    "help_text": "When an Administrator exports data about Users.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_SYSTEM_SETTINGS",
+    "value": "EDITED_SYSTEM_SETTINGS",
+    "msg": "Edited system settings",
+    "help_text": "When an Administrator makes changes to a Branch's or Company's settings.",
+    "subject_types": []
+  },
+  {
+    "key": "CHANGED_TERMS",
+    "value": "CHANGED_TERMS",
+    "msg": "Changed Terms and Conditions",
+    "help_text": "When an Administrator updates the Terms and Conditions.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_AGENCY",
+    "value": "CREATED_AGENCY",
+    "msg": "Created Company",
+    "help_text": "When a User sets up an Company on TutorCruncher.",
+    "subject_types": []
+  },
+  {
+    "key": "TERMINATED_AGENCY",
+    "value": "TERMINATED_AGENCY",
+    "msg": "Company was terminated",
+    "help_text": "When a Company's status is marked as Terminated.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "EDITED_AVAILABILITY",
+    "value": "EDITED_AVAILABILITY",
+    "msg": "Edited availability",
+    "help_text": "When a Tutor's availability is updated.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "RECOVERED_AN_ADMINISTRATOR",
+    "value": "RECOVERED_AN_ADMINISTRATOR",
+    "msg": "Recovered an Administrator",
+    "help_text": "When an Administrator is recovered from the Trash.",
+    "subject_types": []
+  },
+  {
+    "key": "RECOVERED_AN_AGENT",
+    "value": "RECOVERED_AN_AGENT",
+    "msg": "Recovered an Affiliate",
+    "help_text": "When an Affiliate is recovered from the Trash.",
+    "subject_types": [
+      "Affiliate"
+    ]
+  },
+  {
+    "key": "RECOVERED_A_CLIENT",
+    "value": "RECOVERED_A_CLIENT",
+    "msg": "Recovered a Client",
+    "help_text": "When a Client is recovered from the Trash.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "RECOVERED_A_CONTRACTOR",
+    "value": "RECOVERED_A_CONTRACTOR",
+    "msg": "Recovered a Tutor",
+    "help_text": "When a Tutor is recovered from the Trash.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "RECOVERED_A_SR",
+    "value": "RECOVERED_A_SR",
+    "msg": "Recovered a Student",
+    "help_text": "When a Student is recovered from the Trash.",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "RECOVERED_A_SERVICE",
+    "value": "RECOVERED_A_SERVICE",
+    "msg": "Recovered a Job",
+    "help_text": "When a Job is recovered from the Trash.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "RECOVERED_AN_APPOINTMENT",
+    "value": "RECOVERED_AN_APPOINTMENT",
+    "msg": "Recovered a Lesson",
+    "help_text": "When a Lesson is recovered from the Trash.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "RECOVERED_AN_EXTRA_ATTRIBUTE",
+    "value": "RECOVERED_AN_EXTRA_ATTRIBUTE",
+    "msg": "Recovered a Custom Field",
+    "help_text": "When a Custom Field is recovered from the Trash.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_A_LOCATION",
+    "value": "CREATED_A_LOCATION",
+    "msg": "Created a Location",
+    "help_text": "When a Location is created.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_A_LOCATION",
+    "value": "EDITED_A_LOCATION",
+    "msg": "Edited a Location",
+    "help_text": "When a Location is edited.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_A_LOCATION",
+    "value": "DELETED_A_LOCATION",
+    "msg": "Deleted a Location",
+    "help_text": "When a Location is deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_A_LABEL",
+    "value": "CREATED_A_LABEL",
+    "msg": "Created a Label",
+    "help_text": "When a Label is created.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_A_LABEL",
+    "value": "EDITED_A_LABEL",
+    "msg": "Edited a Label",
+    "help_text": "When a Label is edited.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_A_LABEL",
+    "value": "DELETED_A_LABEL",
+    "msg": "Deleted a Label",
+    "help_text": "When a Label is deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "ADDED_A_LABEL_TO_A_USER",
+    "value": "ADDED_A_LABEL_TO_A_USER",
+    "msg": "Added a Label to a User",
+    "help_text": "When a Label is added to a Role/User.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Student",
+      "Client"
+    ]
+  },
+  {
+    "key": "REMOVED_A_LABEL_FROM_A_USER",
+    "value": "REMOVED_A_LABEL_FROM_A_USER",
+    "msg": "Removed a Label from a User",
+    "help_text": "When a Label is removed from a Role/User.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_AN_EXTRA_ATTRIBUTE",
+    "value": "CREATED_AN_EXTRA_ATTRIBUTE",
+    "msg": "Created a Custom Field",
+    "help_text": "When a Custom Field is created.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_AN_EXTRA_ATTRIBUTE",
+    "value": "EDITED_AN_EXTRA_ATTRIBUTE",
+    "msg": "Edited a Custom Field",
+    "help_text": "When a Custom Field is edited.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_AN_EXTRA_ATTRIBUTE",
+    "value": "DELETED_AN_EXTRA_ATTRIBUTE",
+    "msg": "Deleted a Custom Field",
+    "help_text": "When a Custom Field is deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "IMPORTED_EXTRA_ATTRIBUTES",
+    "value": "IMPORTED_EXTRA_ATTRIBUTES",
+    "msg": "Imported Custom Fields",
+    "help_text": "When a Custom Field is imported.",
+    "subject_types": []
+  },
+  {
+    "key": "CHANGED_ATTRIBUTE_ORDERING",
+    "value": "CHANGED_ATTRIBUTE_ORDERING",
+    "msg": "Changed Custom Field Ordering",
+    "help_text": "When the Custom Field order is changed.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_BROADCAST",
+    "value": "SENT_BROADCAST",
+    "msg": "Sent a Broadcast",
+    "help_text": "When an Administrator sends a Broadcast.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_BROADCAST_PREVIEW",
+    "value": "SENT_BROADCAST_PREVIEW",
+    "msg": "Sent a Broadcast Preview",
+    "help_text": "When an Administrator sends a Broadcast Preview.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_A_BROADCAST",
+    "value": "CREATED_A_BROADCAST",
+    "msg": "Created a Broadcast",
+    "help_text": "When an Administrator creates a Broadcast.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_A_BROADCAST",
+    "value": "EDITED_A_BROADCAST",
+    "msg": "Edited a Broadcast",
+    "help_text": "When an Administrator edits a Broadcast.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_A_BROADCAST",
+    "value": "DELETED_A_BROADCAST",
+    "msg": "Deleted a Broadcast",
+    "help_text": "When an Administrator deletes a Broadcast.",
+    "subject_types": []
+  },
+  {
+    "key": "UPLOADED_A_CV",
+    "value": "UPLOADED_A_CV",
+    "msg": "Uploaded a R\u00e9sum\u00e9",
+    "help_text": "When an Administrator or Tutor uploads a R\u00e9sum\u00e9.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_ATTENDED_INSTITUTIONS",
+    "value": "EDITED_ATTENDED_INSTITUTIONS",
+    "msg": "Edited Attended Institutions",
+    "help_text": "When a Tutor edits their Institutions.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "ADDED_CUSTOM_INSTITUTION",
+    "value": "ADDED_CUSTOM_INSTITUTION",
+    "msg": "Added a Custom Institution",
+    "help_text": "When an Administrator or Tutor adds a Custom Institution.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "ADDED_A_NOTE",
+    "value": "ADDED_A_NOTE",
+    "msg": "Added a Note",
+    "help_text": "When an Administrator adds a Note.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student",
+      "Job",
+      "Lesson"
+    ]
+  },
+  {
+    "key": "EDITED_A_NOTE",
+    "value": "EDITED_A_NOTE",
+    "msg": "Edited a Note",
+    "help_text": "When an Administrator edits a Note.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student",
+      "Job",
+      "Lesson"
+    ]
+  },
+  {
+    "key": "DELETED_A_NOTE",
+    "value": "DELETED_A_NOTE",
+    "msg": "Deleted a Note",
+    "help_text": "When an Administrator deletes a Note.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student",
+      "Job",
+      "Lesson"
+    ]
+  },
+  {
+    "key": "ADDED_A_DOCUMENT",
+    "value": "ADDED_A_DOCUMENT",
+    "msg": "Added a Document",
+    "help_text": "When a User uploads a Document.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_A_DOCUMENT",
+    "value": "EDITED_A_DOCUMENT",
+    "msg": "Edited a Document",
+    "help_text": "When a User edits a Document.",
+    "subject_types": []
+  },
+  {
+    "key": "ADDED_PUBLIC_DOCUMENT",
+    "value": "ADDED_PUBLIC_DOCUMENT",
+    "msg": "Added a Public Document",
+    "help_text": "When an Administrator uploads a Public Document.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_A_TASK",
+    "value": "CREATED_A_TASK",
+    "msg": "Created a Task",
+    "help_text": "When an Administrator creates a Task.",
+    "subject_types": []
+  },
+  {
+    "key": "CHANGED_CLIENTS_AGENT",
+    "value": "CHANGED_CLIENTS_AGENT",
+    "msg": "Changed a Client's Affiliate",
+    "help_text": "When a Client's Affiliate is changed.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "CHANGED_CLIENT_ADMIN",
+    "value": "CHANGED_CLIENT_ADMIN",
+    "msg": "Changed a Client's Admin",
+    "help_text": "When a Client's Client Manager is changed.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "ADDED_A_CLIENT_TO_AN_AGENT",
+    "value": "ADDED_A_CLIENT_TO_AN_AGENT",
+    "msg": "Added a Client to an Affiliate",
+    "help_text": "When a Client is added to an Affiliate.",
+    "subject_types": [
+      "Affiliate"
+    ]
+  },
+  {
+    "key": "EDITED_A_TASK",
+    "value": "EDITED_A_TASK",
+    "msg": "Edited a Task",
+    "help_text": "When an Administrator edits a Task.",
+    "subject_types": []
+  },
+  {
+    "key": "ADDED_A_LABEL_TO_A_SERVICE",
+    "value": "ADDED_A_LABEL_TO_A_SERVICE",
+    "msg": "Added a Label to a Job",
+    "help_text": "When a Label is added to a Job.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "REMOVED_A_LABEL_FROM_A_SERVICE",
+    "value": "REMOVED_A_LABEL_FROM_A_SERVICE",
+    "msg": "Removed a Label from a Job",
+    "help_text": "When a Label is removed from a Job.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "ADDED_DESIRED_SKILL",
+    "value": "ADDED_DESIRED_SKILL",
+    "msg": "Added a desired Skill to a Job",
+    "help_text": "When a desired Skill is added to a Job.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "EDITED_REPORT",
+    "value": "EDITED_REPORT",
+    "msg": "Edited a Report",
+    "help_text": "When a Report is edited.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "APPROVED_A_REPORT",
+    "value": "APPROVED_A_REPORT",
+    "msg": "Approved a Report",
+    "help_text": "When an Administrator approves a Report.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "APPROVED_MULTIPLE_REPORTS",
+    "value": "APPROVED_MULTIPLE_REPORTS",
+    "msg": "Approved Reports",
+    "help_text": "When an Administrator approved multiple Reports.",
+    "subject_types": []
+  },
+  {
+    "key": "CREATED_REPORT",
+    "value": "CREATED_REPORT",
+    "msg": "Created a Report",
+    "help_text": "When a Report is created.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "CREATED_SUBSCRIPTION",
+    "value": "CREATED_SUBSCRIPTION",
+    "msg": "Created a Subscription",
+    "help_text": "When a Subscription is created.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_SUBSCRIPTION",
+    "value": "EDITED_SUBSCRIPTION",
+    "msg": "Edited a Subscription",
+    "help_text": "When a Subscription is edited.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_SUBSCRIPTION",
+    "value": "DELETED_SUBSCRIPTION",
+    "msg": "Deleted a Subscription",
+    "help_text": "When a Subscription is deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "ADDED_CLIENT_SUBSCRIPTION",
+    "value": "ADDED_CLIENT_SUBSCRIPTION",
+    "msg": "Added a Client to a Subscription",
+    "help_text": "When a Client is added to Subscription.",
+    "subject_types": []
+  },
+  {
+    "key": "REMOVED_CLIENT_SUBSCRIPTION",
+    "value": "REMOVED_CLIENT_SUBSCRIPTION",
+    "msg": "Removed a Client from a Subscription",
+    "help_text": "When a Client is removed from a Subscription.",
+    "subject_types": []
+  },
+  {
+    "key": "CLIENT_ENQUIRY",
+    "value": "CLIENT_ENQUIRY",
+    "msg": "Made an Enquiry",
+    "help_text": "When a Client makes an Enquiry.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "REQUESTED_A_CONTRACTOR",
+    "value": "REQUESTED_A_CONTRACTOR",
+    "msg": "Request a tutor",
+    "help_text": "When a Client requests a Tutor in their enquiry.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "REQUESTED_A_SERVICE",
+    "value": "REQUESTED_A_SERVICE",
+    "msg": "Request a job",
+    "help_text": "When a Client requests a Job in their enquiry.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "CONTRACTOR_SIGN_UP",
+    "value": "CONTRACTOR_SIGN_UP",
+    "msg": "Signed up as a Tutor",
+    "help_text": "When a Tutor signs up to the Branch.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "CLIENT_SIGN_UP",
+    "value": "CLIENT_SIGN_UP",
+    "msg": "Signed up as a Client",
+    "help_text": "When a Client signs up to the Branch.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "WELCOME_EMAIL_SENT",
+    "value": "WELCOME_EMAIL_SENT",
+    "msg": "Sent a Welcome Email",
+    "help_text": "When a Welcome Email is sent to a User.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student"
+    ]
+  },
+  {
+    "key": "ADDED_APPOINTMENT_REMINDER",
+    "value": "ADDED_APPOINTMENT_REMINDER",
+    "msg": "Added a Lesson Reminder",
+    "help_text": "When a Lesson Reminder is added.",
+    "subject_types": []
+  },
+  {
+    "key": "CLICKED_SSO",
+    "value": "CLICKED_SSO",
+    "msg": "Clicked an SSO Link",
+    "help_text": "When a User clicks a Single Sign On (SSO) link.",
+    "subject_types": []
+  },
+  {
+    "key": "CHANGED_DEFAULT_PAYMENT_CARD",
+    "value": "CHANGED_DEFAULT_PAYMENT_CARD",
+    "msg": "Changed the default payment card",
+    "help_text": "When a Card is set as the Default Payment Card.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "DELETED_CARD_DETAILS",
+    "value": "DELETED_CARD_DETAILS",
+    "msg": "Deleted Card Details",
+    "help_text": "When Card Details are removed from a User.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "SAVED_CARD_DETAILS",
+    "value": "SAVED_CARD_DETAILS",
+    "msg": "Saved card details",
+    "help_text": "When Card Details are added to a User.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "ADDED_BANK_DETAILS",
+    "value": "ADDED_BANK_DETAILS",
+    "msg": "Added their bank details",
+    "help_text": "When a Client adds their Bank Account Details.",
+    "subject_types": [
+      "Tutor",
+      "Client"
+    ]
+  },
+  {
+    "key": "EDITED_BANK_DETAILS",
+    "value": "EDITED_BANK_DETAILS",
+    "msg": "Edited their bank details",
+    "help_text": "When a Client edits their Bank Account Details.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "REMOVED_BANK_DETAILS",
+    "value": "REMOVED_BANK_DETAILS",
+    "msg": "Removed their saved bank details",
+    "help_text": "When a Client removes their Bank Account Details.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Student",
+      "Client"
+    ]
+  },
+  {
+    "key": "REQUESTED_REVIEWS",
+    "value": "REQUESTED_REVIEWS",
+    "msg": "Requested tutor reviews",
+    "help_text": "When an Administrator sends a Client a request to review a Tutor.",
+    "subject_types": [
+      "Client",
+      "Job"
+    ]
+  },
+  {
+    "key": "REQUESTED_AUTO_REVIEW_FROM",
+    "value": "REQUESTED_AUTO_REVIEW_FROM",
+    "msg": "Was asked for an automatic review for a job",
+    "help_text": "When a Job review is requested automatically.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "CREATED_A_REVIEW",
+    "value": "CREATED_A_REVIEW",
+    "msg": "Reviewed a Tutor",
+    "help_text": "When a Client creates a Review.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "DELETED_A_REVIEW",
+    "value": "DELETED_A_REVIEW",
+    "msg": "Deleted a Review",
+    "help_text": "When an Administrator deletes a Client's Reivew.",
+    "subject_types": []
+  },
+  {
+    "key": "MOVED_PIPELINE_STAGE",
+    "value": "MOVED_PIPELINE_STAGE",
+    "msg": "Moved a Client in the Pipeline",
+    "help_text": "When an Administrator moves a Client in the Client Pipeline.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "SENT_SERVICE_CONFIRMATION_CLIENT",
+    "value": "SENT_SERVICE_CONFIRMATION_CLIENT",
+    "msg": "Sent a job confirmation email to a client",
+    "help_text": "When a Job Confirmation Email is sent to a Client.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "SENT_SERVICE_CONFIRMATION_CONTRACTOR",
+    "value": "SENT_SERVICE_CONFIRMATION_CONTRACTOR",
+    "msg": "Sent a job confirmation email to a tutor",
+    "help_text": "When a Job Confirmation Email is sent to a Tutor.",
+    "subject_types": [
+      "Job"
+    ]
+  },
+  {
+    "key": "BOOKED_AN_APPOINTMENT",
+    "value": "BOOKED_AN_APPOINTMENT",
+    "msg": "Booked a Lesson",
+    "help_text": "When a Client books a Lesson.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "CANCELLED_A_BOOKING",
+    "value": "CANCELLED_A_BOOKING",
+    "msg": "Cancelled a booking",
+    "help_text": "When a cancels a booked Lesson.",
+    "subject_types": [
+      "Lesson"
+    ]
+  },
+  {
+    "key": "CANCELLED_DEFERRED_PAYMENT",
+    "value": "CANCELLED_DEFERRED_PAYMENT",
+    "msg": "Cancelled a deferred payment",
+    "help_text": "When a Deferred Payment is cancelled.",
+    "subject_types": [
+      "Credit Request",
+      "Invoice"
+    ]
+  },
+  {
+    "key": "DEFERRED_PAYMENT_FAILED",
+    "value": "DEFERRED_PAYMENT_FAILED",
+    "msg": "A deferred payment failed",
+    "help_text": "When a Deferred Payment Fails.",
+    "subject_types": [
+      "Credit Request",
+      "Invoice"
+    ]
+  },
+  {
+    "key": "PAYMENT_FAILED",
+    "value": "PAYMENT_FAILED",
+    "msg": "A payment failed",
+    "help_text": "When a Payment Fails.",
+    "subject_types": [
+      "Credit Request",
+      "Invoice"
+    ]
+  },
+  {
+    "key": "CHANGED_BILLING_PLAN",
+    "value": "CHANGED_BILLING_PLAN",
+    "msg": "Changed their price plan",
+    "help_text": "When a Company updates their Billing Plan.",
+    "subject_types": []
+  },
+  {
+    "key": "CHANGED_SUPPORT_PLAN",
+    "value": "CHANGED_SUPPORT_PLAN",
+    "msg": "Changed their support plan",
+    "help_text": "When a Company updates their Support Plan.",
+    "subject_types": []
+  },
+  {
+    "key": "SWITCH_BRANCH",
+    "value": "SWITCH_BRANCH",
+    "msg": "Switched to another Branch",
+    "help_text": "When a User switches to a different Branch.",
+    "subject_types": []
+  },
+  {
+    "key": "COPY_ROLE",
+    "value": "COPY_ROLE",
+    "msg": "Copied a Role to another Branch",
+    "help_text": "When a Role is copied over to a different Branch.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student"
+    ]
+  },
+  {
+    "key": "SENT_ONE_OFF_EMAIL",
+    "value": "SENT_ONE_OFF_EMAIL",
+    "msg": "Sent a one off Email",
+    "help_text": "When an Administrator sends a User a One Off Email.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student"
+    ]
+  },
+  {
+    "key": "REQUESTED_JS_REVIEW",
+    "value": "REQUESTED_JS_REVIEW",
+    "msg": "Requested a JavaScript review",
+    "help_text": "When an Administrator sends his JavaScript to be reviewed.",
+    "subject_types": []
+  },
+  {
+    "key": "SENT_CLIENT_APT_SCHEDULE",
+    "value": "SENT_CLIENT_APT_SCHEDULE",
+    "msg": "Sent a Client their Lesson schedule",
+    "help_text": "When a Client is sent their Lesson Schedule.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "AGENCY_IN_ARREARS",
+    "value": "AGENCY_IN_ARREARS",
+    "msg": "Company status set to In Arrears",
+    "help_text": "When a Company's status is set to In Arrears.",
+    "subject_types": []
+  },
+  {
+    "key": "TRIAL_ENDING_SOON_EMAIL",
+    "value": "TRIAL_ENDING_SOON_EMAIL",
+    "msg": "Was sent a trial expiring email",
+    "help_text": "When a Company's Trial expires they will receive an email.",
+    "subject_types": []
+  },
+  {
+    "key": "CONTRACTOR_WAS_CREATED_API",
+    "value": "CONTRACTOR_WAS_CREATED_API",
+    "msg": "Was created through the API",
+    "help_text": "When a Tutor is created through the API.",
+    "subject_types": [
+      "Tutor"
+    ]
+  },
+  {
+    "key": "CLIENT_WAS_CREATED_API",
+    "value": "CLIENT_WAS_CREATED_API",
+    "msg": "Was created through the API",
+    "help_text": "When a Client is created through the API.",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "SR_WAS_CREATED_API",
+    "value": "SR_WAS_CREATED_API",
+    "msg": "Was created through the API",
+    "help_text": "When a Student is created through the API.",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "AGENT_WAS_CREATED_API",
+    "value": "AGENT_WAS_CREATED_API",
+    "msg": "Was created through the API",
+    "help_text": "When a Affiliate is created through the API.",
+    "subject_types": [
+      "Affiliate"
+    ]
+  },
+  {
+    "key": "GENERATED_PAYRUN_EXPORT",
+    "value": "GENERATED_PAYRUN_EXPORT",
+    "msg": "Generated a Pay Run Export",
+    "help_text": "When an Admin generates a Pay Run export",
+    "subject_types": []
+  },
+  {
+    "key": "FAILED_LOGIN_ATTEMPT",
+    "value": "FAILED_LOGIN_ATTEMPT",
+    "msg": "Failed to log in",
+    "help_text": "When someone attempts to login into an account with the wrong password.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_AGENCY_DETAILS",
+    "value": "EDITED_AGENCY_DETAILS",
+    "msg": "Edited an agency's details",
+    "help_text": "When an agency's details have been edited",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "EDITED_PRICE_PLAN",
+    "value": "EDITED_PRICE_PLAN",
+    "msg": "Edited an agency's price plan",
+    "help_text": "When an agency's price plan has been edited",
+    "subject_types": [
+      "Client"
+    ]
+  },
+  {
+    "key": "EXPORTED_AHCS",
+    "value": "EXPORTED_AHCS",
+    "msg": "Exported Ad Hoc Charges",
+    "help_text": "When someone exports a list of Ad Hoc Charges",
+    "subject_types": []
+  }
+]

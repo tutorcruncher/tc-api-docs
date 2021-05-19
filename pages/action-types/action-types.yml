@@ -7,3 +7,4 @@ sections:
     code_type: GET
     code_url: /api/action-types/
     response: /action-types/list-all-action-types.json
+    extra_template: /extras/action-types-list.jinja

@@ -1,0 +1,22 @@
+<div class="api-attributes">
+  <h4>All Action Types</h4>
+  {% for action in get_actions() %}
+    <div class="api-attributes-container">
+      <div class="attribute-info">
+        <span class="attribute-name">{{ action.key }}</span>
+        <span class="attribute-type">{{ action.msg }}</span>
+      </div>
+      <div class="attribute-description">
+        {{ action.help_text|markdown }}
+        {% if action.subject_types_data %}
+          <p>
+            <b class="action-bold-text">Subject Types:</b>
+            {% for sub_type_data in action.subject_types_data %}
+              <a href="#{{ sub_type_data.href }}"><code>{{ sub_type_data.name }}</code></a>
+            {% endfor %}
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
