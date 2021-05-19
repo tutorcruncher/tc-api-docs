@@ -25,7 +25,8 @@ jobs:
       run: |
         pip install -r requirements.txt
         harrier --version
-    - run: python ./scripts/check_actions.py
+    - name: Check Actions
       env:
         TC_API_KEY: ${{ secrets.TC_API_KEY }}
+      run: python ./scripts/check_actions.py
     - run: harrier build
