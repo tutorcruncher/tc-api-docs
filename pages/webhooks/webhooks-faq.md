@@ -7,8 +7,7 @@ Webhooks are a way for TutorCruncher to push information about events to another
 Webhooks are fired from TutorCruncher every time an action takes place involving a user or a job. 
 For instance, a webhook would fire when a tutor is created, or a client makes an enquiry.
 
-[Click here to view a list of all actions in TutorCruncher and what they mean](https://help.tutorcruncher.com/en/articles/4843350-actions/) 
-or use the [Action Type](#action-types) endpoint to get a list of all the actions.
+[Click here to view a list of all actions in TutorCruncher and what they mean](#list-all-action-types).
 
 ### What information does a webhook contain?
 
