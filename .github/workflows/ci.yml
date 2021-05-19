@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '**'
+  pull_request: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - run: yarn install
+
+    - name: set up python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+
+    - name: install
+      run: |
+        pip install -r requirements.txt
+        harrier --version
+    - run: python ./scripts/check_actions.py
+    - run: harrier build
