@@ -6,7 +6,7 @@ from harrier.extensions import template
 from harrier.render import resolve_url as harrier_resolve_url
 
 
-@template.contextfunction
+@template.pass_context
 def resolve_url(ctx, path):
     # Need to reference api.tc.com for tc.com/api/
     config = ctx['config']
@@ -15,12 +15,12 @@ def resolve_url(ctx, path):
     return config.site_root + harrier_resolve_url(ctx, path)
 
 
-@template.contextfunction
+@template.pass_context
 def js_url(ctx, path):
     return path if ctx['config'].mode == Mode.development else resolve_url(ctx, path)
 
 
-@template.contextfunction
+@template.pass_context
 def code_line_list(ctx, file_name):
     with open('./pages/' + file_name, 'r+') as f:
         # Return as list as need length of list in jinja template
@@ -35,7 +35,7 @@ def replace_spaces(line):
     return escape(line).replace(' ', '&nbsp;', space_count)
 
 
-@template.contextfunction
+@template.pass_context
 def json_line_list(ctx, file_name):
     with open('./pages/' + file_name, 'r+') as f:
         return map(replace_spaces, f.readlines())
@@ -56,7 +56,7 @@ SUBJECT_TYPE_HREF = {
 }
 
 
-@template.contextfunction
+@template.pass_context
 def get_actions(ctx):
     with open('./data/actions.json', 'r') as f:
         actions = json.load(f)
