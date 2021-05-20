@@ -494,6 +494,16 @@ h2, h3 {
               padding: 0 3px;
               font-size: 12px;
             }
+
+            a {
+              text-decoration: none;
+              color: $brand-colour;
+              font-weight: bold;
+            }
+
+            .action-bold-text {
+              font-size: 12px;
+            }
           }
 
           .attribute-children-container {
