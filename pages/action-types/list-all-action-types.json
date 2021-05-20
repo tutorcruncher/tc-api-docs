@@ -1,9 +1,15 @@
 [
   {
-    "key": "LOGIN",
-    "value": "LOGIN",
-    "msg": "Logged in",
-    "help_text": "When a User logs in."
+    "key": "AGREE_TERMS",
+    "value": "AGREE_TERMS",
+    "msg": "Agreed to Terms and Conditions",
+    "help_text": "When a User agrees to the Terms and Conditions.",
+    "subject_types": [
+      "Tutor",
+      "Affiliate",
+      "Client",
+      "Student"
+    ]
   },
   ...
 ]

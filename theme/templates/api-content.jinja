@@ -53,6 +53,10 @@
               {% endfor %}
             </div>
           {% endif %}
+
+          {% if subsection.extra_template %}
+            {% include subsection.extra_template %}
+          {% endif %}
         </div>
         <div class="api-example-container">
           <div class="api-example-content">
