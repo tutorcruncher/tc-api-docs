@@ -50,9 +50,10 @@ SUBJECT_TYPE_HREF = {
     'Invoice': 'invoices',
     'Payment Order': 'payment-orders',
     'Credit Request': 'proforma-invoices',
-    'Student': 'recipient',
+    'Student': 'recipients',
     'Ad Hoc Charge': 'adhoccharges',
-    'Application': 'tenders'
+    'Application': 'tenders',
+    'Report': 'reports'
 }
 
 
