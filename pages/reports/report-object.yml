@@ -63,10 +63,12 @@ attributes:
             name: name
             type: string
             description: The name of the Service.
-          - name: status
+          -
+            name: status
             type: string
             description: Service's status, choices are `pending`, `available`, `in-progress`, `finished`, and `gone-cold'`.
-          - name: url
+          -
+            name: url
             type: string
             description: URL to the Service's object.
   -
