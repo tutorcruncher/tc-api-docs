@@ -1,0 +1,181 @@
+attributes:
+  -
+    name: appointment
+    type: object
+    description: Object of Appointment related to the Report.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: finish
+        type: string
+        description: Appointment's finish date and time.
+      -
+        name: start
+        type: string
+        description: Appointment's start date and time.
+      -
+        name: topic
+        type: string
+        description: Appointment's topic.
+      -
+        name: status
+        type: string
+        description: |
+          The status for the Appointment, the status types are `Planned`, `Awaiting Report`, `Complete`, `Cancelled`,
+          and `Cancelled but Chargeable`.
+      -
+        name: url
+        type: string
+        description: URL to the Appointment's object.
+      -
+        name: service
+        type: object
+        description: The Service the Appointment is in.
+        children:
+          -
+            name: id
+            type: integer
+            description: Unique identifier for the object.
+          -
+            name: created
+            type: string
+            description: Date and time when the Service was created.
+          -
+            name: dft_charge_type
+            type: string
+            description: How the Service's Appointments will be charged. Types are `hourly` or `one-off`.
+          -
+            name: dft_charge_rate
+            type: decimal
+            description: Defaut charge rate for all Appointments on the Service.
+          -
+            name: dft_contractor_rate
+            type: decimal
+            description: Default Contractor rate for all Appointments on the Service.
+          -
+            name: last_updated
+            type: string
+            description: The last time the Service was updated.
+          -
+            name: name
+            type: string
+            description: The name of the Service.
+          -
+            name: status
+            type: string
+            description: Service's status, choices are `pending`, `available`, `in-progress`, `finished`, and `gone-cold'`.
+          -
+            name: url
+            type: string
+            description: URL to the Service's object.
+  -
+    name: approved
+    type: boolean
+    description: If the Report has been approved or not.
+  -
+    name: client
+    type: object
+    description: Object of the Client related to the Report.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Client's object.
+  -
+    name: creator
+    type: object
+    description: Object of the Contractor or Administrator who wrote the Report.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Contractor or Administrator object.
+  -
+    name: dt_created
+    type: string
+    description: Date and time when the Report was created.
+  -
+    name: extra_attrs
+    type: array
+    description: An array of the Report's extra fields.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the field's object.
+      -
+        name: machine_name
+        type: string
+        description: Unique slugified name of the field.
+      -
+        name: name
+        type: string
+        description: The name of the field.
+      -
+        name: type
+        type: string
+        description: The type of the field.
+      -
+        name: value
+        type: string
+        description: The value of the field.
+  -
+    name: service_recipient
+    type: object
+    description: Object of the Service recipient related to the Report.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Service recipient's object.

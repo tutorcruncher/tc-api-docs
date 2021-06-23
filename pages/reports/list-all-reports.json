@@ -1,0 +1,62 @@
+{
+  "count": 37,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "appointment": {
+        "finish": "2021-06-03T09:30:02.733619Z",
+        "id": 52,
+        "service": {
+          "created": "2021-05-27T14:43:32.572794Z",
+          "dft_charge_rate": "55.00",
+          "dft_charge_type": "hourly",
+          "dft_contractor_rate": "35.00",
+          "id": 3,
+          "last_updated": "2021-05-17T14:43:32.572794Z",
+          "name": "A level Physics",
+          "status": "in-progress",
+          "url": "https://secure.tutorcruncher.com/api/services/3/"
+        },
+        "start": "2021-06-03T07:30:02.733619Z",
+        "status": "Complete",
+        "topic": "Lesson 1",
+        "url": "https://secure.tutorcruncher.com/api/appointments/52/"
+      },
+      "approved": true,
+      "client": {
+        "email": "katherine_brown@example.com",
+        "first_name": "Katherine",
+        "id": 17,
+        "last_name": "Brown",
+        "url": "https://secure.tutorcruncher.com/api/clients/17/"
+      },
+      "creator": {
+        "email": "brain_johnson@example.com",
+        "first_name": "brian",
+        "id": 33,
+        "last_name": "Johnson",
+        "url": "https://secure.tutorcruncher.com/api/contractors/33/"
+      },
+      "dt_created": "2021-06-22T14:43:52.172855Z",
+      "extra_attrs": [
+        {
+          "id": 43,
+          "machine_name": "client_report",
+          "name": "Client Report",
+          "type": "Long Textbox",
+          "value": "Great start, 2 more lessons needed"
+        }
+      ],
+      "service_recipient": {
+        "email": "jennifer_brown@testagency.example.com",
+        "first_name": "Jennifer",
+        "id": 10,
+        "last_name": "Brown",
+        "url": "http://localhost:8000/api/recipients/10/"
+      },
+    "url": "http://localhost:8000/api/reports/12/"
+    },
+    ...
+  ]
+}
