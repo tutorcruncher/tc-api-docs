@@ -1296,7 +1296,7 @@
     "msg": "Edited a Report",
     "help_text": "When a Report is edited.",
     "subject_types": [
-      "Lesson"
+      "Report"
     ]
   },
   {
@@ -1305,7 +1305,7 @@
     "msg": "Approved a Report",
     "help_text": "When an Administrator approves a Report.",
     "subject_types": [
-      "Lesson"
+      "Report"
     ]
   },
   {
@@ -1321,7 +1321,7 @@
     "msg": "Created a Report",
     "help_text": "When a Report is created.",
     "subject_types": [
-      "Lesson"
+      "Report"
     ]
   },
   {
@@ -1746,6 +1746,20 @@
     "value": "EXPORTED_AHCS",
     "msg": "Exported Ad Hoc Charges",
     "help_text": "When someone exports a list of Ad Hoc Charges",
+    "subject_types": []
+  },
+  {
+    "key": "TRANSFER_CREATED",
+    "value": "TRANSFER_CREATED",
+    "msg": "Received Express Payouts transfer",
+    "help_text": "When a tutor receives money into their Express Payouts account",
+    "subject_types": []
+  },
+  {
+    "key": "SUPPORT_OTP_CONFIRMED",
+    "value": "SUPPORT_OTP_CONFIRMED",
+    "msg": "Confirmed a support OTP code",
+    "help_text": "When someone confirms their OTP code over the phone",
     "subject_types": []
   }
 ]
