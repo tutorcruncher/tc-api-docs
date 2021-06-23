@@ -68,11 +68,11 @@ endpoint_sections:
     layout: /qual-levels/qual-levels.yml
   -
     title: Recipients (Students)
-    id: recipient
+    id: recipients
     layout: /recipients/recipients.yml
   -
     title: Reports
-    id: report
+    id: reports
     layout: /reports/reports.yml
   -
     title: Reviews
