@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Reports Object
+    id: report-object
+    description: /reports/report-object.md
+    attributes: /reports/report-object.yml
+    response: /reports/report-object.json
+    response_title: OBJECT
+  -
+    title: List all Reports
+    id: list-all-reports
+    description: /reports/list-all-reports.md
+    code: /reports/list-all-reports.py
+    code_type: GET
+    code_url: /api/reports/
+    response: /reports/list-all-reports.json
+  -
+    title: Get a Report
+    id: get-a-report
+    description: /reports/get-a-report.md
+    code: /reports/get-a-report.py
+    code_type: GET
+    code_url: /api/reports/<id>/
+    response: /reports/get-a-report.json

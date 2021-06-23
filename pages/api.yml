@@ -71,6 +71,10 @@ endpoint_sections:
     id: recipient
     layout: /recipients/recipients.yml
   -
+    title: Reports
+    id: report
+    layout: /reports/reports.yml
+  -
     title: Reviews
     id: reviews
     layout: /reviews/reviews.yml
