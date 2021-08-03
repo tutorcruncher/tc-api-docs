@@ -53,7 +53,7 @@ SUBJECT_TYPE_HREF = {
     'Student': 'recipients',
     'Ad Hoc Charge': 'adhoccharges',
     'Application': 'tenders',
-    'Report': 'reports'
+    'Report': 'reports',
 }
 
 
