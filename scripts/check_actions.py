@@ -1,8 +1,8 @@
 import json
+import os
 from pathlib import Path
 
 import requests
-import os
 
 TC_ACTIONS_URL = 'https://secure.tutorcruncher.com/api/action-types/'
 
