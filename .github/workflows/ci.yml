@@ -23,8 +23,11 @@ jobs:
 
     - name: install
       run: |
-        pip install -r requirements.txt
+        make install
         harrier --version
+    - name: lint
+      run: |
+        make lint
     - name: Check Actions
       env:
         TC_API_KEY: ${{ secrets.TC_API_KEY }}
