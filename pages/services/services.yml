@@ -30,3 +30,11 @@ sections:
     code_type: POST
     code_url: /api/services/
     response: /services/create-a-service.json
+  -
+    title: Update a Service
+    id: update-a-service
+    description: /services/update-a-service.md
+    code: /services/update-a-service.py
+    code_type: PUT
+    code_url: /api/services/<id>/
+    response: /services/update-a-service.json
