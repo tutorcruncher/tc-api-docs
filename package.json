@@ -17,7 +17,7 @@
     "bloodhound-js": "^1.2.3",
     "eslint": "^7.8.1",
     "glob-parent": "^5.1.2",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "marker-clusterer": "^1.0.2",
     "nunjucks": "^3.2.2",
     "webpack": "^4.44.1"
