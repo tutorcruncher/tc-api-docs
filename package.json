@@ -20,7 +20,6 @@
     "jquery": "^3.6.0",
     "marker-clusterer": "^1.0.2",
     "nunjucks": "^3.2.2",
-    "set-value": "^4.1.0",
     "webpack": "^4.44.1"
   },
   "babel": {
