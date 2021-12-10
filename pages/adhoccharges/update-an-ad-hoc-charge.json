@@ -11,7 +11,7 @@
     "default_description": null,
     "default_pay_amount": null,
     "dft_net_gross": "gross",
-    "id": 11,
+    "id": 7,
     "name": "Registration fee"
   },
   "category_id": 7,
@@ -26,29 +26,16 @@
     "url": "https://secure.tutorcruncher.com/api/clients/37/"
   },
   "contractor": null,
-  "creator": null,
+  "creator": {
+    "email": "billy_holiday@example.com",
+    "first_name": "Billy",
+    "id": 59,
+    "last_name": "Holiday"
+  },
   "currency": "GBP",
   "currency_conversion": null,
-  "date_occurred": "2019-12-23T16:11:48.312507Z",
-  "invoices": [
-    {
-      "id": 49,
-      "display_id": "INV-49",
-      "date_sent": "2020-01-03T16:11:48.312507Z",
-      "gross": "1059.95",
-      "net": 883.29,
-      "tax": "176.66",
-      "client": {
-        "id": 37,
-        "first_name": "Nicole",
-        "last_name": "Beggs",
-        "email": "nicole_beggs@example.com",
-        "url": "https://secure.tutorcruncher.com/api/clients/37/"
-      },
-      "status": "paid",
-      "url": "https://secure.tutorcruncher.com/api/invoices/49/"
-    }
-  ],
+  "date_occurred": "2021-01-01T00:00:00Z",
+  "invoices": [],
   "payment_orders": [],
   "net_gross": "gross",
   "pay_contractor": null,
@@ -56,7 +43,7 @@
     "id": 26,
     "name": "UK tax law",
     "dft_charge_type": "hourly",
-    "created": "2019-12-19T16:11:48.312507Z",
+    "created": "2021-01-01 T16:11:48.312507Z",
     "dft_charge_rate": "95.00",
     "dft_contractor_rate": "30.00",
     "status": "in-progress",

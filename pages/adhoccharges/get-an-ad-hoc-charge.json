@@ -2,6 +2,18 @@
   "id": 32,
   "agent": null,
   "appointment": null,
+  "category": {
+    "branch_tax_setup": null,
+    "charge_via_branch": false,
+    "contractor_tax_setup": null,
+    "contractor_usable": false,
+    "default_charge_amount": null,
+    "default_description": null,
+    "default_pay_amount": null,
+    "dft_net_gross": "gross",
+    "id": 11,
+    "name": "Registration fee"
+  },
   "category_id": 7,
   "category_name": "Registration fee",
   "charge_client_forex": null,
