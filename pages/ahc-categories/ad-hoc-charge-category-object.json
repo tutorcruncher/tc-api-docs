@@ -1,0 +1,12 @@
+{
+  "id": 11,
+  "name": "Registration fee",
+  "branch_tax_setup": null,
+  "charge_via_branch": false,
+  "contractor_tax_setup": null,
+  "contractor_usable": false,
+  "default_charge_amount": null,
+  "default_description": null,
+  "default_pay_amount": null,
+  "dft_net_gross": "gross"
+}

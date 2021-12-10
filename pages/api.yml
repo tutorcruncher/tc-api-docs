@@ -23,6 +23,10 @@ endpoint_sections:
     id: adhoccharges
     layout: /adhoccharges/adhoccharges.yml
   -
+    title: Ad Hoc Charge Categories
+    id: ahc-categories
+    layout: /ahc-categories/ahc-categories.yml
+  -
     title: Agents (Affiliates)
     id: agents
     layout: /agents/agents.yml

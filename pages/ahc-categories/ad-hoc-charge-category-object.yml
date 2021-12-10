@@ -1,0 +1,41 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: name
+    type: string
+    description: Name of the Ad Hoc Charge Category.
+  -
+    name: branch_tax_setup
+    type: string
+    description: Tax setup for the Branch when invoicing.
+  -
+    name: charge_via_branch
+    type: boolean
+    description: Force Invoices associated with this Tutor to be charged via branch.
+  -
+    name: contractor_tax_setup
+    type: string
+    description: Tax setup for the Contractors when invoicing.
+  -
+    name: contractor_usable
+    type: boolean
+    description: If Contractors can use the category for expenses.
+  -
+    name: default_charge_amount
+    type: decimal
+    description: Default charge_client amount for the Ad Hoc Charge Category.
+  -
+    name: default_description
+    type: string
+    description: Default description for the Ad Hoc Charge Category.
+  -
+    name: default_pay_amount
+    type: decimal
+    description: Default pay_contractor amount for the Ad Hoc Charge Category.
+  -
+    name: dft_net_gross
+    type: string
+    description: Default net/gross value for the Ad Hoc Charge Category.
