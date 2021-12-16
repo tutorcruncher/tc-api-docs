@@ -1,0 +1,5 @@
+sections:
+  -
+    description: /creating-updating-users/creating-updating-users.md
+    code: /creating-updating-users/creating-updating-users.py
+    code_type: POST

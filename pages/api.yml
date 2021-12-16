@@ -12,6 +12,10 @@ info_sections:
     title: Webhooks
     id: webhooks
     layout: /webhooks/webhooks.yml
+  -
+    title: Creating/Updating Users
+    id: creating-updating-users
+    layout: /creating-updating-users/creating-updating-users.yml
 
 endpoint_sections:
   -
