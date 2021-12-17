@@ -46,5 +46,3 @@ sections:
     code_type: DELETE
     code_url: /api/adhoccharges/<id>/
     response: /adhoccharges/delete-an-ad-hoc-charge.json
-
-
