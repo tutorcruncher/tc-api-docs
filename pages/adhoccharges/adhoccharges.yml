@@ -22,3 +22,27 @@ sections:
     code_type: GET
     code_url: /api/adhoccharges/<id>/
     response: /adhoccharges/get-an-ad-hoc-charge.json
+  -
+    title: Create an Ad Hoc Charge
+    id: create-an-ad-hoc-charge
+    description: /adhoccharges/create-an-ad-hoc-charge.md
+    code: /adhoccharges/create-an-ad-hoc-charge.py
+    code_type: POST
+    code_url: /api/adhoccharges/
+    response: /adhoccharges/create-an-ad-hoc-charge.json
+  -
+    title: Update an Ad Hoc Charge
+    id: update-an-ad-hoc-charge
+    description: /adhoccharges/update-an-ad-hoc-charge.md
+    code: /adhoccharges/update-an-ad-hoc-charge.py
+    code_type: PUT
+    code_url: /api/adhoccharges/<id>/
+    response: /adhoccharges/update-an-ad-hoc-charge.json
+  -
+    title: Delete an Ad Hoc Charge
+    id: delete-an-ad-hoc-charge
+    description: /adhoccharges/delete-an-ad-hoc-charge.md
+    code: /adhoccharges/delete-an-ad-hoc-charge.py
+    code_type: DELETE
+    code_url: /api/adhoccharges/<id>/
+    response: /adhoccharges/delete-an-ad-hoc-charge.json

@@ -52,6 +52,7 @@ SUBJECT_TYPE_HREF = {
     'Credit Request': 'proforma-invoices',
     'Student': 'recipients',
     'Ad Hoc Charge': 'adhoccharges',
+    'Ad Hoc Charge Category': 'ahc-categories',
     'Application': 'tenders',
     'Report': 'reports',
 }
