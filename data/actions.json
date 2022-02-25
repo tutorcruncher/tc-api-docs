@@ -1563,7 +1563,7 @@
     "key": "CANCELLED_A_BOOKING",
     "value": "CANCELLED_A_BOOKING",
     "msg": "Cancelled a booking",
-    "help_text": "When a cancels a booked Lesson.",
+    "help_text": "When a client cancels a booked Lesson.",
     "subject_types": [
       "Lesson"
     ]
