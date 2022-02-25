@@ -1,4 +1,4 @@
-import pprint, requests
+import requests
 
 headers = {'Authorization': 'token <API KEY>'}
 data = {
@@ -9,4 +9,4 @@ data = {
     },
     # ...
 }
-requests.get('...', json=data, headers=headers)
+requests.post('...', json=data, headers=headers)
