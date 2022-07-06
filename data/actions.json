@@ -1751,8 +1751,8 @@
   {
     "key": "TRANSFER_CREATED",
     "value": "TRANSFER_CREATED",
-    "msg": "Received Express Payouts transfer",
-    "help_text": "When a tutor receives money into their Express Payouts account",
+    "msg": "Received split payments transfer",
+    "help_text": "When a tutor receives money into their split payments account",
     "subject_types": []
   },
   {
@@ -1760,6 +1760,13 @@
     "value": "SUPPORT_OTP_CONFIRMED",
     "msg": "Confirmed a support OTP code",
     "help_text": "When someone confirms their OTP code over the phone",
+    "subject_types": []
+  },
+  {
+    "key": "EXPORTED_CX_FEED",
+    "value": "EXPORTED_CX_FEED",
+    "msg": "Exported Stripe feed",
+    "help_text": "When someone exports their Stripe bank feed",
     "subject_types": []
   }
 ]
