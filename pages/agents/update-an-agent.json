@@ -24,6 +24,14 @@
     "last_updated": "2020-03-16T12:23:39.056867Z",
     "calendar_colour": "Brown",
     "labels": [],
-    "extra_attrs": []
+    "extra_attrs": [
+      {
+        "id": 1,
+        "value": "1993-06-23",
+        "type": "Date",
+        "machine_name": "user-dob",
+        "name": "Date of birth"
+      }
+    ]
   }
 }

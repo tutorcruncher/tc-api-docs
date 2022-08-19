@@ -63,7 +63,7 @@
     "extra_attrs": [
       {
         "id": 1,
-        "value": "",
+        "value": "1993-06-23",
         "type": "Date",
         "machine_name": "client-dob",
         "name": "Date of birth"

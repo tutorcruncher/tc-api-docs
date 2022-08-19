@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "role": {
+    "id": 3,
+    "user": {
+      "title": "Mr",
+      "first_name": "Jamie",
+      "last_name": "Bob2",
+      "email": "billy_bob@example.com",
+      // ...
+    },
+    // ...
+    "extra_attrs": [
+      {
+        "id": 1,
+        "value": "1993-06-23",
+        "type": "Date",
+        "machine_name": "client-dob",
+        "name": "Date of birth"
+      }
+    ],
+    // ...
+  }
+}

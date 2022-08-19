@@ -181,7 +181,10 @@ attributes:
   -
     name: extra_attrs
     type: array
-    description: Custom fields for this object.
+    description: |
+        Custom fields for this object.
+
+        Updated with payload shape: `'extra_attrs': {'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'}`
   -
     name: work_done_details
     type: object

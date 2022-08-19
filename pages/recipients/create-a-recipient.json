@@ -32,6 +32,15 @@
     "last_updated": "2019-11-24T16:11:48.312507Z",
     "calendar_colour": "Khaki",
     "labels": [],
-    "extra_attrs": []
+    "extra_attrs": [
+      {
+        "id": 1,
+        "value": "1993-06-23",
+        "type": "Date",
+        "machine_name": "user-dob",
+        "name": "Date of birth"
+      }
+    ]
+
   }
 }
