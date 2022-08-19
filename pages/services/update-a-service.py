@@ -8,6 +8,7 @@ data = {
     'dft_contractor_rate': 40,
     'status': 'pending',
     'colour': 'blue',
+    'extra_attrs': {'study_level': 'A Level'}
 }
 r = requests.put('https://secure.tutorcruncher.com/api/services/<id>/', json=data, headers=headers)
 pprint.pprint(r.json())

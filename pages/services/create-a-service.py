@@ -29,7 +29,7 @@ data = {
     'dft_contractor_rate': 35.0,
     'dft_location': None,
     'dft_max_srs': 10,
-    'extra_attrs': {},
+    'extra_attrs': {'study_level': 'GCSE'},
     'extra_fee_per_apt': None,
     'inactivity_time': None,
     'name': 'Example Name',
