@@ -4,7 +4,9 @@ headers = {'Authorization': 'token <API KEY>'}
 data = {
     'user': {
         'email': 'billy_bob@example.com',
-        'last_name': 'Bob2'
+        'last_name': 'Bob2',
+        # ...
+        'extra_attrs': {'user_dob': '1993-06-23'},
         # ...
     },
     # ...

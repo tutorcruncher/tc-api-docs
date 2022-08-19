@@ -33,7 +33,15 @@
   "dft_contractor_rate": "35.00",
   "dft_location": null,
   "dft_max_srs": 10,
-  "extra_attrs": {},
+  "extra_attrs": [
+      {
+        "id": 1,
+        "value": "GCSE",
+        "type": "Short Textbox",
+        "machine_name": "study_level",
+        "name": "Study Level"
+      }
+    ],
   "extra_fee_per_apt": null,
   "inactivity_time": null,
   "name": "Example Name",

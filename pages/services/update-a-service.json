@@ -21,7 +21,15 @@
   "dft_contractor_rate": 40.0,
   "dft_location": null,
   "dft_max_srs": null,
-  "extra_attrs": [],
+  "extra_attrs": [
+      {
+        "id": 1,
+        "value": "A Level",
+        "type": "Short Textbox",
+        "machine_name": "study_level",
+        "name": "Study Level"
+      }
+    ],
   "extra_fee_per_apt": null,
   "id": 11,
   "inactivity_time": 14,

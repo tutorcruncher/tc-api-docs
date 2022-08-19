@@ -22,7 +22,7 @@ data = {
     'default_rate': 80.0,
     'receive_service_notifications': True,
     'calendar_colour': 'LimeGreen',
-    'extra_attrs': {},
+    'extra_attrs': {'user_dob': '1993-06-23'},
     'send_emails': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/contractors/', json=data, headers=headers)
