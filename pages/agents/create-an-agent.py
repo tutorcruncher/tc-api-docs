@@ -19,7 +19,7 @@ data = {
     },
     'commission_rate': 10.1,
     'calendar_colour': 'LimeGreen',
-    'extra_attrs': {},
+    'extra_attrs': {'user_dob': '1993-06-23'},
     'send_emails': True,
 }
 r = requests.post('https://secure.tutorcruncher.com/api/agents/', json=data, headers=headers)

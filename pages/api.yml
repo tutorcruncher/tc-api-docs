@@ -16,6 +16,10 @@ info_sections:
     title: Creating/Updating Users
     id: creating-updating-users
     layout: /creating-updating-users/creating-updating-users.yml
+  -
+    title: Custom Fields
+    id: custom-fields
+    layout: /custom-fields/custom-fields.yml
 
 endpoint_sections:
   -

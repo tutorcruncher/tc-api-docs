@@ -42,7 +42,15 @@
     "last_updated": "2020-04-06T15:36:16.924625+01:00",
     "calendar_colour": "#757575",
     "labels": [],
-    "extra_attrs": [],
+    "extra_attrs": [
+      {
+        "id": 1,
+        "value": "1993-06-23",
+        "type": "Date",
+        "machine_name": "user-dob",
+        "name": "Date of birth"
+      }
+    ],
     "work_done_details": {
       "amount_owed": 264.49,
       "amount_paid": 175.0,

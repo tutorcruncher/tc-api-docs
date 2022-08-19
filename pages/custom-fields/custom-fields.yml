@@ -1,0 +1,7 @@
+sections:
+  -
+    description: /custom-fields/custom-fields.md
+    code: /custom-fields/custom-fields.py
+    code_type: POST
+    code_url: /api/clients/
+    response: /custom-fields/custom-fields.json
