@@ -1768,5 +1768,19 @@
     "msg": "Exported Stripe feed",
     "help_text": "When someone exports their Stripe bank feed",
     "subject_types": []
+  },
+  {
+    "key": "CREATED_LESSON_RECORDING",
+    "value": "CREATED_LESSON_RECORDING",
+    "msg": "Created a Lesson Recording",
+    "help_text": "When a lesson recording has been created.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_LESSON_RECORDING",
+    "value": "DELETED_LESSON_RECORDING",
+    "msg": "Deleted a Lesson Recording details",
+    "help_text": "When a lesson recording has been deleted.",
+    "subject_types": []
   }
 ]

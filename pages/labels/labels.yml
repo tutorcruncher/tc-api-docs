@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Label Object
+    id: label-object
+    description: /labels/label-object.md
+    attributes: /labels/label-object.yml
+    response: /labels/get-a-label.json
+    response_title: OBJECT
+  -
+    title: List all Labels
+    id: list-all-labels
+    description: /labels/list-all-labels.md
+    code: /labels/list-all-labels.py
+    code_type: GET
+    code_url: /api/labels/
+    response: /labels/list-all-labels.json
+  -
+    title: Get a Label
+    id: get-a-label
+    description: /labels/get-a-label.md
+    code: /labels/get-a-label.py
+    code_type: GET
+    code_url: /api/labels/<id>/
+    response: /labels/get-a-label.json

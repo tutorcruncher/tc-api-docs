@@ -1,0 +1,9 @@
+{
+    "id": 26,
+    "name": "Public Job",
+    "machine_name": "public-job",
+    "colour": "#70bc73",
+    "applicable_role_types": "service",
+    "contractor_editable": false,
+    "url": "https://secure.tutorcruncher.com/api/labels/26/"
+}
