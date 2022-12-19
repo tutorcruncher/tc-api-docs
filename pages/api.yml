@@ -59,6 +59,10 @@ endpoint_sections:
     id: invoices
     layout: /invoices/invoices.yml
   -
+    title: Labels
+    id: labels
+    layout: /labels/labels.yml
+  -
     title: Payment Orders
     id: payment-orders
     layout: /payment-orders/pos.yml
