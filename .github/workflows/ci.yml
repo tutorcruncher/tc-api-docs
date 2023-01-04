@@ -19,7 +19,7 @@ jobs:
     - name: set up python
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8.16a'
+        python-version: '3.8.16'
 
     - name: install
       run: |
