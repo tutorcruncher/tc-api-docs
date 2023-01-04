@@ -20,6 +20,10 @@ attributes:
     type: string
     description: The role types the label is applicable to.
   -
+    name: email_recipients
+    type: object
+    description: The email recipients for the label.
+  -
     name: contractor_editable
     type: boolean
     description: Whether the label is editable by contractors.
