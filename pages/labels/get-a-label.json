@@ -1,9 +1,26 @@
 {
-    "id": 26,
-    "name": "Public Job",
-    "machine_name": "public-job",
-    "colour": "#70bc73",
-    "applicable_role_types": "service",
-    "contractor_editable": false,
-    "url": "https://secure.tutorcruncher.com/api/labels/26/"
+    "id": 42,
+    "name": "External",
+    "machine_name": "external",
+    "colour": "MediumBlue",
+    "applicable_role_types": [
+        "client",
+        "service"
+    ],
+    "email_recipients": [
+        {
+            "id": 2,
+            "first_name": "Diana",
+            "last_name": "Lafayette",
+            "email": "diana_lafayette@testagency.example.com"
+        },
+        {
+            "id": 59,
+            "first_name": "Billy",
+            "last_name": "Holiday",
+            "email": "testing+owner@tutorcruncher.com"
+        }
+    ],
+    "contractor_editable": true,
+    "url": "http://localhost:8000/api/labels/42/"
 }

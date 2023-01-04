@@ -7,28 +7,24 @@
             "id": 26,
             "name": "Public Job",
             "machine_name": "public-job",
-            "colour": "#70bc73",
             "url": "https://secure.tutorcruncher.com/api/labels/26/"
         },
         {
             "id": 25,
             "name": "Public Profile",
             "machine_name": "public-profile",
-            "colour": "#81C784",
             "url": "https://secure.tutorcruncher.com/api/labels/25/"
         },
         {
             "id": 24,
             "name": "Invited for Interview",
             "machine_name": "invited-for-interview",
-            "colour": "orange",
             "url": "https://secure.tutorcruncher.com/api/labels/24/"
         },
         {
             "id": 23,
             "name": "Job Finished",
             "machine_name": "service-finished",
-            "colour": "yellow",
             "url": "https://secure.tutorcruncher.com/api/labels/23/"
         }
     ]
