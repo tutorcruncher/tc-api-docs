@@ -15,7 +15,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "bloodhound-js": "^1.2.3",
-    "decode-uri-component": "^0.2.2",
+    "decode-uri-component": "^0.3.0",
     "eslint": "^7.8.1",
     "glob-parent": "^5.1.2",
     "jquery": "^3.6.0",
