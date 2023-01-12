@@ -2,5 +2,5 @@ harrier==0.12.0
 pydantic==1.9.1
 aiohttp-devtools==0.13.1
 black==22.10.0
-flake8==6.0.0
+flake8==5.0.4
 isort==5.10.1
