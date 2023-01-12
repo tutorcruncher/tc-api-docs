@@ -1,0 +1,33 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: name
+    type: string
+    description: The name of the label.
+  -
+    name: machine_name
+    type: string
+    description: Unique slugified name of the label.
+  -
+    name: colour
+    type: string
+    description: The colour of the label.
+  -
+    name: applicable_role_types
+    type: string
+    description: The role types the label is applicable to.
+  -
+    name: email_recipients
+    type: object
+    description: The email recipients for the label.
+  -
+    name: contractor_editable
+    type: boolean
+    description: Whether the label is editable by contractors.
+  -
+    name: url
+    type: string
+    description: URL to the label's object.
