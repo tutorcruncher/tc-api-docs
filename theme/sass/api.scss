@@ -551,6 +551,58 @@ h2, h3 {
           }
         }
       }
+
+      .api-filters {
+        margin: 1rem;
+
+        h4 {
+          margin-bottom: 0.5rem;
+        }
+
+        .api-filters-container {
+          padding: 1rem 0;
+          border-top: 1px solid #e3e8ee;
+          font-size: 14px;
+
+          .filters-info {
+            font-family: $code-font;
+            font-weight: bold;
+            font-size: 12px;
+
+            .filters-type {
+              color: #8792a2;
+            }
+          }
+
+          .filters-description {
+            p {
+              margin: 0.5rem 0 0 0;
+            }
+
+            code {
+              display: inline;
+              background: #f7fafc;
+              border: 1px solid rgba(#000, 0.05);
+              border-radius: 4px;
+              margin: 0 1px;
+              padding: 0 3px;
+              font-size: 12px;
+            }
+
+            a {
+              text-decoration: none;
+              color: $brand-colour;
+              font-weight: bold;
+            }
+
+            .action-bold-text {
+              font-size: 12px;
+            }
+          }
+          }
+
+        }
+      }
     }
   }
 }

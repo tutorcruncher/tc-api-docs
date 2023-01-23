@@ -31,3 +31,4 @@ attributes:
     name: url
     type: string
     description: URL to the label's object.
+
