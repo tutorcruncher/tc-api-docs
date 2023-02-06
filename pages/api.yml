@@ -20,10 +20,10 @@ info_sections:
     title: Custom Fields
     id: custom-fields
     layout: /custom-fields/custom-fields.yml
-  -
-    title: Filters
-    id: filters
-    layout: /filters/filters.yml
+#  -
+#    title: Filters
+#    id: filters
+#    layout: /filters/filters.yml
 
 endpoint_sections:
   -

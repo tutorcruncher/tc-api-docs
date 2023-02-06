@@ -4,13 +4,13 @@ sections:
     id: service-object
     description: /services/service-object.md
     attributes: /services/service-object.yml
-    filters: /services/service-object.yml
     response: /services/service-object.json
     response_title: OBJECT
   -
     title: List all Services
     id: list-all-services
     description: /services/list-all-services.md
+    filters: /services/service-object.yml
     code: /services/list-all-services.py
     code_type: GET
     code_url: /api/services/
