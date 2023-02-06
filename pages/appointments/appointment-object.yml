@@ -153,3 +153,29 @@ attributes:
     name: charge_type
     type: string
     description: How the Appointment will be charged. Types are `Hourly` or `One off`.
+
+filters:
+  -
+    name: start__gte
+    type: string
+    description: Filter by the date and time the Appointment was started.
+  -
+    name: start__lte
+    type: string
+    description: Filter by the date and time the Appointment was ended.
+  -
+    name: service
+    type: integer
+    description: Filter by the Appointment's linked Job (id).
+  -
+    name: contractor
+    type: string
+    description: Filter by the Appointment's linked Tutor (id).
+  -
+    name: recipient
+    type: integer
+    description: Filter by the Appointment's recipient email address (id).
+  -
+    name: location
+    type: integer
+    description: Filter by the Appointment's location (id).

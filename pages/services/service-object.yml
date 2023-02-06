@@ -232,3 +232,24 @@ attributes:
     name: total_apt_units
     type: decimal
     description: Total amount of Appointments on the Service, excludes deleted and only cancelled Appointments.
+filters:
+  -
+    name: created_gte
+    type: string
+    description: Filter by the date and time the Service was created.
+  -
+    name: created_lte
+    type: string
+    description: Filter by the date and time the Service was created.
+  -
+    name: last_updated_gte
+    type: string
+    description: Filter by the date and time the Service was updated.
+  -
+    name: last_updated_lte
+    type: string
+    description: Filter by the date and time the Service was updated.
+  -
+    name: labels
+    type: integer
+    description: Filter by the Service's labels (id).

@@ -15,6 +15,12 @@ make install
 harrier dev
 ```
 
+## Editing
+
+The visual content is setup in the api-content.jinja template stype page
+
+The content set by this template is reffered to as sections, each section is set out in api.yml
+
 ## Deploying
 
 This PR has automatic deploys, after merging a PR, it will be deployed. 

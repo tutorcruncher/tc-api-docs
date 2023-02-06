@@ -156,3 +156,36 @@ attributes:
         Custom fields for this object.
 
         Updated with payload shape: `'extra_attrs': {'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'}`
+filters:
+  -
+    name: user__created__gte
+    type: string
+    description: Filter by the date and time the Recipient was created.
+  -
+    name: user__created__lte
+    type: string
+    description: Filter by the date and time the Recipient was created.
+  -
+    name: user__first_name
+    type: string
+    description: Filter by the Recipient's first name.
+  -
+    name: user__last_name
+    type: string
+    description: Filter by the Recipient's last name.
+  -
+    name: user__email
+    type: string
+    description: Filter by the Recipient's email address.
+  -
+    name: distance_address
+    type: string
+    description: Filter by the address.
+  -
+    name: distance_radius
+    type: integer
+    description: Filter by the radius of the address. This is used in conjunction with the `address` filter.
+  -
+    name: labels
+    type: integer
+    description: Filter by the Recipient's labels (id).
