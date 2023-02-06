@@ -53,6 +53,21 @@
               {% endfor %}
             </div>
           {% endif %}
+          {% set filters_layout = pages[subsection.filters] %}
+          {% if filters_layout %}
+            <div class="api-filters">
+              <h4>Filters</h4>
+              {% for filter in filters_layout.filters %}
+                <div class="api-filters-container">
+                  <div class="filters-info">
+                    <span class="filter-name">{{ filter.name }}</span>
+                    <span class="filter-type">{{ filter.type }}</span>
+                  </div>
+                  <div class="filter-description">{{ filter.description|markdown }}</div>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
 
           {% if subsection.extra_template %}
             {% include subsection.extra_template %}

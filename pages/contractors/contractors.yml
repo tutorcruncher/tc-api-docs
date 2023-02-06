@@ -4,6 +4,7 @@ sections:
     id: contractor-object
     description: /contractors/contractor-object.md
     attributes: /contractors/contractor-object.yml
+    filters: /contractors/contractor-object.yml
     response: /contractors/contractor-object.json
     response_title: OBJECT
   -

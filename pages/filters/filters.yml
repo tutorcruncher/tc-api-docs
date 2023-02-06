@@ -1,0 +1,7 @@
+sections:
+  -
+    description: /filters/filters.md
+    code: /filters/filters.py
+    code_type: POST
+    code_url: /api/clients/?user__first_name=Jamie
+    response: /filters/filters.json
