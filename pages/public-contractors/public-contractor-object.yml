@@ -111,4 +111,12 @@ attributes:
     type: string
     description: Date and time of when the Contractor's Profile was released.
 
-
+filters:
+  -
+    name: release__gte
+    type: string
+    description: Filter by the date and time the Agent was released.
+  -
+    name: release__lte
+    type: string
+    description: Filter by the date and time the Agent was released.
