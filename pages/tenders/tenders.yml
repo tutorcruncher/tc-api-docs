@@ -4,6 +4,7 @@ sections:
     id: tender-object
     description: /tenders/tender-object.md
     attributes: /tenders/tender-object.yml
+    filters: /tenders/tender-object.yml
     response: /tenders/tender-object.json
     response_title: OBJECT
   -

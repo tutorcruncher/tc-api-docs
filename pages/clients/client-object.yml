@@ -224,3 +224,43 @@ attributes:
     name: available_balance
     type: string
     description: The Client's available balance.
+
+filters:
+  -
+    name: created__gte
+    type: string
+    description: Filter by the date and time the Client was created.
+  -
+    name: created__lte
+    type: string
+    description: Filter by the date and time the Client was created.
+  -
+    name: first_name
+    type: string
+    description: Filter by the Client's first name.
+  -
+    name: last_name
+    type: string
+    description: Filter by the Client's last name.
+  -
+    name: email
+    type: string
+    description: Filter by the Client's email address.
+  -
+    name: status
+    type: string
+    description: Filter by the Client's status.
+  -
+    name: distance_address
+    type: string
+    description: Filter by the address.
+  -
+    name: distance_radius
+    type: integer
+    description: Filter by the radius of the address. This is used in conjunction with the `address` filter.
+  -
+    name: labels
+    type: integer
+    description: Filter by the Client's labels (id).
+
+

@@ -78,3 +78,22 @@ attributes:
     name: status
     type: string
     description: Tender's status, choices are `pending`, `requested`, `accepted`, `rejected`, and `withdrawn`.
+
+filters:
+  -
+    name: contractor
+    type: integer
+    description: Filter by the Contractor's id.
+  -
+    name: service
+    type: integer
+    description: Filter by the Service's id.
+  -
+    name: created_gte
+    type: string
+    description: Filter by the date and time the Tender was created.
+  -
+    name: created_lte
+    type: string
+    description: Filter by the date and time the Tender was created.
+
