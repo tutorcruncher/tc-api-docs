@@ -4,13 +4,13 @@ sections:
     id: contractor-object
     description: /contractors/contractor-object.md
     attributes: /contractors/contractor-object.yml
-    filters: /contractors/contractor-object.yml
     response: /contractors/contractor-object.json
     response_title: OBJECT
   -
     title: List all Contractors
     id: list-all-contractors
     description: /contractors/list-all-contractors.md
+    filters: /contractors/contractor-object.yml
     code: /contractors/list-all-contractors.py
     code_type: GET
     code_url: /api/contractors/

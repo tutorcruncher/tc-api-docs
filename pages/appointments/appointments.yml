@@ -4,13 +4,13 @@ sections:
     id: appointment-object
     description: /appointments/appointment-object.md
     attributes: /appointments/appointment-object.yml
-    filters: /appointments/appointment-object.yml
     response: /appointments/appointment-object.json
     response_title: OBJECT
   -
     title: List all Appointments
     id: list-all-appointments
     description: /appointments/list-all-appointments.md
+    filters: /appointments/appointment-object.yml
     code: /appointments/list-all-appointments.py
     code_type: GET
     code_url: /api/appointments/
