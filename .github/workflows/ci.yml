@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - uses: actions/setup-node@v1
     - run: yarn install
 
     - name: set up python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v3
       with:
-        python-version: '3.7'
+        python-version: '3.9'
 
     - name: install
       run: |
