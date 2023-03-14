@@ -186,8 +186,8 @@
   {
     "key": "ACCOUNTING_ITEM_AUTOCHARGED",
     "value": "ACCOUNTING_ITEM_AUTOCHARGED",
-    "msg": "Was Autocharged successfully",
-    "help_text": "Occurs once for each Credit Request or Invoice when they are paid via Autocharge.",
+    "msg": "Charged a client using Autocharge",
+    "help_text": "Occurs once for each Credit Request or Invoice when they are charged via Autocharge.",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -1751,8 +1751,8 @@
   {
     "key": "TRANSFER_CREATED",
     "value": "TRANSFER_CREATED",
-    "msg": "Received split payments transfer",
-    "help_text": "When a tutor receives money into their split payments account",
+    "msg": "Received a transfer to their Stripe account",
+    "help_text": "When a tutor/branch receives money into their Stripe account",
     "subject_types": []
   },
   {
