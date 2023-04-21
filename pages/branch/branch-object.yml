@@ -1,0 +1,164 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the Branch object.
+  -
+    name: agency
+    type: object
+    description: Object of the agency associated with the branch.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the agency object.
+      -
+        name: blurb
+        type: string
+        description: Brief description of the agency.
+      -
+        name: created
+        type: string
+        description: Date and time when the agency was created.
+      -
+        name: login_url
+        type: string
+        description: URL to the agency's login page.
+      -
+        name: name
+        type: string
+        description: The name of the agency.
+      -
+        name: status
+        type: string
+        description: Status of the agency, choices are `active-paying`, `active-not-paying`, `archived`, or `deleted`.
+      -
+        name: url_slug
+        type: string
+        description: The URL slug for the agency.
+  -
+    name: country
+    type: string
+    description: The country where the branch is located.
+  -
+    name: created
+    type: string
+    description: Date and time when the branch was created.
+  -
+    name: currency
+    type: string
+    description: The currency used in the branch.
+  -
+    name: datetime_output_formats
+    type: object
+    description: Object containing the datetime output formats for the branch.
+    children:
+      -
+        name: date_name
+        type: string
+        description: The date format for display.
+      -
+        name: dj_date
+        type: array
+        description: Array of Django date formats.
+      -
+        name: mt_date
+        type: string
+        description: Moment.js date format.
+      -
+        name: tpl_date
+        type: string
+        description: The date format for templates.
+      -
+        name: time_name
+        type: string
+        description: The time format for display.
+      -
+        name: dj_time
+        type: array
+        description: Array of Django time formats.
+      -
+        name: mt_time
+        type: string
+        description: Moment.js time format.
+      -
+        name: tpl_time
+        type: string
+        description: The time format for templates.
+      -
+        name: tpl_datetime
+        type: string
+        description: The datetime format for templates.
+      -
+        name: tpl_datetime_short
+        type: string
+        description: The short datetime format for templates.
+      -
+        name: day_first
+        type: boolean
+        description: If `True`, the day comes before the month in date formats.
+      -
+        name: cal_date_display
+        type: string
+        description: The date format for the calendar.
+      -
+        name: display_input
+        type: string
+        description: The datetime format for display.
+      -
+        name: dj_datetime
+        type: array
+        description: Array of Django datetime formats.
+      -
+        name: mt_datetime
+        type: string
+        description: Moment.js datetime format.
+      -
+        name: datetime_name
+        type: string
+        description: The datetime format for display.
+  -
+    name: demo
+    type: boolean
+    description: If `True`, the branch is a demo branch.
+  -
+    name: longitude
+    type: float
+    description: The longitude of the branch location.
+  -
+    name: latitude
+    type: float
+    description: The latitude of the branch location.
+  -
+    name: name
+    type: string
+    description: The name of the branch.
+  -
+    name: page_logo
+    type: string
+    description: The URL of the branch's logo.
+  -
+    name: phone
+    type: string
+    description: The phone number of the branch.
+  -
+    name: postcode
+    type: string
+    description: The postcode of the branch.
+  -
+    name: street
+    type: string
+    description: The street address of the branch.
+  -
+    name: timezone
+    type: string
+    description: The timezone of the branch.
+  -
+    name: town
+    type: string
+    description: The town of the branch.
+  -
+    name: website
+    type: string
+    description: The website of the branch.
+
