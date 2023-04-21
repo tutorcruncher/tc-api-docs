@@ -1,101 +1,199 @@
 {
-  "id": 48,
-  "charges": [
-    {
-      "adhoc_charge": {
-        "id": 30,
-        "description": "Book and practical exercises (electronics), tests and components for lab experiments.",
-        "date_occurred": "2019-12-25T16:11:48.312507Z",
-        "category_id": 7,
-        "category_name": "Registration fee",
-        "client_cost": "55.90",
-        "pay_contractor": null,
-        "agent_percentage": null,
-        "url": "https://secure.tutorcruncher.com/api/adhoccharges/30/"
-      },
-      "amount": "55.90000",
-      "appointment": null,
-      "date": "2019-12-25T16:11:48.312507Z",
-      "payer": "Demo Branch",
-      "payee": {
-        "id": 35,
-        "first_name": "Melissa",
-        "last_name": "Spencer",
-        "email": "melissa_spencer@example.com",
-        "url": "https://secure.tutorcruncher.com/api/contractors/35/"
-      },
-      "rate": "55.90000",
-      "sales_code": "350",
-      "tax_amount": "0.00000",
-      "units": "1.00000"
+    "id": 4985119,
+    "amount": "225.00",
+    "charges": [
+        {
+            "adhoc_charge": null,
+            "amount": "45.00000",
+            "appointment": {
+                "id": 8255569,
+                "start": "2022-09-17T18:00:47.967724+01:00",
+                "finish": "2022-09-17T19:30:47.967724+01:00",
+                "topic": "Programming patterns, algorithms and data structures 4",
+                "status": "complete",
+                "service": {
+                    "id": 604713,
+                    "name": "Theory of computer programming",
+                    "dft_charge_type": "hourly",
+                    "created": "2022-08-20T15:14:20.678562+01:00",
+                    "dft_charge_rate": "95.00",
+                    "dft_contractor_rate": "30.00",
+                    "last_updated": "2022-10-19T15:14:43.607845+01:00",
+                    "status": "in-progress",
+                    "url": "https://secure.tutorcruncher.com/api/services/604713/"
+                },
+                "url": "https://secure.tutorcruncher.com/api/appointments/8255569/"
+            },
+            "date": "2022-09-17T19:30:47.967724+01:00",
+            "payee": {
+                "id": 1865751,
+                "first_name": "Bettie",
+                "last_name": "Canales",
+                "email": "bettie_canales@online-olive.example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+            },
+            "payer": "Demo Branch",
+            "rate": "30.00000",
+            "sales_code": "325",
+            "tax_amount": "0.00000",
+            "units": "1.50000"
+        },
+        {
+            "adhoc_charge": null,
+            "amount": "45.00000",
+            "appointment": {
+                "id": 8255568,
+                "start": "2022-09-10T18:00:47.967724+01:00",
+                "finish": "2022-09-10T19:30:47.967724+01:00",
+                "topic": "Programming patterns, algorithms and data structures 3",
+                "status": "complete",
+                "service": {
+                    "id": 604713,
+                    "name": "Theory of computer programming",
+                    "dft_charge_type": "hourly",
+                    "created": "2022-08-20T15:14:20.678562+01:00",
+                    "dft_charge_rate": "95.00",
+                    "dft_contractor_rate": "30.00",
+                    "last_updated": "2022-10-19T15:14:43.607845+01:00",
+                    "status": "in-progress",
+                    "url": "https://secure.tutorcruncher.com/api/services/604713/"
+                },
+                "url": "https://secure.tutorcruncher.com/api/appointments/8255568/"
+            },
+            "date": "2022-09-10T19:30:47.967724+01:00",
+            "payee": {
+                "id": 1865751,
+                "first_name": "Bettie",
+                "last_name": "Canales",
+                "email": "bettie_canales@online-olive.example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+            },
+            "payer": "Demo Branch",
+            "rate": "30.00000",
+            "sales_code": "325",
+            "tax_amount": "0.00000",
+            "units": "1.50000"
+        },
+        {
+            "adhoc_charge": null,
+            "amount": "45.00000",
+            "appointment": {
+                "id": 8255567,
+                "start": "2022-09-03T18:00:47.967724+01:00",
+                "finish": "2022-09-03T19:30:47.967724+01:00",
+                "topic": "Programming patterns, algorithms and data structures 2",
+                "status": "complete",
+                "service": {
+                    "id": 604713,
+                    "name": "Theory of computer programming",
+                    "dft_charge_type": "hourly",
+                    "created": "2022-08-20T15:14:20.678562+01:00",
+                    "dft_charge_rate": "95.00",
+                    "dft_contractor_rate": "30.00",
+                    "last_updated": "2022-10-19T15:14:43.607845+01:00",
+                    "status": "in-progress",
+                    "url": "https://secure.tutorcruncher.com/api/services/604713/"
+                },
+                "url": "https://secure.tutorcruncher.com/api/appointments/8255567/"
+            },
+            "date": "2022-09-03T19:30:47.967724+01:00",
+            "payee": {
+                "id": 1865751,
+                "first_name": "Bettie",
+                "last_name": "Canales",
+                "email": "bettie_canales@online-olive.example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+            },
+            "payer": "Demo Branch",
+            "rate": "30.00000",
+            "sales_code": "325",
+            "tax_amount": "0.00000",
+            "units": "1.50000"
+        },
+        {
+            "adhoc_charge": null,
+            "amount": "45.00000",
+            "appointment": {
+                "id": 8255561,
+                "start": "2022-09-14T12:00:47.967724+01:00",
+                "finish": "2022-09-14T13:30:47.967724+01:00",
+                "topic": "Microelectronics and application of semiconductors 4",
+                "status": "complete",
+                "service": {
+                    "id": 604712,
+                    "name": "Microelectronics, Semiconductors, Industrial applications",
+                    "dft_charge_type": "hourly",
+                    "created": "2022-08-17T15:14:20.678562+01:00",
+                    "dft_charge_rate": "95.00",
+                    "dft_contractor_rate": "30.00",
+                    "last_updated": "2022-10-19T15:14:43.576396+01:00",
+                    "status": "in-progress",
+                    "url": "https://secure.tutorcruncher.com/api/services/604712/"
+                },
+                "url": "https://secure.tutorcruncher.com/api/appointments/8255561/"
+            },
+            "date": "2022-09-14T13:30:47.967724+01:00",
+            "payee": {
+                "id": 1865751,
+                "first_name": "Bettie",
+                "last_name": "Canales",
+                "email": "bettie_canales@online-olive.example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+            },
+            "payer": "Demo Branch",
+            "rate": "30.00000",
+            "sales_code": "325",
+            "tax_amount": "0.00000",
+            "units": "1.50000"
+        },
+        {
+            "adhoc_charge": null,
+            "amount": "45.00000",
+            "appointment": {
+                "id": 8255560,
+                "start": "2022-09-07T12:00:47.967724+01:00",
+                "finish": "2022-09-07T13:30:47.967724+01:00",
+                "topic": "Microelectronics and application of semiconductors 3",
+                "status": "complete",
+                "service": {
+                    "id": 604712,
+                    "name": "Microelectronics, Semiconductors, Industrial applications",
+                    "dft_charge_type": "hourly",
+                    "created": "2022-08-17T15:14:20.678562+01:00",
+                    "dft_charge_rate": "95.00",
+                    "dft_contractor_rate": "30.00",
+                    "last_updated": "2022-10-19T15:14:43.576396+01:00",
+                    "status": "in-progress",
+                    "url": "https://secure.tutorcruncher.com/api/services/604712/"
+                },
+                "url": "https://secure.tutorcruncher.com/api/appointments/8255560/"
+            },
+            "date": "2022-09-07T13:30:47.967724+01:00",
+            "payee": {
+                "id": 1865751,
+                "first_name": "Bettie",
+                "last_name": "Canales",
+                "email": "bettie_canales@online-olive.example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+            },
+            "payer": "Demo Branch",
+            "rate": "30.00000",
+            "sales_code": "325",
+            "tax_amount": "0.00000",
+            "units": "1.50000"
+        }
+    ],
+    "date_sent": "2022-10-19T15:15:36.488105+01:00",
+    "date_void": null,
+    "date_paid": null,
+    "display_id": "PO-46",
+    "status": "unpaid",
+    "payee": {
+        "id": 1865751,
+        "first_name": "Bettie",
+        "last_name": "Canales",
+        "email": "bettie_canales@online-olive.example.com",
+        "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
     },
-    {
-      "adhoc_charge": null,
-      "amount": "142.50000",
-      "appointment": {
-        "id": 251,
-        "start": "2019-12-31T12:00:33.173982Z",
-        "finish": "2019-12-31T13:30:33.173982Z",
-        "topic": "Microelectronics and application of semiconductors 2",
-        "status": 20,
-        "service_id": 24,
-        "service_name": "Microelectronics, Semiconductors, Industrial applications",
-        "url": "https://secure.tutorcruncher.com/api/appointments/251/"
-      },
-      "date": "2019-12-31T13:30:33.173982Z",
-      "payer": "Demo Branch",
-      "payee": {
-        "id": 35,
-        "first_name": "Melissa",
-        "last_name": "Spencer",
-        "email": "melissa_spencer@example.com",
-        "url": "https://secure.tutorcruncher.com/api/contractors/35/"
-      },
-      "rate": "95.00000",
-      "sales_code": "200",
-      "tax_amount": "23.75000",
-      "units": "1.50000"
-    },
-    {
-      "adhoc_charge": null,
-      "amount": "142.50000",
-      "appointment": {
-        "id": 250,
-        "start": "2019-12-24T12:00:33.173982Z",
-        "finish": "2019-12-24T13:30:33.173982Z",
-        "topic": "Microelectronics and application of semiconductors 1",
-        "status": 20,
-        "service_id": 24,
-        "service_name": "Microelectronics, Semiconductors, Industrial applications",
-        "url": "https://secure.tutorcruncher.com/api/appointments/250/"
-      },
-      "date": "2019-12-24T13:30:33.173982Z",
-      "payer": "Demo Branch",
-      "payee": {
-        "id": 35,
-        "first_name": "Melissa",
-        "last_name": "Spencer",
-        "email": "melissa_spencer@example.com",
-        "url": "https://secure.tutorcruncher.com/api/contractors/35/"
-      },
-      "rate": "95.00000",
-      "sales_code": "200",
-      "tax_amount": "23.75000",
-      "units": "1.50000"
-    }
-  ],
-  "payee": {
-    "id": 35,
-    "first_name": "Melissa",
-    "last_name": "Spencer",
-    "email": "melissa_spencer@example.com",
-    "url": "https://secure.tutorcruncher.com/api/contractors/35/"
-  },
-  "date_sent": "2020-01-03T16:11:48.312507Z",
-  "date_void": null,
-  "date_paid": "2020-02-03T16:11:48.312507Z",
-  "display_id": "PO-48",
-  "amount": 0.0,
-  "status": "paid",
-  "still_to_pay": 0.0,
+    "still_to_pay": 225.0
 }

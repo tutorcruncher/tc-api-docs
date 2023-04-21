@@ -1,82 +1,87 @@
 {
-  "events": [
-    {
-      "action": "CHANGED_CONTRACTOR_STATUS",
-      "verb": "Changed a Tutor's status",
-      "timestamp": "2020-03-10T12:41:52.819342Z",
-      "actor": {
-        "name": "Billy Holiday",
-        "id": 59,
-        "user_id": 58,
-        "url": ""
-      },
-      "subject": {
-        "model": "Tutor",
-        "url": "http://localhost:8000/api/contractors/54/",
-        "id": 54,
-        "user": {
-          "title": null,
-          "first_name": "Walter",
-          "last_name": "Moore",
-          "email": "walter_moore@testagency.example.com",
-          "mobile": "07806 402 497",
-          "phone": null,
-          "street": "26 Varna Rd",
-          "state": null,
-          "town": "Fulham",
-          "country": "United Kingdom (GB)",
-          "postcode": "SW6 7LD",
-          "latitude": "51.4796469999999999",
-          "longitude": "-0.2082010000000000",
-          "date_created": "2020-02-19T09:29:19.148949Z",
-          "timezone": null
-        },
-        "status": "approved",
-        "charge_via_branch": false,
-        "default_rate": null,
-        "qualifications": [],
-        "skills": [
-          {
-            "id": 22,
-            "subject": "History",
-            "qual_level": "Key Stage 4"
-          },
-          {
-            "id": 23,
-            "subject": "Portuguese",
-            "qual_level": "Key Stage 4"
-          }
-        ],
-        "institutions": [],
-        "receive_service_notifications": true,
-        "review_rating": null,
-        "review_duration": "00:00:00",
-        "last_updated": "2020-03-10T12:41:52.799386Z",
-        "calendar_colour": "MediumOrchid",
-        "labels": [],
-        "extra_attrs": [
-          {
-            "id": 33,
-            "value": "I have over 20 years of experience teaching physics at City of London University and can help undergraduates prepare for all kinds of exams in physics and mathematics.",
-            "type": "Long Textbox",
-            "machine_name": "contractor-exp",
-            "name": "Teaching Experience"
-          },
-          {
-            "id": 34,
-            "value": "I am a retired academic teacher and want to keep contact with the job I love albeit in a more limited amounts. In free time I love to go angling with my friends.",
-            "type": "Long Textbox",
-            "machine_name": "contractor-bio",
-            "name": "Bio"
-          }
-        ],
-        "work_done_details": {
-          "amount_owed": 97.5,
-          "amount_paid": 1854.9,
-          "total_paid_hours": "2 09:00:00"
+    "events": [
+        {
+            "action": "CHANGED_CONTRACTOR_STATUS",
+            "verb": "Changed a Tutor's status",
+            "timestamp": "2023-04-21T09:43:09.065099Z",
+            "branch": 17597,
+            "actor": {
+                "name": "Sebastian Prentice",
+                "id": 1865753,
+                "user_id": 1781627,
+                "url": ""
+            },
+            "subject": {
+                "model": "Tutor",
+                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/",
+                "id": 1865751,
+                "user": {
+                    "title": null,
+                    "first_name": "Bettie",
+                    "last_name": "Canales",
+                    "email": "bettie_canales@online-olive.example.com",
+                    "mobile": "07037 773 614",
+                    "phone": null,
+                    "street": "104 Robert Street",
+                    "state": null,
+                    "town": "Kings Cross",
+                    "country": "United Kingdom (GB)",
+                    "postcode": "NW1 3QP",
+                    "latitude": "51.5285679999999999",
+                    "longitude": "-0.1405610000000000",
+                    "date_created": "2022-08-31T14:14:20.678562Z",
+                    "timezone": null
+                },
+                "status": "pending",
+                "charge_via_branch": false,
+                "default_rate": null,
+                "qualifications": [],
+                "skills": [
+                    {
+                        "id": 1851,
+                        "subject": "Textiles and Fashion Design",
+                        "qual_level": "International Baccalaureate"
+                    },
+                    {
+                        "id": 345,
+                        "subject": "Theatre Studies",
+                        "qual_level": "International Baccalaureate"
+                    }
+                ],
+                "institutions": [],
+                "received_notifications": [
+                    "service_notifications",
+                    "broadcasts",
+                    "apt_reminders",
+                    "apt_marked_complete_reminder"
+                ],
+                "review_rating": null,
+                "review_duration": "00:00:00",
+                "calendar_colour": "Teal",
+                "labels": [],
+                "extra_attrs": [
+                    {
+                        "id": 12757955,
+                        "value": "After work I enjoy playing spanish classical and flamenco guitar. I also perform at weddings occasionally.",
+                        "type": "Long Textbox",
+                        "machine_name": "contractor_bio",
+                        "name": "Bio"
+                    },
+                    {
+                        "id": 12757954,
+                        "value": "I was responsible for managing a class of 16 students, ages 7-12, and planning activities that stimulate growth in language, social, and motor skills. Bachelor of Arts in English in 2004",
+                        "type": "Long Textbox",
+                        "machine_name": "contractor_exp",
+                        "name": "Teaching Experience"
+                    }
+                ],
+                "work_done_details": {
+                    "amount_owed": 804.4,
+                    "amount_paid": 2230,
+                    "total_paid_hours": "2 02:30:00"
+                }
+            }
         }
-      }
-    }
-  ],
-  "_request_time": 1583844113
+    ],
+    "_request_time": 1682070189
 }
