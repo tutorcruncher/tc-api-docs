@@ -24,7 +24,7 @@ attributes:
         type: object
         description: |
           Object that contains information about the Appointment. Attributes in the object are `id`, `start`, `finish`,
-          `topic`, `status`, `service_id`, `service_name`, and `url`.
+          `topic`, `status`, `url` and `service` object.
       -
         name: date
         type: string
