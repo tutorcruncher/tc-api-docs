@@ -12,8 +12,8 @@ For instance, a webhook would fire when a tutor is created, or a client makes an
 
 ### What information does a webhook contain?
 
-The webhook contains basic information about the actions such as `action (type)`, `verb`, `timestamp`, `actor` 
-and `subject`. The `actor` is the person who performed the action within TutorCruncher. The `subject` is the 
+The webhook contains basic information about the actions such as `action (type)`, `branch`, `verb`, `timestamp`, `actor` 
+and `subject`.The `branch` is the id of the associated branch.  The `actor` is the person who performed the action within TutorCruncher. The `subject` is the 
 item which the action was performed on. For example, creating/editing a Lesson will send a webhook with the 
 details about that Lesson.
 

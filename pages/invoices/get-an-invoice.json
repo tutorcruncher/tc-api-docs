@@ -38,8 +38,17 @@
         "finish": "2019-12-31T13:30:33.173982Z",
         "topic": "Microelectronics and application of semiconductors 2",
         "status": 20,
-        "service_id": 24,
-        "service_name": "Microelectronics, Semiconductors, Industrial applications",
+        "service": {
+                "id": 699444,
+                "name": "test",
+                "dft_charge_type": "hourly",
+                "created": "2023-03-15T17:37:46.829300Z",
+                "dft_charge_rate": "12.00",
+                "dft_contractor_rate": "21.00",
+                "last_updated": "2023-03-15T17:38:02.989696Z",
+                "status": "available",
+                "url": "https://secure.tutorcruncher.com/api/services/699444/"
+            },
         "url": "https://secure.tutorcruncher.com/api/appointments/251/"
       },
       "date": "2019-12-31T13:30:33.173982Z",
@@ -65,8 +74,17 @@
         "finish": "2019-12-24T13:30:33.173982Z",
         "topic": "Microelectronics and application of semiconductors 1",
         "status": 20,
-        "service_id": 24,
-        "service_name": "Microelectronics, Semiconductors, Industrial applications",
+        "service": {
+                "id": 699444,
+                "name": "test",
+                "dft_charge_type": "hourly",
+                "created": "2023-03-15T17:37:46.829300Z",
+                "dft_charge_rate": "12.00",
+                "dft_contractor_rate": "21.00",
+                "last_updated": "2023-03-15T17:38:02.989696Z",
+                "status": "available",
+                "url": "https://secure.tutorcruncher.com/api/services/699444/"
+            },
         "url": "https://secure.tutorcruncher.com/api/appointments/250/"
       },
       "date": "2019-12-24T13:30:33.173982Z",

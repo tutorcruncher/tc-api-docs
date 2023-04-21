@@ -9,8 +9,17 @@
       "finish": "2020-01-01T13:00:00Z",
       "topic": "Lesson 1",
       "status": 10,
-      "service_id": 2,
-      "service_name": "Maths GCSE",
+      "service": {
+                "id": 699444,
+                "name": "test",
+                "dft_charge_type": "hourly",
+                "created": "2023-03-15T17:37:46.829300Z",
+                "dft_charge_rate": "12.00",
+                "dft_contractor_rate": "21.00",
+                "last_updated": "2023-03-15T17:38:02.989696Z",
+                "status": "available",
+                "url": "https://secure.tutorcruncher.com/api/services/699444/"
+            },
       "url": "https://secure.tutorcruncher.com/api/appointments/10/"
     },
     ...

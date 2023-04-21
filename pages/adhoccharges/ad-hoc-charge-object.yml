@@ -61,13 +61,11 @@ attributes:
           - `30` for Cancelled
           - `40` for Cancelled but Chargeable
       -
-        name: service_id
-        type: integer
-        description: Unique identifier of the related Service.
-      -
-        name: service_name
-        type: string
-        description: Name of the related Service.
+        name: service
+        type: object
+        description: |
+          Object that contains information about the Service. Attributes in the object are `id`, `name`, 
+          `dft_charge_type`, `created`, `dft_charge_rate`, `dft_conractor_rate`, `last_updated`, `status`, `url`.
       -
         name: url
         type: string
