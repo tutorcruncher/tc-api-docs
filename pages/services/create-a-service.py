@@ -7,21 +7,28 @@ data = {
     'cap': None,
     'conjobs': [
         {
-            'contractor': 568503,
+            'contractor': 1865741,
             'contractor_permissions': 'add-edit-complete',
-            'pay_rate': 45.0,
+            'pay_rate': 45.0
+        },
+        {
+            'contractor': 1865742,
+            'contractor_permissions': 'add-edit-complete',
+            'pay_rate': 35.0
         }
     ],
     'rcrs': [
         {
-            'recipient': 562725,
-            'charge_rate': 35.0,
-            'agent': 885425,
-            'agent_percentage': 30.0,
+            'recipient': 1865698,
+            'charge_rate': 35.0
+        },
+        {
+            'recipient': 1865702,
+            'charge_rate': 25.0
         }
     ],
     'colour': 'Khaki',
-    'contractor_tax_setup': 8361,
+    'contractor_tax_setup': None,
     'description': 'Example description for the Service which will appear on TutorCruncher',
     'dft_charge_type': 'hourly',
     'dft_charge_rate': 45.0,
@@ -34,12 +41,13 @@ data = {
     'inactivity_time': None,
     'name': 'Example Name',
     'net_gross': 'gross',
-    'require_rcr': True,
-    'require_con_job': True,
+    'report_required': False,
+    'require_rcr': False,
+    'require_con_job': False,
     'review_units': 0,
     'sales_codes': None,
     'sr_premium': 0.0,
-    'status': 'pending',
+    'status': 'pending'
 }
 r = requests.post('https://secure.tutorcruncher.com/api/services/', json=data, headers=headers)
 pprint.pprint(r.json())
