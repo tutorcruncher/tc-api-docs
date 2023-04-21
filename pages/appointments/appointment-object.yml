@@ -141,18 +141,16 @@ attributes:
         name: source_apt
         type: integer
         description: Unique identifier of the Appointment which the repeater is repeating from.
-  -
-    name: service_id
-    type: integer
-    description: Unique identifier for the Service which the Appointment is on.
-  -
-    name: service_name
-    type: string
-    description: Name of the Service which the Appointment is on.
-  -
-    name: charge_type
-    type: string
-    description: How the Appointment will be charged. Types are `Hourly` or `One off`.
+      -
+        name: service
+        type: object
+        description: |
+          Object that contains information about the Service. Attributes in the object are `id`, `name`, 
+          `dft_charge_type`, `created`, `dft_charge_rate`, `dft_conractor_rate`, `last_updated`, `status`, `url`.
+      -
+        name: charge_type
+        type: string
+        description: How the Appointment will be charged. Types are `Hourly` or `One off`.
 
 filters:
   -
