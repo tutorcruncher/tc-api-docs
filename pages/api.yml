@@ -97,7 +97,7 @@ endpoint_sections:
   -
     title: Reports
     id: reports
-    layout: /reports/branch.yml
+    layout: /reports/reports.yml
   -
     title: Reviews
     id: reviews
