@@ -1,0 +1,8 @@
+sections:
+  -
+    title: Branch Object
+    id: branch-object
+    description: /branch/branch-object.md
+    attributes: /branch/branch-object.yml
+    response: /branch/branch-object.json
+    response_title: OBJECT
