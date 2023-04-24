@@ -47,6 +47,10 @@ endpoint_sections:
     id: appointments
     layout: /appointments/appointments.yml
   -
+    title: Branch
+    id: branch
+    layout: /branch/branch.yml
+  -
     title: Clients
     id: clients
     layout: /clients/clients.yml

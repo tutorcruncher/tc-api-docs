@@ -1,0 +1,58 @@
+{
+    "id": 17597,
+    "agency": {
+        "id": 9214,
+        "blurb": "",
+        "created": "2022-10-19T10:14:20.034536-04:00",
+        "login_url": "/online-olive/login/",
+        "name": "online olive",
+        "status": "active-not-paying",
+        "url_slug": "online-olive"
+    },
+    "country": "United Kingdom",
+    "created": "2022-10-19T10:14:20.687490-04:00",
+    "currency": "GBP",
+    "datetime_output_formats": {
+        "date_name": "dd/mm/yyyy",
+        "dj_date": [
+            "%d/%m/%Y",
+            "%d/%m/%y",
+            "%Y-%m-%d"
+        ],
+        "mt_date": "DD/MM/YYYY",
+        "tpl_date": "%d/%m/%Y",
+        "time_name": "HH:MM",
+        "dj_time": [
+            "%H:%M",
+            "%H:%M:%S"
+        ],
+        "mt_time": "HH:mm",
+        "tpl_time": "%H:%M",
+        "tpl_datetime": "%d/%m/%Y %H:%M",
+        "tpl_datetime_short": "%d/%m %H:%M",
+        "day_first": true,
+        "cal_date_display": "ddd DD/MM",
+        "display_input": "25/7/2014 14:30",
+        "dj_datetime": [
+            "%d/%m/%Y %H:%M",
+            "%d/%m/%Y %H:%M:%S",
+            "%d/%m/%y %H:%M",
+            "%d/%m/%y %H:%M:%S",
+            "%Y-%m-%d %H:%M",
+            "%Y-%m-%d %H:%M:%S"
+        ],
+        "mt_datetime": "DD/MM/YYYY HH:mm",
+        "datetime_name": "dd/mm/yyyy HH:MM"
+    },
+    "demo": true,
+    "longitude": null,
+    "latitude": null,
+    "name": "Demo Branch",
+    "page_logo": null,
+    "phone": null,
+    "postcode": "SW1W 0EN",
+    "street": "Testing House, Demo street",
+    "timezone": "Europe/London",
+    "town": "London",
+    "website": "http://test.test.com"
+}
