@@ -16,6 +16,14 @@
             {% endfor %}
           </p>
         {% endif %}
+        <p>
+          <b class="action-bold-text">Webhook Sent:</b>
+          {% if action.subject_types_data %}
+            <a style="color: #397300" href="/#webhooks">TRUE</a>
+          {% else %}
+            <a style="color: #397300" href="/#webhooks">FALSE</a>
+          {% endif %}
+        </p>
       </div>
     </div>
   {% endfor %}
