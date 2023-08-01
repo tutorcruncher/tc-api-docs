@@ -10,20 +10,16 @@
         {{ action.help_text|markdown }}
         {% if action.subject_types_data %}
           <p>
-            <b class="action-bold-text">Subject Types:</b>
+            <b class="action-bold-text">Webhooks are sent for this Action for the following Subject Types:</b>
             {% for sub_type_data in action.subject_types_data %}
               <a href="#{{ sub_type_data.href }}"><code>{{ sub_type_data.name }}</code></a>
             {% endfor %}
           </p>
+        {% else %}
+          <p>
+              <b class="action-bold-text">We do not currently send webhooks for this Action</b>
+          </p>
         {% endif %}
-        <p>
-          <b class="action-bold-text">Webhook Sent:</b>
-          {% if action.subject_types_data %}
-            <a style="color: #397300; font-size: 12px" href="/#webhooks">TRUE</a>
-          {% else %}
-            <a style="color: #880000; font-size: 12px" href="/#webhooks">FALSE</a>
-          {% endif %}
-        </p>
       </div>
     </div>
   {% endfor %}
