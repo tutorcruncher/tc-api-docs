@@ -1,0 +1,39 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 5,
+            "complete": false,
+            "description": "This is the fourth tasks description",
+            "due_dt": "2023-07-08T08:10:00Z",
+            "task_type": "other",
+            "url": "https://secure.tutorcruncher.com/api/tasks/5/"
+        },
+        {
+            "id": 4,
+            "complete": false,
+            "description": "This is the third tasks description.",
+            "due_dt": "2023-07-07T08:10:00Z",
+            "task_type": "service-cold",
+            "url": "https://secure.tutorcruncher.com/api/tasks/4/"
+        },
+        {
+            "id": 3,
+            "complete": false,
+            "description": "This is the second tasks description.",
+            "due_dt": "2023-07-06T08:09:00Z",
+            "task_type": "email",
+            "url": "https://secure.tutorcruncher.com/api/tasks/3/"
+        },
+        {
+            "id": 2,
+            "complete": false,
+            "description": "This is the first tasks description.",
+            "due_dt": "2023-07-05T08:08:00Z",
+            "task_type": "phone",
+            "url": "https://secure.tutorcruncher.com/api/tasks/2/"
+        }
+    ]
+}
