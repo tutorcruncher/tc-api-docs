@@ -111,6 +111,10 @@ endpoint_sections:
     id: subjects
     layout: /subjects/subjects.yml
   -
+    title: Tasks
+    id: tasks
+    layout: /tasks/tasks.yml
+  -
     title: Tenders (Job Applications)
     id: tenders
     layout: /tenders/tenders.yml

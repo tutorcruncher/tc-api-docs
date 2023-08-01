@@ -1,0 +1,124 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: admin
+    type: object
+    description: The admin responsible for the Task.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: The users first name.
+      -
+        name: last_name
+        type: string
+        description: The users last name.
+      -
+        name: email
+        type: string
+        description: The users email address.
+  -
+    name: complete
+    type: boolean
+    description: Whether or not the Task is completed.
+  -
+    name: description
+    type: string
+    description: The description of the Task.
+  -
+    name: due_dt
+    type: string
+    description: The date the Task is due.
+  -
+    name: notification_pending
+    type: boolean
+    description: Whether or not a reminder is still to be sent.
+  -
+    name: reminder_dt
+    type: string
+    description: The date the reminder is to be sent.
+  -
+    name: repeater
+    type: string
+    description: How often the Task is to be repeated, the two choices are `weekly` or `monthly`.
+  -
+    name: repeat_every
+    type: string
+    description: Repeat every x weeks or months.
+  -
+    name: role
+    type: object
+    description: Object of the Role.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: The users first name.
+      -
+        name: last_name
+        type: string
+        description: The users last name.
+      -
+        name: email
+        type: string
+        description: The users email address.
+      -
+        name: url
+        type: string
+        description: URL to the Role's object.
+  -
+    name: service
+    type: object
+    description: Object of the Service.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: The name of the Service.
+      -
+        name: dft_charge_type
+        type: string
+        description: The default charge type of the Service.
+      -
+        name: created
+        type: string
+        description: The date the Service was created.
+      -
+        name: dft_charge_rate
+        type: string
+        description: The default charge rate of the Service.
+      -
+        name: dft_contractor_rate
+        type: string
+        description: The default contractor rate of the Service.
+      -
+        name: last_updated
+        type: string
+        description: The date the Service was last updated.
+      -
+        name: status
+        type: string
+        description: The status of the Service.
+      -
+        name: url
+        type: string
+        description: URL to the Service's object.
+  -
+    name: task_type
+    type: string
+    description: The type of Task, the options are `phone`, `email`, `service-cold` or `other`.
