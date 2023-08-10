@@ -143,7 +143,7 @@ attributes:
         type: string
         description: URL to the Agent's object.
   -
-    name: pipeline-stage
+    name: pipeline_stage
     type: object
     description: PipelineStage of the client if they are a Prosect client.
     children:
