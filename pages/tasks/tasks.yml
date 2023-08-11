@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Task Object
+    id: task-object
+    description: /tasks/task-object.md
+    attributes: /tasks/task-object.yml
+    response: /tasks/get-a-task.json
+    response_title: OBJECT
+  -
+    title: List all Tasks
+    id: list-all-tasks
+    description: /tasks/list-all-tasks.md
+    code: /tasks/list-all-tasks.py
+    code_type: GET
+    code_url: /api/tasks/
+    response: /tasks/list-all-tasks.json
+  -
+    title: Get a Task
+    id: get-a-task
+    description: /tasks/get-a-task.md
+    code: /tasks/get-a-task.py
+    code_type: GET
+    code_url: /api/tasks/<id>/
+    response: /tasks/get-a-task.json
