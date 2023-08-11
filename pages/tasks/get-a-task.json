@@ -1,0 +1,35 @@
+{
+    "id": 1,
+    "admin": {
+        "id": 59,
+        "first_name": "Melissa",
+        "last_name": "Spencer",
+        "email": "melissa_spencer@example.com"
+    },
+    "complete": false,
+    "description": "This is an example description of a task.",
+    "due_dt": "2023-07-04T17:40:00+01:00",
+    "notification_pending": true,
+    "reminder_dt": "2023-07-04T17:40:00+01:00",
+    "repeater": "weekly",
+    "repeat_every": 1,
+    "role": {
+        "id": 3,
+        "first_name": "Jamie",
+        "last_name": "Hoskins",
+        "email": "jamie_hoskins@testagency.example.com",
+        "url": "https://secure.tutorcruncher.com/api/clients/3/"
+    },
+    "service": {
+        "id": 11,
+        "name": "A Level Physics",
+        "dft_charge_type": "hourly",
+        "created": "2023-03-15T15:40:13.104951Z",
+        "dft_charge_rate": "75.00",
+        "dft_contractor_rate": "35.00",
+        "last_updated": "2023-07-03T16:40:24.291003+01:00",
+        "status": "finished",
+        "url": "https://secure.tutorcruncher.com/api/services/11/"
+    },
+    "task_type": "phone"
+}
