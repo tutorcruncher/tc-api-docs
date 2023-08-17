@@ -1,0 +1,42 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: dt_created
+    type: string
+    description: The date the Note was created.
+  -
+    name: dt_updated
+    type: string
+    description: The date the Note was last updated.
+  -
+    name: creator
+    type: object
+    description: The creator of the Note.
+    children:
+      -
+        name: id
+        type: integer
+        description: The ID of the note creator.
+      -
+        name: first_name
+        type: string
+        description: The first name of the note creator.
+      -
+        name: last_name
+        type: string
+        description: The last name of the note creator.
+      -
+        name: email
+        type: string
+        description: The email address of the note creator.
+  -
+    name: text
+    type: string
+    description: The text of the Note.
+  -
+    name: focus
+    type: object
+    description: Details about the object the Note was added to.

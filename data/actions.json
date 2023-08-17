@@ -1164,28 +1164,14 @@
     "value": "ADDED_A_NOTE",
     "msg": "Added a Note",
     "help_text": "When an Administrator adds a Note.",
-    "subject_types": [
-      "Tutor",
-      "Affiliate",
-      "Client",
-      "Student",
-      "Job",
-      "Lesson"
-    ]
+    "subject_types": ["Note"]
   },
   {
     "key": "EDITED_A_NOTE",
     "value": "EDITED_A_NOTE",
     "msg": "Edited a Note",
     "help_text": "When an Administrator edits a Note.",
-    "subject_types": [
-      "Tutor",
-      "Affiliate",
-      "Client",
-      "Student",
-      "Job",
-      "Lesson"
-    ]
+    "subject_types": ["Note"]
   },
   {
     "key": "DELETED_A_NOTE",
@@ -1227,7 +1213,7 @@
     "value": "CREATED_A_TASK",
     "msg": "Created a Task",
     "help_text": "When an Administrator creates a Task.",
-    "subject_types": []
+    "subject_types": ["Task"]
   },
   {
     "key": "CHANGED_CLIENTS_AGENT",
@@ -1261,7 +1247,7 @@
     "value": "EDITED_A_TASK",
     "msg": "Edited a Task",
     "help_text": "When an Administrator edits a Task.",
-    "subject_types": []
+    "subject_types": ["Task"]
   },
   {
     "key": "ADDED_A_LABEL_TO_A_SERVICE",
