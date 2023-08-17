@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Note Object
+    id: note-object
+    description: /notes/note-object.md
+    attributes: /notes/note-object.yml
+    response: /notes/get-a-note.json
+    response_title: OBJECT
+  -
+    title: List all notes
+    id: list-all-notes
+    description: /notes/list-all-notes.md
+    code: /notes/list-all-notes.py
+    code_type: GET
+    code_url: /api/notes/
+    response: /notes/list-all-notes.json
+  -
+    title: Get a note
+    id: get-a-note
+    description: /notes/get-a-note.md
+    code: /notes/get-a-note.py
+    code_type: GET
+    code_url: /api/notes/<id>/
+    response: /notes/get-a-note.json
