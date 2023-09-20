@@ -71,6 +71,10 @@ endpoint_sections:
     id: labels
     layout: /labels/labels.yml
   -
+    title: Notes
+    id: note
+    layout: /notes/notes.yml
+  -
     title: Payment Orders
     id: payment-orders
     layout: /payment-orders/pos.yml
