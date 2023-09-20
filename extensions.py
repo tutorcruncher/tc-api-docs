@@ -55,6 +55,8 @@ SUBJECT_TYPE_HREF = {
     'Ad Hoc Charge Category': 'ahc-categories',
     'Application': 'tenders',
     'Report': 'reports',
+    'Task': 'tasks',
+    'Note': 'notes',
 }
 
 

@@ -1,0 +1,31 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3,
+            "dt_created": "2023-08-16T16:05:54.465325Z",
+            "dt_updated": "2023-08-16T16:05:54.465348Z",
+            "creator": 2,
+            "text": "This note is on an appointment.",
+            "url": "http://localhost:8000/api/notes/3/"
+        },
+        {
+            "id": 2,
+            "dt_created": "2023-08-16T16:05:37.596813Z",
+            "dt_updated": "2023-08-16T16:05:37.596842Z",
+            "creator": 2,
+            "text": "This is a note on a job.",
+            "url": "http://localhost:8000/api/notes/2/"
+        },
+        {
+            "id": 1,
+            "dt_created": "2023-08-16T15:40:18.922862Z",
+            "dt_updated": "2023-08-16T15:40:18.922874Z",
+            "creator": 2,
+            "text": "* test",
+            "url": "http://localhost:8000/api/notes/1/"
+        }
+    ]
+}
