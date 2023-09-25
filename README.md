@@ -1,5 +1,5 @@
 # tc-api-docs
-Docs for TutorCruncher's API
+Documentation for TutorCruncher's API
 
 ## Local Installation
 
