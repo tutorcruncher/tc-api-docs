@@ -185,10 +185,6 @@ attributes:
         type: string
         description: URL to the Recipient's object.
   -
-    name: last_updated
-    type: string
-    description: The date and time the Client was last updated.
-  -
     name: calendar_colour
     type: string
     description: Use hex values, like `#fff000`, or use CSS Named colours.
