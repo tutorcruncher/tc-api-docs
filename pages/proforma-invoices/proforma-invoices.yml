@@ -7,7 +7,7 @@ sections:
     response: /proforma-invoices/proforma-invoice-object.json
     response_title: OBJECT
   -
-    title: List all Proforma Invoicess
+    title: List all Proforma Invoices
     id: list-all-proforma-invoices
     description: /proforma-invoices/list-all-proforma-invoices.md
     code: /proforma-invoices/list-all-proforma-invoices.py
