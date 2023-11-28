@@ -87,15 +87,15 @@
     "subject_types": []
   },
   {
-    "key": "SENT_INVOICES",
-    "value": "SENT_INVOICES",
+    "key": "RAISED_INVOICES",
+    "value": "RAISED_INVOICES",
     "msg": "Raised Invoices",
     "help_text": "Occurs every time an Administrator sends Invoices.",
     "subject_types": []
   },
   {
-    "key": "SENT_INVOICE",
-    "value": "SENT_INVOICE",
+    "key": "RAISED_INVOICE",
+    "value": "RAISED_INVOICE",
     "msg": "Raised an Invoice",
     "help_text": "Occurs once for each Invoice when an Administrator sends Invoices.",
     "subject_types": [
@@ -187,15 +187,15 @@
     ]
   },
   {
-    "key": "SENT_POS",
-    "value": "SENT_POS",
+    "key": "RAISED_POS",
+    "value": "RAISED_POS",
     "msg": "Raised Payment Orders",
     "help_text": "Occurs when an Administrator sends Payment Orders.",
     "subject_types": []
   },
   {
-    "key": "SENT_PO",
-    "value": "SENT_PO",
+    "key": "RAISED_PO",
+    "value": "RAISED_PO",
     "msg": "Raised a Payment Order",
     "help_text": "Occurs once for each Payment Order when an Administrator sends Payment Orders.",
     "subject_types": [
@@ -282,15 +282,15 @@
     ]
   },
   {
-    "key": "SENT_PROFORMA_INVOICES",
-    "value": "SENT_PROFORMA_INVOICES",
+    "key": "RAISED_PROFORMA_INVOICES",
+    "value": "RAISED_PROFORMA_INVOICES",
     "msg": "Sent Credit Requests",
     "help_text": "Occurs when an Administrator sends Credit Requests.",
     "subject_types": []
   },
   {
-    "key": "SENT_PROFORMA_INVOICE",
-    "value": "SENT_PROFORMA_INVOICE",
+    "key": "RAISED_PROFORMA_INVOICE",
+    "value": "RAISED_PROFORMA_INVOICE",
     "msg": "Sent a Credit Request",
     "help_text": "Occurs once for each Credit Request when an Administrator sends Credit Requests.",
     "subject_types": [
