@@ -39,15 +39,6 @@
         "url": "https://secure.tutorcruncher.com/api/contractors/33/"
       },
       "dt_created": "2021-06-22T14:43:52.172855Z",
-      "extra_attrs": [
-        {
-          "id": 43,
-          "machine_name": "client_report",
-          "name": "Client Report",
-          "type": "Long Textbox",
-          "value": "Great start, 2 more lessons needed"
-        }
-      ],
       "service_recipient": {
         "email": "jennifer_brown@testagency.example.com",
         "first_name": "Jennifer",
