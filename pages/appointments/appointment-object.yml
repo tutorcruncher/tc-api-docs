@@ -110,8 +110,8 @@ attributes:
     name: status
     type: string
     description: |
-      The status for the Appointment, the status types are `Planned`, `Awaiting Report`, `Complete`, `Cancelled`,
-      and `Cancelled but Chargeable`.
+      The status for the Appointment, the status types are `planned`, `awaiting-report`, `complete`, `cancelled`,
+      and `cancelled-chargeable`.
   -
     name: repeater
     type: object
