@@ -80,6 +80,20 @@
     "subject_types": []
   },
   {
+    "key": "GENERATED_INVOICES",
+    "value": "GENERATED_INVOICES",
+    "msg": "Generated Invoices",
+    "help_text": "When an Administrator generates Invoices.",
+    "subject_types": []
+  },
+  {
+    "key": "GENERATED_POS",
+    "value": "GENERATED_POS",
+    "msg": "Generated Payment Orders",
+    "help_text": "When an Administrator generates Payment Orders.",
+    "subject_types": []
+  },
+  {
     "key": "GENERATED_PFIS",
     "value": "GENERATED_PFIS",
     "msg": "Generated Credit Requests",
@@ -284,14 +298,14 @@
   {
     "key": "RAISED_PROFORMA_INVOICES",
     "value": "RAISED_PROFORMA_INVOICES",
-    "msg": "Sent Credit Requests",
+    "msg": "Raised Credit Requests",
     "help_text": "Occurs when an Administrator sends Credit Requests.",
     "subject_types": []
   },
   {
     "key": "RAISED_PROFORMA_INVOICE",
     "value": "RAISED_PROFORMA_INVOICE",
-    "msg": "Sent a Credit Request",
+    "msg": "Raised a Credit Request",
     "help_text": "Occurs once for each Credit Request when an Administrator sends Credit Requests.",
     "subject_types": [
       "Credit Request"
