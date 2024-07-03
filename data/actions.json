@@ -1783,5 +1783,19 @@
     "msg": "Deleted a Lesson Recording details",
     "help_text": "When a lesson recording has been deleted.",
     "subject_types": []
+  },
+  {
+    "key": "ADDED_GC_CUSTOMER_DATA",
+    "value": "ADDED_GC_CUSTOMER_DATA",
+    "msg": "Added new GoCardless details",
+    "help_text": "When a client adds new GoCardless details",
+    "subject_types": []
+  },
+  {
+    "key": "REMOVED_GC_CUSTOMER_DATA",
+    "value": "REMOVED_GC_CUSTOMER_DATA",
+    "msg": "Removed GoCardless details",
+    "help_text": "When a client or admin removes GoCardless details",
+    "subject_types": []
   }
 ]
