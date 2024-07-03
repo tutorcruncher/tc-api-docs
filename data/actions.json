@@ -1785,6 +1785,34 @@
     "subject_types": []
   },
   {
+    "key": "CREATED_A_PACKAGE",
+    "value": "CREATED_A_PACKAGE",
+    "msg": "Created a Package",
+    "help_text": "When a package has been created.",
+    "subject_types": []
+  },
+  {
+    "key": "EDITED_A_PACKAGE",
+    "value": "EDITED_A_PACKAGE",
+    "msg": "Edited a Package",
+    "help_text": "When a package has been edited.",
+    "subject_types": []
+  },
+  {
+    "key": "DELETED_A_PACKAGE",
+    "value": "DELETED_A_PACKAGE",
+    "msg": "Deleted a Package",
+    "help_text": "When a package has been deleted.",
+    "subject_types": []
+  },
+  {
+    "key": "CLIENT_PURCHASED_PACKAGE",
+    "value": "CLIENT_PURCHASED_PACKAGE",
+    "msg": "Client purchased a Package",
+    "help_text": "When a client has purchased a package.",
+    "subject_types": []
+  },
+  {
     "key": "ADDED_GC_CUSTOMER_DATA",
     "value": "ADDED_GC_CUSTOMER_DATA",
     "msg": "Added new GoCardless details",
