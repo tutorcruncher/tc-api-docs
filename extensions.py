@@ -57,6 +57,7 @@ SUBJECT_TYPE_HREF = {
     'Report': 'reports',
     'Task': 'tasks',
     'Note': 'notes',
+    'Package': 'package',
 }
 
 

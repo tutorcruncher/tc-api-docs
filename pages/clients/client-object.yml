@@ -75,9 +75,9 @@ attributes:
     type: boolean
     description: Whether or not tax should be paid on payments from this Client.
   -
-    name: notify_via_email
-    type: boolean
-    description: If `false` the Client will receive no emails.
+    name: received_notifications
+    type: array
+    description: An array of the Client's received notifications. choices are `broadcasts`, `apt_reminders`, `low_balance_reminders`, `invoice_reminders`, `pfi_reminders`, `invoices`, `credit_requests`
   -
     name: charge_via_branch
     type: boolean
