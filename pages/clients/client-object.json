@@ -19,7 +19,7 @@
   },
   "status": "live",
   "is_taxable": true,
-    "received_notifications": [
+  "received_notifications": [
     "invoice_reminders",
     "invoices",
     "apt_reminders",
@@ -27,7 +27,7 @@
     "credit-requests",
     "low_balance_reminders",
     "broadcasts"
-    ],
+  ],
   "charge_via_branch": false,
   "invoices_count": 4,
   "payment_pending": "100.50",

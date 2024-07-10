@@ -19,14 +19,14 @@ data = {
     },
     'status': 'live',
     'is_taxable': False,
-    "received_notifications": [
-    "invoice_reminders",
-    "invoices",
-    "apt_reminders",
-    "pfi_reminders",
-    "credit-requests",
-    "low_balance_reminders",
-    "broadcasts"
+    'received_notifications': [
+        'invoice_reminders',
+        'invoices',
+        'apt_reminders',
+        'pfi_reminders',
+        'credit-requests',
+        'low_balance_reminders',
+        'broadcasts'
     ],
     'change_via_branch': True,
     'auto_charge': 0,
