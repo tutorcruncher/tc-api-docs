@@ -22,13 +22,13 @@
     "status": "live",
     "is_taxable": true,
     "received_notifications": [
-    "invoice_reminders",
-    "invoices",
-    "apt_reminders",
-    "pfi_reminders",
-    "credit-requests",
-    "low_balance_reminders",
-    "broadcasts"
+      "invoice_reminders",
+      "invoices",
+      "apt_reminders",
+      "pfi_reminders",
+      "credit-requests",
+      "low_balance_reminders",
+      "broadcasts"
     ],
     "charge_via_branch": false,
     "invoices_count": 4,

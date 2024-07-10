@@ -19,7 +19,7 @@
   },
   "status": "live",
   "is_taxable": true,
-    "received_notifications": [
+  "received_notifications": [
     "invoice_reminders",
     "invoices",
     "apt_reminders",
