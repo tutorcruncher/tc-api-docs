@@ -19,7 +19,15 @@ data = {
     },
     'status': 'live',
     'is_taxable': False,
-    'notify_via_email': True,
+    'received_notifications': [
+        'invoice_reminders',
+        'invoices',
+        'apt_reminders',
+        'pfi_reminders',
+        'credit-requests',
+        'low_balance_reminders',
+        'broadcasts'
+    ],
     'change_via_branch': True,
     'auto_charge': 0,
     'associated_admin': 12,
