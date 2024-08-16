@@ -12,7 +12,7 @@ You can find the machine name of a custom field by clicking on it in your
  for an example which sets a custom field for the Client's date of birth.
 
 If you are using dropdown custom fields, you must post the slugified value of the dropdown option. 
-For example, a value `Doesn't suit student` would be posted as `doesnt_suit_student`.
+For example, a value `Doesn't suit student` would be posted as `doesnt-suit-student`.
 
 <details>
 <summary>
