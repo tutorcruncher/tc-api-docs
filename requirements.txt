@@ -1,5 +1,5 @@
 harrier==0.13.2
-pydantic==2.8.2
+pydantic==2.9.2
 aiohttp-devtools==1.1.2
 black==24.8.0
 flake8==7.1.1
