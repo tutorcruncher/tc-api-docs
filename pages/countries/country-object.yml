@@ -1,0 +1,25 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: name
+    type: string
+    description: The name of the country.
+  -
+    name: abbreviation
+    type: string
+    description: The abbreviation of the country.
+  -
+    name: three_letter_iso
+    type: string
+    description: The three-letter ISO code for the country.
+  -
+    name: currency
+    type: string
+    description: The currency used in the country; e.g Pounds Sterling (£).
+  -
+    name: url
+    type: string
+    description: The URL of the country's object.
