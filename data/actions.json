@@ -904,6 +904,13 @@
     "subject_types": []
   },
   {
+    "key": "CLIENTS_EXPORT",
+    "value": "CLIENTS_EXPORT",
+    "msg": "Exported Clients",
+    "help_text": "When an Administrator exports data about Clients.",
+    "subject_types": []
+  },
+  {
     "key": "EDITED_SYSTEM_SETTINGS",
     "value": "EDITED_SYSTEM_SETTINGS",
     "msg": "Edited system settings",
