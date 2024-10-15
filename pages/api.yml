@@ -59,6 +59,10 @@ endpoint_sections:
     id: contractors
     layout: /contractors/contractors.yml
   -
+    title: Countries
+    id: countries
+    layout: /countries/countries.yml
+  -
     title: Enquiry
     id: enquiry
     layout: /enquiry/enquiry.yml

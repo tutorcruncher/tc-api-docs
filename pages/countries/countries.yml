@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Country Object
+    id: country-object
+    description: /countries/country-object.md
+    attributes: /countries/country-object.yml
+    response: /countries/get-a-country.json
+    response_title: OBJECT
+  -
+    title: List all Countries
+    id: list-all-countries
+    description: /countries/list-all-countries.md
+    code: /countries/list-all-countries.py
+    code_type: GET
+    code_url: /api/countries/
+    response: /countries/list-all-countries.json
+  -
+    title: Get a Country
+    id: get-a-country
+    description: /countries/get-a-country.md
+    code: /countries/get-a-country.py
+    code_type: GET
+    code_url: /api/countries/<id>/
+    response: /countries/get-a-country.json
