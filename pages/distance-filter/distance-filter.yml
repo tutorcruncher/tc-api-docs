@@ -1,0 +1,6 @@
+sections:
+  -
+    description: /distance-filter/distance-filter.md
+    code: /distance-filter/distance-filter.py
+    attributes: /distance-filter/distance-filter-object.yml
+    code_type: POST
