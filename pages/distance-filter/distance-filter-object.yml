@@ -1,10 +1,10 @@
 attributes:
   -
-    name: distance
+    name: distance_address
     type: string
-    description: A URL-encoded string representing the starting location for the search. This must be specific (e.g., including city, postal code, and country) for accurate results. Ensure the address is properly encoded, where spaces are replaced with `%20`, commas with `%2C`, and other special characters are handled accordingly.
+    description: A URL-encoded string representing the starting location for the search. This must be specific (e.g., including city, postal code, and country) for accurate results. Ensure the address is properly URL-encoded.
   -
-    name: radius
+    name: distance_radius
     type: integer
     description: The radius in kilometers around the distance_address to filter users. Users outside this radius will not be included.
 

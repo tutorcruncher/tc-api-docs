@@ -1,12 +1,12 @@
 import pprint
 import requests
+from urllib.parse import urlencode
 
 headers = {'Authorization': 'token <API KEY>'}
-url = (
-    'https://secure.tutorcruncher.com/api/contractors/'
-    '?distance_address=The%20Food%20Exchange%2C%20New%20Covent%20Garden%20Market%2C%20Nine%20Elms%2C%20London%20SW8%205EL%2C%20ENGLAND'
-    '&distance_radius=1'
-)
+params = {
+    'distance_address': 'The Food Exchange, New Covent Garden Market, Nine Elms, London SW8 5EL, ENGLAND',
+    'distance_radius': 1
+}
+url = f"https://secure.tutorcruncher.com/api/contractors/?{urlencode(params)}"
 response = requests.get(url, headers=headers)
 pprint.pprint(response.json())
-
