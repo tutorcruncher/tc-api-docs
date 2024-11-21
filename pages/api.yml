@@ -17,6 +17,10 @@ info_sections:
     id: creating-updating-users
     layout: /creating-updating-users/creating-updating-users.yml
   -
+    title: Distance Filter on User Lists
+    id: distance-filter
+    layout: /distance-filter/distance-filter.yml
+  -
     title: Custom Fields
     id: custom-fields
     layout: /custom-fields/custom-fields.yml
