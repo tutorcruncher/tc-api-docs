@@ -1,0 +1,15 @@
+attributes:
+  -
+    name: count
+    type: integer
+    description: The total number of objects available.
+  -
+    name: next
+    type: string
+    description: The URL of the next page of objects.
+  -
+    name: previous
+    type: string
+    description: The URL of the previous page of objects.
+
+
