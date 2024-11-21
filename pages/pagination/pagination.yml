@@ -1,0 +1,9 @@
+sections:
+  -
+    description: /pagination/pagination.md
+    attributes: /pagination/pagination-object.yml
+    code: /pagination/pagination.py
+    code_type: GET
+    response: /pagination/list-pagination.json
+    response_title: RESPONSE
+
