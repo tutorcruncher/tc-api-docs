@@ -229,11 +229,11 @@ filters:
     type: string
     description: Filter by the Contractor's status.
   -
-    name: address
+    name: distance_address
     type: string
     description: Filter by the address.
   -
-    name: radius
+    name: distance_radius
     type: integer
     description: Filter by the radius of the address. This is used in conjunction with the `address` filter.
   -
