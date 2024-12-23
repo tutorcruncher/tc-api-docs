@@ -45,7 +45,7 @@ sections:
     description: /services/label-add-to-a-service.md
     code: /services/label-add-to-a-service.py
     code_type: POST
-    code_url: /api/services/<id>/add-label/
+    code_url: /api/services/<id>/add_label/
     response: /services/label-add-to-a-service.json
   -
     title: Add a Label to a Recipient
@@ -53,5 +53,5 @@ sections:
     description: /recipients/label-add-to-a-recipient.md
     code: /recipients/label-add-to-a-recipient.py
     code_type: POST
-    code_url: /api/recipients/<id>/add-label/
+    code_url: /api/recipients/<id>/add_label/
     response: /recipients/label-add-to-a-recipient.json
