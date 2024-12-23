@@ -29,13 +29,6 @@
   "academic_year": null,
   "last_updated": "2019-11-24T16:11:48.312507Z",
   "calendar_colour": "Khaki",
-  "labels":  [
-      {
-          "id": 2,
-          "name": "Very important",
-          "machine_name": "very-important",
-          "url": "https://secure.tutorcruncher.com/api/labels/2/"
-      }
-  ],
+  "labels":  [],
   "extra_attrs": []
 }
