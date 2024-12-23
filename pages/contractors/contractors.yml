@@ -53,7 +53,7 @@ sections:
     description: /contractors/label-add-to-a-contractor.md
     code: /contractors/label-add-to-a-contractor.py
     code_type: POST
-    code_url: /api/contractors/<id>/add-label/
+    code_url: /api/contractors/<id>/add_label/
     response: /contractors/label-add-to-a-contractor.json
   -
     title: Removing a Label from a Contractor
@@ -61,6 +61,6 @@ sections:
     description: /contractors/label-remove-from-a-contractor.md
     code: /contractors/label-remove-from-a-contractor.py
     code_type: POST
-    code_url: /api/contractors/<id>/add-label/
+    code_url: /api/contractors/<id>/add_label/
     response: /contractors/label-remove-from-a-contractor.json
 

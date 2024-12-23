@@ -45,7 +45,7 @@ sections:
     description: /agents/label-add-to-an-agent.md
     code: /agents/label-add-to-an-agent.py
     code_type: POST
-    code_url: /api/agents/<id>/add-label/
+    code_url: /api/agents/<id>/add_label/
     response: /agents/label-add-to-an-agent.json
   -
     title: Removing a Label from an Agent
@@ -53,6 +53,6 @@ sections:
     description: /agents/label-remove-from-an-agent.md
     code: /agents/label-remove-from-an-agent.py
     code_type: POST
-    code_url: /api/agents/<id>/add-label/
+    code_url: /api/agents/<id>/add_label/
     response: /agents/label-remove-from-an-agent.json
 
