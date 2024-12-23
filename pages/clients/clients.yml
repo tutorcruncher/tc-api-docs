@@ -39,3 +39,19 @@ sections:
     code_type: POST
     code_url: /api/clients/
     response: /clients/update-a-client.json
+  -
+    title: Add a Label to a Client
+    id: label-add-to-a-client
+    description: /clients/label-add-to-a-client.md
+    code: /clients/label-add-to-a-client.py
+    code_type: POST
+    code_url: /api/clients/<id>/add-label/
+    response: /clients/label-add-to-a-client.json
+  -
+    title: Removing a Label from a Client
+    id: label-remove-from-a-client
+    description: /clients/label-remove-from-a-client.md
+    code: /clients/label-remove-from-a-client.py
+    code_type: POST
+    code_url: /api/clients/<id>/add-label/
+    response: /clients/label-remove-from-a-client.json

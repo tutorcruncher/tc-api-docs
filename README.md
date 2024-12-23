@@ -19,7 +19,7 @@ harrier dev
 
 The visual content is setup in the api-content.jinja template stype page
 
-The content set by this template is reffered to as sections, each section is set out in api.yml
+The content set by this template is referred to as sections, each section is set out in api.yml
 
 ## Deploying
 
