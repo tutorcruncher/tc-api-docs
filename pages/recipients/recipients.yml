@@ -46,3 +46,19 @@ sections:
     code_type: POST
     code_url: /api/recipients/
     response: /recipients/update-a-recipient.json
+  -
+    title: Add a Label to a Recipient
+    id: label-add-to-a-recipient
+    description: /recipients/label-add-to-a-recipient.md
+    code: /recipients/label-add-to-a-recipient.py
+    code_type: POST
+    code_url: /api/recipients/<id>/add_label/
+    response: /recipients/label-add-to-a-recipient.json
+  -
+    title: Removing a Label from a Recipient
+    id: label-remove-from-a-recipient
+    description: /recipients/label-remove-from-a-recipient.md
+    code: /recipients/label-remove-from-a-recipient.py
+    code_type: POST
+    code_url: /api/recipients/<id>/add_label/
+    response: /recipients/label-remove-from-a-recipient.json

@@ -1,20 +1,22 @@
 {
   "id": 3,
-  "title": "Mr",
-  "first_name": "Jamie",
-  "last_name": "Hoskins",
-  "email": "jamie_hoskins@example.com",
-  "mobile": "0207 1128 953",
-  "phone": null,
-  "street": "12 Helmet Row",
-  "state": null,
-  "town": "London",
-  "country": "United Kingdom (GB)",
-  "postcode": "EC1V 3QJ",
-  "latitude": "51.5249280000000027",
-  "longitude": "-0.0944689940000000",
-  "date_created": "2020-01-01T12:00:00.000000Z",
-  "timezone": null,
+  "user": {
+    "title": "Mr",
+    "first_name": "Jamie",
+    "last_name": "Hoskins",
+    "email": "jamie_hoskins@example.com",
+    "mobile": "0207 1128 953",
+    "phone": null,
+    "street": "12 Helmet Row",
+    "state": null,
+    "town": "London",
+    "country": "United Kingdom (GB)",
+    "postcode": "EC1V 3QJ",
+    "latitude": "51.5249280000000027",
+    "longitude": "-0.0944689940000000",
+    "date_created": "2020-01-01T12:00:00.000000Z",
+    "timezone": null
+  },
   "status": "live",
   "is_taxable": true,
   "received_notifications": [
@@ -62,14 +64,7 @@
     }
   ],
   "calendar_colour": "ForestGreen",
-  "labels":  [
-      {
-          "id": 2,
-          "name": "Very important",
-          "machine_name": "very-important",
-          "url": "https://secure.tutorcruncher.com/api/labels/2/"
-      }
-  ],
+  "labels":  [],
   "extra_attrs": [
     {
       "id": 1,
