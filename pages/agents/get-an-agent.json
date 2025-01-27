@@ -19,6 +19,13 @@
   "clients": [],
   "last_updated": "2020-03-16T12:23:39.056867Z",
   "calendar_colour": "Brown",
-  "labels": [],
+  "labels": [
+      {
+          "id": 2,
+          "name": "Very important",
+          "machine_name": "very-important",
+          "url": "https://secure.tutorcruncher.com/api/labels/2/"
+      }
+  ],
   "extra_attrs": []
 }
