@@ -897,17 +897,24 @@
     "subject_types": []
   },
   {
-    "key": "EXPORTED_USERS",
-    "value": "EXPORTED_USERS",
-    "msg": "Exported Users",
-    "help_text": "When an Administrator exports data about Users.",
-    "subject_types": []
-  },
-  {
     "key": "CLIENTS_EXPORT",
     "value": "CLIENTS_EXPORT",
     "msg": "Exported Clients",
     "help_text": "When an Administrator exports data about Clients.",
+    "subject_types": []
+  },
+  {
+    "key": "CONTRACTOR_EXPORT",
+    "value": "CONTRACTOR_EXPORT",
+    "msg": "Exported Tutors",
+    "help_text": "When an Administrator exports data about Tutors.",
+    "subject_types": []
+  },
+  {
+    "key": "SERVICE_RECIPIENTS_EXPORT",
+    "value": "SERVICE_RECIPIENTS_EXPORT",
+    "msg": "Exported Students",
+    "help_text": "When an Administrator exports data about Students.",
     "subject_types": []
   },
   {
