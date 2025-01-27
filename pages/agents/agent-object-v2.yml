@@ -1,0 +1,162 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: first_name
+    type: string
+    description: The user's first name.
+  -
+    name: last_name
+    type: string
+    description: The user's last name.
+  -
+    name: email
+    type: string
+    description: The user's email address.
+  -
+    name: mobile
+    type: string
+    description: The user's mobile number.
+  -
+    name: phone
+    type: string
+    description: The user's phone number.
+  -
+    name: street
+    type: string
+    description: The user's street address.
+  -
+    name: state
+    type: string
+    description: This field is only needed for US users. This value will use the state's 2-letter code.
+  -
+    name: town
+    type: string
+    description: The user's town on address.
+  -
+    name: country
+    type: integer
+    description: |
+      User's country, value is an `id` of the country stored in TutorCruncher. These country ids can be found
+      by doing an options request at this endpoints base URL.
+  -
+    name: postcode
+    type: string
+    description: The user's postcode on address.
+  -
+    name: latitude
+    type: decimal
+    description: The user's addresses latitude.
+  -
+    name: longitude
+    type: decimal
+    description: The user's addresses longitude.
+  -
+    name: date_created
+    type: string
+    description: The date and time the user was created.
+  -
+    name: timezone
+    type: string
+    description: The user's timezone, accepted values are timezone database values.
+  -
+    name: commission_rate
+    type: string
+    description: Percentage of the Agent's commission rate.
+  -
+    name: clients
+    type: array
+    description: An array of Clients which the Agent is related to.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: first_name
+        type: string
+        description: User's first name.
+      -
+        name: last_name
+        type: string
+        description: User's last name.
+      -
+        name: email
+        type: string
+        description: User's email address.
+      -
+        name: url
+        type: string
+        description: URL to the Agent's object.
+  -
+    name: last_updated
+    type: string
+    description: The date and time the Agent was last updated.
+  -
+    name: calendar_colour
+    type: string
+    description: Use hex values, like `#fff000`, or use CSS Named colours.
+  -
+    name: labels
+    type: array
+    description: An array of the Agent's labels.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Name of the label.
+      -
+        name: machine_name
+        type: string
+        description: Unique slugified name of the label.
+  -
+    name: extra_attrs
+    type: array
+    description: |
+        Custom fields for this object.
+
+        Updated with payload shape: `'extra_attrs': {'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'}`
+
+filters:
+  -
+    name: created__gte
+    type: string
+    description: Filter by the date and time the Agent was created.
+  -
+    name: created__lte
+    type: string
+    description: Filter by the date and time the Agent was created.
+  -
+    name: first_name
+    type: string
+    description: Filter by the Agent's first name.
+  -
+    name: last_name
+    type: string
+    description: Filter by the Agent's last name.
+  -
+    name: email
+    type: string
+    description: Filter by the Agent's email address.
+  -
+    name: status
+    type: string
+    description: Filter by the Agent's status.
+  -
+    name: distance_address
+    type: string
+    description: Filter by the address.
+  -
+    name: distance_radius
+    type: integer
+    description: Filter by the radius of the address. This is used in conjunction with the `address` filter.
+  -
+    name: labels
+    type: integer
+    description: Filter by the Agent's labels.

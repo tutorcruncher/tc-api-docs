@@ -14,7 +14,7 @@
   "latitude": "51.5249280000000027",
   "longitude": "-0.0944689940000000",
   "date_created": "2020-01-01T12:00:00.000000Z",
-  "timezone": null,
+  "timezone": null
   "status": "live",
   "is_taxable": true,
   "received_notifications": [
@@ -25,7 +25,7 @@
     "credit-requests",
     "low_balance_reminders",
     "broadcasts"
-    ],
+  ],
   "charge_via_branch": false,
   "invoices_count": 4,
   "payment_pending": "100.50",
