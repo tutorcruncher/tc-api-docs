@@ -3,8 +3,8 @@
   "user": {
     "title": null,
     "first_name": "Billy",
-    "last_name": "Holiday",
-    "email": "billy_holiday@example.com",
+    "last_name": "Bob2",
+    "email": "billy_bob@example.com",
     "mobile": "07123 456 789",
     "phone": "0208 123 4567",
     "street": "8 Albert Road",
@@ -21,7 +21,7 @@
   "clients": [],
   "last_updated": "2020-03-16T12:23:39.056867Z",
   "calendar_colour": "Brown",
-  "labels": [
+  "labels":  [
       {
           "id": 2,
           "name": "Very important",
@@ -29,5 +29,13 @@
           "url": "https://secure.tutorcruncher.com/api/labels/2/"
       }
   ],
-  "extra_attrs": []
+  "extra_attrs": [
+    {
+      "id": 1,
+      "value": "1993-06-23",
+      "type": "Date",
+      "machine_name": "user-dob",
+      "name": "Date of birth"
+    }
+  ]
 }

@@ -39,7 +39,14 @@
   "review_duration": "00:00:00",
   "last_updated": "2020-04-06T15:36:16.924625+01:00",
   "calendar_colour": "#757575",
-  "labels": [],
+  "labels":  [
+      {
+          "id": 2,
+          "name": "Very important",
+          "machine_name": "very-important",
+          "url": "https://secure.tutorcruncher.com/api/labels/2/"
+      }
+  ],
   "extra_attrs": [],
   "work_done_details": {
     "amount_owed": 264.49,
