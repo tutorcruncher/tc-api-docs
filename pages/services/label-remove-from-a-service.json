@@ -27,14 +27,7 @@
     "inactivity_time": 14,
     "is_bookable": false,
     "is_deleted": false,
-    "labels":  [
-        {
-            "id": 2,
-            "name": "Very important",
-            "machine_name": "very-important",
-            "url": "https://secure.tutorcruncher.com/api/labels/2/"
-        }
-    ],
+    "labels":  [],
     "last_updated": "2023-04-18T17:44:08.058199+01:00",
     "latest_apt_ahc": "2023-04-18T17:44:08.058206+01:00",
     "name": "Example Name",

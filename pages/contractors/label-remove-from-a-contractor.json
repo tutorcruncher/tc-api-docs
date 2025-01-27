@@ -64,14 +64,7 @@
     }
   ],
   "calendar_colour": "ForestGreen",
-  "labels":  [
-      {
-          "id": 2,
-          "name": "Very important",
-          "machine_name": "very-important",
-          "url": "https://secure.tutorcruncher.com/api/labels/2/"
-      }
-  ],
+  "labels":  [],
   "extra_attrs": [
     {
       "id": 1,
