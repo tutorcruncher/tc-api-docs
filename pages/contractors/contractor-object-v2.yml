@@ -1,0 +1,241 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the object.
+  -
+    name: first_name
+    type: string
+    description: The user's first name.
+  -
+    name: last_name
+    type: string
+    description: The user's last name.
+  -
+    name: email
+    type: string
+    description: The user's email address.
+  -
+    name: mobile
+    type: string
+    description: The user's mobile number.
+  -
+    name: phone
+    type: string
+    description: The user's phone number.
+  -
+    name: street
+    type: string
+    description: The user's street address.
+  -
+    name: state
+    type: string
+    description: This field is only needed for US users. This value will use the state's 2-letter code.
+  -
+    name: town
+    type: string
+    description: The user's town on address.
+  -
+    name: country
+    type: integer
+    description: |
+      User's country, value is an `id` of the country stored in TutorCruncher. These country ids can be found
+      by doing an options request at this endpoints base URL.
+  -
+    name: postcode
+    type: string
+    description: The user's postcode on address.
+  -
+    name: latitude
+    type: decimal
+    description: The user's addresses latitude.
+  -
+    name: longitude
+    type: decimal
+    description: The user's addresses longitude.
+  -
+    name: date_created
+    type: string
+    description: The date and time the user was created.
+  -
+    name: timezone
+    type: string
+    description: The user's timezone, accepted values are timezone database values.
+  -
+    name: status
+    type: string
+    description: The Contractor's status, choices are `pending`, `approved`, `rejected` and `dormant`.
+  -
+    name: charge_via_branch
+    type: boolean
+    description: Force Invoices associated with this Tutor to be charged via branch.
+  -
+    name: default_rate
+    type: decimal
+    description: The Contractor's rate which will be used to override service default rates.
+  -
+    name: qualifications
+    type: array
+    description: An array of the Contractor's qualifications.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: institution
+        type: string
+        description: Name of the institution.
+      -
+        name: subject
+        type: string
+        description: Name of the subject.
+      -
+        name: qual_level
+        type: string
+        description: Name of the qualification.
+      -
+        name: grade
+        type: string
+        description: The grade for the qualification.
+      -
+        name: year
+        type: integer
+        description: The year for the qualification.
+      -
+        name: governing_body
+        type: string
+        description: Name of the governing body for the qualification.
+  -
+    name: skills
+    type: array
+    description: An array of the Contractor's skills.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: subject
+        type: string
+        description: Name of the subject.
+      -
+        name: qual_level
+        type: string
+        description: Name of the qualification.
+  -
+    name: institutions
+    type: array
+    description: An array of the Contractor's institutions.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Name of the institution.
+  -
+    name: receive_service_notifications
+    type: boolean
+    description: When checked the Tutor will receive email notifications of Jobs available for application.
+  -
+    name: review_rating
+    type: decimal
+    description: Contractor's review rating.
+  -
+    name: review_duration
+    type: string
+    description: Total amount of time that has been reviewed.
+  -
+    name: last_updated
+    type: string
+    description: The date and time the Contractor was last updated.
+  -
+    name: calendar_colour
+    type: string
+    description: Use hex values, like `#fff000`, or use CSS Named colours.
+  -
+    name: labels
+    type: array
+    description: An array of the Contractor's labels.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Name of the label.
+      -
+        name: machine_name
+        type: string
+        description: Unique slugified name of the label.
+  -
+    name: extra_attrs
+    type: array
+    description: |
+        Custom fields for this object.
+
+        Updated with payload shape: `'extra_attrs': {'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'}`
+  -
+    name: work_done_details
+    type: object
+    description: Details about the work the Contractor has done.
+    children:
+      -
+        name: amount_owed
+        type: decimal
+        description: The amount of money the Contractor is owed.
+      -
+        name: amount_paid
+        type: decimal
+        description: The amount of money the Contractor has been paid.
+      -
+        name: total_paid_hours
+        type: string
+        description: Total amount of time the Contractor has been paid for.
+
+filters:
+  -
+    name: created__gte
+    type: string
+    description: Filter by the date and time the Contractor was created.
+  -
+    name: created__lte
+    type: string
+    description: Filter by the date and time the Contractor was created.
+  -
+    name: first_name
+    type: string
+    description: Filter by the Contractor's first name.
+  -
+    name: last_name
+    type: string
+    description: Filter by the Contractor's last name.
+  -
+    name: email
+    type: string
+    description: Filter by the Contractor's email address.
+  -
+    name: status
+    type: string
+    description: Filter by the Contractor's status.
+  -
+    name: distance_address
+    type: string
+    description: Filter by the address.
+  -
+    name: distance_radius
+    type: integer
+    description: Filter by the radius of the address. This is used in conjunction with the `address` filter.
+  -
+    name: labels
+    type: integer
+    description: Filter by the Contractor's labels (id).
+  -
+    name: skills
+    type: integer
+    description: Filter by the Contractor's skills (id).

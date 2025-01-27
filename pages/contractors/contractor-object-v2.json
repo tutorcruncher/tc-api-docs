@@ -2,8 +2,8 @@
   "id": 568433,
   "title": null,
   "first_name": "James",
-  "last_name": "Bob2",
-  "email": "billy_bob@example.com",
+  "last_name": "Higgins",
+  "email": "james_higgins@example.com",
   "mobile": "07842 485 204",
   "phone": null,
   "street": "Royal Lane",
@@ -14,7 +14,7 @@
   "latitude": "51.5210000000000008",
   "longitude": "-0.1370000000000005",
   "date_created": "2018-11-22T09:23:55.297608Z",
-  "timezone": null,
+  "timezone": null
   "status": "approved",
   "charge_via_branch": false,
   "default_rate": null,
@@ -38,15 +38,7 @@
   "last_updated": "2020-04-06T15:36:16.924625+01:00",
   "calendar_colour": "#757575",
   "labels": [],
-  "extra_attrs": [
-    {
-      "id": 1,
-      "value": "1993-06-23",
-      "type": "Date",
-      "machine_name": "user-dob",
-      "name": "Date of birth"
-    }
-  ],
+  "extra_attrs": [],
   "work_done_details": {
     "amount_owed": 264.49,
     "amount_paid": 175.0,
