@@ -18,7 +18,6 @@
     "timezone": null
   },
   "status": "approved",
-  "charge_via_branch": false,
   "default_rate": null,
   "qualifications": [],
   "skills": [

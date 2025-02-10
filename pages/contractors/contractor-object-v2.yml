@@ -66,10 +66,6 @@ attributes:
     type: string
     description: The Contractor's status, choices are `pending`, `approved`, `rejected` and `dormant`.
   -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
-  -
     name: default_rate
     type: decimal
     description: The Contractor's rate which will be used to override service default rates.
@@ -200,23 +196,23 @@ attributes:
 
 filters:
   -
-    name: created__gte
+    name: user__created__gte
     type: string
     description: Filter by the date and time the Contractor was created.
   -
-    name: created__lte
+    name: user__created__lte
     type: string
     description: Filter by the date and time the Contractor was created.
   -
-    name: first_name
+    name: user__first_name
     type: string
     description: Filter by the Contractor's first name.
   -
-    name: last_name
+    name: user__last_name
     type: string
     description: Filter by the Contractor's last name.
   -
-    name: email
+    name: user__email
     type: string
     description: Filter by the Contractor's email address.
   -

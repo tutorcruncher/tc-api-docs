@@ -12,8 +12,6 @@ data = {
     'town': 'London',
     'country': 183,
     'postcode': 'SW8 1XP',
-    'latitude': '51.5549',
-    'longitude': '-0.1084',
     'timezone': 'Europe/London',
     'commission_rate': 10.1,
     'calendar_colour': 'LimeGreen',

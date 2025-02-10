@@ -26,7 +26,6 @@
     "low_balance_reminders",
     "broadcasts"
     ],
-  "charge_via_branch": false,
   "invoices_count": 4,
   "payment_pending": "100.50",
   "auto_charge": true,

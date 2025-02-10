@@ -74,10 +74,6 @@ attributes:
     type: array
     description: An array of the Client's received notifications. choices are `broadcasts`, `apt_reminders`, `low_balance_reminders`, `invoice_reminders`, `pfi_reminders`, `invoices`, `credit_requests`
   -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
-  -
     name: invoices_count
     type: integer
     description: The number of invoice related to the Client.
@@ -218,23 +214,23 @@ attributes:
 
 filters:
   -
-    name: created__gte
+    name: user__created__gte
     type: string
     description: Filter by the date and time the Client was created.
   -
-    name: created__lte
+    name: user__created__lte
     type: string
     description: Filter by the date and time the Client was created.
   -
-    name: first_name
+    name: user__first_name
     type: string
     description: Filter by the Client's first name.
   -
-    name: last_name
+    name: user__last_name
     type: string
     description: Filter by the Client's last name.
   -
-    name: email
+    name: user__email
     type: string
     description: Filter by the Client's email address.
   -

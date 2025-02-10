@@ -130,23 +130,23 @@ attributes:
 
 filters:
   -
-    name: created__gte
+    name: user__created__gte
     type: string
     description: Filter by the date and time the Agent was created.
   -
-    name: created__lte
+    name: user__created__lte
     type: string
     description: Filter by the date and time the Agent was created.
   -
-    name: first_name
+    name: user__first_name
     type: string
     description: Filter by the Agent's first name.
   -
-    name: last_name
+    name: user__last_name
     type: string
     description: Filter by the Agent's last name.
   -
-    name: email
+    name: user__email
     type: string
     description: Filter by the Agent's email address.
   -
@@ -164,4 +164,4 @@ filters:
   -
     name: labels
     type: integer
-    description: Filter by the Agent's labels.
+    description: Filter by the Agent's labels (id).
