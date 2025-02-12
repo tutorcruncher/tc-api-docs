@@ -10,8 +10,3 @@ data = {
 }
 r = requests.post('https://secure.tutorcruncher.com/api/agents/<id>/', json=data, headers=headers)
 pprint.pprint(r.json())
-
-# or
-
-r = requests.put('https://secure.tutorcruncher.com/api/agents/<id>/', json=data, headers=headers)
-pprint.pprint(r.json())
