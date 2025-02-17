@@ -9,7 +9,7 @@ data in a request to TutorCruncher you will still be able to use the 'user' dict
 but the data we return will be dependent on the version set on your Branch. See difference ->
 
 ### Other changes include:
-* Version 2 allows you to update the role by ID now instead of email or name by posting to the endpoint for that specific role. e.g. to update the Client with ID 1234 I can use post or put to `secure.tutorcruncher.com/api/clients/1234/` with a dictionary of data to update that client and its related user data.
+* Version 2 allows you to update the role by ID now instead of email or name by posting to the endpoint for that specific role. e.g. to update the Client with ID 1234 I can use post to `secure.tutorcruncher.com/api/clients/1234/` with a dictionary of data to update that client and its related user data.
 * Version 2 will not match on a users first and last name.
 * In Version 1 you could update a role by posting to the list page e.g. `secure.tutorcruncher.com/api/clients/` and update a role based on the email passed. In Version 2 this will return an error as it is expecting to create a user with that email. 
 * In both Versions, if I have a client with the email `example@example.com` and I post to the list page for contractors with the same email then it will create a new contractor role that is linked to the existing client.
@@ -18,7 +18,7 @@ but the data we return will be dependent on the version set on your Branch. See 
 ### Recommendations for using Version 2:
 * Retrieve: Use a GET request to the detail page for an individual role (e.g. `secure.tutorcruncher.com/api/clients/<role_id>/`)
 * Create: Use a POST request to the list page for each role (e.g. `secure.tutorcruncher.com/api/clients/`)
-* Update: Use a POST or PUT request to the detail page for an individual role (e.g. `secure.tutorcruncher.com/api/clients/<role_id>/`)
+* Update: Use a POST request to the detail page for an individual role (e.g. `secure.tutorcruncher.com/api/clients/<role_id>/`)
 * Delete: Use a DELETE request to the detail page for an individual role (e.g. `secure.tutorcruncher.com/api/clients/<role_id>/`)
 
 Note that the rest of the docs have been updated to reflect Version 2 usage. While you can still use Version 1 until the 3rd July 2025
