@@ -28,10 +28,10 @@ info_sections:
     title: Pagination
     id: pagination
     layout: /pagination/pagination.yml
-#  -
-#    title: Filters
-#    id: filters
-#    layout: /filters/filters.yml
+  -
+    title: Versioning
+    id: versioning
+    layout: /versioning/versioning.yml
 
 endpoint_sections:
   -

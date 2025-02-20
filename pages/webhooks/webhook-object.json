@@ -33,7 +33,6 @@
                     "timezone": null
                 },
                 "status": "pending",
-                "charge_via_branch": false,
                 "default_rate": null,
                 "qualifications": [],
                 "skills": [

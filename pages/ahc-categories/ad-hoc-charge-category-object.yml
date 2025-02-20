@@ -12,10 +12,6 @@ attributes:
     type: string
     description: Tax setup for the Branch when invoicing.
   -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
-  -
     name: contractor_tax_setup
     type: string
     description: Tax setup for the Contractors when invoicing.

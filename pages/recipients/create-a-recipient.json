@@ -1,46 +1,40 @@
 {
-  "status": "success",
-  "role": {
-    "id": 4,
-    "user": {
-      "title": null,
-      "first_name": "Arthur",
-      "last_name": "Hoskins",
-      "email": "arthur_hoskins@example.com",
-      "mobile": null,
-      "phone": null,
-      "street": "12 Helmet Row",
-      "state": null,
-      "town": "London",
-      "country": "United Kingdom (GB)",
-      "postcode": "EC1V 3QJ",
-      "latitude": "51.5249280000000027",
-      "longitude": "-0.0944689940000000",
-      "date_created": "2019-11-24T16:11:48.312507Z",
-      "timezone": null
-    },
-    "default_rate": null,
-    "paying_client": {
-      "id": 3,
-      "first_name": "Jamie",
-      "last_name": "Hoskins",
-      "email": "jamie_hoskins@example.com",
-      "url": "https://secure.tutorcruncher.com/api/clients/3/"
-    },
-    "associated_clients": [],
-    "academic_year": 1,
-    "last_updated": "2019-11-24T16:11:48.312507Z",
-    "calendar_colour": "Khaki",
-    "labels": [],
-    "extra_attrs": [
-      {
-        "id": 1,
-        "value": "1993-06-23",
-        "type": "Date",
-        "machine_name": "user-dob",
-        "name": "Date of birth"
-      }
-    ]
-
-  }
+  "id": 4,
+  "title": null,
+  "first_name": "Arthur",
+  "last_name": "Hoskins",
+  "email": "arthur_hoskins@example.com",
+  "mobile": null,
+  "phone": null,
+  "street": "12 Helmet Row",
+  "state": null,
+  "town": "London",
+  "country": "United Kingdom (GB)",
+  "postcode": "EC1V 3QJ",
+  "latitude": "51.5249280000000027",
+  "longitude": "-0.0944689940000000",
+  "date_created": "2019-11-24T16:11:48.312507Z",
+  "timezone": null,
+  "default_rate": null,
+  "paying_client": {
+    "id": 3,
+    "first_name": "Jamie",
+    "last_name": "Hoskins",
+    "email": "jamie_hoskins@example.com",
+    "url": "https://secure.tutorcruncher.com/api/clients/3/"
+  },
+  "associated_clients": [],
+  "academic_year": 1,
+  "last_updated": "2019-11-24T16:11:48.312507Z",
+  "calendar_colour": "Khaki",
+  "labels": [],
+  "extra_attrs": [
+    {
+      "id": 1,
+      "value": "1993-06-23",
+      "type": "Date",
+      "machine_name": "user-dob",
+      "name": "Date of birth"
+    }
+  ]
 }

@@ -1,10 +1,17 @@
 sections:
   -
-    title: Agent Object
-    id: agent-object
-    description: /agents/agent-object.md
-    attributes: /agents/agent-object.yml
-    response: /agents/agent-object.json
+    title: Agent Object (Version 1)
+    id: agent-object-v1
+    description: /agents/agent-object-v1.md
+    attributes: /agents/agent-object-v1.yml
+    response: /agents/agent-object-v1.json
+    response_title: OBJECT
+  -
+    title: Agent Object (Version 2)
+    id: agent-object-v2
+    description: /agents/agent-object-v2.md
+    attributes: /agents/agent-object-v2.yml
+    response: /agents/agent-object-v2.json
     response_title: OBJECT
   -
     title: List all Agents

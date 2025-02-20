@@ -67,60 +67,13 @@ attributes:
         type: string
         description: The user's timezone, accepted values are timezone database values.
   -
-    name: status
+    name: commission_rate
     type: string
-    description: The Client's status, choices are `prospect`, `live` and `dormant`.
+    description: Percentage of the Agent's commission rate.
   -
-    name: is_taxable
-    type: boolean
-    description: Whether or not tax should be paid on payments from this Client.
-  -
-    name: received_notifications
+    name: clients
     type: array
-    description: An array of the Client's received notifications. choices are `broadcasts`, `apt_reminders`, `low_balance_reminders`, `invoice_reminders`, `pfi_reminders`, `invoices`, `credit_requests`
-  -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
-  -
-    name: invoices_count
-    type: integer
-    description: The number of invoice related to the Client.
-  -
-    name: payment_pending
-    type: string
-    description: Total amount of pending payments related to the Client.
-  -
-    name: auto_charge
-    type: integer
-    description: |
-      Whether the Client will be auto charged or not. Choices are `0` to follow the Branch setting, `10` for the Client
-      to be auto charged and `20` for the Client not to be auto charged.
-  -
-    name: associated_admin
-    type: object
-    description: Object of the Client Manager.
-    children:
-      -
-        name: id
-        type: integer
-        description: Unique identifier for the object.
-      -
-        name: first_name
-        type: string
-        description: User's first name.
-      -
-        name: last_name
-        type: string
-        description: User's last name.
-      -
-        name: email
-        type: string
-        description: User's email address.
-  -
-    name: associated_agent
-    type: object
-    description: Object of the set agent.
+    description: An array of Clients which the Agent is related to.
     children:
       -
         name: id
@@ -143,47 +96,9 @@ attributes:
         type: string
         description: URL to the Agent's object.
   -
-    name: pipeline_stage
-    type: object
-    description: PipelineStage of the client if they are a Prosect client.
-    children:
-      -
-        name: id
-        type: integer
-        description: Unique identifier for the object.
-      -
-        name: name
-        type: string
-        description: The name of the PipelineStage
-      -
-        name: sort_index
-        type: integer
-        description: The sort index of the PipelineStage (describes the order of the PipelineStages).
-  -
-    name: paid_recipients
-    type: array
-    description: An array of recipients related to the Client.
-    children:
-      -
-        name: id
-        type: integer
-        description: Unique identifier for the object.
-      -
-        name: first_name
-        type: string
-        description: User's first name.
-      -
-        name: last_name
-        type: string
-        description: User's last name.
-      -
-        name: email
-        type: string
-        description: User's email address.
-      -
-        name: url
-        type: string
-        description: URL to the Recipient's object.
+    name: last_updated
+    type: string
+    description: The date and time the Agent was last updated.
   -
     name: calendar_colour
     type: string
@@ -191,7 +106,7 @@ attributes:
   -
     name: labels
     type: array
-    description: An array of the Client's labels.
+    description: An array of the Agent's labels.
     children:
       -
         name: id
@@ -212,40 +127,32 @@ attributes:
         Custom fields for this object.
 
         Updated with payload shape: `'extra_attrs': {'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'}`
-  -
-    name: invoice_balance
-    type: string
-    description: The Client's invoice balance.
-  -
-    name: available_balance
-    type: string
-    description: The Client's available balance.
 
 filters:
   -
-    name: created__gte
+    name: user__created__gte
     type: string
-    description: Filter by the date and time the Client was created.
+    description: Filter by the date and time the Agent was created.
   -
-    name: created__lte
+    name: user__created__lte
     type: string
-    description: Filter by the date and time the Client was created.
+    description: Filter by the date and time the Agent was created.
   -
-    name: first_name
+    name: user__first_name
     type: string
-    description: Filter by the Client's first name.
+    description: Filter by the Agent's first name.
   -
-    name: last_name
+    name: user__last_name
     type: string
-    description: Filter by the Client's last name.
+    description: Filter by the Agent's last name.
   -
-    name: email
+    name: user__email
     type: string
-    description: Filter by the Client's email address.
+    description: Filter by the Agent's email address.
   -
     name: status
     type: string
-    description: Filter by the Client's status.
+    description: Filter by the Agent's status.
   -
     name: distance_address
     type: string
@@ -257,6 +164,4 @@ filters:
   -
     name: labels
     type: integer
-    description: Filter by the Client's labels (id).
-
-
+    description: Filter by the Agent's labels (id).

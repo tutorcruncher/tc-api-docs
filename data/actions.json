@@ -932,6 +932,13 @@
     "subject_types": []
   },
   {
+    "key": "CONFIRMED_AGENCY_EMAIL",
+    "value": "CONFIRMED_AGENCY_EMAIL",
+    "msg": "Confirmed Company Email",
+    "help_text": "When a Company confirms their email address.",
+    "subject_types": []
+  },
+  {
     "key": "CREATED_AGENCY",
     "value": "CREATED_AGENCY",
     "msg": "Created Company",

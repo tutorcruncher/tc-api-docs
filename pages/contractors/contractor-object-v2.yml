@@ -4,76 +4,67 @@ attributes:
     type: integer
     description: Unique identifier for the object.
   -
-    name: user
-    type: object
-    description: User object containing basic information.
-    children:
-      -
-        name: first_name
-        type: string
-        description: The user's first name.
-      -
-        name: last_name
-        type: string
-        description: The user's last name.
-      -
-        name: email
-        type: string
-        description: The user's email address.
-      -
-        name: mobile
-        type: string
-        description: The user's mobile number.
-      -
-        name: phone
-        type: string
-        description: The user's phone number.
-      -
-        name: street
-        type: string
-        description: The user's street address.
-      -
-        name: state
-        type: string
-        description: This field is only needed for US users. This value will use the state's 2-letter code.
-      -
-        name: town
-        type: string
-        description: The user's town on address.
-      -
-        name: country
-        type: integer
-        description: |
-          User's country, value is an `id` of the country stored in TutorCruncher. These country ids can be found
-          by doing an options request at this endpoints base URL.
-      -
-        name: postcode
-        type: string
-        description: The user's postcode on address.
-      -
-        name: latitude
-        type: decimal
-        description: The user's addresses latitude.
-      -
-        name: longitude
-        type: decimal
-        description: The user's addresses longitude.
-      -
-        name: date_created
-        type: string
-        description: The date and time the user was created.
-      -
-        name: timezone
-        type: string
-        description: The user's timezone, accepted values are timezone database values.
+    name: first_name
+    type: string
+    description: The user's first name.
+  -
+    name: last_name
+    type: string
+    description: The user's last name.
+  -
+    name: email
+    type: string
+    description: The user's email address.
+  -
+    name: mobile
+    type: string
+    description: The user's mobile number.
+  -
+    name: phone
+    type: string
+    description: The user's phone number.
+  -
+    name: street
+    type: string
+    description: The user's street address.
+  -
+    name: state
+    type: string
+    description: This field is only needed for US users. This value will use the state's 2-letter code.
+  -
+    name: town
+    type: string
+    description: The user's town on address.
+  -
+    name: country
+    type: integer
+    description: |
+      User's country, value is an `id` of the country stored in TutorCruncher. These country ids can be found
+      by doing an options request at this endpoints base URL.
+  -
+    name: postcode
+    type: string
+    description: The user's postcode on address.
+  -
+    name: latitude
+    type: decimal
+    description: The user's addresses latitude.
+  -
+    name: longitude
+    type: decimal
+    description: The user's addresses longitude.
+  -
+    name: date_created
+    type: string
+    description: The date and time the user was created.
+  -
+    name: timezone
+    type: string
+    description: The user's timezone, accepted values are timezone database values.
   -
     name: status
     type: string
     description: The Contractor's status, choices are `pending`, `approved`, `rejected` and `dormant`.
-  -
-    name: charge_via_branch
-    type: boolean
-    description: Force Invoices associated with this Tutor to be charged via branch.
   -
     name: default_rate
     type: decimal
@@ -205,23 +196,23 @@ attributes:
 
 filters:
   -
-    name: created__gte
+    name: user__created__gte
     type: string
     description: Filter by the date and time the Contractor was created.
   -
-    name: created__lte
+    name: user__created__lte
     type: string
     description: Filter by the date and time the Contractor was created.
   -
-    name: first_name
+    name: user__first_name
     type: string
     description: Filter by the Contractor's first name.
   -
-    name: last_name
+    name: user__last_name
     type: string
     description: Filter by the Contractor's last name.
   -
-    name: email
+    name: user__email
     type: string
     description: Filter by the Contractor's email address.
   -
