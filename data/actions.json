@@ -1696,42 +1696,6 @@
     "subject_types": []
   },
   {
-    "key": "CONTRACTOR_WAS_CREATED_API",
-    "value": "CONTRACTOR_WAS_CREATED_API",
-    "msg": "Was created through the API",
-    "help_text": "When a Tutor is created through the API.",
-    "subject_types": [
-      "Tutor"
-    ]
-  },
-  {
-    "key": "CLIENT_WAS_CREATED_API",
-    "value": "CLIENT_WAS_CREATED_API",
-    "msg": "Was created through the API",
-    "help_text": "When a Client is created through the API.",
-    "subject_types": [
-      "Client"
-    ]
-  },
-  {
-    "key": "SR_WAS_CREATED_API",
-    "value": "SR_WAS_CREATED_API",
-    "msg": "Was created through the API",
-    "help_text": "When a Student is created through the API.",
-    "subject_types": [
-      "Student"
-    ]
-  },
-  {
-    "key": "AGENT_WAS_CREATED_API",
-    "value": "AGENT_WAS_CREATED_API",
-    "msg": "Was created through the API",
-    "help_text": "When a Affiliate is created through the API.",
-    "subject_types": [
-      "Affiliate"
-    ]
-  },
-  {
     "key": "GENERATED_PAYRUN_EXPORT",
     "value": "GENERATED_PAYRUN_EXPORT",
     "msg": "Generated a Pay Run Export",
