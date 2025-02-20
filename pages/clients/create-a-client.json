@@ -1,83 +1,77 @@
 {
-  "status": "success",
-  "role": {
-    "id": 3,
-    "user": {
-      "title": "Mr",
-      "first_name": "Jamie",
+  "id": 3,
+  "title": "Mr",
+  "first_name": "Jamie",
+  "last_name": "Hoskins",
+  "email": "jamie_hoskins@example.com",
+  "mobile": "0207 1128 953",
+  "phone": null,
+  "street": "12 Helmet Row",
+  "state": null,
+  "town": "London",
+  "country": "United Kingdom (GB)",
+  "postcode": "EC1V 3QJ",
+  "latitude": "51.5249280000000027",
+  "longitude": "-0.0944689940000000",
+  "date_created": "2020-01-01T12:00:00.000000Z",
+  "timezone": null,
+  "status": "live",
+  "is_taxable": true,
+  "received_notifications": [
+    "invoice_reminders",
+    "invoices",
+    "apt_reminders",
+    "pfi_reminders",
+    "credit-requests",
+    "low_balance_reminders",
+    "broadcasts"
+  ],
+  "invoices_count": 4,
+  "payment_pending": "100.50",
+  "auto_charge": true,
+  "associated_admin": {
+    "id": 2,
+    "first_name": "Diana",
+    "last_name": "Lafayette",
+    "email": "diana_lafayette@example.com"
+  },
+  "associated_agent": null,
+  "pipeline_stage": null,
+  "paid_recipients": [
+    {
+      "id": 4,
+      "first_name": "Arthur",
       "last_name": "Hoskins",
-      "email": "jamie_hoskins@example.com",
-      "mobile": "0207 1128 953",
-      "phone": null,
-      "street": "12 Helmet Row",
-      "state": null,
-      "town": "London",
-      "country": "United Kingdom (GB)",
-      "postcode": "EC1V 3QJ",
-      "latitude": "51.5249280000000027",
-      "longitude": "-0.0944689940000000",
-      "date_created": "2020-01-01T12:00:00.000000Z",
-      "timezone": null
+      "email": "arthur_hoskins@example.com",
+      "url": "https://secure.tutorcruncher.com/api/recipients/4/"
     },
-    "status": "live",
-    "is_taxable": true,
-    "received_notifications": [
-      "invoice_reminders",
-      "invoices",
-      "apt_reminders",
-      "pfi_reminders",
-      "credit-requests",
-      "low_balance_reminders",
-      "broadcasts"
-    ],
-    "charge_via_branch": false,
-    "invoices_count": 4,
-    "payment_pending": "100.50",
-    "auto_charge": true,
-    "associated_admin": {
-      "id": 2,
-      "first_name": "Diana",
-      "last_name": "Lafayette",
-      "email": "diana_lafayette@example.com"
+    {
+      "id": 6,
+      "first_name": "Harry",
+      "last_name": "Hoskins",
+      "email": "harry_hoskins@example.com",
+      "url": "https://secure.tutorcruncher.com/api/recipients/6/"
     },
-    "associated_agent": null,
-    "pipeline_stage": null,
-    "paid_recipients": [
-      {
-        "id": 4,
-        "first_name": "Arthur",
-        "last_name": "Hoskins",
-        "email": "arthur_hoskins@example.com",
-        "url": "https://secure.tutorcruncher.com/api/recipients/4/"
-      },
-      {
-        "id": 6,
-        "first_name": "Harry",
-        "last_name": "Hoskins",
-        "email": "harry_hoskins@example.com",
-        "url": "https://secure.tutorcruncher.com/api/recipients/6/"
-      },
-      {
-        "id": 5,
-        "first_name": "Archie",
-        "last_name": "Hoskins",
-        "email": "archie_hoskins@example.com",
-        "url": "https://secure.tutorcruncher.com/api/recipients/5/"
-      }
-    ],
-    "last_updated": "2020-01-01T13:00:00.000000Z",
-    "calendar_colour": "ForestGreen",
-    "labels": [],
-    "extra_attrs": [
-      {
-        "id": 1,
-        "value": "1993-06-23",
-        "type": "Date",
-        "machine_name": "client-dob",
-        "name": "Date of birth"
-      }
-    ],
-    "invoice_balance": "-120.00",
-    "available_balance": "-220.50"
-  }
+    {
+      "id": 5,
+      "first_name": "Archie",
+      "last_name": "Hoskins",
+      "email": "archie_hoskins@example.com",
+      "url": "https://secure.tutorcruncher.com/api/recipients/5/"
+    }
+  ],
+  "last_updated": "2020-01-01T13:00:00.000000Z",
+  "calendar_colour": "ForestGreen",
+  "labels": [],
+  "extra_attrs": [
+    {
+      "id": 1,
+      "value": "1993-06-23",
+      "type": "Date",
+      "machine_name": "client-dob",
+      "name": "Date of birth"
+    }
+  ],
+  "invoice_balance": "-120.00",
+  "available_balance": "-220.50"
 }

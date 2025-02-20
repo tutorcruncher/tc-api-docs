@@ -5,7 +5,7 @@ These custom fields are stored in array called `extra_attrs`, you can see the sh
 However, to update a custom field you must not post this whole array. Instead, you should assign 
 `extra_attrs` with an object with keys equal to custom field machine names and values equal to the new values. For 
 example a valid payload would be:
-`'extra_attrs': {'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'},`
+`'extra_attrs': [{'custom_field_machine_name_1': 'value_1', 'custom_field_machine_name_2': 'value_2'},]`
 
 You can find the machine name of a custom field by clicking on it in your 
 [custom field settings](https://secure.tutorcruncher.com/setup/attrs/). See [creating a client](#3-create-a-client)

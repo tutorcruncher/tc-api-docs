@@ -1,10 +1,17 @@
 sections:
   -
-    title: Recipient Object
-    id: recipient-object
-    description: /recipients/recipient-object.md
-    attributes: /recipients/recipient-object.yml
-    response: /recipients/recipient-object.json
+    title: Recipient Object (Version 1)
+    id: recipient-object-v1
+    description: /recipients/recipient-object-v1.md
+    attributes: /recipients/recipient-object-v1.yml
+    response: /recipients/recipient-object-v1.json
+    response_title: OBJECT
+  -
+    title: Recipient Object (Version 2)
+    id: recipient-object-v2
+    description: /recipients/recipient-object-v2.md
+    attributes: /recipients/recipient-object-v2.yml
+    response: /recipients/recipient-object-v2.json
     response_title: OBJECT
   -
     title: List all Recipients

@@ -4,7 +4,6 @@
   "appointment": null,
   "category": {
     "branch_tax_setup": "Default Company Tax (20%)",
-    "charge_via_branch": true,
     "contractor_tax_setup": "Default Company Tax (20%)",
     "contractor_usable": true,
     "default_charge_amount": "10.00",

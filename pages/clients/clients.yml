@@ -1,10 +1,17 @@
 sections:
   -
-    title: Client Object
-    id: client-object
-    description: /clients/client-object.md
-    attributes: /clients/client-object.yml
-    response: /clients/client-object.json
+    title: Client Object (Version 1)
+    id: client-object-v1
+    description: /clients/client-object-v1.md
+    attributes: /clients/client-object-v1.yml
+    response: /clients/client-object-v1.json
+    response_title: OBJECT
+  -
+    title: Client Object (Version 2)
+    id: client-object-v2
+    description: /clients/client-object-v2.md
+    attributes: /clients/client-object-v2.yml
+    response: /clients/client-object-v2.json
     response_title: OBJECT
   -
     title: List all Clients

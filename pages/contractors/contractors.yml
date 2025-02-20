@@ -1,10 +1,17 @@
 sections:
   -
-    title: Contractor Object
-    id: contractor-object
-    description: /contractors/contractor-object.md
-    attributes: /contractors/contractor-object.yml
-    response: /contractors/contractor-object.json
+    title: Contractor Object (Version 1)
+    id: contractor-object-v1
+    description: /contractors/contractor-object-v1.md
+    attributes: /contractors/contractor-object-v1.yml
+    response: /contractors/contractor-object-v1.json
+    response_title: OBJECT
+  -
+    title: Contractor Object (Version 2)
+    id: contractor-object-v2
+    description: /contractors/contractor-object-v2.md
+    attributes: /contractors/contractor-object-v2.yml
+    response: /contractors/contractor-object-v2.json
     response_title: OBJECT
   -
     title: List all Contractors
