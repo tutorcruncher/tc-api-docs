@@ -1,0 +1,26 @@
+{
+  "id": 73,
+  "description": "I love science",
+  "contractor": {
+    "id": 1985,
+    "first_name": null,
+    "last_name": "Teacherson",
+    "email": "jane_teacherson@example.com",
+    "url": "https://secure.tutorcruncher.com/api/contractors/1985/"
+  },
+  "created": "2019-01-01T00:00:00Z",
+  "proposed_rate": null,
+  "service": {
+    "id": 300,
+    "name": "Jobalot",
+    "dft_charge_type": "hourly",
+    "created": "2019-01-01T00:00:00Z",
+    "dft_charge_rate": "100.00",
+    "dft_contractor_rate": "50.00",
+    "last_updated": "2025-02-25T17:30:52.234437Z",
+    "status": "available",
+    "url": "https://secure.tutorcruncher.com/api/services/300/"
+  },
+  "status": "accepted"
+}
+
