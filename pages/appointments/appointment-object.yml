@@ -171,8 +171,8 @@ filters:
     description: Filter by the Appointment's linked Tutor (id).
   -
     name: recipient
-    type: string
-    description: Filter by the Appointment's recipient email address.
+    type: integer
+    description: Filter by the Appointment's linked Student (id).
   -
     name: location
     type: integer
