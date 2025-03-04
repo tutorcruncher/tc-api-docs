@@ -1,3 +1,5 @@
+## Zapier is currently not functional with Version 2 of the Roles API. We are working on a fix for this and will update this page when it is resolved.
+
 Version 2 of the Roles API is on its way. The changes are mostly in the backend and to improve speed and set us up for better developments going forward.
 We will be removing Version 1 of the Roles API on the 3rd July 2025 so please update your API integrations as needed before then.
 While the changes will be very small for you, we recommend that you adapt your system to handle both Version 1 and Version 2 
