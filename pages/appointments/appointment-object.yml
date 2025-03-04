@@ -167,12 +167,12 @@ filters:
     description: Filter by the Appointment's linked Job (id).
   -
     name: contractor
-    type: string
+    type: integer
     description: Filter by the Appointment's linked Tutor (id).
   -
     name: recipient
     type: integer
-    description: Filter by the Appointment's recipient email address (id).
+    description: Filter by the Appointment's linked Student (id).
   -
     name: location
     type: integer
