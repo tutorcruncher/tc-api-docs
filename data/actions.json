@@ -4,6 +4,7 @@
     "value": "LOGIN",
     "msg": "Logged in",
     "help_text": "When a User logs in.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -11,6 +12,7 @@
     "value": "AGREE_TERMS",
     "msg": "Agreed to Terms and Conditions",
     "help_text": "When a User agrees to the Terms and Conditions.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -23,6 +25,7 @@
     "value": "RECORDED_TERMS_CONSENT",
     "msg": "Recorded consent to Terms and Conditions",
     "help_text": "When an Administrator records consent to Terms and Conditions.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -35,6 +38,7 @@
     "value": "REQUESTED_DELETION",
     "msg": "Requested their data be deleted",
     "help_text": "When a User has requested that they want their data to be deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -42,6 +46,7 @@
     "value": "LOGGED_OUT",
     "msg": "Logged out",
     "help_text": "When a User logs out.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -49,6 +54,7 @@
     "value": "PW_RESET_EMAIL",
     "msg": "Requested password reset email",
     "help_text": "When a User gets sent a password reset email.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -56,6 +62,7 @@
     "value": "PW_ENTER_NEW",
     "msg": "Entered new password",
     "help_text": "When a User resets their password.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -63,6 +70,7 @@
     "value": "CHANGED_OWN_ROLE",
     "msg": "Changed Role",
     "help_text": "When a User switches to a different Role.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -70,6 +78,7 @@
     "value": "UNSUBSCRIBED_FROM_EMAILS",
     "msg": "Unsubscribed from emails",
     "help_text": "When a User opts out from receiving emails.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -77,6 +86,7 @@
     "value": "GENERATED_ACCOUNTING",
     "msg": "Generated Invoices & Payment Orders",
     "help_text": "When an Administrator generates Invoices and Payment Orders.",
+    "extra_msg": "Generated {invoice_count} Invoices ({invoice_total}) and {po_count} Payment Orders ({po_total}).",
     "subject_types": []
   },
   {
@@ -84,6 +94,7 @@
     "value": "GENERATED_INVOICES",
     "msg": "Generated Invoices",
     "help_text": "When an Administrator generates Invoices.",
+    "extra_msg": "Generated {inv_count} Invoices ({inv_total}).",
     "subject_types": []
   },
   {
@@ -91,6 +102,7 @@
     "value": "GENERATED_POS",
     "msg": "Generated Payment Orders",
     "help_text": "When an Administrator generates Payment Orders.",
+    "extra_msg": "Generated {po_count} Payment Orders ({po_total}).",
     "subject_types": []
   },
   {
@@ -98,6 +110,7 @@
     "value": "GENERATED_PFIS",
     "msg": "Generated Credit Requests",
     "help_text": "When an Administrator generates Credit Requests.",
+    "extra_msg": "Generated {pfi_count} Credit Request(s) ({pfi_total}).",
     "subject_types": []
   },
   {
@@ -105,6 +118,7 @@
     "value": "RAISED_INVOICES",
     "msg": "Raised Invoices",
     "help_text": "Occurs every time an Administrator sends Invoices.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -112,6 +126,7 @@
     "value": "RAISED_INVOICE",
     "msg": "Raised an Invoice",
     "help_text": "Occurs once for each Invoice when an Administrator sends Invoices.",
+    "extra_msg": "",
     "subject_types": [
       "Invoice"
     ]
@@ -121,6 +136,7 @@
     "value": "SENT_INVOICE_REMINDER",
     "msg": "Sent an Invoice Reminder",
     "help_text": "When an Administrator sends an Invoice Reminder.",
+    "extra_msg": "",
     "subject_types": [
       "Invoice"
     ]
@@ -130,6 +146,7 @@
     "value": "CREATED_DEFERRED_PAYMENT",
     "msg": "Created a deferred payment",
     "help_text": "When an Administrator sets up a Deferred Payment.",
+    "extra_msg": "Payment will be taken using {method_str}.",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -140,6 +157,7 @@
     "value": "VOIDED_INVOICE",
     "msg": "Voided an Invoice",
     "help_text": "When an Administrator voids an Invoice.",
+    "extra_msg": "",
     "subject_types": [
       "Invoice"
     ]
@@ -149,6 +167,7 @@
     "value": "VOIDED_PO",
     "msg": "Voided a Payment Order",
     "help_text": "When an Administrator voids a Payment Order.",
+    "extra_msg": "",
     "subject_types": [
       "Payment Order"
     ]
@@ -158,6 +177,7 @@
     "value": "MARKED_INVOICE_AS_PAID",
     "msg": "Marked an Invoice as paid",
     "help_text": "When an Invoice gets marked as paid.",
+    "extra_msg": "",
     "subject_types": [
       "Invoice"
     ]
@@ -167,6 +187,7 @@
     "value": "CLIENT_PAID_INVOICE",
     "msg": "Paid their Invoice",
     "help_text": "When a Client pays their Invoice.",
+    "extra_msg": "Payment method: {payment_method}.",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -177,6 +198,7 @@
     "value": "ADMIN_PAID_INVOICE",
     "msg": "Paid an Invoice",
     "help_text": "When an Administrator pays an Invoice.",
+    "extra_msg": "Payment method: {payment_method}.",
     "subject_types": [
       "Invoice"
     ]
@@ -186,6 +208,7 @@
     "value": "ADMIN_QUICK_PAY_INVOICE",
     "msg": "Created a Quick Payment Invoice",
     "help_text": "When an Administrator quick pays for an Invoice.",
+    "extra_msg": "",
     "subject_types": [
       "Invoice"
     ]
@@ -195,6 +218,7 @@
     "value": "ACCOUNTING_ITEM_AUTOCHARGED",
     "msg": "Charged a client using Autocharge",
     "help_text": "Occurs once for each Credit Request or Invoice when they are charged via Autocharge.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -205,6 +229,7 @@
     "value": "RAISED_POS",
     "msg": "Raised Payment Orders",
     "help_text": "Occurs when an Administrator sends Payment Orders.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -212,6 +237,7 @@
     "value": "RAISED_PO",
     "msg": "Raised a Payment Order",
     "help_text": "Occurs once for each Payment Order when an Administrator sends Payment Orders.",
+    "extra_msg": "",
     "subject_types": [
       "Payment Order"
     ]
@@ -221,6 +247,7 @@
     "value": "RESENT_PO",
     "msg": "Resent a Payment Order",
     "help_text": "When an Administrator resends a Payment Order.",
+    "extra_msg": "",
     "subject_types": [
       "Payment Order"
     ]
@@ -230,6 +257,7 @@
     "value": "MARKED_PO_AS_PAID",
     "msg": "Marked a Payment Order as paid",
     "help_text": "When an Administrator marks a Payment Order as paid.",
+    "extra_msg": "",
     "subject_types": [
       "Payment Order"
     ]
@@ -239,6 +267,7 @@
     "value": "CREATED_PAYOUT",
     "msg": "Created a Payout",
     "help_text": "Occurs when a Payment Order is sent and creates a payout in Telleroo.",
+    "extra_msg": "",
     "subject_types": [
       "Payment Order"
     ]
@@ -248,6 +277,7 @@
     "value": "ADDED_PO_TO_PAYRUN",
     "msg": "Added a Payment Order to a Pay Run",
     "help_text": "Occurs when a Payment Order added to a Pay Run.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -255,6 +285,7 @@
     "value": "CREATED_PROFORMA_INVOICE",
     "msg": "Created a Credit Request",
     "help_text": "When an Administrator creates a Credit Request.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -264,6 +295,7 @@
     "value": "CREATED_PROFORMA_INVOICE_ITEM",
     "msg": "Added an item to a Credit Request",
     "help_text": "When an Administrator creates a Credit Request Item.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -273,6 +305,7 @@
     "value": "EDIT_PROFORMA_INVOICE",
     "msg": "Edited a Credit Request",
     "help_text": "When an Administrator edits a Credit Request.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -282,6 +315,7 @@
     "value": "DELETED_PROFORMA_INVOICE",
     "msg": "Deleted a Credit Request",
     "help_text": "When an Administrator deletes a Credit Request.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -291,6 +325,7 @@
     "value": "MARKED_PROFORMA_INVOICE_AS_PAID",
     "msg": "Marked Credit Request as paid",
     "help_text": "When an Administrator marks a Credit Request as paid.",
+    "extra_msg": "Payment method: {payment_method}.",
     "subject_types": [
       "Credit Request"
     ]
@@ -300,6 +335,7 @@
     "value": "RAISED_PROFORMA_INVOICES",
     "msg": "Raised Credit Requests",
     "help_text": "Occurs when an Administrator sends Credit Requests.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -307,6 +343,7 @@
     "value": "RAISED_PROFORMA_INVOICE",
     "msg": "Raised a Credit Request",
     "help_text": "Occurs once for each Credit Request when an Administrator sends Credit Requests.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -316,6 +353,7 @@
     "value": "SENT_PROFORMA_INVOICE_REMINDER",
     "msg": "Sent a Credit Request Reminder",
     "help_text": "When an Administrator sends a Credit Request Reminder.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -325,6 +363,7 @@
     "value": "CLIENT_PAID_PROFORMA_INVOICE",
     "msg": "Paid their Credit Request",
     "help_text": "When a Client pays their Credit Request.",
+    "extra_msg": "Payment method: {payment_method}.",
     "subject_types": [
       "Credit Request"
     ]
@@ -334,6 +373,7 @@
     "value": "ADMIN_PAID_PROFORMA_INVOICE",
     "msg": "Paid a Credit Request",
     "help_text": "When an Administrator pays a Client's Credit Request.",
+    "extra_msg": "Payment method: {payment_method}.",
     "subject_types": [
       "Credit Request"
     ]
@@ -343,6 +383,7 @@
     "value": "ADMIN_QUICK_PAY_PFI",
     "msg": "Created a Quick Payment Credit Request",
     "help_text": "When an Administrator creates a Quick Payment Credit Request.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request"
     ]
@@ -352,6 +393,7 @@
     "value": "CREATED_ADHOC_CHARGE",
     "msg": "Created Ad Hoc Charge",
     "help_text": "When an Administrator creates an Ad Hoc Charge.",
+    "extra_msg": "",
     "subject_types": [
       "Ad Hoc Charge"
     ]
@@ -361,6 +403,7 @@
     "value": "EDITED_ADHOC_CHARGE",
     "msg": "Edited Ad Hoc Charge",
     "help_text": "When an Administrator creates an Ad Hoc Charge.",
+    "extra_msg": "",
     "subject_types": [
       "Ad Hoc Charge"
     ]
@@ -370,6 +413,7 @@
     "value": "DELETED_ADHOC_CHARGE",
     "msg": "Deleted Ad Hoc Charge",
     "help_text": "When an Administrator creates an Ad Hoc Charge.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -377,6 +421,7 @@
     "value": "BALANCE_ADJUSTMENT",
     "msg": "Adjusted a Client's balance",
     "help_text": "When an Administrator adjusts a Client's Balance.",
+    "extra_msg": "Adjusted credit on account by {credit_amount} via {method}.",
     "subject_types": [
       "Client"
     ]
@@ -386,6 +431,7 @@
     "value": "CLIENT_TOPPED_UP",
     "msg": "Client topped up",
     "help_text": "When a Client tops up their Balance.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -395,6 +441,7 @@
     "value": "ACCOUNTING_EXPORT",
     "msg": "Exported accounting information",
     "help_text": "When an Administrator exports a Branch's accounting information.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -402,6 +449,7 @@
     "value": "EDITED_OWN_PROFILE",
     "msg": "Edited their own profile",
     "help_text": "When a User edits their own profile.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -414,6 +462,7 @@
     "value": "CREATED_AN_ADMINISTRATOR",
     "msg": "Created an Administrator",
     "help_text": "When an Administrator is created.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -421,6 +470,7 @@
     "value": "EDITED_AN_ADMINISTRATOR",
     "msg": "Edited an Administrator",
     "help_text": "When an Administrator is edited.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -428,6 +478,7 @@
     "value": "DELETED_AN_ADMINISTRATOR",
     "msg": "Deleted an Administrator",
     "help_text": "When an Administrator is deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -435,6 +486,7 @@
     "value": "CREATED_AN_AGENT",
     "msg": "Created an Affiliate",
     "help_text": "When an Affiliate is created.",
+    "extra_msg": "Created via {method}.",
     "subject_types": [
       "Affiliate"
     ]
@@ -444,6 +496,7 @@
     "value": "EDITED_AN_AGENT",
     "msg": "Edited an Affiliate",
     "help_text": "When an Affiliate is edited.",
+    "extra_msg": "Edited via {method}.",
     "subject_types": [
       "Affiliate"
     ]
@@ -453,6 +506,7 @@
     "value": "DELETED_AN_AGENT",
     "msg": "Deleted an Affiliate",
     "help_text": "When an Affiliate is deleted.",
+    "extra_msg": "Created via {method}.",
     "subject_types": [
       "Affiliate"
     ]
@@ -462,6 +516,7 @@
     "value": "CREATED_A_CLIENT",
     "msg": "Created a Client",
     "help_text": "When an Client is created.",
+    "extra_msg": "Created via {method}.",
     "subject_types": [
       "Client"
     ]
@@ -471,6 +526,7 @@
     "value": "EDITED_A_CLIENT",
     "msg": "Edited a Client",
     "help_text": "When an Client is edited.",
+    "extra_msg": "Edited via {method}.",
     "subject_types": [
       "Client"
     ]
@@ -480,6 +536,7 @@
     "value": "DELETED_A_CLIENT",
     "msg": "Deleted a Client",
     "help_text": "When an Client is deleted.",
+    "extra_msg": "Deleted via {method}.",
     "subject_types": [
       "Client"
     ]
@@ -489,6 +546,7 @@
     "value": "CHANGED_CLIENT_STATUS",
     "msg": "Changed a Client's status",
     "help_text": "When a Client's status gets updated.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -498,6 +556,7 @@
     "value": "CREATED_A_CONTRACTOR",
     "msg": "Created a Tutor",
     "help_text": "When an Tutor is created.",
+    "extra_msg": "Created via {method}.",
     "subject_types": [
       "Tutor"
     ]
@@ -507,6 +566,7 @@
     "value": "EDITED_A_CONTRACTOR",
     "msg": "Edited a Tutor",
     "help_text": "When an Tutor is edited.",
+    "extra_msg": "Edited via {method}.",
     "subject_types": [
       "Tutor"
     ]
@@ -516,6 +576,7 @@
     "value": "DELETED_A_CONTRACTOR",
     "msg": "Deleted a Tutor",
     "help_text": "When an Tutor is deleted.",
+    "extra_msg": "Deleted via {method}.",
     "subject_types": [
       "Tutor"
     ]
@@ -525,6 +586,7 @@
     "value": "CHANGED_CONTRACTOR_STATUS",
     "msg": "Changed a Tutor's status",
     "help_text": "When a Tutor's status gets updated.",
+    "extra_msg": "Changed status from {old_status} to {new_status}.",
     "subject_types": [
       "Tutor"
     ]
@@ -534,6 +596,7 @@
     "value": "INVITED_CONTRACTOR_FOR_INTERVIEW",
     "msg": "Invited a Tutor for an interview",
     "help_text": "When an Administrator sends a Tutor an invitation for an interview.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -543,6 +606,7 @@
     "value": "CREATED_A_SR",
     "msg": "Created a Student",
     "help_text": "When a Student is created.",
+    "extra_msg": "Created via {method}.",
     "subject_types": [
       "Student"
     ]
@@ -552,6 +616,7 @@
     "value": "EDITED_A_SR",
     "msg": "Edited a Student",
     "help_text": "When a Student is edited.",
+    "extra_msg": "Edited via {method}.",
     "subject_types": [
       "Student"
     ]
@@ -561,6 +626,7 @@
     "value": "DELETED_A_SR",
     "msg": "Deleted a Student",
     "help_text": "When a Student is deleted.",
+    "extra_msg": "Deleted via {method}.",
     "subject_types": [
       "Student"
     ]
@@ -570,6 +636,7 @@
     "value": "IMPORTED_USERS",
     "msg": "Imported Users",
     "help_text": "When an Administrator imports Users.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -577,6 +644,7 @@
     "value": "EDITED_SKILLS",
     "msg": "Edited Skills",
     "help_text": "When a User's skills are edited.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -586,6 +654,7 @@
     "value": "EDITED_OWN_SKILLS",
     "msg": "Edited their own Skills",
     "help_text": "When a User edits their own skills.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -593,6 +662,7 @@
     "value": "EDITED_QUALIFICATIONS",
     "msg": "Edited Qualifications",
     "help_text": "When a User's qualifications are edited.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -602,6 +672,7 @@
     "value": "EDITED_OWN_QUALIFICATIONS",
     "msg": "Edited their own Qualifications",
     "help_text": "When a User edits their own qualifications.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -609,6 +680,7 @@
     "value": "CREATED_A_SERVICE",
     "msg": "Created a Job",
     "help_text": "When a Job is created.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -618,6 +690,7 @@
     "value": "EDITED_A_SERVICE",
     "msg": "Edited a Job",
     "help_text": "When a Job is edited.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -627,6 +700,7 @@
     "value": "DELETED_A_SERVICE",
     "msg": "Deleted a Job",
     "help_text": "When a Job is deleted.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -636,6 +710,7 @@
     "value": "CHANGED_SERVICE_STATUS",
     "msg": "Changed a Job's status",
     "help_text": "When a Job's status is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -645,6 +720,7 @@
     "value": "SENT_SERVICE_NOTIFICATIONS",
     "msg": "Sent Notifications to Tutors",
     "help_text": "When an Administrator sends Job Notifications to Tutors on the Job.",
+    "extra_msg": "This was sent to {sent_to_count} Tutor(s).",
     "subject_types": [
       "Job"
     ]
@@ -654,6 +730,7 @@
     "value": "ADDED_CONTRACTOR_TO_SERVICE",
     "msg": "Added a Tutor to a Job",
     "help_text": "When a Tutor is added to a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -663,6 +740,7 @@
     "value": "REMOVED_CONTRACTOR_FROM_SERVICE",
     "msg": "Removed a Tutor from a Job",
     "help_text": "When a Tutor is removed from a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -672,6 +750,7 @@
     "value": "EDITED_CONTRACTOR_ON_SERVICE",
     "msg": "Edited a Tutor on a Job",
     "help_text": "When a Tutor on a Job is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -681,6 +760,7 @@
     "value": "ADDED_CONTRACTOR_TO_APPOINTMENT",
     "msg": "Added a Tutor to a Lesson",
     "help_text": "When a Tutor is added to a Lesson.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -690,6 +770,7 @@
     "value": "REMOVED_CONTRACTOR_FROM_APPOINTMENT",
     "msg": "Removed a Tutor from a Lesson",
     "help_text": "When a Tutor is removed from a Lesson.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -699,6 +780,7 @@
     "value": "EDITED_CONTRACTOR_ON_APPOINTMENT",
     "msg": "Edited a Tutor on a Lesson",
     "help_text": "When a Tutor on a Lesson is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -708,6 +790,7 @@
     "value": "ADDED_SR_TO_SERVICE",
     "msg": "Added a Student to a Job",
     "help_text": "When a Student is added to a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -717,6 +800,7 @@
     "value": "REMOVED_SR_FROM_SERVICE",
     "msg": "Removed a Student from a Job",
     "help_text": "When a Student is removed from a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Student"
     ]
@@ -726,6 +810,7 @@
     "value": "EDITED_SR_ON_SERVICE",
     "msg": "Edited a Student on a Job",
     "help_text": "When a Student on a Job is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -735,6 +820,7 @@
     "value": "ADDED_SR_TO_APPOINTMENT",
     "msg": "Added a Student to a Lesson",
     "help_text": "When a Student is added to a Lesson.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -744,6 +830,7 @@
     "value": "REMOVED_SR_FROM_APPOINTMENT",
     "msg": "Removed a Student from a Lesson",
     "help_text": "When a Student is removed from a Lesson.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -753,6 +840,7 @@
     "value": "EDITED_SR_ON_APPOINTMENT",
     "msg": "Edited a Student on a Lesson",
     "help_text": "When a Student on a Lesson is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -762,6 +850,7 @@
     "value": "APPLIED_FOR_SERVICE",
     "msg": "Applied for a Job",
     "help_text": "When a Tutor applies for a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Job",
       "Application"
@@ -772,6 +861,7 @@
     "value": "EDITED_APPLICATION_FOR_SERVICE",
     "msg": "Edited their application for a Job",
     "help_text": "When a tutor edits their application for a job",
+    "extra_msg": "",
     "subject_types": [
       "Application"
     ]
@@ -781,6 +871,7 @@
     "value": "WITHDREW_APPLICATION_FOR_SERVICE",
     "msg": "Withdrew their application for a Job",
     "help_text": "When a tutor withdraws their application for a job",
+    "extra_msg": "",
     "subject_types": [
       "Application"
     ]
@@ -790,6 +881,7 @@
     "value": "TENDER_WAS_DECLINED",
     "msg": "Application for a Job was declined",
     "help_text": "When a tutor's application for a job has been declined",
+    "extra_msg": "",
     "subject_types": [
       "Application"
     ]
@@ -799,6 +891,7 @@
     "value": "TENDER_WAS_ACCEPTED",
     "msg": "Application for a Job was accepted",
     "help_text": "When a tutor's application for a job has been accepted",
+    "extra_msg": "",
     "subject_types": [
       "Application"
     ]
@@ -808,6 +901,7 @@
     "value": "CONTRACTOR_WAS_REQUESTED_FOR_SERVICE",
     "msg": "Tutor was requested for a Job",
     "help_text": "When a tutor is requested for a Job by a Client Enquiry",
+    "extra_msg": "",
     "subject_types": [
       "Application"
     ]
@@ -817,6 +911,7 @@
     "value": "CREATED_AN_APPOINTMENT",
     "msg": "Created a Lesson",
     "help_text": "When a Lesson is created.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -826,6 +921,7 @@
     "value": "CREATED_A_REPEATING_APPOINTMENT",
     "msg": "Created a Repeating Lesson",
     "help_text": "Occurs for each Lesson which is created via repeated Lessons.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -835,6 +931,7 @@
     "value": "EDITED_AN_APPOINTMENT",
     "msg": "Edited a Lesson",
     "help_text": "When a Lesson is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -844,6 +941,7 @@
     "value": "EDITED_REPEATED_APPOINTMENTS",
     "msg": "Edited a Lesson and all future linked Lessons",
     "help_text": "When repeated Lessons are updated.",
+    "extra_msg": "Edited {edited_appointments_count} future repeated appointments.",
     "subject_types": [
       "Lesson"
     ]
@@ -853,6 +951,7 @@
     "value": "DELETED_AN_APPOINTMENT",
     "msg": "Deleted a Lesson",
     "help_text": "When a Lesson is deleted.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -862,6 +961,7 @@
     "value": "MARKED_AN_APPOINTMENT_AS_COMPLETE",
     "msg": "Marked a Lesson as complete",
     "help_text": "When a Lesson is marked as complete.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -871,6 +971,7 @@
     "value": "MARKED_AN_APPOINTMENT_AS_CANCELLED",
     "msg": "Cancelled a Lesson",
     "help_text": "When a Lesson is cancelled.",
+    "extra_msg": "If a reason was given, it will be shown in notes.",
     "subject_types": [
       "Lesson"
     ]
@@ -880,6 +981,7 @@
     "value": "APPOINTMENT_EXPORT",
     "msg": "Exported Lessons",
     "help_text": "When an Administrator exports data about Lessons.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -887,6 +989,7 @@
     "value": "SERVICE_EXPORT",
     "msg": "Exported Jobs",
     "help_text": "When an Administrator exports data about Jobs.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -894,6 +997,7 @@
     "value": "REPORTS_EXPORT",
     "msg": "Exported Reports",
     "help_text": "When an Administrator exports data about Reports.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -901,6 +1005,7 @@
     "value": "CLIENTS_EXPORT",
     "msg": "Exported Clients",
     "help_text": "When an Administrator exports data about Clients.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -908,6 +1013,7 @@
     "value": "CONTRACTOR_EXPORT",
     "msg": "Exported Tutors",
     "help_text": "When an Administrator exports data about Tutors.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -915,6 +1021,7 @@
     "value": "SERVICE_RECIPIENTS_EXPORT",
     "msg": "Exported Students",
     "help_text": "When an Administrator exports data about Students.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -922,6 +1029,7 @@
     "value": "EDITED_SYSTEM_SETTINGS",
     "msg": "Edited system settings",
     "help_text": "When an Administrator makes changes to a Branch's or Company's settings.",
+    "extra_msg": "Settings change: {changed_fields}.",
     "subject_types": []
   },
   {
@@ -929,6 +1037,7 @@
     "value": "CHANGED_TERMS",
     "msg": "Changed Terms and Conditions",
     "help_text": "When an Administrator updates the Terms and Conditions.",
+    "extra_msg": "Terms and Conditions were changed and notifications were sent to {sent_to}.",
     "subject_types": []
   },
   {
@@ -936,6 +1045,7 @@
     "value": "CONFIRMED_AGENCY_EMAIL",
     "msg": "Confirmed Company Email",
     "help_text": "When a Company confirms their email address.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -943,6 +1053,7 @@
     "value": "CREATED_AGENCY",
     "msg": "Created Company",
     "help_text": "When a User sets up an Company on TutorCruncher.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -950,6 +1061,7 @@
     "value": "TERMINATED_AGENCY",
     "msg": "Company was terminated",
     "help_text": "When a Company's status is marked as Terminated.",
+    "extra_msg": "Reason: {termination_reason}.{extra_details}",
     "subject_types": [
       "Client"
     ]
@@ -959,6 +1071,7 @@
     "value": "EDITED_AVAILABILITY",
     "msg": "Edited availability",
     "help_text": "When a Tutor's availability is updated.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -968,6 +1081,7 @@
     "value": "RECOVERED_AN_ADMINISTRATOR",
     "msg": "Recovered an Administrator",
     "help_text": "When an Administrator is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -975,6 +1089,7 @@
     "value": "RECOVERED_AN_AGENT",
     "msg": "Recovered an Affiliate",
     "help_text": "When an Affiliate is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": [
       "Affiliate"
     ]
@@ -984,6 +1099,7 @@
     "value": "RECOVERED_A_CLIENT",
     "msg": "Recovered a Client",
     "help_text": "When a Client is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -993,6 +1109,7 @@
     "value": "RECOVERED_A_CONTRACTOR",
     "msg": "Recovered a Tutor",
     "help_text": "When a Tutor is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1002,6 +1119,7 @@
     "value": "RECOVERED_A_SR",
     "msg": "Recovered a Student",
     "help_text": "When a Student is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": [
       "Student"
     ]
@@ -1011,6 +1129,7 @@
     "value": "RECOVERED_A_SERVICE",
     "msg": "Recovered a Job",
     "help_text": "When a Job is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1020,6 +1139,7 @@
     "value": "RECOVERED_AN_APPOINTMENT",
     "msg": "Recovered a Lesson",
     "help_text": "When a Lesson is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -1029,6 +1149,7 @@
     "value": "RECOVERED_AN_EXTRA_ATTRIBUTE",
     "msg": "Recovered a Custom Field",
     "help_text": "When a Custom Field is recovered from the Trash.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1036,6 +1157,7 @@
     "value": "CREATED_A_LOCATION",
     "msg": "Created a Location",
     "help_text": "When a Location is created.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1043,6 +1165,7 @@
     "value": "EDITED_A_LOCATION",
     "msg": "Edited a Location",
     "help_text": "When a Location is edited.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1050,6 +1173,7 @@
     "value": "DELETED_A_LOCATION",
     "msg": "Deleted a Location",
     "help_text": "When a Location is deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1057,6 +1181,7 @@
     "value": "CREATED_A_LABEL",
     "msg": "Created a Label",
     "help_text": "When a Label is created.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1064,6 +1189,7 @@
     "value": "EDITED_A_LABEL",
     "msg": "Edited a Label",
     "help_text": "When a Label is edited.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1071,6 +1197,7 @@
     "value": "DELETED_A_LABEL",
     "msg": "Deleted a Label",
     "help_text": "When a Label is deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1078,6 +1205,7 @@
     "value": "ADDED_A_LABEL_TO_A_USER",
     "msg": "Added a Label to a User",
     "help_text": "When a Label is added to a Role/User.",
+    "extra_msg": "Added via {method}.",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -1090,6 +1218,7 @@
     "value": "REMOVED_A_LABEL_FROM_A_USER",
     "msg": "Removed a Label from a User",
     "help_text": "When a Label is removed from a Role/User.",
+    "extra_msg": "Removed via {method}.",
     "subject_types": []
   },
   {
@@ -1097,6 +1226,7 @@
     "value": "CREATED_AN_EXTRA_ATTRIBUTE",
     "msg": "Created a Custom Field",
     "help_text": "When a Custom Field is created.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1104,6 +1234,7 @@
     "value": "EDITED_AN_EXTRA_ATTRIBUTE",
     "msg": "Edited a Custom Field",
     "help_text": "When a Custom Field is edited.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1111,6 +1242,7 @@
     "value": "DELETED_AN_EXTRA_ATTRIBUTE",
     "msg": "Deleted a Custom Field",
     "help_text": "When a Custom Field is deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1118,6 +1250,7 @@
     "value": "IMPORTED_EXTRA_ATTRIBUTES",
     "msg": "Imported Custom Fields",
     "help_text": "When a Custom Field is imported.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1125,6 +1258,7 @@
     "value": "CHANGED_ATTRIBUTE_ORDERING",
     "msg": "Changed Custom Field Ordering",
     "help_text": "When the Custom Field order is changed.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1132,6 +1266,7 @@
     "value": "SENT_BROADCAST",
     "msg": "Sent a Broadcast",
     "help_text": "When an Administrator sends a Broadcast.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1139,6 +1274,7 @@
     "value": "SENT_BROADCAST_PREVIEW",
     "msg": "Sent a Broadcast Preview",
     "help_text": "When an Administrator sends a Broadcast Preview.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1146,6 +1282,7 @@
     "value": "CREATED_A_BROADCAST",
     "msg": "Created a Broadcast",
     "help_text": "When an Administrator creates a Broadcast.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1153,6 +1290,7 @@
     "value": "EDITED_A_BROADCAST",
     "msg": "Edited a Broadcast",
     "help_text": "When an Administrator edits a Broadcast.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1160,6 +1298,7 @@
     "value": "DELETED_A_BROADCAST",
     "msg": "Deleted a Broadcast",
     "help_text": "When an Administrator deletes a Broadcast.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1167,6 +1306,7 @@
     "value": "UPLOADED_A_CV",
     "msg": "Uploaded a R\u00e9sum\u00e9",
     "help_text": "When an Administrator or Tutor uploads a R\u00e9sum\u00e9.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1174,6 +1314,7 @@
     "value": "EDITED_ATTENDED_INSTITUTIONS",
     "msg": "Edited Attended Institutions",
     "help_text": "When a Tutor edits their Institutions.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1183,6 +1324,7 @@
     "value": "ADDED_CUSTOM_INSTITUTION",
     "msg": "Added a Custom Institution",
     "help_text": "When an Administrator or Tutor adds a Custom Institution.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1192,6 +1334,7 @@
     "value": "ADDED_A_NOTE",
     "msg": "Added a Note",
     "help_text": "When an Administrator adds a Note.",
+    "extra_msg": "",
     "subject_types": [
       "Note"
     ]
@@ -1201,6 +1344,7 @@
     "value": "EDITED_A_NOTE",
     "msg": "Edited a Note",
     "help_text": "When an Administrator edits a Note.",
+    "extra_msg": "",
     "subject_types": [
       "Note"
     ]
@@ -1210,6 +1354,7 @@
     "value": "DELETED_A_NOTE",
     "msg": "Deleted a Note",
     "help_text": "When an Administrator deletes a Note.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -1224,6 +1369,7 @@
     "value": "ADDED_A_DOCUMENT",
     "msg": "Added a Document",
     "help_text": "When a User uploads a Document.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1231,6 +1377,7 @@
     "value": "EDITED_A_DOCUMENT",
     "msg": "Edited a Document",
     "help_text": "When a User edits a Document.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1238,6 +1385,7 @@
     "value": "ADDED_PUBLIC_DOCUMENT",
     "msg": "Added a Public Document",
     "help_text": "When an Administrator uploads a Public Document.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1245,6 +1393,7 @@
     "value": "CREATED_A_TASK",
     "msg": "Created a Task",
     "help_text": "When an Administrator creates a Task.",
+    "extra_msg": "",
     "subject_types": [
       "Task"
     ]
@@ -1254,6 +1403,7 @@
     "value": "CHANGED_CLIENTS_AGENT",
     "msg": "Changed a Client's Affiliate",
     "help_text": "When a Client's Affiliate is changed.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1263,6 +1413,7 @@
     "value": "CHANGED_CLIENT_ADMIN",
     "msg": "Changed a Client's Admin",
     "help_text": "When a Client's Client Manager is changed.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1272,6 +1423,7 @@
     "value": "ADDED_A_CLIENT_TO_AN_AGENT",
     "msg": "Added a Client to an Affiliate",
     "help_text": "When a Client is added to an Affiliate.",
+    "extra_msg": "",
     "subject_types": [
       "Affiliate"
     ]
@@ -1281,6 +1433,7 @@
     "value": "EDITED_A_TASK",
     "msg": "Edited a Task",
     "help_text": "When an Administrator edits a Task.",
+    "extra_msg": "",
     "subject_types": [
       "Task"
     ]
@@ -1290,6 +1443,7 @@
     "value": "ADDED_A_LABEL_TO_A_SERVICE",
     "msg": "Added a Label to a Job",
     "help_text": "When a Label is added to a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1299,6 +1453,7 @@
     "value": "REMOVED_A_LABEL_FROM_A_SERVICE",
     "msg": "Removed a Label from a Job",
     "help_text": "When a Label is removed from a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1308,6 +1463,7 @@
     "value": "ADDED_DESIRED_SKILL",
     "msg": "Added a desired Skill to a Job",
     "help_text": "When a desired Skill is added to a Job.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1317,6 +1473,7 @@
     "value": "EDITED_REPORT",
     "msg": "Edited a Report",
     "help_text": "When a Report is edited.",
+    "extra_msg": "",
     "subject_types": [
       "Report"
     ]
@@ -1326,6 +1483,7 @@
     "value": "APPROVED_A_REPORT",
     "msg": "Approved a Report",
     "help_text": "When an Administrator approves a Report.",
+    "extra_msg": "",
     "subject_types": [
       "Report"
     ]
@@ -1335,6 +1493,7 @@
     "value": "APPROVED_MULTIPLE_REPORTS",
     "msg": "Approved Reports",
     "help_text": "When an Administrator approved multiple Reports.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1342,6 +1501,7 @@
     "value": "CREATED_REPORT",
     "msg": "Created a Report",
     "help_text": "When a Report is created.",
+    "extra_msg": "",
     "subject_types": [
       "Report"
     ]
@@ -1351,6 +1511,7 @@
     "value": "CREATED_SUBSCRIPTION",
     "msg": "Created a Subscription",
     "help_text": "When a Subscription is created.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1358,6 +1519,7 @@
     "value": "EDITED_SUBSCRIPTION",
     "msg": "Edited a Subscription",
     "help_text": "When a Subscription is edited.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1365,6 +1527,7 @@
     "value": "DELETED_SUBSCRIPTION",
     "msg": "Deleted a Subscription",
     "help_text": "When a Subscription is deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1372,6 +1535,7 @@
     "value": "ADDED_CLIENT_SUBSCRIPTION",
     "msg": "Added a Client to a Subscription",
     "help_text": "When a Client is added to Subscription.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1379,6 +1543,7 @@
     "value": "REMOVED_CLIENT_SUBSCRIPTION",
     "msg": "Removed a Client from a Subscription",
     "help_text": "When a Client is removed from a Subscription.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1386,6 +1551,7 @@
     "value": "CLIENT_ENQUIRY",
     "msg": "Made an Enquiry",
     "help_text": "When a Client makes an Enquiry.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1395,6 +1561,7 @@
     "value": "REQUESTED_A_CONTRACTOR",
     "msg": "Request a tutor",
     "help_text": "When a Client requests a Tutor in their enquiry.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1404,6 +1571,7 @@
     "value": "REQUESTED_A_SERVICE",
     "msg": "Request a job",
     "help_text": "When a Client requests a Job in their enquiry.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1413,6 +1581,7 @@
     "value": "CONTRACTOR_SIGN_UP",
     "msg": "Signed up as a Tutor",
     "help_text": "When a Tutor signs up to the Branch.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1422,6 +1591,7 @@
     "value": "CLIENT_SIGN_UP",
     "msg": "Signed up as a Client",
     "help_text": "When a Client signs up to the Branch.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1431,6 +1601,7 @@
     "value": "WELCOME_EMAIL_SENT",
     "msg": "Sent a Welcome Email",
     "help_text": "When a Welcome Email is sent to a User.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -1443,6 +1614,7 @@
     "value": "ADDED_APPOINTMENT_REMINDER",
     "msg": "Added a Lesson Reminder",
     "help_text": "When a Lesson Reminder is added.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1450,6 +1622,7 @@
     "value": "CLICKED_SSO",
     "msg": "Clicked an SSO Link",
     "help_text": "When a User clicks a Single Sign On (SSO) link.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1457,6 +1630,7 @@
     "value": "CHANGED_DEFAULT_PAYMENT_CARD",
     "msg": "Changed the default payment card",
     "help_text": "When a Card is set as the Default Payment Card.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1466,6 +1640,7 @@
     "value": "DELETED_CARD_DETAILS",
     "msg": "Deleted Card Details",
     "help_text": "When Card Details are removed from a User.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1475,6 +1650,7 @@
     "value": "SAVED_CARD_DETAILS",
     "msg": "Saved card details",
     "help_text": "When Card Details are added to a User.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1484,6 +1660,7 @@
     "value": "ADDED_BANK_DETAILS",
     "msg": "Added their bank details",
     "help_text": "When a Client adds their Bank Account Details.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Client"
@@ -1494,6 +1671,7 @@
     "value": "EDITED_BANK_DETAILS",
     "msg": "Edited their bank details",
     "help_text": "When a Client edits their Bank Account Details.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1503,6 +1681,7 @@
     "value": "REMOVED_BANK_DETAILS",
     "msg": "Removed their saved bank details",
     "help_text": "When a Client removes their Bank Account Details.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -1515,6 +1694,7 @@
     "value": "REQUESTED_REVIEWS",
     "msg": "Requested tutor reviews",
     "help_text": "When an Administrator sends a Client a request to review a Tutor.",
+    "extra_msg": "",
     "subject_types": [
       "Client",
       "Job"
@@ -1525,6 +1705,7 @@
     "value": "REQUESTED_AUTO_REVIEW_FROM",
     "msg": "Was asked for an automatic review for a job",
     "help_text": "When a Job review is requested automatically.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1534,6 +1715,7 @@
     "value": "CREATED_A_REVIEW",
     "msg": "Reviewed a Tutor",
     "help_text": "When a Client creates a Review.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor"
     ]
@@ -1543,6 +1725,7 @@
     "value": "DELETED_A_REVIEW",
     "msg": "Deleted a Review",
     "help_text": "When an Administrator deletes a Client's Reivew.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1550,6 +1733,7 @@
     "value": "MOVED_PIPELINE_STAGE",
     "msg": "Moved a Client in the Pipeline",
     "help_text": "When an Administrator moves a Client in the Client Pipeline.",
+    "extra_msg": "Changed Pipeline Stage from {old_stage} to {new_stage}.",
     "subject_types": [
       "Client"
     ]
@@ -1559,6 +1743,7 @@
     "value": "SENT_SERVICE_CONFIRMATION_CLIENT",
     "msg": "Sent a job confirmation email to a client",
     "help_text": "When a Job Confirmation Email is sent to a Client.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1568,6 +1753,7 @@
     "value": "SENT_SERVICE_CONFIRMATION_CONTRACTOR",
     "msg": "Sent a job confirmation email to a tutor",
     "help_text": "When a Job Confirmation Email is sent to a Tutor.",
+    "extra_msg": "",
     "subject_types": [
       "Job"
     ]
@@ -1577,6 +1763,7 @@
     "value": "BOOKED_AN_APPOINTMENT",
     "msg": "Booked a Lesson",
     "help_text": "When a Client books a Lesson.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -1586,6 +1773,7 @@
     "value": "CANCELLED_A_BOOKING",
     "msg": "Cancelled a booking",
     "help_text": "When a client cancels a booked Lesson.",
+    "extra_msg": "",
     "subject_types": [
       "Lesson"
     ]
@@ -1595,6 +1783,7 @@
     "value": "CANCELLED_DEFERRED_PAYMENT",
     "msg": "Cancelled a deferred payment",
     "help_text": "When a Deferred Payment is cancelled.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -1605,6 +1794,7 @@
     "value": "DEFERRED_PAYMENT_FAILED",
     "msg": "A deferred payment failed",
     "help_text": "When a Deferred Payment Fails.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -1615,6 +1805,7 @@
     "value": "PAYMENT_FAILED",
     "msg": "A payment failed",
     "help_text": "When a Payment Fails.",
+    "extra_msg": "",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -1625,6 +1816,7 @@
     "value": "CHANGED_BILLING_PLAN",
     "msg": "Changed their price plan",
     "help_text": "When a Company updates their Billing Plan.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1632,6 +1824,7 @@
     "value": "CHANGED_SUPPORT_PLAN",
     "msg": "Changed their support plan",
     "help_text": "When a Company updates their Support Plan.",
+    "extra_msg": "Support plan changed from {previous_plan_str} to {new_plan_str}.",
     "subject_types": []
   },
   {
@@ -1639,6 +1832,7 @@
     "value": "SWITCH_BRANCH",
     "msg": "Switched to another Branch",
     "help_text": "When a User switches to a different Branch.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1646,6 +1840,7 @@
     "value": "COPY_ROLE",
     "msg": "Copied a Role to another Branch",
     "help_text": "When a Role is copied over to a different Branch.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -1658,6 +1853,7 @@
     "value": "SENT_ONE_OFF_EMAIL",
     "msg": "Sent a one off Email",
     "help_text": "When an Administrator sends a User a One Off Email.",
+    "extra_msg": "",
     "subject_types": [
       "Tutor",
       "Affiliate",
@@ -1670,6 +1866,7 @@
     "value": "REQUESTED_JS_REVIEW",
     "msg": "Requested a JavaScript review",
     "help_text": "When an Administrator sends his JavaScript to be reviewed.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1677,6 +1874,7 @@
     "value": "SENT_CLIENT_APT_SCHEDULE",
     "msg": "Sent a Client their Lesson schedule",
     "help_text": "When a Client is sent their Lesson Schedule.",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1686,6 +1884,7 @@
     "value": "AGENCY_IN_ARREARS",
     "msg": "Company status set to In Arrears",
     "help_text": "When a Company's status is set to In Arrears.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1693,6 +1892,7 @@
     "value": "TRIAL_ENDING_SOON_EMAIL",
     "msg": "Was sent a trial expiring email",
     "help_text": "When a Company's Trial expires they will receive an email.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1700,6 +1900,7 @@
     "value": "GENERATED_PAYRUN_EXPORT",
     "msg": "Generated a Pay Run Export",
     "help_text": "When an Admin generates a Pay Run export",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1707,6 +1908,7 @@
     "value": "FAILED_LOGIN_ATTEMPT",
     "msg": "Failed to log in",
     "help_text": "When someone attempts to login into an account with the wrong password.",
+    "extra_msg": "The user entered an incorrect password",
     "subject_types": []
   },
   {
@@ -1714,6 +1916,7 @@
     "value": "EDITED_AGENCY_DETAILS",
     "msg": "Edited an agency's details",
     "help_text": "When an agency's details have been edited",
+    "extra_msg": "Changed a company's details: {changed_fields}",
     "subject_types": [
       "Client"
     ]
@@ -1723,6 +1926,7 @@
     "value": "EDITED_PRICE_PLAN",
     "msg": "Edited an agency's price plan",
     "help_text": "When an agency's price plan has been edited",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1732,6 +1936,7 @@
     "value": "EXPORTED_AHCS",
     "msg": "Exported Ad Hoc Charges",
     "help_text": "When someone exports a list of Ad Hoc Charges",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1739,6 +1944,7 @@
     "value": "TRANSFER_CREATED",
     "msg": "Received a transfer to their Stripe account",
     "help_text": "When a tutor/branch receives money into their Stripe account",
+    "extra_msg": "{payee_name} received {amount} into their account to be paid out soon",
     "subject_types": []
   },
   {
@@ -1746,6 +1952,7 @@
     "value": "SUPPORT_OTP_CONFIRMED",
     "msg": "Confirmed a support OTP code",
     "help_text": "When someone confirms their OTP code over the phone",
+    "extra_msg": "Confirmed for: {admin}",
     "subject_types": []
   },
   {
@@ -1753,6 +1960,7 @@
     "value": "EXPORTED_CX_FEED",
     "msg": "Exported Stripe feed",
     "help_text": "When someone exports their Stripe bank feed",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1760,6 +1968,7 @@
     "value": "CREATED_LESSON_RECORDING",
     "msg": "Created a Lesson Recording",
     "help_text": "When a lesson recording has been created.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1767,6 +1976,7 @@
     "value": "DELETED_LESSON_RECORDING",
     "msg": "Deleted a Lesson Recording details",
     "help_text": "When a lesson recording has been deleted.",
+    "extra_msg": "",
     "subject_types": []
   },
   {
@@ -1774,6 +1984,7 @@
     "value": "CREATED_A_PACKAGE",
     "msg": "Created a Package",
     "help_text": "When a package has been created.",
+    "extra_msg": "",
     "subject_types": [
       "Package"
     ]
@@ -1783,6 +1994,7 @@
     "value": "EDITED_A_PACKAGE",
     "msg": "Edited a Package",
     "help_text": "When a package has been edited.",
+    "extra_msg": "",
     "subject_types": [
       "Package"
     ]
@@ -1792,6 +2004,7 @@
     "value": "DELETED_A_PACKAGE",
     "msg": "Deleted a Package",
     "help_text": "When a package has been deleted.",
+    "extra_msg": "",
     "subject_types": [
       "Package"
     ]
@@ -1801,6 +2014,7 @@
     "value": "CLIENT_PURCHASED_PACKAGE",
     "msg": "Client purchased a Package",
     "help_text": "When a client has purchased a package.",
+    "extra_msg": "Purchased {package_name} for {package_cost}. The total value of the package was {package_total_cost}.",
     "subject_types": [
       "Package"
     ]
@@ -1810,6 +2024,7 @@
     "value": "ADDED_GC_CUSTOMER_DATA",
     "msg": "Added new GoCardless details",
     "help_text": "When a client adds new GoCardless details",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
@@ -1819,6 +2034,7 @@
     "value": "REMOVED_GC_CUSTOMER_DATA",
     "msg": "Removed GoCardless details",
     "help_text": "When a client or admin removes GoCardless details",
+    "extra_msg": "",
     "subject_types": [
       "Client"
     ]
