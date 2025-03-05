@@ -1,86 +1,54 @@
 {
-    "events": [
-        {
-            "action": "CHANGED_CONTRACTOR_STATUS",
-            "verb": "Changed a Tutor's status",
-            "timestamp": "2023-04-21T09:43:09.065099Z",
-            "branch": 17597,
-            "actor": {
-                "name": "Sebastian Prentice",
-                "id": 1865753,
-                "user_id": 1781627,
-                "url": ""
-            },
-            "subject": {
-                "model": "Tutor",
-                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/",
-                "id": 1865751,
-                "user": {
-                    "title": null,
-                    "first_name": "Bettie",
-                    "last_name": "Canales",
-                    "email": "bettie_canales@online-olive.example.com",
-                    "mobile": "07037 773 614",
-                    "phone": null,
-                    "street": "104 Robert Street",
-                    "state": null,
-                    "town": "Kings Cross",
-                    "country": "United Kingdom (GB)",
-                    "postcode": "NW1 3QP",
-                    "latitude": "51.5285679999999999",
-                    "longitude": "-0.1405610000000000",
-                    "date_created": "2022-08-31T14:14:20.678562Z",
-                    "timezone": null
-                },
-                "status": "pending",
-                "default_rate": null,
-                "qualifications": [],
-                "skills": [
-                    {
-                        "id": 1851,
-                        "subject": "Textiles and Fashion Design",
-                        "qual_level": "International Baccalaureate"
-                    },
-                    {
-                        "id": 345,
-                        "subject": "Theatre Studies",
-                        "qual_level": "International Baccalaureate"
-                    }
-                ],
-                "institutions": [],
-                "received_notifications": [
-                    "service_notifications",
-                    "broadcasts",
-                    "apt_reminders",
-                    "apt_marked_complete_reminder"
-                ],
-                "review_rating": null,
-                "review_duration": "00:00:00",
-                "calendar_colour": "Teal",
-                "labels": [],
-                "extra_attrs": [
-                    {
-                        "id": 12757955,
-                        "value": "After work I enjoy playing spanish classical and flamenco guitar. I also perform at weddings occasionally.",
-                        "type": "Long Textbox",
-                        "machine_name": "contractor_bio",
-                        "name": "Bio"
-                    },
-                    {
-                        "id": 12757954,
-                        "value": "I was responsible for managing a class of 16 students, ages 7-12, and planning activities that stimulate growth in language, social, and motor skills. Bachelor of Arts in English in 2004",
-                        "type": "Long Textbox",
-                        "machine_name": "contractor_exp",
-                        "name": "Teaching Experience"
-                    }
-                ],
-                "work_done_details": {
-                    "amount_owed": 804.4,
-                    "amount_paid": 2230,
-                    "total_paid_hours": "2 02:30:00"
-                }
-            }
-        }
-    ],
-    "_request_time": 1682070189
+  "events": [
+    {
+      "action": "CREATED_A_CONTRACTOR",
+      "verb": "Created a Tutor",
+      "timestamp": "2025-03-05T15:26:20.558919Z",
+      "branch": 590,
+      "actor": {
+        "name": "last_namé_6",
+        "id": 1621,
+        "user_id": 1611,
+        "url": ""
+      },
+      "extra_msg": "Created via the API.",
+      "subject": {
+        "model": "Tutor",
+        "url": "https://secure.tutorcruncher.com/api/contractors/1623/",
+        "id": 1623,
+        "status": "approved",
+        "default_rate": null,
+        "qualifications": [],
+        "skills": [],
+        "institutions": [],
+        "received_notifications": [
+          "service_notifications",
+          "broadcasts",
+          "apt_reminders",
+          "apt_marked_complete_reminder",
+          "lesson_scheduled",
+        ],
+        "review_rating": null,
+        "review_duration": "00:00:00",
+        "calendar_colour": "Red",
+        "labels": [],
+        "extra_attrs": [],
+        "latitude": null,
+        "longitude": null,
+        "date_created": "2025-03-05T15:26:20.518149Z",
+        "first_name": null,
+        "last_name": "Gallagher",
+        "email": "liamgallagher@oasis.co.uk",
+        "mobile": null,
+        "phone": null,
+        "street": null,
+        "state": null,
+        "town": null,
+        "country": null,
+        "postcode": null,
+        "timezone": null,
+        "title": null
+      }
+    }
+  ]
 }
