@@ -506,7 +506,7 @@
     "value": "DELETED_AN_AGENT",
     "msg": "Deleted an Affiliate",
     "help_text": "When an Affiliate is deleted.",
-    "extra_msg": "Created via {method}.",
+    "extra_msg": "Deleted via {method}.",
     "subject_types": [
       "Affiliate"
     ]
