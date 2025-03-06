@@ -48,10 +48,42 @@ sections:
     code_url: /api/services/<id>/add_label/
     response: /services/label-add-to-a-service.json
   -
-    title: Add a Label to a Recipient
-    id: label-add-to-a-recipient
-    description: /recipients/label-add-to-a-recipient.md
-    code: /recipients/label-add-to-a-recipient.py
+    title: Removing a Label from a Service
+    id: label-remove-from-a-service
+    description: /services/label-remove-from-a-service.md
+    code: /services/label-remove-from-a-service.py
     code_type: POST
-    code_url: /api/recipients/<id>/add_label/
-    response: /recipients/label-add-to-a-recipient.json
+    code_url: /api/services/<id>/remove_label/
+    response: /services/label-remove-from-a-service.json
+  -
+    title: Add a Contractor to a Service
+    id: create-update-cj
+    description: /services/create-update-cj.md
+    code: /services/create-update-cj.py
+    code_type: POST
+    code_url: /api/services/<id>/add/
+    response: /services/create-update-cj.json
+  -
+    title: Remove a Contractor from a Service
+    id: remove-cj
+    description: /services/remove-cj.md
+    code: /services/remove-cj.py
+    code_type: POST
+    code_url: /api/services/<id>/remove/
+    response: /services/remove-cj.json
+  -
+    title: Add a Recipient to a Service
+    id: create-update-rcr
+    description: /services/create-update-rcr.md
+    code: /services/create-update-rcr.py
+    code_type: POST
+    code_url: /api/services/<id>/add/
+    response: /services/create-update-rcr.json
+  -
+    title: Remove a Recipient from a Service
+    id: remove-rcr
+    description: /services/remove-rcr.md
+    code: /services/remove-rcr.py
+    code_type: POST
+    code_url: /api/services/<id>/remove/
+    response: /services/remove-rcr.json
