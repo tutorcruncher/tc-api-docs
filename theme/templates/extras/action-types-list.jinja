@@ -8,6 +8,12 @@
       </div>
       <div class="attribute-description">
         {{ action.help_text|markdown }}
+        {% if action.extra_msg %}
+          <p>
+            <b class="action-bold-text">Extra Message: </b>
+            <code>{{ action.extra_msg }}</code>
+          </p>
+        {% endif %}
         {% if action.subject_types_data %}
           <p>
             <b class="action-bold-text">Webhooks are sent for this Action for the following Subject Types:</b>

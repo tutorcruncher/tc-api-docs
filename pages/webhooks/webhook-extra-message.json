@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "action": "CREATED_A_CONTRACTOR",
+      "verb": "Created a Tutor",
+      "timestamp": "2025-03-05T15:26:20.558919Z",
+      "branch": 590,
+      "actor": {
+        "name": "last_namé_6",
+        "id": 1621,
+        "user_id": 1611,
+        "url": ""
+      },
+      "extra_msg": "Created via the API.",
+      "subject": {
+        # ...
+      }
+    }
+  ]
+}

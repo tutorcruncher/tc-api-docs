@@ -14,3 +14,9 @@ sections:
     description: /webhooks/webhooks-verification.md
     code: /webhooks/webhooks-verification.py
     code_type: VERIFICATION
+  -
+    title: Extra message
+    id: webhook-extra-message
+    description: /webhooks/webhook-extra-message.md
+    code: /webhooks/webhook-extra-message.json
+    code_type: EXTRA MESSAGE
