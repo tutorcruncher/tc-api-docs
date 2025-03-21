@@ -445,6 +445,14 @@
     "subject_types": []
   },
   {
+    "key": "INVOICE_EXPORT",
+    "value": "INVOICE_EXPORT",
+    "msg": "Exported Invoices",
+    "help_text": "When an Administrator exports data about Invoices.",
+    "extra_msg": "",
+    "subject_types": []
+  },
+  {
     "key": "EDITED_OWN_PROFILE",
     "value": "EDITED_OWN_PROFILE",
     "msg": "Edited their own profile",

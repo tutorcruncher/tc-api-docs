@@ -1,4 +1,19 @@
-## Zapier is currently not functional with Version 2 of the Roles API. We are working on a fix for this and will update this page when it is resolved.
+## Zapier is now functional with Version 2 of the Roles API. To use them both together you will need to use the TutorCruncher (3.0.0) in zapier
+
+### Zapier changes
+Mostly things should be just about the same, some IDs may look different inside Zapier but the data should be the same.
+This should appear as IDs being required to Update a user and the User layer in requests and responses being removed.
+
+For moving from V1 to V2 of API, the best practice is to follow the following steps.
+
+1. Clone an existing zap
+2. Update to use the TutorCruncher(3.0.0) app
+3. Switch API key to a Demo branch API key for testing
+4. Check the create and update zaps are correct, check for data where it can no longer be retrieved from previous zaps
+5. Test each step of the zap to ensure it is working correctly with the demo branch before moving back to live
+
+
+### Version 2 API changes
 
 Version 2 of the Roles API is on its way. The changes are mostly in the backend and to improve speed and set us up for better developments going forward.
 We will be removing Version 1 of the Roles API on the 3rd July 2025 so please update your API integrations as needed before then.
