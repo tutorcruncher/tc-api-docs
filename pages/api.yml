@@ -29,9 +29,9 @@ info_sections:
     id: pagination
     layout: /pagination/pagination.yml
   -
-    title: Versioning
-    id: versioning
-    layout: /versioning/versioning.yml
+    title: Roles Versioning
+    id: roles_versioning
+    layout: /roles_versioning/roles_versioning.yml
 
 endpoint_sections:
   -
