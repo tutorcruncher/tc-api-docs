@@ -2,7 +2,7 @@
 
 ### Zapier changes
 Mostly things should be just about the same, some IDs may look different inside Zapier but the data should be the same.
-This should appear as IDs being required to Update a user and the User layer in requests and responses being removed.
+This should appear as IDs being required to Update a Role and the Role layer in requests and responses being removed.
 
 For moving from V1 to V2 of API, the best practice is to follow the following steps.
 
