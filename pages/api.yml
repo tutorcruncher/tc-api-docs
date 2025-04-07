@@ -67,6 +67,10 @@ endpoint_sections:
     id: contractors
     layout: /contractors/contractors.yml
   -
+    title: Contractor Skills
+    id: contractor-skills
+    layout: /contractor-skills/contractor-skills.yml
+  -
     title: Countries
     id: countries
     layout: /countries/countries.yml
