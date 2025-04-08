@@ -14,3 +14,26 @@ sections:
     code_type: GET
     code_url: /api/subjects/
     response: /subjects/list-all-subjects.json
+  -
+    title: Get a Subject
+    id: get-a-subject
+    description: /subjects/get-a-subject.md
+    code: /subjects/get-a-subject.py
+    code_type: GET
+    code_url: /api/subjects/
+    response: /subjects/get-a-subject.json
+  -
+    title: Create a Subject
+    id: create-a-subject
+    description: /subjects/create-a-subject.md
+    code: /subjects/create-a-subject.py
+    code_type: POST
+    code_url: /api/subjects/
+    response: /subjects/create-a-subject.json
+  -
+    title: Delete a Subject
+    id: delete-a-subject
+    description: /subjects/delete-a-subject.md
+    code: /subjects/delete-a-subject.py
+    code_type: POST
+    code_url: /api/subjects/

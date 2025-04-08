@@ -15,4 +15,8 @@ attributes:
     name: category_name
     type: string
     description: Name of the Subject's Category.
+  -
+    name: custom_to_branch
+    type: bool
+    description: Indicates whether the Subject is specific to the requesting user's Branch (True) or shared across all Branches (null).
 

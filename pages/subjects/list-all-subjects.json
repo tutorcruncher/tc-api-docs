@@ -7,7 +7,8 @@
       "id": 22,
       "name": "Computer Science",
       "category_id": 4,
-      "category_name": "Engineering"
+      "category_name": "Engineering",
+      "custom_to_branch": null
     },
     ...
   ]
