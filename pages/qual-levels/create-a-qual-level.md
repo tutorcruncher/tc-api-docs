@@ -1,6 +1,3 @@
-{
-    "id": 24,
-    "name": "A Level",
-    "ranking": 20.0,
-    "custom_to_branch": true
-}
+### Create a Qualification Level 
+
+Creates a new Qualification Level with the given `name` and `ranking`, linked to the API key's Branch (`custom_to_branch`=True).
