@@ -51,8 +51,8 @@ attributes:
         description: Name of the subject category.
       -
         name: custom_to_branch
-        type: integer
-        description: Branch ID if subject is custom to a branch, null otherwise.
+        type: bool
+        description: Indicates whether the Subject is custom to a specific branch (True) or not (null).
   -
     name: qual_level
     type: object
@@ -72,5 +72,5 @@ attributes:
         description: Numerical ranking of the qualification level.
       -
         name: custom_to_branch
-        type: integer
-        description: Branch ID if qualification level is custom to a branch, null otherwise.
+        type: bool
+        description: Indicates whether the Qualification Level is custom to a specific branch (True) or not (null).
