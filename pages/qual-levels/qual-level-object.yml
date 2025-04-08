@@ -11,3 +11,7 @@ attributes:
     name: ranking
     type: decimal
     description: Rank for the Qualification Level.
+  -
+    name: custom_to_branch
+    type: bool
+    description: Indicates whether the Qualification Level is specific to the API key's Branch (True), or shared across all Branches (null).
