@@ -1,7 +1,3 @@
 ### Delete a Contractor Skill
 
-Deletes an existing Contractor Skill. You only need to specify the unique `id` of the Contractor Skill.
-
-If the specified Contractor Skill ID does not exist, a 404 response will be returned.
-
-A successful deletion returns a 204 response with no content. 
+Deletes a Contractor Skill using its unique ID. Only Contractor Skills associated with the API key's Branch can be deleted. Attempts to delete a skill that belongs to a different Branch or references a Subject or Qualification Level hidden or restricted for the Branch will result in a `400 Bad Request` response. For more information about Branch-specific restrictions, see [Subject](#subjects) and [Qualification Level](#qual-levels).
