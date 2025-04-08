@@ -24,16 +24,16 @@ sections:
     response: /contractor-skills/get-a-contractor-skill.json
   -
     title: Create a Contractor Skill
-    id: skill-add-to-a-contractor
-    description: /contractor-skills/skill-add-to-a-contractor.md
-    code: /contractor-skills/skill-add-to-a-contractor.py
+    id: create-a-contractor-skills
+    description: /contractor-skills/create-a-contractor-skill.md
+    code: /contractor-skills/create-a-contractor-skill.py
     code_type: POST
     code_url: /api/contractor-skills/
-    response: /contractor-skills/skill-add-to-a-contractor.json
+    response: /contractor-skills/create-a-contractor-skill.json
   -
     title: Delete a Contractor Skill
     id: delete-a-contractor-skill
     description: /contractor-skills/delete-a-contractor-skill.md
     code: /contractor-skills/delete-a-contractor-skill.py
     code_type: DELETE
-    code_url: /api/contractor-skills/<id>/ 
+    code_url: /api/contractor-skills/<id>/
