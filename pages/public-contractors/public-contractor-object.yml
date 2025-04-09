@@ -47,7 +47,7 @@ attributes:
   -
     name: photo
     type: string
-    description: URL to access the Contractor's profile photo.
+    description: URL to access the user's profile photo.
   -
     name: extra_attributes
     type: array

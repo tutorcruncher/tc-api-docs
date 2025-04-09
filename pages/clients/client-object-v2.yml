@@ -62,6 +62,10 @@ attributes:
     type: string
     description: The user's timezone, accepted values are timezone database values.
   -
+    name: photo
+    type: string
+    description: The URL to the user's photo.
+  -
     name: status
     type: string
     description: The Client's status, choices are `prospect`, `live` and `dormant`.
