@@ -1,3 +1,3 @@
 ### List all Contractor Skills
-Returns a list of Contractor Skills, each representing a relationship between a Contractor and a combination of [Subject](#subjects) and [Qualification Level](#qual-levels). The results include only skills that are custom to the API key's Branch, exclude skills with hidden Subjects or Qualification Levels for the Branch, and include skills specifically added by the Contractor. If no skills match the filtering criteria, the response will return an empty results array. For more information about what "custom to branch" means, see [Subject](#subjects) and [Qualification Level](#qual-levels).
+Returns a list of Contractor Skills, each representing a relationship between a Contractor and a combination of [Subject](#subjects) and [Qualification Level](#qual-levels).
 
