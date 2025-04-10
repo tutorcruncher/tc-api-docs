@@ -64,7 +64,7 @@ attributes:
   -
     name: photo
     type: string
-    description: The URL to the user's photo.
+    description: The URL to the Client's photo.
   -
     name: status
     type: string

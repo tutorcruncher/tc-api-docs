@@ -64,7 +64,7 @@ attributes:
   -
     name: photo
     type: string
-    description: The URL to the user's photo.
+    description: The URL to the Recipient's photo.
   -
     name: default_rate
     type: decimal
