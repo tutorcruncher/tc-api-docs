@@ -1,0 +1,39 @@
+sections:
+  -
+    title: Contractor Skills Object
+    id: contractor-skills-object
+    description: /contractor-skills/contractor-skills-object.md
+    attributes: /contractor-skills/contractor-skills-object.yml
+    response: /contractor-skills/contractor-skills-object.json
+    response_title: OBJECT
+  -
+    title: List all Contractor Skills
+    id: list-all-contractor-skills
+    description: /contractor-skills/list-all-contractor-skills.md
+    code: /contractor-skills/list-all-contractor-skills.py
+    code_type: GET
+    code_url: /api/contractor-skills/
+    response: /contractor-skills/list-all-contractor-skills.json
+  -
+    title: Get a Contractor Skill
+    id: get-a-contractor-skill
+    description: /contractor-skills/get-a-contractor-skill.md
+    code: /contractor-skills/get-a-contractor-skill.py
+    code_type: GET
+    code_url: /api/contractor-skills/<id>/
+    response: /contractor-skills/get-a-contractor-skill.json
+  -
+    title: Create a Contractor Skill
+    id: create-a-contractor-skills
+    description: /contractor-skills/create-a-contractor-skill.md
+    code: /contractor-skills/create-a-contractor-skill.py
+    code_type: POST
+    code_url: /api/contractor-skills/
+    response: /contractor-skills/create-a-contractor-skill.json
+  -
+    title: Delete a Contractor Skill
+    id: delete-a-contractor-skill
+    description: /contractor-skills/delete-a-contractor-skill.md
+    code: /contractor-skills/delete-a-contractor-skill.py
+    code_type: DELETE
+    code_url: /api/contractor-skills/<id>/

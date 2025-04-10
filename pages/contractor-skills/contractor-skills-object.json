@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "contractor": {
+    "id": 52,
+    "first_name": "James",
+    "last_name": "Higgins",
+    "email": "james_higgins@testagency.example.com",
+    "url": "https://secure.tutorcruncher.com/api/contractors/52/"
+  },
+  "subject": {
+    "id": 159,
+    "name": "PGCE",
+    "category_id": 15,
+    "category_name": "Teaching Skill",
+    "custom_to_branch": null
+  },
+  "qual_level": {
+    "id": 14,
+    "name": "BA",
+    "ranking": 50.0,
+    "custom_to_branch": null
+  }
+}
