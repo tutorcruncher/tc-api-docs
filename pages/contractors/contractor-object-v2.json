@@ -26,7 +26,7 @@
                 "first_name": "James",
                 "last_name": "Higgins",
                 "email": "james_higgins@example.com",
-                "url": "https://secure.tutorcruncher.com/api/568433/"
+                "url": "https://secure.tutorcruncher.com/api/contractors/568433/"
             },
             "subject": {
                 "id": 98,
@@ -49,7 +49,7 @@
                 "first_name": "James",
                 "last_name": "Higgins",
                 "email": "james_higgins@example.com",
-                "url": "https://secure.tutorcruncher.com/api/568433/"
+                "url": "https://secure.tutorcruncher.com/api/contractors/568433/"
             },
             "subject": {
                 "id": 135,
