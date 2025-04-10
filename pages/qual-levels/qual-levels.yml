@@ -14,3 +14,26 @@ sections:
     code_type: GET
     code_url: /api/qual_levels/
     response: /qual-levels/list-all-qual-levels.json
+  -
+    title: Get a Qualification Level
+    id: get-a-qual-level
+    description: /qual-levels/get-a-qual-level.md
+    code: /qual-levels/get-a-qual-level.py
+    code_type: GET
+    code_url: /api/qual-levels/
+    response: /qual-levels/get-a-qual-level.json
+  -
+    title: Create a Qualification Level
+    id: create-a-qual-level
+    description: /qual-levels/create-a-qual-level.md
+    code: /qual-levels/create-a-qual-level.py
+    code_type: POST
+    code_url: /api/qual-levels/
+    response: /qual-levels/create-a-qual-level.json
+  -
+    title: Delete a Qualification Level
+    id: delete-a-qual-level
+    description: /qual-levels/delete-a-qual-level.md
+    code: /qual-levels/delete-a-qual-level.py
+    code_type: POST
+    code_url: /api/qual-levels/

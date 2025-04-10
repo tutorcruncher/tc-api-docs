@@ -1,14 +1,6 @@
 {
-  "count": 21,
-  "next": null,
-  "previous": null,
-  "results": [
-    {
       "id": 5,
       "name": "GCSE",
       "ranking": 14.0,
       "custom_to_branch": null
-    },
-    ...
-  ]
 }

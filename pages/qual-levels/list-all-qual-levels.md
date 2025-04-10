@@ -1,4 +1,3 @@
 ### List all Qualification Levels
 
-Returns of all the Qualification Levels found on your TutorCruncher account sorted by their `ids` with the
-largest id first.
+Returns all Qualification Levels, sorted by `id` in descending order (highest first). Includes Qualification Levels associated with your Branch, as well as default Qualification Levels (`custom_to_branch` = null).
