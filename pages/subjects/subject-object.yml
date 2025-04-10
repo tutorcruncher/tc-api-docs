@@ -18,5 +18,5 @@ attributes:
   -
     name: custom_to_branch
     type: bool
-    description: Indicates whether the Subject is specific to the API key's Branch (True), or shared across all Branches (null).
+    description: Indicates whether the Subject is specific to your Branch (True), or shared across all Branches (null).
 
