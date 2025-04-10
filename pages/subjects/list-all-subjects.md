@@ -1,4 +1,3 @@
 ### List all Subjects
 
-Returns of all the Subjects found on your TutorCruncher account, which are sorted by `id`,
-with the largest id first.
+Returns all Subjects, sorted by `id` in descending order (highest first). Includes Subjects associated with your Branch, as well as default Subjects (`custom_to_branch` = null).
