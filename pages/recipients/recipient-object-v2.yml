@@ -62,6 +62,10 @@ attributes:
     type: string
     description: The user's timezone, accepted values are timezone database values.
   -
+    name: photo
+    type: string
+    description: The URL to the Recipient's photo.
+  -
     name: default_rate
     type: decimal
     description: The Recipient's default rate.
