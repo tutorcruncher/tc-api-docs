@@ -52,7 +52,7 @@ attributes:
       -
         name: custom_to_branch
         type: bool
-        description: Indicates whether the Subject is custom to your Branch (True), or shared across all Branches (null).
+        description: Indicates whether the Subject is custom to your Branch (True), or is a default subject (null).
   -
     name: qual_level
     type: object
@@ -73,4 +73,4 @@ attributes:
       -
         name: custom_to_branch
         type: bool
-        description: Indicates whether the Qualification Level is custom to your Branch (True), or shared across all Branches (null).
+        description: Indicates whether the Qualification Level is custom to your Branch (True), or is a default subject (null).
