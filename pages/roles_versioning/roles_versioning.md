@@ -28,6 +28,7 @@ but the data we return will be dependent on the version set on your Branch. See 
 ### Other changes include:
 * Version 2 allows you to update the role by ID now instead of email or name by posting to the endpoint for that specific role. e.g. to update the Client with ID 1234 I can use post to `secure.tutorcruncher.com/api/clients/1234/` with a dictionary of data to update that client and its related user data.
 * Version 2 will not match on a users first and last name.
+* Version 2 contains a new field `photo` for all roles containing a URL to the photo of the user. You can update a user's photo by sending a URL to the `photo` field in the request. For more info checkout the [Creating/Updating User](#creating-updating-users) section.
 * In Version 1 you could update a role by posting to the list page e.g. `secure.tutorcruncher.com/api/clients/` and update a role based on the email passed. In Version 2 this will return an error as it is expecting to create a user with that email. 
 * In both Versions, if I have a client with the email `example@example.com` and I post to the list page for contractors with the same email then it will create a new contractor role that is linked to the existing client.
 * We no longer send emails about failed requests, the errors are returned when the request fails and should be handled then.

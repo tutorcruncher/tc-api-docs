@@ -62,6 +62,10 @@ attributes:
     type: string
     description: The user's timezone, accepted values are timezone database values.
   -
+    name: photo
+    type: string
+    description: The URL to the Agent's photo.
+  -
     name: commission_rate
     type: string
     description: Percentage of the Agent's commission rate.
