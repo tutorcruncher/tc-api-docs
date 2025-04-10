@@ -1,0 +1,77 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the contractor skill object.
+  -
+    name: contractor
+    type: object
+    description: The contractor this skill is associated with.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the contractor.
+      -
+        name: first_name
+        type: string
+        description: The contractor's first name.
+      -
+        name: last_name
+        type: string
+        description: The contractor's last name.
+      -
+        name: email
+        type: string
+        description: The contractor's email address.
+      -
+        name: url
+        type: string
+        description: API URL for the full contractor details.
+  -
+    name: subject
+    type: object
+    description: The subject details.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the subject.
+      -
+        name: name
+        type: string
+        description: Name of the subject.
+      -
+        name: category_id
+        type: integer
+        description: ID of the subject category.
+      -
+        name: category_name
+        type: string
+        description: Name of the subject category.
+      -
+        name: custom_to_branch
+        type: bool
+        description: Indicates whether the Subject is custom to your Branch (True), or is a default Subject (null).
+  -
+    name: qual_level
+    type: object
+    description: The qualification level details.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the qualification level.
+      -
+        name: name
+        type: string
+        description: Name of the qualification level.
+      -
+        name: ranking
+        type: decimal
+        description: Numerical ranking of the qualification level.
+      -
+        name: custom_to_branch
+        type: bool
+        description: Indicates whether the Qualification Level is custom to your Branch (True), or is a default Qualification Level (null).
+

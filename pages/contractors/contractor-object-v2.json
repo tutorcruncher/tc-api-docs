@@ -21,15 +21,51 @@
   "qualifications": [],
   "skills": [
     {
-      "id": 1436,
-      "subject": "American Studies",
-      "qual_level": "Key Stage 5"
-    },
+            "id": 145,
+            "contractor": {
+                "id": 568433,
+                "first_name": "James",
+                "last_name": "Higgins",
+                "email": "james_higgins@example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/568433/"
+            },
+            "subject": {
+                "id": 98,
+                "name": "General Maths & Science",
+                "category_id": 11,
+                "category_name": "Other",
+                "custom_to_branch": null
+            },
+            "qual_level": {
+                "id": 3,
+                "name": "Common Entrance",
+                "ranking": 12.0,
+                "custom_to_branch": null
+            }
+        },
     {
-      "id": 4082,
-      "subject": "American Studies",
-      "qual_level": "A Level"
-    }
+            "id": 141,
+            "contractor": {
+                "id": 568433,
+                "first_name": "James",
+                "last_name": "Higgins",
+                "email": "james_higgins@example.com",
+                "url": "https://secure.tutorcruncher.com/api/contractors/568433/"
+            },
+            "subject": {
+                "id": 135,
+                "name": "Geology",
+                "category_id": 14,
+                "category_name": "Science",
+                "custom_to_branch": null
+            },
+            "qual_level": {
+                "id": 5,
+                "name": "GCSE",
+                "ranking": 14.0,
+                "custom_to_branch": null
+            }
+        }
   ],
   "institutions": [],
   "receive_service_notifications": true,
