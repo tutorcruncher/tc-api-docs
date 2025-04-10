@@ -5,7 +5,7 @@
     "first_name": "James",
     "last_name": "Higgins",
     "email": "james_higgins@testagency.example.com",
-    "url": "http://localhost:8000/api/contractors/52/"
+    "url": "https://secure.tutorcruncher.com/api/52/"
   },
   "subject": {
     "id": 159,
