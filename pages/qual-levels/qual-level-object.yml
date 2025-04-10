@@ -11,3 +11,7 @@ attributes:
     name: ranking
     type: decimal
     description: Rank for the Qualification Level.
+  -
+    name: custom_to_branch
+    type: bool
+    description: Indicates whether the Qualification Level is specific to the your Branch (True), or is a default Qualification Level (null).
