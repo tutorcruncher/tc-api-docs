@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Safeguarding Issue Object
+    id: safeguarding-issue-object
+    description: /safeguarding-issues/safeguarding-issue-object.md
+    attributes: /safeguarding-issues/safeguarding-issue-object.yml
+    response: /safeguarding-issues/get-a-safeguarding-issue.json
+    response_title: OBJECT
+  -
+    title: List all Safeguarding Issues
+    id: list-all-safeguarding-issues
+    description: /safeguarding-issues/list-all-safeguarding-issues.md
+    code: /safeguarding-issues/list-all-safeguarding-issues.py
+    code_type: GET
+    code_url: /api/safeguarding_issues/
+    response: /safeguarding-issues/list-all-safeguarding-issues.json
+  -
+    title: Get a Safeguarding Issue
+    id: get-a-safeguarding-issue
+    description: /safeguarding-issues/get-a-safeguarding-issue.md
+    code: /safeguarding-issues/get-a-safeguarding-issue.py
+    code_type: GET
+    code_url: /api/safeguarding_issues/<id>/
+    response: /safeguarding-issues/get-a-safeguarding-issue.json
