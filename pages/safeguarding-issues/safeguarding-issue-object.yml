@@ -1,0 +1,159 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the Safeguarding Issue.
+  -
+    name: display_name
+    type: string
+    description: The display name for the Safeguarding Issue.
+  -
+    name: status
+    type: string
+    description: The status of the Safeguarding Issue.
+  -
+    name: severity
+    type: string
+    description: The severity of the Safeguarding Issue.
+  -
+    name: dt_raised
+    type: string
+    description: The date the Safeguarding Issue was raised.
+  -
+    name: dt_resolved
+    type: string
+    description: The date the Safeguarding Issue was resolved.
+  -
+    name: creator
+    type: object
+    description: The Creator of the Safeguarding Issue.
+    children:
+      -
+        name: id
+        type: integer
+        description: The ID of the Safeguarding Issue creator.
+      -
+        name: first_name
+        type: string
+        description: The first name of the Safeguarding Issue creator.
+      -
+        name: last_name
+        type: string
+        description: The last name of the Safeguarding Issue creator.
+      -
+        name: email
+        type: string
+        description: The email address of the Safeguarding Issue creator.
+  -
+    name: creator_role_type
+    type: string
+    description: The role type of the Safeguarding Issue creator.
+  -
+    name: service_recipient
+    type: object
+    description: The Student related to the Safeguarding Issue.
+    children:
+      - name: id
+        type: integer
+        description: The ID of the student related to the Safeguarding Issue.
+      - name: first_name
+        type: string
+        description: The first name of the student related to the Safeguarding Issue.
+      - name: last_name
+        type: string
+        description: The last name of the student related to the Safeguarding Issue.
+      - name: email
+        type: string
+        description: The email address of the student related to the Safeguarding Issue.
+      - name: url
+        type: string
+        description: URL to the Student's object.
+  -
+    name: contractor
+    type: object
+    description: The Tutor related to the Safeguarding Issue.
+    children:
+      - name: id
+        type: integer
+        description: The ID of the tutor related to the Safeguarding Issue.
+      - name: first_name
+        type: string
+        description: The first name of the tutor related to the Safeguarding Issue.
+      - name: last_name
+        type: string
+        description: The last name of the tutor related to the Safeguarding Issue.
+      - name: email
+        type: string
+        description: The email address of the tutor related to the Safeguarding Issue.
+      - name: url
+        type: string
+        description: URL to the Tutor's object.
+  -
+    name: service
+    type: object
+    description: The Service the Safeguarding Issue is related to.
+    children:
+      -
+        name: id
+        type: integer
+        description: Unique identifier for the object.
+      -
+        name: name
+        type: string
+        description: Service's name.
+      -
+        name: dft_charge_type
+        type: string
+        description: |
+          Service's default charge type. Check out [Service Object](#service-object) for the types of choices.
+      -
+        name: created
+        type: string
+        description: Date and time the Service was created.
+      -
+        name: dft_charge_rate
+        type: string
+        description: Service's default amount Clients will be charged.
+      -
+        name: dft_contractor_rate
+        type: string
+        description: Service's default amount Contractors will be paided.
+      -
+        name: status
+        type: string
+        description: Status of the Service. Check out [Service Object](#service-object) for the types of statuses.
+      -
+        name: url
+        type: string
+        description: URL to the Service object.
+  -
+    name: appointment
+    type: object
+    description: The Appointment related to the Safeguarding Issue.
+    children:
+      - name: id
+        type: integer
+        description: Unique identifier for the object.
+      - name: start
+        type: string
+        description: Start date and time for the Appointment.
+      - name: finish
+        type: string
+        description: Finish date and time for the Appointment.
+      - name: topic
+        type: string
+        description: Topic for the Appointment.
+      - name: status
+        type: integer
+        description: |
+          The status for the Appointment, the status types are `planned`, `awaiting-report`, `complete`, `cancelled`,
+          and `cancelled-chargeable`.
+      - name: service
+        type: object
+        description: |
+          Object that contains information about the Service. Attributes in the object are `id`, `name`, 
+          `dft_charge_type`, `created`, `dft_charge_rate`, `dft_conractor_rate`, `last_updated`, `status`, `url`.
+      - name: url
+        type: string
+        description: URL to the Appointment object.
+
