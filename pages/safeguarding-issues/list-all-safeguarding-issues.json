@@ -1,0 +1,39 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2,
+            "display_name": "SGI-2",
+            "status": "Unresolved",
+            "severity": "Severe",
+            "service_recipient": {
+                "id": 10,
+                "first_name": "Archie",
+                "last_name": "Hoskins",
+                "email": "archie_hoskins@testagency.example.com",
+                "url": "http://localhost:8000/api/recipients/10/"
+            },
+            "dt_raised": "2025-04-14T16:26:44.286782+01:00",
+            "dt_resolved": null,
+            "url": "http://localhost:8000/api/safeguarding_issues/2/"
+        },
+        {
+            "id": 1,
+            "display_name": "SGI-1",
+            "status": "Unresolved",
+            "severity": "Severe",
+            "service_recipient": {
+                "id": 47,
+                "first_name": "Jessica",
+                "last_name": "Coles",
+                "email": "jessica_coles@testagency.example.com",
+                "url": "http://localhost:8000/api/recipients/47/"
+            },
+            "dt_raised": "2025-04-14T16:03:50.310174+01:00",
+            "dt_resolved": null,
+            "url": "http://localhost:8000/api/safeguarding_issues/1/"
+        }
+    ]
+}
