@@ -131,6 +131,10 @@ endpoint_sections:
     id: subjects
     layout: /subjects/subjects.yml
   -
+    title: Subject Categories
+    id: subject-categories
+    layout: /subject-categories/subject-categories.yml
+  -
     title: Tasks
     id: tasks
     layout: /tasks/tasks.yml
