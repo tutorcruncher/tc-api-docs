@@ -1,0 +1,24 @@
+sections:
+  -
+    title: Subject Category Object
+    id: subject-category-object
+    description: /subject-categories/subject-category.md
+    attributes: /subject-categories/subject-category.yml
+    response: /subject-categories/subject-category.json
+    response_title: OBJECT
+  -
+    title: List all Subject Categories
+    id: list-all-subject-categories
+    description: /subject-categories/list-all-subject-categories.md
+    code: /subject-categories/list-all-subject-categories.py
+    code_type: GET
+    code_url: /api/subject-categories/
+    response: /subject-categories/list-all-subject-categories.json
+  -
+    title: Get a Subject Category
+    id: get-a-subject-category
+    description: /subject-categories/get-a-subject-category.md
+    code: /subject-categories/get-a-subject-category.py
+    code_type: GET
+    code_url: /api/subject-categories/<id>/
+    response: /subject-categories/get-a-subject-category.json
