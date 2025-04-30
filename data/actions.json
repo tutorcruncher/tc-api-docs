@@ -915,6 +915,14 @@
     ]
   },
   {
+    "key": "EXPORTED_TENDERS",
+    "value": "EXPORTED_TENDERS",
+    "msg": "Exported Job Applications",
+    "help_text": "When an admin exports Job Applications.",
+    "extra_msg": "",
+    "subject_types": []
+  },
+  {
     "key": "CREATED_AN_APPOINTMENT",
     "value": "CREATED_AN_APPOINTMENT",
     "msg": "Created a Lesson",
@@ -1732,7 +1740,15 @@
     "key": "DELETED_A_REVIEW",
     "value": "DELETED_A_REVIEW",
     "msg": "Deleted a Review",
-    "help_text": "When an Administrator deletes a Client's Reivew.",
+    "help_text": "When an Administrator deletes a Client's Review.",
+    "extra_msg": "",
+    "subject_types": []
+  },
+  {
+    "key": "EXPORTED_REVIEWS",
+    "value": "EXPORTED_REVIEWS",
+    "msg": "Exported Reviews",
+    "help_text": "When an Administrator exports Reviews",
     "extra_msg": "",
     "subject_types": []
   },
