@@ -218,7 +218,7 @@
     "value": "ACCOUNTING_ITEM_AUTOCHARGED",
     "msg": "Charged a client using Autocharge",
     "help_text": "Occurs once for each Credit Request or Invoice when they are charged via Autocharge.",
-    "extra_msg": "",
+    "extra_msg": "{extra_msg_content}",
     "subject_types": [
       "Credit Request",
       "Invoice"

@@ -7,7 +7,7 @@ sections:
     response: /reviews/review-object.json
     response_title: OBJECT
   -
-    title: List all Reviewss
+    title: List all Reviews
     id: list-all-reviews
     description: /reviews/list-all-reviews.md
     code: /reviews/list-all-reviews.py
