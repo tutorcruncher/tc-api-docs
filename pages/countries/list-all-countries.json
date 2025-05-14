@@ -6,27 +6,27 @@
         {
             "id": 3,
             "name": "Afghanistan",
-            "url": "http://localhost:8000/api/countries/3/"
+            "url": "https://secure.tutorcruncher.com/api/countries/3/"
         },
         {
             "id": 5,
             "name": "Albania",
-            "url": "http://localhost:8000/api/countries/5/"
+            "url": "https://secure.tutorcruncher.com/api/countries/5/"
         },
         {
             "id": 48,
             "name": "Algeria",
-            "url": "http://localhost:8000/api/countries/48/"
+            "url": "https://secure.tutorcruncher.com/api/countries/48/"
         },
         {
             "id": 1,
             "name": "Andorra",
-            "url": "http://localhost:8000/api/countries/1/"
+            "url": "https://secure.tutorcruncher.com/api/countries/1/"
         },
         {
             "id": 7,
             "name": "Angola",
-            "url": "http://localhost:8000/api/countries/7/"
+            "url": "https://secure.tutorcruncher.com/api/countries/7/"
         }
     ]
 }

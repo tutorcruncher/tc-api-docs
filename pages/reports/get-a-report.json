@@ -48,7 +48,7 @@
     "first_name": "Jennifer",
     "id": 10,
     "last_name": "Brown",
-    "url": "http://localhost:8000/api/recipients/10/"
+    "url": "https://secure.tutorcruncher.com/api/recipients/10/"
   }
 }
 

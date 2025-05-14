@@ -1639,7 +1639,9 @@
     "msg": "Clicked an SSO Link",
     "help_text": "When a User clicks a Single Sign On (SSO) link.",
     "extra_msg": "",
-    "subject_types": []
+    "subject_types": [
+      "SSO Config"
+    ]
   },
   {
     "key": "CHANGED_DEFAULT_PAYMENT_CARD",

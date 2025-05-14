@@ -58,6 +58,7 @@ SUBJECT_TYPE_HREF = {
     'Task': 'tasks',
     'Note': 'notes',
     'Package': 'package',
+    'SSO Config': 'sso-config',
 }
 
 

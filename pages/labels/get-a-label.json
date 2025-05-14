@@ -22,5 +22,5 @@
         }
     ],
     "contractor_editable": true,
-    "url": "http://localhost:8000/api/labels/42/"
+    "url": "https://secure.tutorcruncher.com/api/labels/42/"
 }
