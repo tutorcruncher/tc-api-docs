@@ -3,6 +3,6 @@
   "amount_paid": "100.00",
   "still_to_pay": "185.00",
   "message": "Payment successfully created",
-  "paid": false,
+  "paid": true,
   "method": "cash"
 }
