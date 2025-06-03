@@ -123,9 +123,9 @@ endpoint_sections:
     id: reviews
     layout: /reviews/reviews.yml
   -
-    title: Safeguarding Issues
-    id: safeguarding-issues
-    layout: /safeguarding-issues/safeguarding-issues.yml
+    title: Wellbeing Concerns
+    id: wellbeing-concerns
+    layout: /wellbeing-concerns/wellbeing-concerns.yml
   -
     title: Services (Jobs)
     id: services

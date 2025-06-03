@@ -5,7 +5,7 @@
     "results": [
         {
             "id": 2,
-            "display_name": "SGI-2",
+            "display_name": "WBC-2",
             "status": "Unresolved",
             "severity": "Severe",
             "service_recipient": {
@@ -17,11 +17,11 @@
             },
             "dt_raised": "2025-04-14T16:26:44.286782+01:00",
             "dt_resolved": null,
-            "url": "https://secure.tutorcruncher.com/api/safeguarding_issues/2/"
+            "url": "https://secure.tutorcruncher.com/api/wellbeing_concerns/2/"
         },
         {
             "id": 1,
-            "display_name": "SGI-1",
+            "display_name": "WBC-1",
             "status": "Unresolved",
             "severity": "Severe",
             "service_recipient": {
@@ -33,7 +33,7 @@
             },
             "dt_raised": "2025-04-14T16:03:50.310174+01:00",
             "dt_resolved": null,
-            "url": "https://secure.tutorcruncher.com/api/safeguarding_issues/1/"
+            "url": "https://secure.tutorcruncher.com/api/wellbeing_concerns/1/"
         }
     ]
 }

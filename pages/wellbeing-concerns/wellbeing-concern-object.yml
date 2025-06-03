@@ -2,96 +2,96 @@ attributes:
   -
     name: id
     type: integer
-    description: Unique identifier for the Safeguarding Issue.
+    description: Unique identifier for the Wellbeing Concern.
   -
     name: display_name
     type: string
-    description: The display name for the Safeguarding Issue.
+    description: The display name for the Wellbeing Concern.
   -
     name: status
     type: string
-    description: The status of the Safeguarding Issue.
+    description: The status of the Wellbeing Concern.
   -
     name: severity
     type: string
-    description: The severity of the Safeguarding Issue.
+    description: The severity of the Wellbeing Concern.
   -
     name: dt_raised
     type: string
-    description: The date the Safeguarding Issue was raised.
+    description: The date the Wellbeing Concern was raised.
   -
     name: dt_resolved
     type: string
-    description: The date the Safeguarding Issue was resolved.
+    description: The date the Wellbeing Concern was resolved.
   -
     name: creator
     type: object
-    description: The Creator of the Safeguarding Issue.
+    description: The Creator of the Wellbeing Concern.
     children:
       -
         name: id
         type: integer
-        description: The ID of the Safeguarding Issue creator.
+        description: The ID of the Wellbeing Concern creator.
       -
         name: first_name
         type: string
-        description: The first name of the Safeguarding Issue creator.
+        description: The first name of the Wellbeing Concern creator.
       -
         name: last_name
         type: string
-        description: The last name of the Safeguarding Issue creator.
+        description: The last name of the Wellbeing Concern creator.
       -
         name: email
         type: string
-        description: The email address of the Safeguarding Issue creator.
+        description: The email address of the Wellbeing Concern creator.
   -
     name: creator_role_type
     type: string
-    description: The role type of the Safeguarding Issue creator.
+    description: The role type of the Wellbeing Concern creator.
   -
     name: service_recipient
     type: object
-    description: The Student related to the Safeguarding Issue.
+    description: The Student related to the Wellbeing Concern.
     children:
       - name: id
         type: integer
-        description: The ID of the student related to the Safeguarding Issue.
+        description: The ID of the student related to the Wellbeing Concern.
       - name: first_name
         type: string
-        description: The first name of the student related to the Safeguarding Issue.
+        description: The first name of the student related to the Wellbeing Concern.
       - name: last_name
         type: string
-        description: The last name of the student related to the Safeguarding Issue.
+        description: The last name of the student related to the Wellbeing Concern.
       - name: email
         type: string
-        description: The email address of the student related to the Safeguarding Issue.
+        description: The email address of the student related to the Wellbeing Concern.
       - name: url
         type: string
         description: URL to the Student's object.
   -
     name: contractor
     type: object
-    description: The Tutor related to the Safeguarding Issue.
+    description: The Tutor related to the Wellbeing Concern.
     children:
       - name: id
         type: integer
-        description: The ID of the tutor related to the Safeguarding Issue.
+        description: The ID of the tutor related to the Wellbeing Concern.
       - name: first_name
         type: string
-        description: The first name of the tutor related to the Safeguarding Issue.
+        description: The first name of the tutor related to the Wellbeing Concern.
       - name: last_name
         type: string
-        description: The last name of the tutor related to the Safeguarding Issue.
+        description: The last name of the tutor related to the Wellbeing Concern.
       - name: email
         type: string
-        description: The email address of the tutor related to the Safeguarding Issue.
+        description: The email address of the tutor related to the Wellbeing Concern.
       - name: url
         type: string
         description: URL to the Tutor's object.
   -
     name: service
     type: object
-    description: The Service the Safeguarding Issue is related to.
+    description: The Service the Wellbeing Concern is related to.
     children:
       -
         name: id
@@ -129,7 +129,7 @@ attributes:
   -
     name: appointment
     type: object
-    description: The Appointment related to the Safeguarding Issue.
+    description: The Appointment related to the Wellbeing Concern.
     children:
       - name: id
         type: integer
