@@ -6,6 +6,7 @@
     "first_name": "Anthony",
     "last_name": "Clay",
     "email": "anthony_clay@example.com",
+    "role_type": "Client",
     "url": "https://secure.tutorcruncher.com/api/clients/321/"
   },
   "created": true,

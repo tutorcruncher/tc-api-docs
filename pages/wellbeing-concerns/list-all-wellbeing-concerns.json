@@ -13,6 +13,7 @@
                 "first_name": "Archie",
                 "last_name": "Hoskins",
                 "email": "archie_hoskins@testagency.example.com",
+                "role_type": "Student",
                 "url": "https://secure.tutorcruncher.com/api/recipients/10/"
             },
             "dt_raised": "2025-04-14T16:26:44.286782+01:00",
@@ -29,6 +30,7 @@
                 "first_name": "Jessica",
                 "last_name": "Coles",
                 "email": "jessica_coles@testagency.example.com",
+                "role_type": "Student",
                 "url": "https://secure.tutorcruncher.com/api/recipients/47/"
             },
             "dt_raised": "2025-04-14T16:03:50.310174+01:00",

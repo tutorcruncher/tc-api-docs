@@ -107,6 +107,7 @@
     "first_name": "Melissa",
     "last_name": "Spencer",
     "email": "melissa_spencer@example.com",
+    "role_type": "Client",
     "url": "https://secure.tutorcruncher.com/api/clients/35/"
   },
   "date_sent": "2020-01-03T16:11:48.312507Z",

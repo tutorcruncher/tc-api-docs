@@ -4,7 +4,8 @@
         "id": 59,
         "first_name": "Melissa",
         "last_name": "Spencer",
-        "email": "melissa_spencer@example.com"
+        "email": "melissa_spencer@example.com",
+        "role_type": "Administrator"
     },
     "complete": false,
     "description": "This is an example description of a task.",

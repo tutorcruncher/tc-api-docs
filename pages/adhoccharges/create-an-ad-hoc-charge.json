@@ -22,6 +22,7 @@
     "first_name": "Nicole",
     "last_name": "Beggs",
     "email": "nicole_beggs@example.com",
+    "role_type": "Client",
     "url": "https://secure.tutorcruncher.com/api/clients/37/"
   },
   "contractor": null,
@@ -29,7 +30,8 @@
     "email": "billy_holiday@example.com",
     "first_name": "Billy",
     "id": 59,
-    "last_name": "Holiday"
+    "last_name": "Holiday",
+    "role_type": "Administrator"
   },
   "currency": "GBP",
   "currency_conversion": null,

@@ -6,7 +6,8 @@
         "id": 2,
         "first_name": "Diana",
         "last_name": "Lafayette",
-        "email": "diana_lafayette@testagency.example.com"
+        "email": "diana_lafayette@testagency.example.com",
+        "role_type": "Administrator"
     },
     "text": "This is a test note.",
     "focus": {

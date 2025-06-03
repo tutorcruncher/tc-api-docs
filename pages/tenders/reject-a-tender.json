@@ -6,6 +6,7 @@
     "first_name": null,
     "last_name": "Teacherson",
     "email": "jane_teacherson@example.com",
+    "role_type": "Tutor",
     "url": "https://secure.tutorcruncher.com/api/contractors/1985/"
   },
   "created": "2019-01-01T00:00:00Z",

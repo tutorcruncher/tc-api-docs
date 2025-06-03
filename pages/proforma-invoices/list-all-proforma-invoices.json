@@ -10,6 +10,7 @@
         "first_name": "Anthony",
         "last_name": "Clay",
         "email": "anthony_clay@testagency.example.com",
+        "role_type": "Client",
         "url": "https://secure.tutorcruncher.com/api/clients/7/"
       },
       "display_id": "PFI-2",

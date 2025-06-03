@@ -29,6 +29,7 @@
         "first_name": "Katherine",
         "id": 17,
         "last_name": "Brown",
+        "role_type": "Client",
         "url": "https://secure.tutorcruncher.com/api/clients/17/"
       },
       "creator": {
@@ -36,7 +37,8 @@
         "first_name": "brian",
         "id": 33,
         "last_name": "Johnson",
-        "url": "https://secure.tutorcruncher.com/api/contractors/33/"
+        "url": "https://secure.tutorcruncher.com/api/contractors/33/",
+        "role_type": "Tutor"
       },
       "dt_created": "2021-06-22T14:43:52.172855Z",
       "service_recipient": {
@@ -44,6 +46,7 @@
         "first_name": "Jennifer",
         "id": 10,
         "last_name": "Brown",
+        "role_type": "Student",
         "url": "https://secure.tutorcruncher.com/api/recipients/10/"
       },
     "url": "https://secure.tutorcruncher.com/api/reports/12/"

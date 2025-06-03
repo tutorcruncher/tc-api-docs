@@ -17,6 +17,7 @@
         "first_name": "Archie",
         "last_name": "Hoskins",
         "email": "archie_hoskins@testagency.example.com",
+        "role_type": "Student",
         "url": "https://secure.tutorcruncher.com/api/recipients/10/"
     },
     "contractor": {
@@ -24,6 +25,7 @@
         "first_name": "Diana",
         "last_name": "Lafayette",
         "email": "diana_lafayette@testagency.example.com",
+        "role_type": "Tutor",
         "url": "https://secure.tutorcruncher.com/api/contractors/58/"
     },
     "service": {
@@ -56,6 +58,6 @@
         },
         "url": "https://secure.tutorcruncher.com/api/appointments/586/"
     },
-    "description": "This should be looked into urgently",
+    "description": "This should be looked into urgently.",
     "resolution_note": ""
 }
