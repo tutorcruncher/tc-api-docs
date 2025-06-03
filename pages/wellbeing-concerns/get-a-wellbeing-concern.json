@@ -9,9 +9,9 @@
         "id": 58,
         "first_name": "Diana",
         "last_name": "Lafayette",
-        "email": "diana_lafayette@testagency.example.com"
+        "email": "diana_lafayette@testagency.example.com",
+        "role_type": "Tutor"
     },
-    "creator_role_type": "Tutor",
     "service_recipient": {
         "id": 10,
         "first_name": "Archie",

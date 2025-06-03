@@ -44,10 +44,11 @@ attributes:
         name: email
         type: string
         description: The email address of the Wellbeing Concern creator.
-  -
-    name: creator_role_type
-    type: string
-    description: The role type of the Wellbeing Concern creator.
+      -
+        name: role_type
+        type: string
+        description: The role type of the Wellbeing Concern creator.
+
   -
     name: service_recipient
     type: object
