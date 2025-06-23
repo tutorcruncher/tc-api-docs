@@ -6,6 +6,7 @@
     "first_name": "James",
     "last_name": "Higgins",
     "email": "james_higgins@example.com",
+    "role_type": "Tutor",
     "url": "https://secure.tutorcruncher.com/api/contractors/47/"
   },
   "created": "2020-03-30T14:30:58.848581+01:00",

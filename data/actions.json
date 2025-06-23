@@ -2062,5 +2062,33 @@
     "subject_types": [
       "Client"
     ]
+  },
+  {
+    "key": "RAISED_A_WELLBEING_CONCERN",
+    "value": "RAISED_A_WELLBEING_CONCERN",
+    "msg": "Created a Safeguarding/Wellbeing Concern",
+    "help_text": "When a Safeguarding/Wellbeing Concern is created.",
+    "extra_msg": "",
+    "subject_types": [
+      "Safeguarding/Wellbeing Concern"
+    ]
+  },
+  {
+    "key": "RESOLVED_A_WELLBEING_CONCERN",
+    "value": "RESOLVED_A_WELLBEING_CONCERN",
+    "msg": "Resolved a Safeguarding/Wellbeing Concern",
+    "help_text": "When a Safeguarding/Wellbeing Concern is resolved.",
+    "extra_msg": "",
+    "subject_types": [
+      "Safeguarding/Wellbeing Concern"
+    ]
+  },
+  {
+    "key": "EXPORTED_WELLBEING_CONCERNS",
+    "value": "EXPORTED_WELLBEING_CONCERNS",
+    "msg": "Exported Safeguarding/Wellbeing Concerns",
+    "help_text": "When someone exports a list of Safeguarding/Wellbeing Concerns.",
+    "extra_msg": "",
+    "subject_types": []
   }
 ]

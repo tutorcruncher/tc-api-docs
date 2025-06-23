@@ -58,6 +58,7 @@ SUBJECT_TYPE_HREF = {
     'Task': 'tasks',
     'Note': 'notes',
     'Package': 'package',
+    'Safeguarding/Wellbeing Concern': 'wellbeing-concerns',
 }
 
 

@@ -10,6 +10,7 @@
         "first_name": "James",
         "last_name": "Higgins",
         "email": "james_higgins@testagency.example.com",
+        "role_type": "Tutor",
         "url": "https://secure.tutorcruncher.com/api/contractors/52/"
       },
       "subject": {
@@ -27,4 +28,4 @@
       }
     }
   ]
-} 
+}

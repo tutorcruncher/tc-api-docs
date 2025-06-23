@@ -5,7 +5,8 @@
         "first_name": "Billy",
         "last_name": "Holiday",
         "email": null,
-        "url": "https://secure.tutorcruncher.com/api/69/"
+        "role_type": "Tutor",
+        "url": "https://secure.tutorcruncher.com/api/contractors/69/"
     },
     "subject": {
         "id": 51,

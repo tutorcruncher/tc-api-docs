@@ -1,0 +1,63 @@
+{
+    "id": 2,
+    "display_name": "WBC-2",
+    "status": "Unresolved",
+    "severity": "Severe",
+    "dt_raised": "2025-04-14T16:26:44.286782+01:00",
+    "dt_resolved": null,
+    "creator": {
+        "id": 58,
+        "first_name": "Diana",
+        "last_name": "Lafayette",
+        "email": "diana_lafayette@testagency.example.com",
+        "role_type": "Tutor"
+    },
+    "service_recipient": {
+        "id": 10,
+        "first_name": "Archie",
+        "last_name": "Hoskins",
+        "email": "archie_hoskins@testagency.example.com",
+        "role_type": "Student",
+        "url": "https://secure.tutorcruncher.com/api/recipients/10/"
+    },
+    "contractor": {
+        "id": 58,
+        "first_name": "Diana",
+        "last_name": "Lafayette",
+        "email": "diana_lafayette@testagency.example.com",
+        "role_type": "Tutor",
+        "url": "https://secure.tutorcruncher.com/api/contractors/58/"
+    },
+    "service": {
+        "id": 54,
+        "name": "Mathematics",
+        "dft_charge_type": "hourly",
+        "created": "2025-04-14T16:26:19.877383+01:00",
+        "dft_charge_rate": "100.00",
+        "dft_contractor_rate": "75.00",
+        "last_updated": "2025-04-14T16:26:32.479636+01:00",
+        "status": "available",
+        "url": "https://secure.tutorcruncher.com/api/services/54/"
+    },
+    "appointment": {
+        "id": 586,
+        "start": "2025-04-14T17:26:00+01:00",
+        "finish": "2025-04-14T18:26:00+01:00",
+        "topic": "Lesson 1",
+        "status": "planned",
+        "service": {
+            "id": 54,
+            "name": "Mathematics",
+            "dft_charge_type": "hourly",
+            "created": "2025-04-14T16:26:19.877383+01:00",
+            "dft_charge_rate": "100.00",
+            "dft_contractor_rate": "75.00",
+            "last_updated": "2025-04-14T16:26:32.479636+01:00",
+            "status": "available",
+            "url": "https://secure.tutorcruncher.com/api/services/54/"
+        },
+        "url": "https://secure.tutorcruncher.com/api/appointments/586/"
+    },
+    "description": "This should be looked into urgently.",
+    "resolution_note": ""
+}

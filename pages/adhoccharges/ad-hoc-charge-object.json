@@ -22,6 +22,7 @@
     "first_name": "Nicole",
     "last_name": "Beggs",
     "email": "nicole_beggs@example.com",
+    "role_type": "Client",
     "url": "https://secure.tutorcruncher.com/api/clients/37/"
   },
   "contractor": null,
@@ -42,6 +43,7 @@
         "first_name": "Nicole",
         "last_name": "Beggs",
         "email": "nicole_beggs@example.com",
+        "role_type": "Client",
         "url": "https://secure.tutorcruncher.com/api/clients/37/"
       },
       "status": "paid",

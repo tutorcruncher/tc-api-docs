@@ -6,7 +6,8 @@
         "id": 2,
         "first_name": "Diana",
         "last_name": "Lafayette",
-        "email": "diana_lafayette@testagency.example.com"
+        "email": "diana_lafayette@testagency.example.com",
+        "role_type": "Administrator"
     },
     "text": "This is a test note.",
     "focus": {
@@ -14,6 +15,6 @@
         "first_name": "Jamie",
         "last_name": "Hoskins",
         "email": "jamie_hoskins@testagency.example.com",
-        "url": "http://localhost:8000/api/clients/62/"
+        "url": "https://secure.tutorcruncher.com/api/clients/62/"
     }
 }

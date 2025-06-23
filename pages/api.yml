@@ -123,6 +123,10 @@ endpoint_sections:
     id: reviews
     layout: /reviews/reviews.yml
   -
+    title: Safeguarding/Wellbeing Concerns
+    id: wellbeing-concerns
+    layout: /wellbeing-concerns/wellbeing-concerns.yml
+  -
     title: Services (Jobs)
     id: services
     layout: /services/services.yml

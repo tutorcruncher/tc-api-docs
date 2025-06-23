@@ -5,6 +5,7 @@
     "first_name": "Katherine",
     "last_name": "Brown",
     "email": "katherine_brown@example.com",
+    "role_type": "Client",
     "url": "https://secure.tutorcruncher.com/api/clients/17/"
   },
   "contractor": {
@@ -12,6 +13,7 @@
     "first_name": "Brian",
     "last_name": "Johnston",
     "email": "brian_johnston@example.com",
+    "role_type": "Tutor",
     "url": "https://secure.tutorcruncher.com/api/contractors/52/"
   },
   "invoice": null,
