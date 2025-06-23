@@ -1,4 +1,4 @@
-### Get a Wellbeing Concern
+### Get a Safeguarding/Wellbeing Concern
 
-Returns the details of an existing Wellbeing Concern. You only need to specify the unique `id` of 
-the Wellbeing Concern to get the correct details.
+Returns the details of an existing Safeguarding/Wellbeing Concern. You only need to specify the unique `id` of 
+the Safeguarding/Wellbeing Concern to get the correct details.
