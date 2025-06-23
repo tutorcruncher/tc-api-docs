@@ -218,7 +218,7 @@
     "value": "ACCOUNTING_ITEM_AUTOCHARGED",
     "msg": "Charged a client using Autocharge",
     "help_text": "Occurs once for each Credit Request or Invoice when they are charged via Autocharge.",
-    "extra_msg": "",
+    "extra_msg": "{extra_msg_content}",
     "subject_types": [
       "Credit Request",
       "Invoice"
@@ -913,6 +913,14 @@
     "subject_types": [
       "Application"
     ]
+  },
+  {
+    "key": "EXPORTED_TENDERS",
+    "value": "EXPORTED_TENDERS",
+    "msg": "Exported Job Applications",
+    "help_text": "When an admin exports Job Applications.",
+    "extra_msg": "",
+    "subject_types": []
   },
   {
     "key": "CREATED_AN_APPOINTMENT",
@@ -1732,7 +1740,15 @@
     "key": "DELETED_A_REVIEW",
     "value": "DELETED_A_REVIEW",
     "msg": "Deleted a Review",
-    "help_text": "When an Administrator deletes a Client's Reivew.",
+    "help_text": "When an Administrator deletes a Client's Review.",
+    "extra_msg": "",
+    "subject_types": []
+  },
+  {
+    "key": "EXPORTED_REVIEWS",
+    "value": "EXPORTED_REVIEWS",
+    "msg": "Exported Reviews",
+    "help_text": "When an Administrator exports Reviews",
     "extra_msg": "",
     "subject_types": []
   },
@@ -2046,5 +2062,33 @@
     "subject_types": [
       "Client"
     ]
+  },
+  {
+    "key": "RAISED_A_WELLBEING_CONCERN",
+    "value": "RAISED_A_WELLBEING_CONCERN",
+    "msg": "Created a Safeguarding/Wellbeing Concern",
+    "help_text": "When a Safeguarding/Wellbeing Concern is created.",
+    "extra_msg": "",
+    "subject_types": [
+      "Safeguarding/Wellbeing Concern"
+    ]
+  },
+  {
+    "key": "RESOLVED_A_WELLBEING_CONCERN",
+    "value": "RESOLVED_A_WELLBEING_CONCERN",
+    "msg": "Resolved a Safeguarding/Wellbeing Concern",
+    "help_text": "When a Safeguarding/Wellbeing Concern is resolved.",
+    "extra_msg": "",
+    "subject_types": [
+      "Safeguarding/Wellbeing Concern"
+    ]
+  },
+  {
+    "key": "EXPORTED_WELLBEING_CONCERNS",
+    "value": "EXPORTED_WELLBEING_CONCERNS",
+    "msg": "Exported Safeguarding/Wellbeing Concerns",
+    "help_text": "When someone exports a list of Safeguarding/Wellbeing Concerns.",
+    "extra_msg": "",
+    "subject_types": []
   }
 ]
