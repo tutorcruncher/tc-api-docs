@@ -21,7 +21,17 @@
     }
   ],
   "repeater": null,
-  "service": 23,
+  "service": {
+                "id":23,
+                "name": "Service 23",
+                "dft_charge_type": "hourly",
+                "created": "2019-03-15T17:37:46.829300Z",
+                "dft_charge_rate": "100.00",
+                "dft_contractor_rate": "56.00",
+                "last_updated": "2019-03-15T17:38:02.989696Z",
+                "status": "available",
+                "url": "https://secure.tutorcruncher.com/api/services/23/"
+            },
   "status": "planned",
   "units": "2.00000",
   "extra_attrs": {}
