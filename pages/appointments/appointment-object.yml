@@ -180,7 +180,7 @@ filters:
   -
     name: status
     type: string
-    description: Filter by the Appointment's status. Possible values are `planned`, `awaiting-report`, `complete`, `cancelled`, and `cancelled-chargeable`.
+    description: Filter by the Appointment's status (string).
   -
     name: location
     type: integer
