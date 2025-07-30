@@ -17,7 +17,7 @@ sections:
     title: List all Agents
     id: list-all-agents
     description: /agents/list-all-agents.md
-    filters: /agents/agent-object.yml
+    filters: /agents/agent-object-v2.yml
     code: /agents/list-all-agents.py
     code_type: GET
     code_url: /api/agents/

@@ -17,7 +17,7 @@ sections:
     title: List all Recipients
     id: list-all-recipients
     description: /recipients/list-all-recipients.md
-    filters: /recipients/recipient-object.yml
+    filters: /recipients/recipient-object-v2.yml
     code: /recipients/list-all-recipients.py
     code_type: GET
     code_url: /api/recipients/
