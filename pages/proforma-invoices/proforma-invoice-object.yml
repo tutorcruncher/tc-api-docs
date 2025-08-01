@@ -102,3 +102,19 @@ attributes:
     name: still_to_pay
     type: decimal
     description: Amount of the Proforma Invoice that still needs to be payed.
+  -
+    name: description
+    type: string
+    description: Description for the Proforma Invoice item (required for creation).
+  -
+    name: send_pfi
+    type: boolean
+    description: |
+      (Deprecated - use raise_behaviour instead) Send the PFI as well as creating it. Default is false.
+  -
+    name: raise_behaviour
+    type: string
+    description: |
+      Raise behavior when creating a Proforma Invoice. Choices are `dont-raise` (default), `raise`, or `raise-and-send`. 
+      If `dont-raise` is used, the PFI will be created but not sent. If `raise` is used, the PFI will be created and staged. 
+      If `raise-and-send` is used, the PFI will be created, staged, and sent to the client.

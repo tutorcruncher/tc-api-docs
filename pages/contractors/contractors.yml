@@ -17,7 +17,7 @@ sections:
     title: List all Contractors
     id: list-all-contractors
     description: /contractors/list-all-contractors.md
-    filters: /contractors/contractor-object.yml
+    filters: /contractors/contractor-object-v2.yml
     code: /contractors/list-all-contractors.py
     code_type: GET
     code_url: /api/contractors/

@@ -17,7 +17,7 @@ sections:
     title: List all Clients
     id: list-all-clients
     description: /clients/list-all-clients.md
-    filters: /clients/client-object.yml
+    filters: /clients/client-object-v2.yml
     code: /clients/list-all-clients.py
     code_type: GET
     code_url: /api/clients/
