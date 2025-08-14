@@ -192,19 +192,19 @@ filters:
   -
     name: appointment
     type: integer
-    description: Filter reports by specific appointment ID
+    description: Filter reports by specific Appointment
   
   -
     name: creator
     type: integer
-    description: Filter reports by user who created the report
+    description: Filter reports by User who created the report
   
   -
     name: service_recipient
     type: integer
-    description: Filter reports by specific student ID
+    description: Filter reports by specific Service recipient
   
   -
     name: client
     type: integer
-    description: Filter reports by paying client ID
+    description: Filter reports by specific Client
