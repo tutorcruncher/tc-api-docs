@@ -10,6 +10,7 @@ sections:
     title: List all Reports
     id: list-all-reports
     description: /reports/list-all-reports.md
+    filters: /reports/report-object.yml
     code: /reports/list-all-reports.py
     code_type: GET
     code_url: /api/reports/
