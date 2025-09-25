@@ -1,0 +1,51 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the balance update.
+  -
+    name: client
+    type: object
+    description: The client whose balance is being updated.
+  -
+    name: created
+    type: datetime
+    description: The date and time when the balance update was created.
+  -
+    name: creator
+    type: object
+    description: The user who created this balance update.
+  -
+    name: credit_amount
+    type: decimal
+    description: The amount of credit being added or removed from the client's balance.
+  -
+    name: description
+    type: string
+    description: A description explaining the reason for the balance update.
+  -
+    name: method
+    type: string
+    description: The payment method used for the balance update. Options for this field are ['cash', 'cheque', 'credit_card', 'transferwise', 'debit_card', 'bank_transfer', 'direct_debit', 'bonus_credit', 'manual', 'voucher', 'correction'].
+  -
+    name: method_display
+    type: string
+    description: Human-readable display name for the payment method.
+  -
+    name: related_item
+    type: object
+    description: Any related object that this balance update is associated with (nullable).
+  -
+    name: update_type
+    type: string
+    description: The type of update being performed (e.g., "via_api", "manual").
+  -
+    name: update_type_display
+    type: string
+    description: Human-readable display name for the update type.
+
+filters:
+  -
+    name: client
+    type: integer
+    description: Filter by the Balance Updates linked Client (id).

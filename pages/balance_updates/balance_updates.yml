@@ -1,0 +1,25 @@
+sections:
+  -
+    title: Balance Update Object
+    id: balance-update-object
+    description: /balance_updates/balance-update-object.md
+    attributes: /balance_updates/balance-update-object.yml
+    response: /balance_updates/balance-update-object.json
+    response_title: OBJECT
+  -
+    title: List all Balance Updates
+    id: list-all-balance-updates
+    description: /balance_updates/list-all-balance-updates.md
+    filters: /balance_updates/balance-update-object.yml
+    code: /balance_updates/list-all-balance-updates.py
+    code_type: GET
+    code_url: /api/balance_updates/
+    response: /balance_updates/list-all-balance-updates.json
+  -
+    title: Get a balance update
+    id: get-a-balance-update
+    description: /balance_updates/get-a-balance-update.md
+    code: /balance_updates/get-a-balance-update.py
+    code_type: GET
+    code_url: /api/balance_updates/{id}/
+    response: /balance_updates/get-a-balance-update.json
