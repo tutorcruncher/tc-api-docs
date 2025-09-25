@@ -7,6 +7,22 @@ attributes:
     name: client
     type: object
     description: The client whose balance is being updated.
+    children:
+      - name: id
+        type: integer
+        description: Unique identifier for the object.
+      - name: first_name
+        type: string
+        description: User's first name.
+      - name: last_name
+        type: string
+        description: User's last name.
+      - name: email
+        type: string
+        description: User's email address.
+      - name: url
+        type: string
+        description: URL to the Client's object.
   -
     name: created
     type: datetime
@@ -15,6 +31,22 @@ attributes:
     name: creator
     type: object
     description: The user who created this balance update.
+    children:
+      - name: id
+        type: integer
+        description: Unique identifier for the object.
+      - name: first_name
+        type: string
+        description: The User's first name.
+      - name: last_name
+        type: string
+        description: The User's last name.
+      - name: email
+        type: string
+        description: The User's email address.
+      - name: url
+        type: string
+        description: URL to the Creator's object. (This field will not be present if the creator is an Administrator)
   -
     name: credit_amount
     type: decimal
