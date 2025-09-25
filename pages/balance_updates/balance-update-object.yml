@@ -20,6 +20,9 @@ attributes:
       - name: email
         type: string
         description: User's email address.
+      - name: role_type
+        type: string
+        description: The role type of the Client.
       - name: url
         type: string
         description: URL to the Client's object.
@@ -44,6 +47,9 @@ attributes:
       - name: email
         type: string
         description: The User's email address.
+      - name: role_type
+        type: string
+        description: The role type of the Balance Update creator.
       - name: url
         type: string
         description: URL to the Creator's object. (This field will not be present if the creator is an Administrator)
