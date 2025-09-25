@@ -23,3 +23,11 @@ sections:
     code_type: GET
     code_url: /api/balance_updates/{id}/
     response: /balance_updates/get-a-balance-update.json
+  -
+    title: Create a balance update
+    id: create-a-balance-update
+    description: /balance_updates/create-a-balance-update.md
+    code: /balance_updates/create-a-balance-update.py
+    code_type: POST
+    code_url: /api/balance_updates/
+    response: /balance_updates/create-a-balance-update.json
