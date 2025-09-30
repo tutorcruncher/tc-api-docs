@@ -6,7 +6,7 @@
         "last_name": "Holiday",
         "email": "testing+owner@tutorcruncher.com",
         "role_type": "Client",
-        "url": "http://localhost:8000/api/clients/67/"
+        "url": "https://secure.tutorcruncher.com/api/clients/67/"
     },
     "created": "2025-09-25T10:00:00.000000+01:00",
     "creator": {

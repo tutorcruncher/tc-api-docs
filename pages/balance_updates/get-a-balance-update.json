@@ -1,14 +1,6 @@
 {
-  "id": 191,
-  "client": {
-    "id": 60,
-    "first_name": "Ana",
-    "last_name": "Oliver",
-    "email": "ana_oliver@testagency.example.com",
-    "role_type": "Tutor",
-    "url": "https://secure.tutorcruncher.com/api/contractors/60/"
-  },
-  "created": "2025-09-25T09:55:20.489121+01:00",
+  "id": 182,
+  "created": "2025-09-30T15:03:58.676657+01:00",
   "creator": {
     "id": 6,
     "first_name": "Thomas",
@@ -16,27 +8,36 @@
     "email": "thomas_jackson@testagency.example.com",
     "role_type": "Administrator"
   },
-  "credit_amount": "135.00",
-  "description": "Payment Order raised",
+  "credit_amount": "-567.50",
+  "description": "Invoice raised",
   "method": "auto",
   "method_display": "System Generated",
   "related_item": {
-    "id": 46,
-    "display_id": "PO-46",
-    "date_sent": "2025-09-25T09:55:20.442900+01:00",
-    "amount": "135.00",
-    "payee": {
-      "id": 60,
-      "first_name": "Ana",
-      "last_name": "Oliver",
-      "email": "ana_oliver@testagency.example.com",
-      "role_type": "Tutor",
-      "url": "https://secure.tutorcruncher.com/api/contractors/60/"
+    "id": 54,
+    "display_id": "INV-54",
+    "date_sent": "2025-09-30T15:03:58.623171+01:00",
+    "gross": "567.50",
+    "net": "472.92",
+    "tax": "94.58",
+    "client": {
+      "id": 42,
+      "first_name": "Nicole",
+      "last_name": "Beggs",
+      "email": "nicole_beggs@testagency.example.com",
+      "role_type": "Client",
+      "url": "https://secure.tutorcruncher.com/api/clients/42/"
     },
     "status": "unpaid",
-    "url": "https://secure.tutorcruncher.com/api/payment-orders/46/"
+    "url": "https://secure.tutorcruncher.com/api/invoices/54/"
   },
-  "update_type": "po_creation",
-  "update_type_display": "Payment Order Creation"
+  "role": {
+    "id": 42,
+    "first_name": "Nicole",
+    "last_name": "Beggs",
+    "email": "nicole_beggs@testagency.example.com",
+    "role_type": "Client",
+    "url": "https://secure.tutorcruncher.com/api/clients/42/"
+  },
+  "update_type": "invoice_creation",
+  "update_type_display": "Invoice Creation"
 }
-

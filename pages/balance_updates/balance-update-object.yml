@@ -4,29 +4,6 @@ attributes:
     type: integer
     description: Unique identifier for the balance update.
   -
-    name: client
-    type: object
-    description: The client whose balance is being updated.
-    children:
-      - name: id
-        type: integer
-        description: Unique identifier for the object.
-      - name: first_name
-        type: string
-        description: User's first name.
-      - name: last_name
-        type: string
-        description: User's last name.
-      - name: email
-        type: string
-        description: User's email address.
-      - name: role_type
-        type: string
-        description: The role type of the Client.
-      - name: url
-        type: string
-        description: URL to the Client's object.
-  -
     name: created
     type: datetime
     description: The date and time when the balance update was created.
@@ -74,6 +51,29 @@ attributes:
     type: object
     description: Any related object that this balance update is associated with (nullable).
   -
+    name: role
+    type: object
+    description: The user whose balance is being updated.
+    children:
+      - name: id
+        type: integer
+        description: Unique identifier for the object.
+      - name: first_name
+        type: string
+        description: User's first name.
+      - name: last_name
+        type: string
+        description: User's last name.
+      - name: email
+        type: string
+        description: User's email address.
+      - name: role_type
+        type: string
+        description: The role type of the User.
+      - name: url
+        type: string
+        description: URL to the User's object.
+  -
     name: update_type
     type: string
     description: The type of update being performed (e.g., "via_api", "manual").
@@ -87,3 +87,7 @@ filters:
     name: client
     type: integer
     description: Filter by the Balance Updates linked Client (id).
+  -
+    name: tutor
+    type: integer
+    description: Filter by the Balance Updates linked Tutor (id).
