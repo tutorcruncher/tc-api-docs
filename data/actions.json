@@ -453,6 +453,22 @@
     "subject_types": []
   },
   {
+    "key": "PFI_EXPORT",
+    "value": "PFI_EXPORT",
+    "msg": "Exported Credit Requests",
+    "help_text": "When an Administrator exports data about Credit Requests.",
+    "extra_msg": "",
+    "subject_types": []
+  },
+  {
+    "key": "PO_EXPORT",
+    "value": "PO_EXPORT",
+    "msg": "Exported Payment Orders",
+    "help_text": "When an Administrator exports data about Payment Orders.",
+    "extra_msg": "",
+    "subject_types": []
+  },
+  {
     "key": "EDITED_OWN_PROFILE",
     "value": "EDITED_OWN_PROFILE",
     "msg": "Edited their own profile",
