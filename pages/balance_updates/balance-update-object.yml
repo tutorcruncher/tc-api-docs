@@ -88,6 +88,14 @@ filters:
     type: integer
     description: Filter by the Balance Updates linked Client (id).
   -
-    name: tutor
+    name: contractor
     type: integer
     description: Filter by the Balance Updates linked Tutor (id).
+  -
+    name: method
+    type: string
+    description: Filter by the Balance Updates method. Options for this field are ['cash', 'cheque', 'credit_card', 'transferwise', 'debit_card', 'bank_transfer', 'direct_debit', 'bonus_credit', 'manual', 'voucher', 'correction']'
+  -
+    name: update_type
+    type: string
+    description: Filter by the Balance Updates update_type. Options for this field are ['proforma_invoice_paid', 'invoice_creation', 'invoice_payment', 'po_creation', 'po_payment', 'adjustment', 'refund', 'stripe_bank_transfer_refund', 'voucher', 'credit_note', 'debit_note', 'via_api', 'top_up', 'app_fee']'
