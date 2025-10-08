@@ -11,7 +11,6 @@
   "credit_amount": "-567.50",
   "description": "Invoice raised",
   "method": "auto",
-  "method_display": "System Generated",
   "related_item": {
     "id": 54,
     "display_id": "INV-54",
@@ -38,6 +37,5 @@
     "role_type": "Client",
     "url": "https://secure.tutorcruncher.com/api/clients/42/"
   },
-  "update_type": "invoice_creation",
-  "update_type_display": "Invoice Creation"
+  "update_type": "invoice_creation"
 }

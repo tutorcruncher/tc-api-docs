@@ -19,9 +19,7 @@
     "credit_amount": "100.00",
     "description": "This is a test description about why the credit was added to this client",
     "method": "cash",
-    "method_display": "Cash",
     "related_item": null,
-    "update_type": "via_api",
-    "update_type_display": "Via API"
+    "update_type": "via_api"
 }
 

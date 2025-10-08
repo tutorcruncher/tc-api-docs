@@ -2,7 +2,7 @@ import pprint, requests
 
 headers = {'Authorization': 'token <API KEY>'}
 data = {
-    "client": 67,
+    "role": 67,
     "credit_amount": 100,
     "method": "cash",
     "description": "Client paid by cash.",
