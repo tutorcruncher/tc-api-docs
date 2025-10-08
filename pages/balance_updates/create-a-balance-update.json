@@ -1,25 +1,25 @@
 {
-    "id": 385,
-    "client": {
-        "id": 67,
-        "first_name": "Billy",
-        "last_name": "Holiday",
-        "email": "testing+owner@tutorcruncher.com",
-        "role_type": "Client",
-        "url": "https://secure.tutorcruncher.com/api/clients/67/"
-    },
-    "created": "2025-09-25T10:00:00.000000+01:00",
-    "creator": {
-        "id": 64,
-        "first_name": "Billy",
-        "last_name": "Holiday",
-        "email": "testing+owner@tutorcruncher.com",
-        "role_type": "Administrator"
-    },
-    "credit_amount": "100.00",
-    "description": "This is a test description about why the credit was added to this client",
-    "method": "cash",
-    "related_item": null,
-    "update_type": "via_api"
+  "id": 385,
+  "created": "2025-09-25T10:00:00.000000+01:00",
+  "creator": {
+    "id": 64,
+    "first_name": "Billy",
+    "last_name": "Holiday",
+    "email": "testing+owner@tutorcruncher.com",
+    "role_type": "Administrator"
+  },
+  "credit_amount": "100.00",
+  "description": "This is a test description about why the credit was added to this client",
+  "method": "cash",
+  "related_item": null,
+  "role": {
+    "id": 67,
+    "first_name": "Billy",
+    "last_name": "Holiday",
+    "email": "testing+owner@tutorcruncher.com",
+    "role_type": "Client",
+    "url": "https://secure.tutorcruncher.com/api/clients/67/"
+  },
+  "update_type": "via_api"
 }
 
