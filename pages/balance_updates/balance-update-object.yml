@@ -1,0 +1,109 @@
+attributes:
+  -
+    name: id
+    type: integer
+    description: Unique identifier for the balance update.
+  -
+    name: created
+    type: datetime
+    description: The date and time when the balance update was created.
+  -
+    name: creator
+    type: object
+    description: The user who created this balance update.
+    children:
+      - name: id
+        type: integer
+        description: Unique identifier for the object.
+      - name: first_name
+        type: string
+        description: The User's first name.
+      - name: last_name
+        type: string
+        description: The User's last name.
+      - name: email
+        type: string
+        description: The User's email address.
+      - name: role_type
+        type: string
+        description: The role type of the Balance Update creator.
+      - name: url
+        type: string
+        description: URL to the Creator's object. (This field will not be present if the creator is an Administrator)
+  -
+    name: credit_amount
+    type: decimal
+    description: The amount of credit being added or removed from the client's balance.
+  -
+    name: description
+    type: string
+    description: A description explaining the reason for the balance update.
+  -
+    name: method
+    type: string
+    description: The payment method used for the balance update. Options for this field are ['cash', 'cheque', 'credit_card', 'transferwise', 'debit_card', 'bank_transfer', 'direct_debit', 'bonus_credit', 'manual', 'voucher', 'correction'].
+  -
+    name: related_item
+    type: object
+    description: Any related object that this balance update is associated with (nullable).
+  -
+    name: role
+    type: object
+    description: The user whose balance is being updated.
+    children:
+      - name: id
+        type: integer
+        description: Unique identifier for the object.
+      - name: first_name
+        type: string
+        description: User's first name.
+      - name: last_name
+        type: string
+        description: User's last name.
+      - name: email
+        type: string
+        description: User's email address.
+      - name: role_type
+        type: string
+        description: The role type of the User.
+      - name: url
+        type: string
+        description: URL to the User's object.
+  -
+    name: update_type
+    type: string
+    description: The type of update being performed (e.g., "via_api", "manual").
+
+filters:
+  -
+    name: client
+    type: integer
+    description: Filter by the Balance Updates linked Client (id).
+  -
+    name: contractor
+    type: integer
+    description: Filter by the Balance Updates linked Tutor (id).
+  -
+    name: method
+    type: string
+    description: Filter by the Balance Updates method. Options for this field are ['cash', 'cheque', 'credit_card', 'transferwise', 'debit_card', 'bank_transfer', 'direct_debit', 'bonus_credit', 'manual', 'voucher', 'correction']'
+  -
+    name: update_type
+    type: string
+    description: Filter by the Balance Updates update_type. Options for this field are ['proforma_invoice_paid', 'invoice_creation', 'invoice_payment', 'po_creation', 'po_payment', 'adjustment', 'refund', 'stripe_bank_transfer_refund', 'voucher', 'credit_note', 'debit_note', 'via_api', 'top_up', 'app_fee']'
+  -
+    name: credit_amount_gte
+    type: decimal
+    description: Filter by Balance Updates with a credit_amount greater than or equal to this value.
+  -
+    name: credit_amount_lte
+    type: decimal
+    description: Filter by Balance Updates with a credit_amount less than or equal to this value.
+  -
+    name: created_gte
+    type: datetime
+    description: Filter by Balance Updates created on or after this date and time.
+  -
+    name: created_lte
+    type: datetime
+    description: Filter by Balance Updates created on or before this date and time.

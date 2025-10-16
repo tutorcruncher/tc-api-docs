@@ -1,0 +1,17 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 182,
+      "created": "2025-09-30T15:03:58.676657+01:00",
+      "credit_amount": "-567.50",
+      "method": "auto",
+      "role": 42,
+      "update_type": "invoice_creation",
+      "url": "https://secure.tutorcruncher.com/api/balance-updates/182/"
+    }
+  ]
+}
+

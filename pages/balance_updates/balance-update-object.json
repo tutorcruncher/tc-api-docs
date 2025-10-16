@@ -1,0 +1,41 @@
+{
+  "id": 182,
+  "created": "2025-09-30T15:03:58.676657+01:00",
+  "creator": {
+    "id": 6,
+    "first_name": "Thomas",
+    "last_name": "Jackson",
+    "email": "thomas_jackson@testagency.example.com",
+    "role_type": "Administrator"
+  },
+  "credit_amount": "-567.50",
+  "description": "Invoice raised",
+  "method": "auto",
+  "related_item": {
+    "id": 54,
+    "display_id": "INV-54",
+    "date_sent": "2025-09-30T15:03:58.623171+01:00",
+    "gross": "567.50",
+    "net": "472.92",
+    "tax": "94.58",
+    "client": {
+      "id": 42,
+      "first_name": "Nicole",
+      "last_name": "Beggs",
+      "email": "nicole_beggs@testagency.example.com",
+      "role_type": "Client",
+      "url": "https://secure.tutorcruncher.com/api/clients/42/"
+    },
+    "status": "unpaid",
+    "url": "https://secure.tutorcruncher.com/api/invoices/54/"
+  },
+  "role": {
+    "id": 42,
+    "first_name": "Nicole",
+    "last_name": "Beggs",
+    "email": "nicole_beggs@testagency.example.com",
+    "role_type": "Client",
+    "url": "https://secure.tutorcruncher.com/api/clients/42/"
+  },
+  "update_type": "invoice_creation"
+}
