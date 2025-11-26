@@ -13,7 +13,7 @@ sections:
     filters: /balance_updates/balance-update-object.yml
     code: /balance_updates/list-all-balance-updates.py
     code_type: GET
-    code_url: /api/balance_updates/
+    code_url: /api/balance-updates/
     response: /balance_updates/list-all-balance-updates.json
   -
     title: Get a balance update
@@ -21,7 +21,7 @@ sections:
     description: /balance_updates/get-a-balance-update.md
     code: /balance_updates/get-a-balance-update.py
     code_type: GET
-    code_url: /api/balance_updates/{id}/
+    code_url: /api/balance-updates/{id}/
     response: /balance_updates/get-a-balance-update.json
   -
     title: Create a balance update
@@ -29,5 +29,5 @@ sections:
     description: /balance_updates/create-a-balance-update.md
     code: /balance_updates/create-a-balance-update.py
     code_type: POST
-    code_url: /api/balance_updates/
+    code_url: /api/balance-updates/
     response: /balance_updates/create-a-balance-update.json
