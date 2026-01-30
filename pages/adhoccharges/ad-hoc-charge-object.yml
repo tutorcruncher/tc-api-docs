@@ -338,3 +338,33 @@ attributes:
     name: tax_amount
     type: decimal
     description: Amount of tax on the Ad Hoc Charge.
+
+filters:
+  -
+    name: date_occurred_gte
+    type: string
+    description: Filter by Ad Hoc Charges with a date_occurred on or after this date and time.
+  -
+    name: date_occurred_lte
+    type: string
+    description: Filter by Ad Hoc Charges with a date_occurred on or before this date and time.
+  -
+    name: service
+    type: integer
+    description: Filter by the Ad Hoc Charge's linked Service (id).
+  -
+    name: client
+    type: integer
+    description: Filter by the Ad Hoc Charge's linked Client (id).
+  -
+    name: contractor
+    type: integer
+    description: Filter by the Ad Hoc Charge's linked Contractor (id).
+  -
+    name: category
+    type: integer
+    description: Filter by the Ad Hoc Charge's Category (id).
+  -
+    name: appointment
+    type: integer
+    description: Filter by the Ad Hoc Charge's linked Appointment (id).

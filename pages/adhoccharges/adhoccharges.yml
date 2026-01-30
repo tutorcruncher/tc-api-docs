@@ -10,6 +10,7 @@ sections:
     title: List all Ad Hoc Charges
     id: list-all-ad-hoc-charges
     description: /adhoccharges/list-all-ad-hoc-charges.md
+    filters: /adhoccharges/ad-hoc-charge-object.yml
     code: /adhoccharges/list-all-ad-hoc-charges.py
     code_type: GET
     code_url: /api/adhoccharges/
