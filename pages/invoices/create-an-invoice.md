@@ -16,7 +16,7 @@ You must provide at least one of:
   - `raise`: Raises invoices with autopayment (uses client credit if available, schedules autocharge)
   - `raise-no-autopayment`: Raises invoices without using client credit or scheduling autocharge
   - `raise-and-send`: Raises invoices and sends notification emails to clients
-  - `raise-and-send-no-autopayment`: Raises and sends without autopayment logic
+  - `raise-and-send-no-autopayment`: Raises and sends notifications without autopayment logic
 
 #### Item Eligibility
 
