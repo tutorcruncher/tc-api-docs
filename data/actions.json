@@ -656,6 +656,36 @@
     ]
   },
   {
+    "key": "CREATED_A_SRCLIENT",
+    "value": "CREATED_A_SRCLIENT",
+    "msg": "Created an Associated Client link to a Student",
+    "help_text": "When an Associated Client link is created for a Student.",
+    "extra_msg": "",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "EDITED_A_SRCLIENT",
+    "value": "EDITED_A_SRCLIENT",
+    "msg": "Edited an Associated Client link to a Student",
+    "help_text": "When an Associated Client link is edited for a Student.",
+    "extra_msg": "",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
+    "key": "DELETED_A_SRCLIENT",
+    "value": "DELETED_A_SRCLIENT",
+    "msg": "Deleted an Associated Client link from a Student",
+    "help_text": "When an Associated Client link is deleted from a Student.",
+    "extra_msg": "",
+    "subject_types": [
+      "Student"
+    ]
+  },
+  {
     "key": "IMPORTED_USERS",
     "value": "IMPORTED_USERS",
     "msg": "Imported Users",

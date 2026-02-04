@@ -1,0 +1,97 @@
+{
+  "invoices": [
+    {
+      "id": 892,
+      "charges": [
+        {
+          "adhoc_charge": null,
+          "amount": "100.00000",
+          "appointment": {
+            "id": 1234,
+            "start": "2024-03-15T10:00:00Z",
+            "finish": "2024-03-15T12:00:00Z",
+            "topic": "Mathematics Tutoring",
+            "status": "complete",
+            "service": {
+              "id": 456,
+              "name": "GCSE Maths Tutoring",
+              "dft_charge_type": "hourly",
+              "created": "2024-01-01T09:00:00Z",
+              "dft_charge_rate": "50.00",
+              "dft_contractor_rate": "30.00",
+              "last_updated": "2024-03-01T14:30:00Z",
+              "status": "in-progress",
+              "url": "https://secure.tutorcruncher.com/api/services/456/"
+            },
+            "url": "https://secure.tutorcruncher.com/api/appointments/1234/"
+          },
+          "date": "2024-03-15T10:00:00Z",
+          "payee": "Acme Tutoring Agency",
+          "payer": {
+            "id": 789,
+            "first_name": "Sarah",
+            "last_name": "Johnson",
+            "email": "sarah.johnson@example.com",
+            "role_type": "Client",
+            "url": "https://secure.tutorcruncher.com/api/clients/789/"
+          },
+          "rate": "50.00000",
+          "sales_code": "TUITION",
+          "tax_amount": "16.66667",
+          "units": "2.00000"
+        },
+        {
+          "adhoc_charge": {
+            "id": 567,
+            "description": "Course Materials",
+            "date_occurred": "2024-03-15T12:00:00Z",
+            "category_id": 12,
+            "category_name": "Materials",
+            "category": {
+              "id": 12,
+              "name": "Materials",
+              "url": "https://secure.tutorcruncher.com/api/ahc-categories/12/"
+            },
+            "client_cost": "25.00",
+            "pay_contractor": null,
+            "agent_percentage": "100.000",
+            "url": "https://secure.tutorcruncher.com/api/adhoccharges/567/"
+          },
+          "amount": "25.00000",
+          "appointment": null,
+          "date": "2024-03-15T12:00:00Z",
+          "payee": "Acme Tutoring Agency",
+          "payer": {
+            "id": 789,
+            "first_name": "Sarah",
+            "last_name": "Johnson",
+            "email": "sarah.johnson@example.com",
+            "role_type": "Client",
+            "url": "https://secure.tutorcruncher.com/api/clients/789/"
+          },
+          "rate": "25.00000",
+          "sales_code": "MATERIALS",
+          "tax_amount": "4.16667",
+          "units": "1.00000"
+        }
+      ],
+      "client": {
+        "id": 789,
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "email": "sarah.johnson@example.com",
+        "role_type": "Client",
+        "url": "https://secure.tutorcruncher.com/api/clients/789/"
+      },
+      "date_sent": "2024-03-20T09:15:00Z",
+      "date_void": null,
+      "date_paid": null,
+      "display_id": "INV-892",
+      "gross": "125.00",
+      "net": "104.17",
+      "status": "unpaid",
+      "still_to_pay": 125.0,
+      "tax": "20.83"
+    }
+  ]
+}

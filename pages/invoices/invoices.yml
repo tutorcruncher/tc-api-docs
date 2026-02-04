@@ -23,6 +23,14 @@ sections:
     code_url: /api/invoices/<id>/
     response: /invoices/get-an-invoice.json
   -
+    title: Create an Invoice
+    id: create-an-invoice
+    description: /invoices/create-an-invoice.md
+    code: /invoices/create-an-invoice.py
+    code_type: POST
+    code_url: /api/invoices/
+    response: /invoices/create-an-invoice.json
+  -
     title: Take Invoice Payment
     id: take-invoice-payment
     description: /invoices/take-invoice-payment.md
