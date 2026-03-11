@@ -8,6 +8,10 @@ attributes:
     type: boolean
     description: Whether Contractors can propose a rate when applying.
   -
+    name: auto_invoice
+    type: boolean
+    description: If checked, invoices and reports will be sent immediately after a lesson is marked complete. This overrides the lesson reports required setting.
+  -
     name: branch
     type: integer
     description: Your unique identifier for your Branch.
@@ -208,6 +212,10 @@ attributes:
     name: require_con_job
     type: boolean
     description: Whether the Service must have a Contractor to go ahead.
+  -
+    name: report_required
+    type: boolean
+    description: Whether a lesson report is required before the lesson can be marked as complete.
   -
     name: require_rcr
     type: boolean

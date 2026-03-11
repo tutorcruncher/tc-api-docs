@@ -1,5 +1,6 @@
 {
   "allow_proposed_rates": false,
+  "auto_invoice": false,
   "branch": 3,
   "branch_tax_setup": "Default Company Tax (20%)",
   "cap": null,
