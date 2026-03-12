@@ -215,7 +215,7 @@ attributes:
   -
     name: report_required
     type: boolean
-    description: Whether a lesson report is required before the lesson can be marked as complete.
+    description: Whether a lesson report is required before the lesson can be marked as complete. Turned on automatically if auto invoice is enabled.
   -
     name: require_rcr
     type: boolean
