@@ -1,6 +1,7 @@
 {
   "id": 254747,
   "allow_proposed_rates": true,
+  "auto_invoice": false,
   "branch_tax_setup": null,
   "cap": null,
   "conjobs": [
@@ -46,6 +47,7 @@
   "inactivity_time": null,
   "name": "Example Name",
   "net_gross": "gross",
+  "report_required": false,
   "require_rcr": true,
   "require_con_job": true,
   "review_units": 0,

@@ -1,0 +1,9 @@
+[build]
+  # HACK: Netlify's "noble-new-builds" image (rolled out ~Feb 2026) removed /dev/shm,
+  # which Python's ProcessPoolExecutor needs for POSIX semaphores. Harrier uses
+  # ProcessPoolExecutor internally and there's no config to disable it.
+  # This monkey-patches it with ThreadPoolExecutor as a workaround.
+  # Can revert to just "harrier build" once Netlify restores /dev/shm.
+  # See: https://answers.netlify.com/t/build-fails-with-noble-new-builds-image/160196
+  command = "python -c \"import concurrent.futures; concurrent.futures.ProcessPoolExecutor = concurrent.futures.ThreadPoolExecutor; from harrier.cli import cli; cli()\" build"
+  publish = "dist"

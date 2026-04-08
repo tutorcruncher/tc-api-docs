@@ -3,6 +3,7 @@ import pprint, requests
 headers = {'Authorization': 'token <API KEY>'}
 data = {
     'allow_proposed_rates': True,
+    'auto_invoice': False,
     'branch_tax_setup': None,
     'cap': None,
     'conjobs': [
