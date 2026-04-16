@@ -37,7 +37,7 @@
         "start": "2019-12-31T12:00:33.173982Z",
         "finish": "2019-12-31T13:30:33.173982Z",
         "topic": "Microelectronics and application of semiconductors 2",
-        "status": 20,
+        "status": "complete",
         "service": {
                 "id": 699444,
                 "name": "test",
@@ -73,7 +73,7 @@
         "start": "2019-12-24T12:00:33.173982Z",
         "finish": "2019-12-24T13:30:33.173982Z",
         "topic": "Microelectronics and application of semiconductors 1",
-        "status": 20,
+        "status": "complete",
         "service": {
                 "id": 699444,
                 "name": "test",

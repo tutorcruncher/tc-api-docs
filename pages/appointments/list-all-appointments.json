@@ -8,7 +8,7 @@
       "start": "2020-01-01T12:00:00Z",
       "finish": "2020-01-01T13:00:00Z",
       "topic": "Lesson 1",
-      "status": 10,
+      "status": "planned",
       "service": {
                 "id": 699444,
                 "name": "test",
