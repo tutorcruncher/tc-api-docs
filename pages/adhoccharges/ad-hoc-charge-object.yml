@@ -51,15 +51,10 @@ attributes:
         description: Topic for the Appointment.
       -
         name: status
-        type: integer
+        type: string
         description: |
-          The status for the Appointment, the choices are:
-
-          - `10` for Planned
-          - `15` for Awaiting Report
-          - `20` for Complete
-          - `30` for Cancelled
-          - `40` for Cancelled but Chargeable
+          The status for the Appointment, the choices are `planned`, `awaiting-report`, `complete`, `cancelled`,
+          and `cancelled-chargeable`.
       -
         name: service
         type: object
