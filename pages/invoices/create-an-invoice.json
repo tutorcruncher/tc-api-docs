@@ -89,6 +89,7 @@
       "display_id": "INV-892",
       "gross": "125.00",
       "net": "104.17",
+      "pdf_url": "https://tutorcruncher-documents.s3.amazonaws.com/abc123/docs/invoices/c4e8f1a2.pdf?AWSAccessKeyId=AKIAEXAMPLE&Signature=Qz7vEXAMPLEsig%3D&Expires=1735689600",
       "status": "unpaid",
       "still_to_pay": 125.0,
       "tax": "20.83"

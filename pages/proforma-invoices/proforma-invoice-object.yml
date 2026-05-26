@@ -68,6 +68,13 @@ attributes:
           Object for a linked Recipient on an Appointment. Object containes attributes `recipient`, `recipient_name`,
           `paying_client`, `paying_client_name`, and `charge_rate`.
   -
+    name: pdf_url
+    type: string
+    description: |
+      A temporary, signed link to download the PDF of the Proforma Invoice. The PDF is generated on the first
+      request, so that call may take slightly longer. The link expires after a short period, so request the
+      Proforma Invoice again to obtain a fresh one.
+  -
     name: service_recipients
     type: array
     description: An array of Recipient objects on the Proforma Invoice.
