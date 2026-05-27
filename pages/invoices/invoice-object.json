@@ -116,6 +116,7 @@
   "display_id": "INV-48",
   "gross": "340.90",
   "net": 284.08,
+  "pdf_url": "https://tutorcruncher-documents.s3.amazonaws.com/abc123/docs/invoices/3f9a8b2c.pdf?AWSAccessKeyId=AKIAEXAMPLE&Signature=Hk3mEXAMPLEsig%3D&Expires=1735689600",
   "status": "paid",
   "still_to_pay": 0.0,
   "tax": "56.82"

@@ -43,6 +43,7 @@
     "date_void": null,
     "date_paid": null,
     "display_id": "PO-46",
+    "pdf_url": "https://tutorcruncher-documents.s3.amazonaws.com/abc123/docs/client-reports/7d1e4a9f.pdf?AWSAccessKeyId=AKIAEXAMPLE&Signature=Pm2nEXAMPLEsig%3D&Expires=1735689600",
     "status": "unpaid",
     "payee": {
         "id": 1865751,

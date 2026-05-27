@@ -98,6 +98,13 @@ attributes:
     type: string
     description: Payment Order's unique display name.
   -
+    name: pdf_url
+    type: string
+    description: |
+      A temporary, signed link to download the PDF of the Payment Order. The PDF is generated on the first request,
+      so that call may take slightly longer. The link expires after a short period, so request the Payment Order
+      again to obtain a fresh one.
+  -
     name: amount
     type: decimal
     description: Payment Order's amount.

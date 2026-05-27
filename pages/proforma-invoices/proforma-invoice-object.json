@@ -20,6 +20,7 @@
       "rcra": null
     }
   ],
+  "pdf_url": "https://tutorcruncher-documents.s3.amazonaws.com/abc123/docs/proforma-invoice/b6a0c3d5.pdf?AWSAccessKeyId=AKIAEXAMPLE&Signature=Tn4xEXAMPLEsig%3D&Expires=1735689600",
   "service_recipients": [],
   "status": "unpaid",
   "still_to_pay": 60.0
