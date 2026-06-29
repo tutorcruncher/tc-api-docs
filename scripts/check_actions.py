@@ -4,7 +4,7 @@ from pathlib import Path
 
 import requests
 
-TC_ACTIONS_URL = 'https://secure.tutorcruncher.com/api/action-types/'
+TC_ACTIONS_URL = 'https://app.tutorcruncher.com/api/action-types/'
 
 
 def main():

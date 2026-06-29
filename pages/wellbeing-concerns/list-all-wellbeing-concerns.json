@@ -14,11 +14,11 @@
                 "last_name": "Hoskins",
                 "email": "archie_hoskins@testagency.example.com",
                 "role_type": "Student",
-                "url": "https://secure.tutorcruncher.com/api/recipients/10/"
+                "url": "https://app.tutorcruncher.com/api/recipients/10/"
             },
             "dt_raised": "2025-04-14T16:26:44.286782+01:00",
             "dt_resolved": null,
-            "url": "https://secure.tutorcruncher.com/api/wellbeing_concerns/2/"
+            "url": "https://app.tutorcruncher.com/api/wellbeing_concerns/2/"
         },
         {
             "id": 1,
@@ -31,11 +31,11 @@
                 "last_name": "Coles",
                 "email": "jessica_coles@testagency.example.com",
                 "role_type": "Student",
-                "url": "https://secure.tutorcruncher.com/api/recipients/47/"
+                "url": "https://app.tutorcruncher.com/api/recipients/47/"
             },
             "dt_raised": "2025-04-14T16:03:50.310174+01:00",
             "dt_resolved": null,
-            "url": "https://secure.tutorcruncher.com/api/wellbeing_concerns/1/"
+            "url": "https://app.tutorcruncher.com/api/wellbeing_concerns/1/"
         }
     ]
 }

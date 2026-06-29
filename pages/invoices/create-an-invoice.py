@@ -7,6 +7,6 @@ data = {
     "raise_behaviour": "raise-and-send",
 }
 r = requests.post(
-    "https://secure.tutorcruncher.com/api/invoices/", json=data, headers=headers
+    "https://app.tutorcruncher.com/api/invoices/", json=data, headers=headers
 )
 pprint.pprint(r.json())

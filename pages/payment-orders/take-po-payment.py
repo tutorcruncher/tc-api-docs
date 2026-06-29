@@ -5,5 +5,5 @@ data = {
     'amount': 100.0,
     'method': 'cash',
 }
-r = requests.post('https://secure.tutorcruncher.com/api/payment-orders/<id>/take_payment/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/payment-orders/<id>/take_payment/', json=data, headers=headers)
 pprint.pprint(r.json())

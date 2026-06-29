@@ -2,7 +2,7 @@ import pprint
 import requests
 
 headers = {'Authorization': 'token <API KEY>'}
-url = 'https://secure.tutorcruncher.com/api/contractors/'
+url = 'https://app.tutorcruncher.com/api/contractors/'
 
 response = requests.get(url, headers=headers)
 data = response.json()

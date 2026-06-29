@@ -14,7 +14,7 @@
       "extra_msg": "Created via the API.",
       "subject": {
         "model": "Tutor",
-        "url": "https://secure.tutorcruncher.com/api/contractors/1623/",
+        "url": "https://app.tutorcruncher.com/api/contractors/1623/",
         "id": 1623,
         "status": "approved",
         "default_rate": null,
@@ -48,7 +48,7 @@
         "postcode": null,
         "timezone": null,
         "title": null,
-        "photo": "https://secure.tutorcruncher.com/media/photo/65.jpg"
+        "photo": "https://app.tutorcruncher.com/media/photo/65.jpg"
       }
     }
   ]

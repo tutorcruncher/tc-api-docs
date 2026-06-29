@@ -9,7 +9,7 @@ description: |
 
 contact_url: 'https://tutorcruncher.com/contact/'
 help_url: 'https://tutorcruncher.com/help/'
-sign_in_url: 'https://secure.tutorcruncher.com/'
+sign_in_url: 'https://app.tutorcruncher.com/'
 
 no_hash:
   - /favicon.ico

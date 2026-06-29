@@ -21,7 +21,7 @@
     "first_name": "Jamie",
     "last_name": "Hoskins",
     "email": "jamie_hoskins@example.com",
-    "url": "https://secure.tutorcruncher.com/api/clients/3/"
+    "url": "https://app.tutorcruncher.com/api/clients/3/"
   },
   "associated_clients": [],
   "academic_year": null,
@@ -32,7 +32,7 @@
           "id": 2,
           "name": "Very important",
           "machine_name": "very-important",
-          "url": "https://secure.tutorcruncher.com/api/labels/2/"
+          "url": "https://app.tutorcruncher.com/api/labels/2/"
       }
   ],
   "extra_attrs": []

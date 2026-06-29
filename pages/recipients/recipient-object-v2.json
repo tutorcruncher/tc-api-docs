@@ -15,14 +15,14 @@
   "longitude": "-0.0944689940000000",
   "date_created": "2019-11-24T16:11:48.312507Z",
   "timezone": null,
-  "photo": "https://secure.tutorcruncher.com/media/photo/44bc4e56.jpg",
+  "photo": "https://app.tutorcruncher.com/media/photo/44bc4e56.jpg",
   "default_rate": null,
   "paying_client": {
     "id": 3,
     "first_name": "Jamie",
     "last_name": "Hoskins",
     "email": "jamie_hoskins@example.com",
-    "url": "https://secure.tutorcruncher.com/api/clients/3/"
+    "url": "https://app.tutorcruncher.com/api/clients/3/"
   },
   "associated_clients": [],
   "academic_year": null,

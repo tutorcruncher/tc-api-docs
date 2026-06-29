@@ -15,6 +15,6 @@
         "first_name": "Jamie",
         "last_name": "Hoskins",
         "email": "jamie_hoskins@testagency.example.com",
-        "url": "https://secure.tutorcruncher.com/api/clients/62/"
+        "url": "https://app.tutorcruncher.com/api/clients/62/"
     }
 }

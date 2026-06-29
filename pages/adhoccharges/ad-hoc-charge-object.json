@@ -23,7 +23,7 @@
     "last_name": "Beggs",
     "email": "nicole_beggs@example.com",
     "role_type": "Client",
-    "url": "https://secure.tutorcruncher.com/api/clients/37/"
+    "url": "https://app.tutorcruncher.com/api/clients/37/"
   },
   "contractor": null,
   "creator": null,
@@ -44,10 +44,10 @@
         "last_name": "Beggs",
         "email": "nicole_beggs@example.com",
         "role_type": "Client",
-        "url": "https://secure.tutorcruncher.com/api/clients/37/"
+        "url": "https://app.tutorcruncher.com/api/clients/37/"
       },
       "status": "paid",
-      "url": "https://secure.tutorcruncher.com/api/invoices/49/"
+      "url": "https://app.tutorcruncher.com/api/invoices/49/"
     }
   ],
   "payment_orders": [],
@@ -61,7 +61,7 @@
     "dft_charge_rate": "95.00",
     "dft_contractor_rate": "30.00",
     "status": "in-progress",
-    "url": "https://secure.tutorcruncher.com/api/services/26/"
+    "url": "https://app.tutorcruncher.com/api/services/26/"
   },
   "tax_amount": 4.166666666666667
 }

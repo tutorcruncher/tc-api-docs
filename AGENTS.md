@@ -107,7 +107,7 @@ data = {
     'field1': 'value1',
     'field2': 123,
 }
-r = requests.post('https://secure.tutorcruncher.com/api/endpoint/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/endpoint/', json=data, headers=headers)
 pprint.pprint(r.json())
 ```
 

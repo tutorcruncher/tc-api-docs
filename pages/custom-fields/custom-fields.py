@@ -10,5 +10,5 @@ data = {
     },
     # ...
 }
-r = requests.post('https://secure.tutorcruncher.com/api/clients/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/clients/', json=data, headers=headers)
 pprint.pprint(r.json())

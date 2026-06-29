@@ -7,5 +7,5 @@ data = {
     'agent': 2012,
     'agent_percentage': 10,
 }
-r = requests.post('https://secure.tutorcruncher.com/api/services/<id>/recipient/add/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/services/<id>/recipient/add/', json=data, headers=headers)
 pprint.pprint(r.json())

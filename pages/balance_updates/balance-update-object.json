@@ -24,10 +24,10 @@
       "last_name": "Beggs",
       "email": "nicole_beggs@testagency.example.com",
       "role_type": "Client",
-      "url": "https://secure.tutorcruncher.com/api/clients/42/"
+      "url": "https://app.tutorcruncher.com/api/clients/42/"
     },
     "status": "unpaid",
-    "url": "https://secure.tutorcruncher.com/api/invoices/54/"
+    "url": "https://app.tutorcruncher.com/api/invoices/54/"
   },
   "role": {
     "id": 42,
@@ -35,7 +35,7 @@
     "last_name": "Beggs",
     "email": "nicole_beggs@testagency.example.com",
     "role_type": "Client",
-    "url": "https://secure.tutorcruncher.com/api/clients/42/"
+    "url": "https://app.tutorcruncher.com/api/clients/42/"
   },
   "update_type": "invoice_creation"
 }

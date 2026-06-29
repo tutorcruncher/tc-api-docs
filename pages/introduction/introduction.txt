@@ -1,1 +1,1 @@
-'https://secure.tutorcruncher.com/api/'
+'https://app.tutorcruncher.com/api/'

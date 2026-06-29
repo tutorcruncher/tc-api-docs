@@ -10,5 +10,5 @@ data = {
     "status": "planned",
     "service": 23,
 }
-r = requests.put('https://secure.tutorcruncher.com/api/appointments/<id>/', json=data, headers=headers)
+r = requests.put('https://app.tutorcruncher.com/api/appointments/<id>/', json=data, headers=headers)
 pprint.pprint(r.json())

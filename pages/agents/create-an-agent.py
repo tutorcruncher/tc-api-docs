@@ -18,5 +18,5 @@ data = {
     'extra_attrs': {'user_dob': '1993-06-23'},
     'send_emails': True,
 }
-r = requests.post('https://secure.tutorcruncher.com/api/agents/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/agents/', json=data, headers=headers)
 pprint.pprint(r.json())

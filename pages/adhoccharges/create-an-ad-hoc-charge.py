@@ -9,5 +9,5 @@ data = {
     'date_occurred': datetime.datetime(2021, 1, 1),
     'description': 'Registration fee'
 }
-r = requests.post('https://secure.tutorcruncher.com/api/adhoccharges/', data=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/adhoccharges/', data=data, headers=headers)
 pprint.pprint(r.json())

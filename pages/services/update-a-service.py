@@ -10,5 +10,5 @@ data = {
     'colour': 'blue',
     'extra_attrs': {'study_level': 'A Level'}
 }
-r = requests.put('https://secure.tutorcruncher.com/api/services/<id>/', json=data, headers=headers)
+r = requests.put('https://app.tutorcruncher.com/api/services/<id>/', json=data, headers=headers)
 pprint.pprint(r.json())

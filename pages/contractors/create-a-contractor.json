@@ -27,7 +27,7 @@
                 "last_name": "Higgins",
                 "email": "james_higgins@example.com",
                 "role_type": "Tutor",
-                "url": "https://secure.tutorcruncher.com/api/contractors/568433/"
+                "url": "https://app.tutorcruncher.com/api/contractors/568433/"
             },
             "subject": {
                 "id": 98,
@@ -51,7 +51,7 @@
                 "last_name": "Higgins",
                 "email": "james_higgins@example.com",
                 "role_type": "Tutor",
-                "url": "https://secure.tutorcruncher.com/api/contractors/568433/"
+                "url": "https://app.tutorcruncher.com/api/contractors/568433/"
             },
             "subject": {
                 "id": 135,
