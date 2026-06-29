@@ -18,7 +18,7 @@
         "last_name": "Hoskins",
         "email": "archie_hoskins@testagency.example.com",
         "role_type": "Student",
-        "url": "https://secure.tutorcruncher.com/api/recipients/10/"
+        "url": "https://app.tutorcruncher.com/api/recipients/10/"
     },
     "contractor": {
         "id": 58,
@@ -26,7 +26,7 @@
         "last_name": "Lafayette",
         "email": "diana_lafayette@testagency.example.com",
         "role_type": "Tutor",
-        "url": "https://secure.tutorcruncher.com/api/contractors/58/"
+        "url": "https://app.tutorcruncher.com/api/contractors/58/"
     },
     "service": {
         "id": 54,
@@ -37,7 +37,7 @@
         "dft_contractor_rate": "75.00",
         "last_updated": "2025-04-14T16:26:32.479636+01:00",
         "status": "available",
-        "url": "https://secure.tutorcruncher.com/api/services/54/"
+        "url": "https://app.tutorcruncher.com/api/services/54/"
     },
     "appointment": {
         "id": 586,
@@ -54,9 +54,9 @@
             "dft_contractor_rate": "75.00",
             "last_updated": "2025-04-14T16:26:32.479636+01:00",
             "status": "available",
-            "url": "https://secure.tutorcruncher.com/api/services/54/"
+            "url": "https://app.tutorcruncher.com/api/services/54/"
         },
-        "url": "https://secure.tutorcruncher.com/api/appointments/586/"
+        "url": "https://app.tutorcruncher.com/api/appointments/586/"
     },
     "description": "This should be looked into urgently.",
     "resolution_note": ""

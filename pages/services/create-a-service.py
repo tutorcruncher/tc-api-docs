@@ -50,5 +50,5 @@ data = {
     'sr_premium': 0.0,
     'status': 'pending'
 }
-r = requests.post('https://secure.tutorcruncher.com/api/services/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/services/', json=data, headers=headers)
 pprint.pprint(r.json())

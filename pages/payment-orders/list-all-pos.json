@@ -1,6 +1,6 @@
 {
   "count": 34,
-  "next": "https://secure.tutorcruncher.com/api/payment-orders/?page=2",
+  "next": "https://app.tutorcruncher.com/api/payment-orders/?page=2",
   "previous": null,
   "results": [
     {
@@ -13,10 +13,10 @@
           "first_name": "Jane",
           "last_name": "con_a",
           "email": "jane_con_a@example.com",
-          "url": "https://secure.tutorcruncher.com/api/contractors/68/"
+          "url": "https://app.tutorcruncher.com/api/contractors/68/"
       },
       "status": "unpaid",
-      "url": "https://secure.tutorcruncher.com/api/payment-orders/22/"
+      "url": "https://app.tutorcruncher.com/api/payment-orders/22/"
     },
     ...
   ]

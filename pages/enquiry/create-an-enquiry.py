@@ -14,5 +14,5 @@ data = {
     'qual_level': 109721,
     'terms_and_conditions': True,
 }
-r = requests.post('https://secure.tutorcruncher.com/api/enquiry/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/enquiry/', json=data, headers=headers)
 pprint.pprint(r.json())

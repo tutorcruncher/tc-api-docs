@@ -20,9 +20,9 @@
                     "dft_contractor_rate": "30.00",
                     "last_updated": "2022-10-19T15:14:43.607845+01:00",
                     "status": "in-progress",
-                    "url": "https://secure.tutorcruncher.com/api/services/604713/"
+                    "url": "https://app.tutorcruncher.com/api/services/604713/"
                 },
-                "url": "https://secure.tutorcruncher.com/api/appointments/8255569/"
+                "url": "https://app.tutorcruncher.com/api/appointments/8255569/"
             },
             "date": "2022-09-17T19:30:47.967724+01:00",
             "payee": {
@@ -30,7 +30,7 @@
                 "first_name": "Bettie",
                 "last_name": "Canales",
                 "email": "bettie_canales@online-olive.example.com",
-                "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+                "url": "https://app.tutorcruncher.com/api/contractors/1865751/"
             },
             "payer": "Demo Branch",
             "rate": "30.00000",
@@ -50,7 +50,7 @@
         "first_name": "Bettie",
         "last_name": "Canales",
         "email": "bettie_canales@online-olive.example.com",
-        "url": "https://secure.tutorcruncher.com/api/contractors/1865751/"
+        "url": "https://app.tutorcruncher.com/api/contractors/1865751/"
     },
     "still_to_pay": 225.0
 }

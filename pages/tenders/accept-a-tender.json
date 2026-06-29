@@ -7,7 +7,7 @@
     "last_name": "Teacherson",
     "email": "jane_teacherson@example.com",
     "role_type": "Tutor",
-    "url": "https://secure.tutorcruncher.com/api/contractors/1985/"
+    "url": "https://app.tutorcruncher.com/api/contractors/1985/"
   },
   "created": "2019-01-01T00:00:00Z",
   "proposed_rate": null,
@@ -20,7 +20,7 @@
     "dft_contractor_rate": "50.00",
     "last_updated": "2025-02-25T17:30:52.234437Z",
     "status": "available",
-    "url": "https://secure.tutorcruncher.com/api/services/300/"
+    "url": "https://app.tutorcruncher.com/api/services/300/"
   },
   "status": "accepted"
 }

@@ -19,7 +19,7 @@
         "first_name": "Jamie",
         "last_name": "Hoskins",
         "email": "jamie_hoskins@testagency.example.com",
-        "url": "https://secure.tutorcruncher.com/api/clients/3/"
+        "url": "https://app.tutorcruncher.com/api/clients/3/"
     },
     "service": {
         "id": 11,
@@ -30,7 +30,7 @@
         "dft_contractor_rate": "35.00",
         "last_updated": "2023-07-03T16:40:24.291003+01:00",
         "status": "finished",
-        "url": "https://secure.tutorcruncher.com/api/services/11/"
+        "url": "https://app.tutorcruncher.com/api/services/11/"
     },
     "task_type": "phone"
 }

@@ -1,6 +1,6 @@
 {
   "count": 34,
-  "next": "https://secure.tutorcruncher.com/api/invoices/?page=2",
+  "next": "https://app.tutorcruncher.com/api/invoices/?page=2",
   "previous": null,
   "results": [
     {
@@ -16,10 +16,10 @@
             "last_name": "cli_a",
             "email": "testing+cli_a@tutorcruncher.com",
             "role_type": "Client",
-            "url": "https://secure.tutorcruncher.com/api/clients/52/"
+            "url": "https://app.tutorcruncher.com/api/clients/52/"
         },
         "status": "unpaid",
-        "url": "https://secure.tutorcruncher.com/api/invoices/22/"
+        "url": "https://app.tutorcruncher.com/api/invoices/22/"
     },
     ...
   ]

@@ -24,7 +24,7 @@
           "id": 2,
           "name": "Very important",
           "machine_name": "very-important",
-          "url": "https://secure.tutorcruncher.com/api/labels/2/"
+          "url": "https://app.tutorcruncher.com/api/labels/2/"
       }
   ],
   "extra_attrs": []

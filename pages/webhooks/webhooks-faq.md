@@ -16,7 +16,7 @@ The webhook contains basic information about the actions such as `action (type)`
 
 ### How can I set up webhooks?
 
-Simply add an integration to your TutorCruncher account, [System > Settings > Integrations](https://secure.tutorcruncher.com/api/integration/list/), and add the webhook URL that you wish your webhooks to be fired to.
+Simply add an integration to your TutorCruncher account, [System > Settings > Integrations](https://app.tutorcruncher.com/api/integration/list/), and add the webhook URL that you wish your webhooks to be fired to.
 
 ### Webhook logs
 

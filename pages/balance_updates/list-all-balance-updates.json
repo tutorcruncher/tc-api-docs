@@ -10,7 +10,7 @@
       "method": "auto",
       "role": 42,
       "update_type": "invoice_creation",
-      "url": "https://secure.tutorcruncher.com/api/balance-updates/182/"
+      "url": "https://app.tutorcruncher.com/api/balance-updates/182/"
     }
   ]
 }

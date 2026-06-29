@@ -12,7 +12,7 @@
         "last_name": "Higgins",
         "email": "james_higgins@example.com",
         "role_type": "Tutor",
-        "url": "https://secure.tutorcruncher.com/api/contractors/47/"
+        "url": "https://app.tutorcruncher.com/api/contractors/47/"
       },
       "created": "2020-03-30T14:30:58.848581+01:00",
       "proposed_rate": null,
@@ -24,7 +24,7 @@
         "dft_charge_rate": "110.00",
         "dft_contractor_rate": "70.00",
         "status": "available",
-        "url": "https://secure.tutorcruncher.com/api/services/5/"
+        "url": "https://app.tutorcruncher.com/api/services/5/"
       },
       "status": "pending"
     },

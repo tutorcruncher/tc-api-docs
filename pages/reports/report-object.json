@@ -11,12 +11,12 @@
       "last_updated": "2021-05-17T14:43:32.572794Z",
       "name": "A level Physics",
       "status": "in-progress",
-      "url": "https://secure.tutorcruncher.com/api/services/3/"
+      "url": "https://app.tutorcruncher.com/api/services/3/"
     },
     "start": "2021-06-03T07:30:02.733619Z",
     "status": "Complete",
     "topic": "Lesson 1",
-    "url": "https://secure.tutorcruncher.com/api/appointments/52/"
+    "url": "https://app.tutorcruncher.com/api/appointments/52/"
   },
   "approved": true,
   "client": {
@@ -25,14 +25,14 @@
     "id": 17,
     "last_name": "Brown",
     "role_type": "Client",
-    "url": "https://secure.tutorcruncher.com/api/clients/17/"
+    "url": "https://app.tutorcruncher.com/api/clients/17/"
   },
   "creator": {
     "email": "brain_johnson@example.com",
     "first_name": "brian",
     "id": 33,
     "last_name": "Johnson",
-    "url": "https://secure.tutorcruncher.com/api/contractors/33/",
+    "url": "https://app.tutorcruncher.com/api/contractors/33/",
     "role_type": "Tutor"
   },
   "dt_created": "2021-06-22T14:43:52.172855Z",
@@ -51,7 +51,7 @@
     "id": 10,
     "last_name": "Brown",
     "role_type": "Student",
-    "url": "https://secure.tutorcruncher.com/api/recipients/10/"
+    "url": "https://app.tutorcruncher.com/api/recipients/10/"
   }
 }
 

@@ -8,5 +8,5 @@ data = {
     "description": "Client paid by cash.",
     "send_receipt": True,
 }
-response = requests.post('https://secure.tutorcruncher.com/api/balance-updates/', json=data, headers=headers)
+response = requests.post('https://app.tutorcruncher.com/api/balance-updates/', json=data, headers=headers)
 pprint.pprint(response.json())

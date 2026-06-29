@@ -6,5 +6,5 @@ data = {
     'method': 'cash',
     'send_receipt': True,
 }
-r = requests.post('https://secure.tutorcruncher.com/api/invoices/<id>/take_payment/', json=data, headers=headers)
+r = requests.post('https://app.tutorcruncher.com/api/invoices/<id>/take_payment/', json=data, headers=headers)
 pprint.pprint(r.json())

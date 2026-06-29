@@ -8,7 +8,7 @@
       "first_name": "Arthur",
       "last_name": "Hoskins",
       "email": "arthur_hoskins@example.com",
-      "url": "https://secure.tutorcruncher.com/api/recipients/4/"
+      "url": "https://app.tutorcruncher.com/api/recipients/4/"
     },
     ...
   ]
